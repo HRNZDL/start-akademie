@@ -542,20 +542,17 @@
                     }
                 });
 
-                // 1. Swing open the doors in 3D space, fade out initial overlay, and scale background courtyard
-                gateTl.to(".gate-door.left-door", { rotateY: -110, opacity: 0, ease: "power1.inOut" }, 0)
-                      .to(".gate-door.right-door", { rotateY: 110, opacity: 0, ease: "power1.inOut" }, 0)
-                      .to(".inner-campus-view", { opacity: 1, scale: 1, ease: "power1.out" }, 0)
-                      .to(".gate-initial-content", { opacity: 0, y: -80, ease: "power1.inOut" }, 0)
-                      .to(".scroll-indicator-mouse", { opacity: 0, ease: "power1.inOut" }, 0);
+                // 1. Fade out initial content
+                gateTl.to(".gate-initial-hero", { opacity: 0, y: -80, pointerEvents: "none", ease: "power1.inOut" }, 0.2)
+                      .to(".scroll-indicator-mouse", { opacity: 0, ease: "power1.inOut" }, 0.2);
 
-                // 2. Animate Slide 1 (Akademik Geleceğe Geçiş) in and out
-                gateTl.to("#portal-slide-1", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 0.8)
-                      .to("#portal-slide-1", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 2.5);
+                // 2. Animate Slide 1 (Welcome) in and out
+                gateTl.to("#slide-welcome", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 0.8)
+                      .to("#slide-welcome", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 2.5);
 
-                // 3. Animate Slide 2 (Almanya Devlet Üniversiteleri) in and out
-                gateTl.to("#portal-slide-2", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 2.8)
-                      .to("#portal-slide-2", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 4.5);
+                // 3. Animate Slide 2 (Bridge) in and out
+                gateTl.to("#slide-bridge", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 2.8)
+                      .to("#slide-bridge", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 4.5);
             }
 
             /* --- FLOATING AUTOHIDE GLASS NAVBAR --- */
