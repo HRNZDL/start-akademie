@@ -1373,8 +1373,8 @@
             // Draw first frame as soon as it is ready
             if (i === 0) scheduleDrawFrame(0);
 
-            // Hide loading screen once everything is loaded
-            if (loadedCount === TOTAL_FRAMES && loadingScreen) {
+            // Hide loading screen once the first 5 frames are loaded to speed up the site!
+            if (loadedCount >= 5 && loadingScreen && loadingScreen.style.display !== 'none') {
                 loadingScreen.style.opacity = '0';
                 setTimeout(() => { loadingScreen.style.display = 'none'; }, 800);
             }
