@@ -1305,7 +1305,7 @@
 
         /* --- PREMIUM CHATBOT UI --- */
         .startbot-window {
-            position: absolute;
+            position: fixed;
             bottom: 80px;
             right: 0;
             width: 360px;
@@ -1785,5 +1785,21 @@
     }
     .univ-grid {
         grid-template-columns: 1fr !important;
+    }
+}
+
+
+html, body {
+    overflow-x: hidden !important;
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* startbot-window-fix */
+@media(max-width:768px) {
+    .startbot-window:not(.active) {
+        display: none !important;
     }
 }
