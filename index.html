@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Akademie | Elite-Bildungsportal & Immersives Erlebnis</title>
+    <meta name="description" content="Start Akademie - Frankfurt yakınlarında yerleşik elite ders desteği (Nachhilfe), telc Sprachvorbereitung ve Almanya Devlet Üniversiteleri Kabul & Danışmanlık Portalı.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icon Library -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom Scripts -->
+    <script src="assets/lang.js?v=12"></script>
+    <script src="assets/theme.js"></script>
+
+    <!-- Animation: GSAP only (ScrollTrigger removed, Lenis removed) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/style.css?v=15">
+
+    <!-- JSON-LD SEO / AEO / GEO Optimizasyonu -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Start Akademie UG",
+        "description": "Frankfurt yakınlarında yerleşik elite ders desteği (Nachhilfe), dil okulu ve Almanya Devlet Üniversiteleri Kabul Danışmanlık Portalı.",
+        "url": "https://www.startakademie.de",
+        "logo": "https://www.startakademie.de/assets/logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Mainzer Straße 18",
+          "addressLocality": "Rüsselsheim am Main",
+          "postalCode": "65428",
+          "addressCountry": "DE"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+49-179-7424790",
+          "contactType": "customer service",
+          "email": "info@startakademie.de"
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Mevlüt Uysal"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Start Akademie - Rüsselsheim Nachhilfe",
+        "image": "https://www.startakademie.de/assets/logo.png",
+        "description": "Rüsselsheim am Main'da profesyonel okul desteği (Nachhilfe) ve Hausaufgaben-Flat hizmetleri. Eğitimde %100 başarı hedefi.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Mainzer Straße 18",
+          "addressLocality": "Rüsselsheim am Main",
+          "postalCode": "65428",
+          "addressCountry": "DE"
+        },
+        "telephone": "+49-179-7424790",
+        "priceRange": "$$"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Almanya Üniversite Danışmanlığı",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "Start Akademie UG"
+        },
+        "description": "Sıfır vize red politikası ile Almanya devlet üniversitelerine kabul ve başvuru danışmanlığı. START BASIC, PLUS ve PREMIUM paketleri.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1900.00",
+          "priceCurrency": "EUR",
+          "url": "https://www.startakademie.de"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Almanya'da üniversite ücretsiz mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet, Almanya'da devlet üniversitelerinin büyük çoğunluğunda eğitim ücretsizdir (harç ücreti yoktur). Sadece dönemlik katkı payı (Semesterbeitrag) ödenmektedir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Almanya üniversiteleri için YKS puanı şart mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet, Türk lise diplomasına sahip öğrencilerin Almanya'daki üniversitelere doğrudan geçiş yapabilmeleri için YKS (ÖSYM) sınavına girip 4 yıllık bir bölüme yerleşmiş olmaları şarttır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Almanya'da bloke hesap (Sperrkonto) ne kadar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Almanya öğrenci vizesi (Ulusal Vize) başvurusu için 2024 yılı itibarıyla yıllık 11.904 Euro tutarında Bloke Hesap (Sperrkonto) gösterilmesi gerekmektedir."
+            }
+          }
+        ]
+      }
+    ]
+    </script>
+</head>
+<body>
+
+    <!-- ══════════════════════════════════════════
+         LOADING SCREEN
+         ══════════════════════════════════════════ -->
+    <div id="loading-screen" style="
+        position: fixed; inset: 0; z-index: 99999;
+        background: var(--bg-deep);
+        display: flex; flex-direction: column;
+        align-items: center; justify-content: center; gap: 32px;
+        transition: opacity 0.8s ease;
+    ">
+        <div style="text-align: center;">
+            <div style="font-family: var(--font-serif); font-style: italic; font-size: 2.2rem; color: var(--text); margin-bottom: 8px;">Start <em style='color: var(--gold);'>Akademie</em></div>
+            <div style="font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--text-muted);">Portal wird geladen...</div>
+        </div>
+        <div style="width: 200px; height: 2px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden;">
+            <div id="loading-bar" style="height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-light)); width: 0%; transition: width 0.3s ease;"></div>
+        </div>
+        <div id="loading-pct" style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--gold); letter-spacing: 0.1em;">0%</div>
+    </div>
+
+    <!-- Ambient glows -->
+    <div class="glow-orb glow-1"></div>
+    <div class="glow-orb glow-2"></div>
+
+    <!-- Navigation Header -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
+                <img src="assets/logo-full-white.png" alt="Start Akademie Logo" class="nav-brand-img nav-logo-dark" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;">
+                <img src="assets/logo-full-dark.png" alt="Start Akademie Logo" class="nav-brand-img nav-logo-light" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;">
+            </a>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link active" data-i18n="nav.home">Ana Sayfa</a>
+                <a href="#pillars" class="nav-link" data-i18n="nav.programs">Programlar</a>
+                <a href="#universities" class="nav-link" data-i18n="nav.universities">Üniversiteler</a>
+                <a href="#pricing" class="nav-link" data-i18n="nav.consulting">Danışmanlık</a>
+                <a href="#wizard" class="nav-link" data-i18n="nav.test">Denklik Testi</a>
+                <a href="#camp" class="nav-link" data-i18n="nav.camp">Yaz Kampı</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">İletişim</a>
+            </div>
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <!-- Language Selector -->
+                <div style="display: flex; gap: 8px; margin-right: 12px; font-size: 0.8rem; font-weight: 600;">
+                    <span class="lang-btn" data-lang="tr" onclick="changeLanguage('tr')" style="cursor: pointer; color: var(--text-muted);">TR</span>
+                    <span class="lang-btn" data-lang="en" onclick="changeLanguage('en')" style="cursor: pointer; color: var(--text-muted);">EN</span>
+                    <span class="lang-btn" data-lang="de" onclick="changeLanguage('de')" style="cursor: pointer; color: var(--text-muted);">DE</span>
+                </div>
+                
+                <!-- Theme Toggle -->
+                <button onclick="toggleTheme()" aria-label="Tema Değiştir" style="background: none; border: none; color: var(--text); cursor: pointer; display: flex; align-items: center; margin-right: 8px;">
+                    <i id="theme-icon" data-lucide="sun"></i>
+                </button>
+                
+                <a href="#contact" class="btn btn-primary btn-header-consult" style="padding: 10px 20px; font-size: 0.8rem;">
+                    <span data-i18n="nav.meeting">Ön Görüşme</span> <i data-lucide="calendar"></i>
+                </a>
+                <button class="mobile-btn" id="mobile-toggle" aria-label="Menü">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-drawer" id="mobile-menu-drawer">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#pillars" class="nav-link">Programlar</a>
+        <a href="#universities" class="nav-link">Üniversiteler</a>
+        <a href="#pricing" class="nav-link">Danışmanlık</a>
+        <a href="#wizard" class="nav-link">Denklik Testi</a>
+        <a href="#camp" class="nav-link">Sommercamp</a>
+        <a href="#contact" class="nav-link">İletişim</a>
+        <a href="#contact" class="btn btn-primary" style="margin-top: 20px; width: 100%;">Ön Görüşme</a>
+    </div>
+
+    <!-- ══════════════════════════════════════════
+         SCROLL PORTAL SECTION (CINEMATIC)
+         ══════════════════════════════════════════ -->
+    <section class="portal-container" id="hero">
+        <div class="portal-sticky">
+            <!-- 1. Scroll-Driven Image Sequence (Canvas) -->
+            <div class="video-container">
+                <canvas id="gate-canvas" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;"></canvas>
+                <div class="video-overlay"></div>
+            </div>
+
+            <!-- 2. Interactive Slides (Appear sequentially on scroll) -->
+            <div class="portal-slides-container container">
+                <!-- Welcome Slide -->
+                <div class="portal-slide" id="slide-welcome">
+                    <div class="glass-card">
+                        <span class="section-tag" data-i18n="welcome.tag">Premium Eğitim</span>
+                        <h2 data-i18n="hero.title">Almanya'da Eğitim Yolunuz <em>Burada Başlar</em></h2>
+                        <p style="margin: 24px 0 32px; font-size: 1.05rem; line-height: 1.8;" data-i18n="hero.subtitle">
+                            Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını (Nachhilfe) artırırken, Türkiye'den gelen adayların Almanya devlet üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.
+                        </p>
+                        <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.08); display: flex; align-items: center; gap: 12px;">
+                            <i data-lucide="chevron-down" style="color: var(--gold); width: 18px; height: 18px;"></i>
+                            <span style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: #666;" data-i18n="hero.continue">Keşfetmeye Devam Edin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academy Bridging Slide -->
+                <div class="portal-slide" id="slide-bridge">
+                    <div class="glass-card">
+                        <span class="section-tag" data-i18n="welcome.tag">Akademik Köprü</span>
+                        <h2 data-i18n="welcome.title">Resmi Kabul ve <em>Vize Danışmanlığı</em></h2>
+                        <p style="margin: 24px 0 32px; font-size: 1.05rem; line-height: 1.8;" data-i18n="welcome.desc">
+                            Eğitim yolculuğunuzu riske atmayın. Akademik denklik analizinden resmi vize dosyanızın mükemmelleştirilmesine kadar tüm aşamaları uzman kadromuzla güvence altına alıyoruz.
+                        </p>
+                        <div style="display: flex; gap: 40px; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 24px;">
+                            <div>
+                                <h3 style="font-family: var(--font-serif); font-style: italic; font-size: 2.8rem; color: var(--gold); font-weight: 300;" data-i18n="welcome.stat1">%98</h3>
+                                <p style="font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;" data-i18n="welcome.stat1_desc">Kabul Oranı</p>
+                            </div>
+                            <div>
+                                <h3 style="font-family: var(--font-serif); font-style: italic; font-size: 2.8rem; color: var(--gold-light); font-weight: 300;" data-i18n="welcome.stat2">VNN</h3>
+                                <p style="font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;" data-i18n="welcome.stat2_desc">Akredite Kalite</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Pre-Open Hero text -->
+            <div class="gate-initial-hero" id="hero-title">
+                <div class="hero-glass-panel">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span> Start Akademie UG
+                    </div>
+                    <h1 data-i18n="hero.main_title">Ihr Bildungsweg <em>in Deutschland</em></h1>
+                    <div style="width: 64px; height: 1px; background: var(--gold); margin: 32px auto; opacity: 0.6; box-shadow: 0 0 10px var(--gold);"></div>
+                    <span class="hero-seo-desc" data-i18n="hero.seo_desc">Almanya'da Eğitim, Nachhilfe ve Üniversite Kabul Danışmanlığı Merkezi</span>
+                </div>
+            </div>
+
+            <!-- 5. Mouse Indicator -->
+            <div class="scroll-hint" id="scroller-hint">
+                <div class="mouse-icon">
+                    <span class="mouse-dot"></span>
+                </div>
+                <span data-i18n="hero.scroll">GİRİŞ İÇİN KAYDIRIN</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         THE 3 PILLARS (HİZMET KANATLARI)
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" id="pillars">
+        <div class="container">
+            <div style="text-align: center; max-width: 720px; margin: 0 auto 64px;">
+                <span class="section-tag" data-i18n="pillars.tag">Start Programları</span>
+                <h2 data-i18n="pillars.title">Geleceğe Ulaşan Üç Eğitim Kanadı</h2>
+                <p style="margin-top: 16px; font-size: 1.05rem;" data-i18n="pillars.desc">Almanya yerelindeki okul desteklerinden, üniversite kabul ve hazırlık kurslarına kadar hedefinize özel kurumsal eğitim çözümlerimiz.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Pillar 1 -->
+                <div class="glass-card bento-card">
+                    <div>
+                        <div class="card-header-icon"><i data-lucide="book-open"></i></div>
+                        <h3 data-i18n="pillar1.title">Nachhilfe <em>in Deutschland</em></h3>
+                        <p style="margin-top: 12px; font-size: 0.92rem; color: rgba(255,255,255,0.45); font-family: var(--font-mono); text-transform: uppercase;" data-i18n="pillar1.tag">Deutschsprachiger Bereich</p>
+                        <ul class="card-points">
+                            <li>Grundschule, Mittel- und Oberstufe</li>
+                            <li>Tüm yaygın okul derslerinde özel destek</li>
+                            <li>Birebir ve odaklanmış küçük gruplar</li>
+                            <li>BuT devlet yardımı ile tamamen ücretsiz</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.startakademie.de/" target="_blank" class="btn btn-outline" style="width: 100%;" data-i18n="pillar1.btn">Ders Desteği Başvurusu</a>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="glass-card bento-card" style="border-color: rgba(212, 175, 100, 0.22);">
+                    <div>
+                        <div class="card-header-icon" style="background: rgba(212, 175, 100, 0.12);"><i data-lucide="graduation-cap"></i></div>
+                        <h3 data-i18n="pillar2.title">Bildungsberatung <em>für Deutschland</em></h3>
+                        <p style="margin-top: 12px; font-size: 0.92rem; color: rgba(255,255,255,0.45); font-family: var(--font-mono); text-transform: uppercase;" data-i18n="pillar2.tag">Aday Odaklı / Türkçe 🇹🇷</p>
+                        <ul class="card-points">
+                            <li>Almanya'da Lisans ve Yüksek Lisans</li>
+                            <li>Ausbildung (Mesleki Eğitim) yerleşimi</li>
+                            <li>Akademik uygunluk ve vize dosyası</li>
+                            <li>Kişisel dosya rehberliği & danışmanlık</li>
+                        </ul>
+                    </div>
+                    <a href="#pricing" class="btn btn-primary" style="width: 100%;" data-i18n="pillar2.btn">Kabul Danışmanlığı Keşfet</a>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="glass-card bento-card">
+                    <div>
+                        <div class="card-header-icon"><i data-lucide="globe"></i></div>
+                        <h3 data-i18n="pillar3.title">Online <em>Sprachkurse</em></h3>
+                        <p style="margin-top: 12px; font-size: 0.92rem; color: rgba(255,255,255,0.45); font-family: var(--font-mono); text-transform: uppercase;" data-i18n="pillar3.tag">Türkçe Ağırlıklı / Canlı 🇹🇷</p>
+                        <ul class="card-points">
+                            <li>Online Deutschkurse (A1 - C1)</li>
+                            <li>Online Englischkurse (A1 - C1)</li>
+                            <li>Nitelikli eğitim kadrosuyla canlı ders</li>
+                            <li>Türkiye'den esnek saatli katılım modeli</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn btn-outline" style="width: 100%;" data-i18n="pillar3.btn">Dil Kursuna Kaydol</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         INTERACTIVE SPERRKONTO CALCULATOR
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" style="background: rgba(255, 255, 255, 0.01);" id="calculator">
+        <div class="container">
+            <div class="glass-card" style="padding: 64px;">
+                <span class="section-tag" data-i18n="calc.tag">Bloke Hesap Hesaplayıcı</span>
+                <h2 style="margin-bottom: 40px;" data-i18n="calc.title">Sperrkonto Finansal Planlayıcı</h2>
+
+                <div class="calculator-layout">
+                    <div class="calc-slider-box">
+                        <p data-i18n="calc.desc">Almanya'da eğitim vizesi alabilmeniz için kanıtlamanız gereken güncel Bloke Hesap (Sperrkonto) miktarını belirleyin. Resmi referans tutar aylık 992 €'dur.</p>
+                        
+                        <!-- Months slider -->
+                        <div class="slider-group">
+                            <div class="slider-header">
+                                <span>Kalınacak Süre (Ay)</span>
+                                <span class="slider-value" id="label-months">12 Ay</span>
+                            </div>
+                            <input type="range" min="1" max="24" value="12" class="custom-range" id="slider-months">
+                        </div>
+
+                        <!-- Extra Blocked money monthly -->
+                        <div class="slider-group">
+                            <div class="slider-header">
+                                <span data-i18n="calc.extra">Aylık Ek Harçlık (Opsiyonel)</span>
+                                <span class="slider-value" id="label-extra">0 €</span>
+                            </div>
+                            <input type="range" min="0" max="1000" step="50" value="0" class="custom-range" id="slider-extra">
+                        </div>
+
+                        <div class="calc-visual-wrap">
+                            <span style="font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; color: var(--text-muted);">Finansal Oran Dağılımı</span>
+                            <div class="calc-progress-bar">
+                                <div class="bar-slice-sperr" id="bar-sperrkonto" style="width: 90%;"></div>
+                                <div class="bar-slice-fee" id="bar-fee" style="width: 10%;"></div>
+                            </div>
+                            <div class="calc-legend">
+                                <span style="display: flex; align-items: center; gap: 8px;"><span style="width: 8px; height: 8px; background: var(--gold); border-radius: 50%;"></span> Resmi Bloke Hesap</span>
+                                <span style="display: flex; align-items: center; gap: 8px;"><span style="width: 8px; height: 8px; background: #3b6fd4; border-radius: 50%;"></span> İşlem Ücreti</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calc-result-panel">
+                        <span style="font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;">Toplam Gerekli Bütçe</span>
+                        <div class="calc-total-number" id="calc-total">12.003 €</div>
+                        
+                        <div class="calc-breakdown">
+                            <div class="breakdown-row">
+                                <span>Aylık Bloke Ödeme:</span>
+                                <strong id="val-monthly">992 € / Ay</strong>
+                            </div>
+                            <div class="breakdown-row">
+                                <span>Toplam Bloke Tutar:</span>
+                                <strong id="val-total-sperr">11.904 €</strong>
+                            </div>
+                            <div class="breakdown-row">
+                                <span>Kurulum ve İşlem Harcı:</span>
+                                <strong id="val-fees">99 €</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         PARTNER VE SEÇKİN ÜNİVERSİTELER
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" id="universities">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 24px; margin-bottom: 64px;">
+                <div>
+                    <span class="section-tag" data-i18n="univ.tag">Alman Devlet Üniversiteleri</span>
+                    <h2 data-i18n="univ.title">Geleceğinizi Şekillendiren Kampüsler</h2>
+                </div>
+                <p style="max-width: 480px; font-size: 0.95rem;" data-i18n="univ.desc">YÖK denkliği olan, dünya sıralamalarında üst seviyedeki ve harçsız Alman Devlet Üniversitelerine şartlı kabul başvurularınızı gerçekleştiriyoruz.</p>
+            </div>
+
+            <div class="univ-slider">
+                <!-- Heidelberg -->
+                <div class="glass-card univ-card">
+                    <div class="univ-image-holder">
+                        <img src="assets/heidelberg.png" alt="Heidelberg University">
+                    </div>
+                    <div class="univ-info">
+                        <div class="univ-meta">
+                            <span data-i18n="univ.tag.heidelberg">📍 HEIDELBERG</span>
+                            <span data-i18n="univ.rate.heidelberg">Kabul: ~%15</span>
+                        </div>
+                        <h3 data-i18n="univ.title.heidelberg">Heidelberg Üniversitesi</h3>
+                        <p style="font-size: 0.92rem;" data-i18n="univ.desc.heidelberg">1386 kuruluş yılıyla Almanya'nın en eski ve en prestijli üniversitesi. Tıp, eczacılık ve doğa bilimlerinde dünya çapında liderdir.</p>
+                    </div>
+                </div>
+
+                <!-- TUM -->
+                <div class="glass-card univ-card">
+                    <div class="univ-image-holder">
+                        <img src="assets/tum.png" alt="TU München">
+                    </div>
+                    <div class="univ-info">
+                        <div class="univ-meta">
+                            <span data-i18n="univ.tag.munich">📍 MÜNİH</span>
+                            <span data-i18n="univ.rate.munich">Kabul: ~%8</span>
+                        </div>
+                        <h3 data-i18n="univ.title.munich">Münih Teknik Üniversitesi (TUM)</h3>
+                        <p style="font-size: 0.92rem;" data-i18n="univ.desc.munich">Avrupa'nın teknoloji üssü. Mühendislik, bilgisayar bilimi ve yapay zekada dünyanın en iyi üniversiteleri arasında yer alır.</p>
+                    </div>
+                </div>
+
+                <!-- Goethe -->
+                <div class="glass-card univ-card">
+                    <div class="univ-image-holder">
+                        <img src="assets/goethe.png" alt="Goethe University">
+                    </div>
+                    <div class="univ-info">
+                        <div class="univ-meta">
+                            <span data-i18n="univ.tag.frankfurt">📍 FRANKFURT</span>
+                            <span data-i18n="univ.rate.frankfurt">Kabul: ~%20</span>
+                        </div>
+                        <h3 data-i18n="univ.title.frankfurt">Goethe Üniversitesi</h3>
+                        <p style="font-size: 0.92rem;" data-i18n="univ.desc.frankfurt">Frankfurt'un merkezinde ekonomi, finans, sosyal bilimler ve beşeri bilimlerde öncü küresel araştırma üniversitesi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 48px;">
+                <button class="btn btn-primary" onclick="openUnivModal()" style="padding: 14px 32px; font-size: 1.05rem; display: inline-flex; align-items: center; gap: 8px;">
+                    <span data-i18n="univ.btn_all">Tüm Üniversiteleri Keşfet</span>
+                    <i data-lucide="arrow-right" style="width: 20px; height: 20px;"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         DANIŞMANLIK PAKETLERİ VE FİYATLANDIRMA
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" style="background: rgba(255, 255, 255, 0.01);" id="pricing">
+        <div class="container">
+            <div style="text-align: center; max-width: 720px; margin: 0 auto 64px;">
+                <span class="section-tag" data-i18n="price.tag">Paket ve Hizmetler</span>
+                <h2 data-i18n="price.title">Resmi Danışmanlık Paketleri</h2>
+                <p style="margin-top: 16px;" data-i18n="price.desc">Denklik analizinden vize randevu simülasyonuna kadar ihtiyacınıza uygun kapsamlı başvuru ve vize rehberliği paketlerimiz.</p>
+            </div>
+
+            <div class="pricing-table">
+                <!-- Basic -->
+                <div class="glass-card price-card">
+                    <div class="price-header">
+                        <h3 style="font-size: 1.5rem;">START BASIC</h3>
+                        <div class="price-amount">1.900 €</div>
+                        <p style="font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;"><span data-i18n="price.basic.sub">Temel Başvuru Paketi</span></p>
+                    </div>
+                    <ul class="price-features">
+                        <li class="check"><span data-i18n="price.f1">Akademik Uygunluk Analizi</span></li>
+                        <li class="check"><span data-i18n="price.f2">Bölüm ve Üniversite Seçimi</span></li>
+                        <li class="check"><span data-i18n="price.f3">3 Üniversiteye Kadar Başvuru</span></li>
+                        <li class="check"><span data-i18n="price.f4">Temel Motivasyon Mektubu Desteği</span></li>
+                        <li class="cross"><span data-i18n="price.f5">Vize Görüşmesi Simülasyonu</span></li>
+                        <li class="cross"><span data-i18n="price.f6">Almanya Sonrası Destek</span></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" style="width: 100%;" data-i18n="price.btn.basic">Basic Paket Seç</a>
+                </div>
+
+                <!-- Plus (Featured) -->
+                <div class="glass-card price-card featured">
+                    <span class="featured-badge"><span data-i18n="price.badge">En Çok Tercih Edilen</span></span>
+                    <div class="price-header">
+                        <h3 style="font-size: 1.5rem;">START PLUS</h3>
+                        <div class="price-amount">2.700 €</div>
+                        <p style="font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;"><span data-i18n="price.plus.sub">Kapsamlı Başvuru & Kabul</span></p>
+                    </div>
+                    <ul class="price-features">
+                        <li class="check"><span data-i18n="price.f1">Akademik Uygunluk Analizi</span></li>
+                        <li class="check"><span data-i18n="price.f7">5 Üniversiteye Kadar Başvuru</span></li>
+                        <li class="check"><span data-i18n="price.f8">Detaylı Motivasyon & CV Tasarımı</span></li>
+                        <li class="check"><span data-i18n="price.f9">Detaylı Vize Evrak Dosyası Hazırlığı</span></li>
+                        <li class="check"><span data-i18n="price.f10">1 Adet Vize Randevu Simülasyonu</span></li>
+                        <li class="check"><span data-i18n="price.f11">Almanya Sonrası 3 Ay Destek</span></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" style="width: 100%;" data-i18n="price.btn.plus">Plus Paket Seç</a>
+                </div>
+
+                <!-- Premium -->
+                <div class="glass-card price-card">
+                    <div class="price-header">
+                        <h3 style="font-size: 1.5rem;">START PREMIUM</h3>
+                        <div class="price-amount">3.900 €</div>
+                        <p style="font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;"><span data-i18n="price.premium.sub">Vize & Varış Garantili VIP</span></p>
+                    </div>
+                    <ul class="price-features">
+                        <li class="check"><span data-i18n="price.f1">Akademik Uygunluk Analizi</span></li>
+                        <li class="check"><span data-i18n="price.f12">8 Üniversiteye Kadar Başvuru</span></li>
+                        <li class="check"><span data-i18n="price.f13">Genişletilmiş CV & Motivasyon Yazımı</span></li>
+                        <li class="check"><span data-i18n="price.f14">2 Adet Birebir Vize Simülasyonu</span></li>
+                        <li class="check"><span data-i18n="price.f15">Detaylı Konaklama & Yurt Yönlendirmesi</span></li>
+                        <li class="check"><span data-i18n="price.f16">Almanya Sonrası 6 Ay Destek</span></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" style="width: 100%;" data-i18n="price.btn.premium">Premium Paket Seç</a>
+                </div>
+            </div>
+
+            <!-- EK HİZMETLER MODÜLÜ -->
+            <div style="margin-top: 64px;">
+                <div style="text-align: center; margin-bottom: 32px;">
+                    <h3 style="font-size: 1.8rem; font-family: var(--font-serif);" data-i18n="extra.title">Ek Hizmetler & Modüller</h3>
+                    <p style="color: var(--text-muted);" data-i18n="extra.desc">Özel ihtiyaçlarınıza yönelik tekli veya ek paket seçenekleri.</p>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px;">
+                    <div class="glass-card" style="padding: 24px; text-align: center;">
+                        <h4 style="margin-bottom: 12px; color: var(--gold);" data-i18n="extra.s1">Vize Rehberim Paketi</h4>
+                        <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 12px;">1.200 €</div>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);" data-i18n="extra.s1_desc">Sadece vize dosyası hazırlığı ve simülasyon isteyenler için.</p>
+                    </div>
+                    <div class="glass-card" style="padding: 24px; text-align: center;">
+                        <h4 style="margin-bottom: 12px; color: var(--gold);" data-i18n="extra.s2">Tek Başvuru Paketi</h4>
+                        <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 12px;">950 €</div>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);" data-i18n="extra.s2_desc">Tek bir üniversiteye nokta atışı başvuru ve takip.</p>
+                    </div>
+                    <div class="glass-card" style="padding: 24px; text-align: center;">
+                        <h4 style="margin-bottom: 12px; color: var(--gold);" data-i18n="extra.s3">Almanya'ya Varış & İlk Adımlar</h4>
+                        <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 12px;">450 €</div>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);" data-i18n="extra.s3_desc">İkamet kaydı, banka hesabı ve sağlık sigortası aktivasyonu.</p>
+                    </div>
+                    <div class="glass-card" style="padding: 24px; text-align: center;">
+                        <h4 style="margin-bottom: 12px; color: var(--gold);" data-i18n="extra.s4">Almanca Hazırlık & Dil Planlama</h4>
+                        <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 12px;">550 €</div>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);" data-i18n="extra.s4_desc">Dil okulu kaydı, yurt planlaması ve şartlı kabul süreci.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         INTERACTIVE DENKLİK VE UYGUNLUK TESTİ (BUT WIZARD)
+         ══════════════════════════════════════════ -->
+        <section class="section-padding" id="wizard">
+        <div class="container">
+            <div class="glass-card wizard-layout">
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <span class="section-tag" data-i18n="wizard.tag">Hızlı Denklik Testi</span>
+                    <h2 data-i18n="wizard.title">Almanya Üniversite Uygunluk Sihirbazı</h2>
+                    <p style="margin-top: 12px; font-size: 0.95rem;" data-i18n="wizard.desc">Lise mezuniyet bilginize göre doğrudan Almanya devlet üniversitesine kabul alıp alamayacağınızı 4 adımda hızlıca kontrol edin.</p>
+                </div>
+
+                <div class="wizard-progress">
+                    <div class="wizard-progress-bar" id="wizard-progress"></div>
+                </div>
+
+                <!-- Step 1 -->
+                <div class="wizard-step active" id="step-1">
+                    <h4 style="font-size: 1.2rem; text-align: center;" data-i18n="wizard.step1.q">1. Mezun olduğunuz / olacağınız lise türü hangisidir?</h4>
+                    <div class="wizard-buttons">
+                        <button class="wizard-btn-option" onclick="nextWizardStep(2, 'anadolu')" data-i18n="wizard.step1.o1">Anadolu veya Fen Lisesi</button>
+                        <button class="wizard-btn-option" onclick="nextWizardStep(2, 'meslek')" data-i18n="wizard.step1.o2">Meslek veya İmam Hatip Lisesi</button>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="wizard-step" id="step-2">
+                    <h4 style="font-size: 1.2rem; text-align: center;" data-i18n="wizard.step2.q">2. Uluslararası bir diplomanız var mı? (IB, Abitur, AP vb.)</h4>
+                    <div class="wizard-buttons">
+                        <button class="wizard-btn-option" onclick="nextWizardStep(3, 'yes')" data-i18n="wizard.step2.o1">Evet (IB / Abitur / AP mevcut)</button>
+                        <button class="wizard-btn-option" onclick="nextWizardStep(3, 'no')" data-i18n="wizard.step2.o2">Hayır (Sadece YKS / Lise Diploması)</button>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="wizard-step" id="step-3">
+                    <h4 style="font-size: 1.2rem; text-align: center;" data-i18n="wizard.step3.q">3. Güncel Almanca dil seviyeniz nedir?</h4>
+                    <div class="wizard-buttons">
+                        <button class="wizard-btn-option" onclick="nextWizardStep(4, 'b1')" data-i18n="wizard.step3.o1">B1 ve Üzeri</button>
+                        <button class="wizard-btn-option" onclick="nextWizardStep(4, 'zero')" data-i18n="wizard.step3.o2">Başlangıç Seviyesi / Hiç Yok</button>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="wizard-step" id="step-4">
+                    <h4 style="font-size: 1.2rem; text-align: center;" data-i18n="wizard.step4.q">4. YKS sınavına girdiniz mi ve bir üniversiteye yerleştiniz mi?</h4>
+                    <div class="wizard-buttons">
+                        <button class="wizard-btn-option" onclick="showWizardResult('yes')" data-i18n="wizard.step4.o1">Evet, 4 yıllık bölüme yerleştim</button>
+                        <button class="wizard-btn-option" onclick="showWizardResult('no')" data-i18n="wizard.step4.o2">Hayır, henüz girmedim/yerleşmedim</button>
+                    </div>
+                </div>
+
+                <!-- Result -->
+                <div class="wizard-step" id="step-result">
+                    <div class="wizard-result-box">
+                        <div id="result-title" style="font-family: var(--font-serif); font-style: italic; font-size: 2.2rem; color: var(--gold); margin-bottom: 16px;">Değerlendiriliyor...</div>
+                        <p id="result-desc" style="font-size: 1rem; color: var(--text-muted); line-height: 1.8; max-width: 600px; margin: 0 auto 32px;"></p>
+                        <a href="#contact" class="btn btn-primary" data-i18n="wizard.btn">Birebir Analiz Randevusu Alın</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         ABİTUR & LİSE SOMMERCAMP TIMELINE
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" style="background: rgba(255, 255, 255, 0.01);" id="camp">
+        <div class="container">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto 64px;">
+                <span class="section-tag" data-i18n="camp.tag">Abitur / Oberstufe Boost</span>
+                <h2 data-i18n="camp.title">Yaz Kampları & Yoğunlaştırılmış Kurslar 2026</h2>
+                <p style="margin-top: 16px;" data-i18n="camp.desc">Lise eğitimine veya Abitur'a yönelik özel hazırlanın - ister Rüsselsheim'da yüz yüze yoğun, ister online esnek birebir derslerle.</p>
+            </div>
+
+            <!-- In-Person Camp -->
+            <div style="margin-bottom: 64px;">
+                <div class="glass-card" style="border: 1px solid rgba(212, 175, 100, 0.3);">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 24px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 24px; margin-bottom: 24px;">
+                        <div>
+                            <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--gold); letter-spacing: 0.1em; display: block; margin-bottom: 8px;" data-i18n="camp.inperson.tag">YÜZ YÜZE YOĞUNLAŞTIRILMIŞ KAMP</span>
+                            <h3 style="font-size: 2rem; margin: 0;" data-i18n="camp.inperson.title">12. Sınıfa Güçlü Başlangıç</h3>
+                            <p style="color: var(--text-muted); margin-top: 12px; max-width: 600px;" data-i18n="camp.inperson.desc">12. sınıfa geçiş hayati bir adımdır. Yoğunlaştırılmış kampımızla öğrencileri lise (Oberstufe) gereksinimlerine özel olarak hazırlıyoruz.</p>
+                        </div>
+                        <div style="background: rgba(212, 175, 100, 0.1); padding: 16px 24px; border-radius: 8px; text-align: center; min-width: 200px;">
+                            <div style="font-size: 0.8rem; color: var(--gold); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;" data-i18n="camp.inperson.dates">2026 KAMP TARİHLERİ</div>
+                            <div style="font-weight: 600; margin-bottom: 4px;" data-i18n="camp.inperson.d1">Cumartesi, 25.07.2026</div>
+                            <div style="font-weight: 600; margin-bottom: 4px;" data-i18n="camp.inperson.d2">Cumartesi, 01.08.2026</div>
+                            <div style="font-weight: 600; margin-bottom: 4px;" data-i18n="camp.inperson.d3">Cumartesi, 15.08.2026</div>
+                            <div style="font-weight: 600;" data-i18n="camp.inperson.d4">Cumartesi, 22.08.2026</div>
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+                        <div>
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;"><i data-lucide="check-circle" style="color: var(--gold); width: 18px; min-width: 18px; margin-top: 2px;"></i> <span data-i18n="camp.inperson.f1">Matematik (Lise İleri Düzey)</span></li>
+                                <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;"><i data-lucide="check-circle" style="color: var(--gold); width: 18px; min-width: 18px; margin-top: 2px;"></i> <span data-i18n="camp.inperson.f2">Almanca: Analiz & Yazma Eğitimi</span></li>
+                                <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;"><i data-lucide="check-circle" style="color: var(--gold); width: 18px; min-width: 18px; margin-top: 2px;"></i> <span data-i18n="camp.inperson.f3">İngilizce: Makale & Metin Analizi</span></li>
+                                <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;"><i data-lucide="check-circle" style="color: var(--gold); width: 18px; min-width: 18px; margin-top: 2px;"></i> <span data-i18n="camp.inperson.f4">Sınav Eğitimi & Öğrenme Stratejileri</span></li>
+                            </ul>
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 12px; justify-content: center;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <i data-lucide="clock" style="color: var(--gold); width: 20px;"></i>
+                                <span data-i18n="camp.inperson.info1">09:00 - 16:30 arası</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <i data-lucide="users" style="color: var(--gold); width: 20px;"></i>
+                                <span data-i18n="camp.inperson.info2">5 - 8 Kişilik Gruplar</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <i data-lucide="map-pin" style="color: var(--gold); width: 20px;"></i>
+                                <span data-i18n="camp.inperson.info3">Start Akademie - Rüsselsheim</span>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: flex-end;">
+                            <a href="#contact" class="btn btn-primary" data-i18n="camp.inperson.btn">Yerini Ayırt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Online Camp -->
+            <div>
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <h3 style="font-size: 1.8rem; font-family: var(--font-serif);" data-i18n="camp.online.title">Online İngilizce Yaz Kursları (1:1)</h3>
+                    <p style="color: var(--text-muted); font-family: var(--font-mono); font-size: 0.9rem;" data-i18n="camp.online.desc">4 Hafta (06.07. - 31.07.2026) | Pazartesi - Cuma, Her Gün 90 dk | Toplam 20 Ders</p>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+                    <!-- Class 11 -->
+                    <div class="glass-card" style="padding: 32px;">
+                        <span style="display: inline-block; background: var(--gold-glow); color: var(--gold); padding: 4px 12px; border-radius: 20px; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em; font-weight: 600; margin-bottom: 16px;" data-i18n="camp.class11.tag">11. SINIF</span>
+                        <h4 style="font-size: 1.3rem; margin-bottom: 16px;" data-i18n="camp.class11.title">Lise Hazırlık (Oberstufe)</h4>
+                        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem; color: var(--text-muted);">
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class11.p1"><strong>Gramer & Yazım:</strong> Zamanlar, Edilgen Çatı, Deneme Yazımı.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class11.p2"><strong>Metin Analizi & Edebiyat:</strong> Kısa hikaye yorumlama.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class11.p3"><strong>Kültür & Medya:</strong> Birleşik Krallık/ABD siyasetini anlama.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class11.p4"><strong>Argümantasyon:</strong> Fikirleri temellendirme.</span></li>
+                        </ul>
+                    </div>
+                    <!-- Class 12 -->
+                    <div class="glass-card" style="padding: 32px; border-color: rgba(212, 175, 100, 0.15);">
+                        <span style="display: inline-block; background: var(--gold-glow); color: var(--gold); padding: 4px 12px; border-radius: 20px; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em; font-weight: 600; margin-bottom: 16px;" data-i18n="camp.class12.tag">12. SINIF</span>
+                        <h4 style="font-size: 1.3rem; margin-bottom: 16px;" data-i18n="camp.class12.title">Kalifikasyon Aşaması</h4>
+                        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem; color: var(--text-muted);">
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class12.p1"><strong>Metin Analizi:</strong> Karmaşık metinler, Shakespeare.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class12.p2"><strong>Akademik Yazım:</strong> Yorumlama, Tartışma.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class12.p3"><strong>Medya & Politika:</strong> Küresel sorunları değerlendirme.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class12.p4"><strong>Mediasyon:</strong> İçerikleri akıcı aktarma.</span></li>
+                        </ul>
+                    </div>
+                    <!-- Class 13 -->
+                    <div class="glass-card" style="padding: 32px;">
+                        <span style="display: inline-block; background: var(--gold-glow); color: var(--gold); padding: 4px 12px; border-radius: 20px; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em; font-weight: 600; margin-bottom: 16px;" data-i18n="camp.class13.tag">13. SINIF</span>
+                        <h4 style="font-size: 1.3rem; margin-bottom: 16px;" data-i18n="camp.class13.title">Abitur Final Boost</h4>
+                        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem; color: var(--text-muted);">
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class13.p1"><strong>Söylem Analizi:</strong> Retorik analiz.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class13.p2"><strong>Abitur Writing:</strong> Yapı & Kesinlik.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class13.p3"><strong>Toplum:</strong> Demokrasiyi eleştirel analiz etme.</span></li>
+                            <li style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05);"><div style="width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 8px; min-width: 6px; opacity: 0.5;"></div> <span style="line-height: 1.5;" data-i18n="camp.class13.p4"><strong>Argümantasyon:</strong> Karşı argümanları entegre etme.</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="#contact" class="btn btn-outline" data-i18n="camp.online.btn">Yaz Kursuna Kaydol</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FAQ SIKÇA SORULAN SORULAR
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" id="faq" style="background: rgba(3, 4, 7, 0.4);">
+        <div class="container">
+            <div style="text-align: center; max-width: 720px; margin: 0 auto 64px;">
+                <span class="section-tag" data-i18n="faq.tag">Start SSS</span>
+                <h2 data-i18n="faq.title">Sıkça Sorulan Sorular</h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;">
+                <div class="glass-card" style="padding: 24px; cursor: pointer;" onclick="this.querySelector('.faq-ans').style.display = this.querySelector('.faq-ans').style.display === 'block' ? 'none' : 'block'">
+                    <h3 style="font-size: 1.1rem; display: flex; justify-content: space-between;"><span data-i18n="faq.q1">Almanya'da üniversite tamamen ücretsiz mi?</span> <i data-lucide="chevron-down"></i></h3>
+                    <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.95rem;" data-i18n="faq.a1">
+                        Birçok devlet üniversitesinde yüksek öğrenim harcı yoktur; ancak dönemlik katkı payı (Semesterbeitrag) ve yaşam giderleri ayrıca planlanmalıdır.
+                    </div>
+                </div>
+                <div class="glass-card" style="padding: 24px; cursor: pointer;" onclick="this.querySelector('.faq-ans').style.display = this.querySelector('.faq-ans').style.display === 'block' ? 'none' : 'block'">
+                    <h3 style="font-size: 1.1rem; display: flex; justify-content: space-between;"><span data-i18n="faq.q2">YKS olmadan başvuru yapılabilir mi?</span> <i data-lucide="chevron-down"></i></h3>
+                    <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.95rem;" data-i18n="faq.a2">
+                        Bu durum öğrencinin eğitim geçmişine göre değişir. Her dosya bireysel değerlendirilmelidir (Abitur, IB gibi uluslararası diplomalarla doğrudan mümkündür).
+                    </div>
+                </div>
+                <div class="glass-card" style="padding: 24px; cursor: pointer;" onclick="this.querySelector('.faq-ans').style.display = this.querySelector('.faq-ans').style.display === 'block' ? 'none' : 'block'">
+                    <h3 style="font-size: 1.1rem; display: flex; justify-content: space-between;"><span data-i18n="faq.q3">Almanca bilmeden başvuru mümkün mü?</span> <i data-lucide="chevron-down"></i></h3>
+                    <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.95rem;" data-i18n="faq.a3">
+                        Bazı öğrenciler için dil kursu, şartlı kabul veya hazırlık (Studienkolleg) seçenekleri değerlendirilebilir. Ayrıca İngilizce bölümler (IELTS/TOEFL ile) mevcuttur.
+                    </div>
+                </div>
+                <div class="glass-card" style="padding: 24px; cursor: pointer;" onclick="this.querySelector('.faq-ans').style.display = this.querySelector('.faq-ans').style.display === 'block' ? 'none' : 'block'">
+                    <h3 style="font-size: 1.1rem; display: flex; justify-content: space-between;"><span data-i18n="faq.q4">Öğrenciler Almanya'da çalışabilir mi?</span> <i data-lucide="chevron-down"></i></h3>
+                    <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.95rem;" data-i18n="faq.a4">
+                        Evet, resmi kurallar çerçevesinde yılda 140 tam gün veya 280 yarım gün çalışma hakkınız bulunmaktadır.
+                    </div>
+                </div>
+                <div class="glass-card" style="padding: 24px; cursor: pointer;" onclick="this.querySelector('.faq-ans').style.display = this.querySelector('.faq-ans').style.display === 'block' ? 'none' : 'block'">
+                    <h3 style="font-size: 1.1rem; display: flex; justify-content: space-between;"><span data-i18n="faq.q5">Start Akademie kabul veya vize garantisi verir mi?</span> <i data-lucide="chevron-down"></i></h3>
+                    <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.95rem;" data-i18n="faq.a5">
+                        Hayır. Nihai karar her zaman ilgili üniversite ve resmi makamlar (Konsolosluk/Yabancılar Dairesi) tarafından verilir. Biz dosyanızı kusursuzlaştırırız.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         REZERVASYON VE İLETİŞİM FORMU
+
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" id="contact">
+        <div class="container">
+            <div class="glass-card" style="padding: 64px;">
+                <div class="booking-layout">
+                    <div class="booking-info-box">
+                        <div>
+                            <span class="section-tag">Kurumsal İrtibat</span>
+                            <h2>Başvurunuzu Planlayın</h2>
+                            <p style="margin-top: 16px; line-height: 1.8;">Frankfurt yakınlarındaki eğitim ofisimize veya online randevuya kaydolarak vize & denklik evraklarınızı uzman rehberlerimizle değerlendirin.</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <h4 style="font-size: 0.95rem; font-weight: 500;">Start Akademie UG Merkez Adresi</h4>
+                                <p style="font-size: 0.9rem; margin-top: 4px;">Mainzer Straße 18, 65428 Rüsselsheim am Main</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i data-lucide="phone"></i></div>
+                            <div>
+                                <h4 style="font-size: 0.95rem; font-weight: 500;">Telefon / WhatsApp İrtibat</h4>
+                                <p style="font-size: 0.9rem; margin-top: 4px; color: var(--gold-light);">0179 7424790</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i data-lucide="mail"></i></div>
+                            <div>
+                                <h4 style="font-size: 0.95rem; font-weight: 500;">Resmi E-Posta</h4>
+                                <p style="font-size: 0.9rem; margin-top: 4px;">info@startakademie.de</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="booking-form-box">
+                        <h3 style="font-family: var(--font-serif); font-style: italic; margin-bottom: 8px;">Kişiselleştirilmiş Randevu Alın</h3>
+                        <p style="font-size: 0.88rem; margin-bottom: 24px;">Lütfen bilgilerinizi eksiksiz doldurun. Eğitim danışmanlarımız 24 saat içinde size dönüş yapacaktır.</p>
+
+                        <div class="booking-form">
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label>Adınız Soyadınız</label>
+                                    <input type="text" placeholder="Adınız Soyadınız">
+                                </div>
+                                <div class="form-group">
+                                    <label>Telefon / WhatsApp</label>
+                                    <input type="tel" placeholder="05XX XXX XX XX">
+                                </div>
+                            </div>
+
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label>E-Posta Adresiniz</label>
+                                    <input type="email" placeholder="mail@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label>Hizmet Alanı</label>
+                                    <select>
+                                        <option value="beratung">Almanya Devlet Üniversitesi Danışmanlığı</option>
+                                        <option value="nachhilfe">Okul Ders Desteği (Nachhilfe)</option>
+                                        <option value="sprachkurs">Çevrimiçi Almanca/İngilizce Dil Kursu</option>
+                                        <option value="sommercamp">Yaz Dil Kampı 2026</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Görüşme Tarihi</label>
+                                <div class="picker-grid">
+                                    <div class="picker-cell active">Pzt</div>
+                                    <div class="picker-cell">Sal</div>
+                                    <div class="picker-cell">Çar</div>
+                                    <div class="picker-cell">Per</div>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary" style="margin-top: 12px; width: 100%;">Görüşme Talebi Gönder <i data-lucide="send"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FLOATING SMART CHATBOT (STARTBOT)
+         ══════════════════════════════════════════ -->
+    <div class="startbot-container">
+        <button class="startbot-bubble" id="startbot-btn" aria-label="StartBot">
+            <span class="startbot-pulse"></span>
+            <i data-lucide="message-square" style="width: 24px; height: 24px;"></i>
+        </button>
+
+        <div class="startbot-window" id="startbot-win">
+            <div class="startbot-header">
+                <h4 style="font-weight: 600; font-family: var(--font-sans); display: flex; align-items: center; gap: 8px;">
+                    <i data-lucide="bot" style="color: var(--gold); width: 20px;"></i>
+                    StartAgent
+                </h4>
+                <button style="background: none; border: none; color: var(--text-muted); cursor: pointer;" onclick="toggleStartbot()"><i data-lucide="x"></i></button>
+            </div>
+            
+            <div class="startbot-chat" id="startbot-messages">
+                                <div class="chat-msg bot" data-i18n="bot.greeting">
+                    Merhaba! Start Akademie egitim danismanligi asistanina hos geldiniz. Almanya'da egitim vizesi, bloke hesap ve lise ders destekleri hakkinda size nasil yardimci olabilirim?
+                </div>
+            </div>
+
+                        <div class="startbot-chips">
+                <span class="startbot-chip" onclick="handleBotChip('Üniversite kayıt başvuru evrakları')" data-i18n="bot.chip_uni">🎓 Üni Kayıt Evrakları</span>
+                <span class="startbot-chip" onclick="handleBotChip('BuT evrakları nasıl doldurulur?')" data-i18n="bot.chip_but">📝 BuT Evrakları</span>
+                <span class="startbot-chip" onclick="handleBotChip('Bloke Hesap miktarı ne kadar?')" data-i18n="bot.chip_bloke">Bloke Hesap Miktarı</span>
+                <span class="startbot-chip" onclick="handleBotChip('BuT Desteği nedir?')" data-i18n="bot.chip_but_info">Ücretsiz BuT Desteği</span>
+                <span class="startbot-chip" onclick="handleBotChip('Adresiniz nerede?')" data-i18n="bot.chip_contact">Adres & İletişim</span>
+            </div>
+
+            <div class="startbot-input" style="display: flex; align-items: center; gap: 8px; position: relative;">
+                <label for="startbot-file" style="cursor: pointer; color: var(--text-muted); padding: 8px;" title="Belge Yükle">
+                    <i data-lucide="paperclip"></i>
+                </label>
+                <input type="file" id="startbot-file" style="display: none;" accept="image/*,application/pdf">
+                <div id="file-indicator" style="display:none; position:absolute; top:-25px; left:10px; background:var(--gold); color:black; font-size:0.7rem; padding:2px 6px; border-radius:4px; font-weight:600;">Dosya Eklendi ✓</div>
+                
+                <input type="text" placeholder="Sorunuzu buraya yazın..." id="startbot-text" onkeypress="if(event.key === \'Enter\') sendBotMsg()">
+                <button onclick="sendBotMsg()"><i data-lucide="send"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <img src="assets/logo-full-white.png" alt="Start Akademie Logo" style="height: 56px; width: auto;">
+                    </div>
+                    <p style="font-size: 0.9rem; margin-bottom: 24px;">Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını artırırken, Türkiye'den gelen adayların Almanya devlet üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.</p>
+                    <div class="vnn-stamp">
+                        <i data-lucide="shield-check" style="width: 16px; height: 16px;"></i> VNN Üyesi Kurum
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Hizmetler</h4>
+                    <ul>
+                        <li><a href="#pillars">Okul Ders Desteği (Nachhilfe)</a></li>
+                        <li><a href="#pricing">Üniversite Danışmanlığı</a></li>
+                        <li><a href="#pillars">Online Almanca Kursları</a></li>
+                        <li><a href="#camp">Yaz Dil Kampları 2026</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Kurumsal</h4>
+                    <ul>
+                        <li><a href="#">Genel Müdür: Mevlüt Uysal</a></li>
+                        <li><a href="#">Etüt Merkezi: Mainzer Straße 18</a></li>
+                        <li><a href="#">UG Adresi: Mainzer Straße 18</a></li>
+                        <li><a href="#">Instagram: @startakademie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Yasal Bilgiler</h4>
+                    <ul>
+                        <li><a href="#">Impressum</a></li>
+                        <li><a href="#">Datenschutzerklärung</a></li>
+                        <li><a href="#">Anerkannter Lernförderanbieter</a></li>
+                        <li><a href="#">Kreis Groß-Gerau Lisansı</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Start Akademie UG (haftungsbeschränkt). Tüm hakları saklıdır.</p>
+                <div style="display: flex; gap: 24px;">
+                    <a href="#">Gizlilik Sözleşmesi</a>
+                    <a href="#">Kullanım Koşulları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Scripts & Animations -->
+    <script>
+        // Init Lucide Icons
+        lucide.createIcons();
+
+        // ══════════════════════════════════════════
+        // HEADER: scroll shrink + gold border
+        // ══════════════════════════════════════════
+        const mainHeader = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 60) {
+                mainHeader.classList.add('scrolled');
+            } else {
+                mainHeader.classList.remove('scrolled');
+            }
+
+            // Active nav tracking
+            const sections = document.querySelectorAll('section[id]');
+            let current = '';
+            sections.forEach(s => {
+                if (window.scrollY >= s.offsetTop - 140) current = s.id;
+            });
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+            });
+        }, { passive: true });
+
+        // ══════════════════════════════════════════
+        // SCROLL REVEAL — fade-up all sections
+        // ══════════════════════════════════════════
+        const revealItems = document.querySelectorAll(
+            '.section-padding .glass-card, .section-padding .section-tag, .bento-card, .univ-card, .price-card, .camp-timeline > *, .booking-layout > *'
+        );
+        revealItems.forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
+        });
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }, 80 * (i % 4));
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        revealItems.forEach(el => revealObserver.observe(el));
+
+        // Mobile toggle
+        const mobToggle = document.getElementById('mobile-toggle');
+        const mobDrawer = document.getElementById('mobile-menu-drawer');
+        if (mobToggle && mobDrawer) {
+            mobToggle.addEventListener('click', () => {
+                mobDrawer.classList.toggle('open');
+                const icon = mobToggle.querySelector('i');
+                if (icon) {
+                    if (mobDrawer.classList.contains('open')) {
+                        icon.setAttribute('data-lucide', 'x');
+                    } else {
+                        icon.setAttribute('data-lucide', 'menu');
+                    }
+                    lucide.createIcons();
+                }
+            });
+        }
+
+        // Native smooth scrolling is handled by CSS (scroll-behavior: smooth)
+
+        // ══════════════════════════════════════════
+        // INTERACTIVE CALCULATOR
+        // ══════════════════════════════════════════
+        const sliderMonths = document.getElementById('slider-months');
+        const sliderExtra = document.getElementById('slider-extra');
+        
+        const labelMonths = document.getElementById('label-months');
+        const labelExtra = document.getElementById('label-extra');
+
+        const calcTotal = document.getElementById('calc-total');
+        const valMonthly = document.getElementById('val-monthly');
+        const valTotalSperr = document.getElementById('val-total-sperr');
+        const valFees = document.getElementById('val-fees');
+
+        const barSperr = document.getElementById('bar-sperrkonto');
+        const barFee = document.getElementById('bar-fee');
+
+        function updateCalculator() {
+            const months = parseInt(sliderMonths.value);
+            const extra = parseInt(sliderExtra.value);
+
+            labelMonths.innerText = `${months} Ay`;
+            labelExtra.innerText = `${extra} €`;
+
+            const officialMonthly = 992;
+            const userMonthly = officialMonthly + extra;
+            const totalSperr = userMonthly * months;
+            const setupFee = 99; // standard setup fee
+            const finalTotal = totalSperr + setupFee;
+
+            calcTotal.innerText = `${finalTotal.toLocaleString('de-DE')} €`;
+            valMonthly.innerText = `${userMonthly.toLocaleString('de-DE')} € / Ay`;
+            valTotalSperr.innerText = `${totalSperr.toLocaleString('de-DE')} €`;
+            valFees.innerText = `${setupFee} €`;
+
+            // Update visual ratio
+            const sperrRatio = (totalSperr / finalTotal) * 100;
+            const feeRatio = (setupFee / finalTotal) * 100;
+
+            barSperr.style.width = `${sperrRatio}%`;
+            barFee.style.width = `${feeRatio}%`;
+        }
+
+        sliderMonths.addEventListener('input', updateCalculator);
+        sliderExtra.addEventListener('input', updateCalculator);
+        updateCalculator();
+
+        // ══════════════════════════════════════════
+        // INTERACTIVE WIZARD (DENKLİK SİHİRBAZI)
+        // ══════════════════════════════════════════
+        let wizardData = {};
+        function nextWizardStep(step, val) {
+            // Save selection
+            if (step === 2) wizardData.lise = val;
+            if (step === 3) wizardData.diploma = val;
+            if (step === 4) wizardData.lang = val;
+
+            // Update step classes
+            document.querySelectorAll('.wizard-step').forEach(el => el.classList.remove('active'));
+            document.getElementById(`step-${step}`).classList.add('active');
+
+            // Progress bar
+            const prog = document.getElementById('wizard-progress');
+            prog.style.width = `${step * 25}%`;
+        }
+
+        function showWizardResult(yksVal) {
+            wizardData.yks = yksVal;
+            document.querySelectorAll('.wizard-step').forEach(el => el.classList.remove('active'));
+            document.getElementById('step-result').classList.add('active');
+            
+            const prog = document.getElementById('wizard-progress');
+            prog.style.width = `100%`;
+
+            const rTitle = document.getElementById('result-title');
+            const rDesc = document.getElementById('result-desc');
+
+            if (wizardData.lise === 'anadolu' && wizardData.yks === 'yes') {
+                rTitle.innerText = 'Tebrikler! Doğrudan Kabul Alabilirsiniz';
+                rTitle.style.color = 'var(--gold)';
+                rDesc.innerText = 'Lise türünüz ve YKS yerleştirme sonucunuz, Almanya devlet üniversitelerine doğrudan şartlı kabul başvurusunda bulunmanız için mükemmel seviyede eşleşiyor. Dil planlaması ve vize evrak hazırlık sürecinizi başlatmak üzere ücretsiz ön görüşme randevusu oluşturun.';
+            } else if (wizardData.diploma === 'yes') {
+                rTitle.innerText = 'Mükemmel! Uluslararası Diploma Denkliği';
+                rTitle.style.color = 'var(--gold)';
+                rDesc.innerText = 'Sahip olduğunuz uluslararası diploma (IB, Abitur vb.), YKS sınav puanına ihtiyaç duymaksızın doğrudan Alman yükseköğrenim kurumlarına başvuru hakkı sağlayabilir. Belgelerinizin resmi denklik onayını kontrol etmek üzere randevunuzu planlayalım.';
+            } else {
+                rTitle.innerText = 'Almanca Hazırlık ve Studienkolleg Gereklidir';
+                rTitle.style.color = 'var(--gold-light)';
+                rDesc.innerText = 'Mevcut lise mezuniyeti durumunuz ve YKS yerleşmeniz nedeniyle Almanya devlet üniversitelerine kabul alabilmeniz için 1 yıllık Studienkolleg (Hazırlık Okulu) veya yoğun Almanca eğitimi almanız gerekebilir. Sizin için en verimli geçiş rotasını çizelim.';
+            }
+        }
+
+        // ══════════════════════════════════════════
+        // SMART CHATBOT (STARTBOT)
+        // ══════════════════════════════════════════
+        const startbotWin = document.getElementById('startbot-win');
+                let hasGreeted = false;
+        function toggleStartbot() {
+            if (startbotWin) {
+                startbotWin.classList.toggle('active');
+                hasGreeted = true; // User manually opened it
+            }
+        }
+        
+        // Auto-greet after 6 seconds if not already opened
+        setTimeout(() => {
+            if (!hasGreeted && startbotWin && !startbotWin.classList.contains('active')) {
+                toggleStartbot();
+                // Play a subtle notification sound if possible or just open
+            }
+        }, 6000);
+
+        const startbotBtn = document.getElementById('startbot-btn');
+        if (startbotBtn) startbotBtn.addEventListener('click', toggleStartbot);
+
+        function handleBotChip(query) {
+            document.getElementById('startbot-text').value = query;
+            sendBotMsg();
+        }
+
+        let selectedFileBase64 = null;
+        let selectedFileMime = null;
+        const fileInput = document.getElementById('startbot-file');
+        const fileIndicator = document.getElementById('file-indicator');
+
+        if(fileInput) {
+            fileInput.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (!file) {
+                    selectedFileBase64 = null;
+                    selectedFileMime = null;
+                    fileIndicator.style.display = 'none';
+                    return;
+                }
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    selectedFileBase64 = event.target.result.split(',')[1];
+                    selectedFileMime = file.type;
+                    fileIndicator.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            });
+        }
+
+        async function fetchGemini(userText) {
+            await new Promise(r => setTimeout(r, 600 + Math.random() * 800));
+            const q = userText.toLowerCase();
+            const lang = localStorage.getItem('preferredLang') || 'tr';
+            
+            // PRIORITIZED DOCUMENTS (Runs BEFORE generic keywords)
+            if (q.includes("but evrak") || q.includes("but form") || q.includes("but basvuru") || q.includes("but başvuru") || q.includes("but_document")) {
+                if (lang === 'en') return "**BuT (Education and Participation) Documents:**<br>You can use this official form to apply for state support for our tutoring programs.<br><br>📝 **<a href='assets/docs/BuT_Antrag_Formu.pdf' download style='color:var(--gold); text-decoration:underline;'>Download BuT Form (PDF)</a>**<br><br>**How to Fill?**<br>- **Part 1:** Parent details.<br>- **Part 2:** Child and school details.<br>- **Part 3:** Needs to be signed by the teacher.<br>Bring it to us if you need help!";
+                if (lang === 'de') return "**BuT (Bildung und Teilhabe) Unterlagen:**<br>Verwenden Sie dieses Formular, um staatliche Unterstützung für unsere Nachhilfe zu beantragen.<br><br>📝 **<a href='assets/docs/BuT_Antrag_Formu.pdf' download style='color:var(--gold); text-decoration:underline;'>BuT Antrag Herunterladen (PDF)</a>**<br><br>**Ausfüllhilfe:**<br>- **Teil 1:** Elternangaben.<br>- **Teil 2:** Kind- und Schulangaben.<br>- **Teil 3:** Zusatzbedarf vom Lehrer ausfüllen lassen.";
+                // tr default
+                return "**BuT (Eğitim ve Katılım) Başvuru Evrakları:**<br>Lise ve okul destek (Nachhilfe) programlarımız için devlet desteğine (BuT) başvururken bu resmi formu kullanabilirsiniz.<br><br>📝 **<a href='assets/docs/BuT_Antrag_Formu.pdf' download style='color:var(--gold); text-decoration:underline;'>BuT Başvuru Formunu İndir (PDF)</a>**<br><br>**Nasıl Doldurulur?**<br>- **Bölüm 1:** Veli (Anne/Baba) bilgilerinizi eksiksiz yazın.<br>- **Bölüm 2:** Destek alacak çocuğunuzun adını ve okulunu belirtin.<br>- **Bölüm 3 (Ek):** Okul öğretmeniniz tarafından <em>'Zusatzbedarf'</em> (ek ders ihtiyacı) onayının imzalanması gerekmektedir.<br><br>Takıldığınız bir yer olursa formu bize getirin, birlikte dolduralım!";
+            }
+            if (q.includes("üniversite kayıt") || q.includes("universite kayit") || q.includes("kayıt evrak") || q.includes("kayit evrak") || q.includes("basvuru evrak") || q.includes("başvuru evrak") || q.includes("uni assist") || q.includes("uni_document")) {
+                if (lang === 'en') return "**University Application Documents:**<br>Here is the basic application form.<br><br>🎓 **<a href='assets/docs/Uni_Assist_Basvuru_Formu.pdf' download style='color:var(--gold); text-decoration:underline;'>Download Uni-Assist Form (PDF)</a>**<br><br>**How to fill:**<br>- Attach sworn translations of your high school diploma.<br>- Follow your consultant's Strategy Report for preferences.<br>- Send us the completed PDF for a final check before submission.";
+                if (lang === 'de') return "**Uni-Bewerbungsunterlagen:**<br>Hier ist das grundlegende Bewerbungsformular.<br><br>🎓 **<a href='assets/docs/Uni_Assist_Basvuru_Formu.pdf' download style='color:var(--gold); text-decoration:underline;'>Uni-Assist Formular (PDF)</a>**<br><br>**Hinweise:**<br>- Beglaubigte Übersetzungen des Schulabschlusses anhängen.<br>- Senden Sie uns das ausgefüllte PDF zur Endkontrolle.";
+                return "**Almanya Üniversite Başvuru/Kayıt Evrakları:**<br>Almanya'da devlet üniversitelerine kayıt başvuruları için temel başvuru formuna ve rehberine aşağıdan ulaşabilirsiniz.<br><br>🎓 **<a href='assets/docs/Uni_Assist_Basvuru_Formu.pdf' download style='color:var(--gold); text-decoration:underline;'>Uni-Assist Başvuru Formunu İndir (PDF)</a>**<br><br>**Nasıl Doldurulur?**<br>- Lise diplomanızın veya YKS sonuç belgenizin noter onaylı yeminli tercümeleri forma eklenmelidir.<br>- Bölüm tercihlerini yaparken uzman danışmanımızın hazırladığı <em>Strateji Raporunu</em> baz alın.<br>- Lütfen formu doldurduktan sonra PDF olarak bu sohbet üzerinden veya e-posta ile bize gönderin, başvuruyu yapmadan önce son kontrolleri biz yapalım.";
+            }
+
+            // KNOWLEDGE BASE
+            if (q.includes("fiyat") || q.includes("ucret") || q.includes("ücret") || q.includes("paket") || q.includes("price") || q.includes("preis")) {
+                if (lang === 'en') return "**Packages:**<br>- **START BASIC (1.900 €):** 3 Applications<br>- **START PLUS (2.700 €):** 5 Applications, Visa Sim<br>- **START PREMIUM (3.900 €):** 8 Applications, 2 Visa Sims, 6 Month Support.";
+                if (lang === 'de') return "**Pakete:**<br>- **START BASIC (1.900 €):** 3 Bewerbungen<br>- **START PLUS (2.700 €):** 5 Bewerbungen, Visa Sim<br>- **START PREMIUM (3.900 €):** 8 Bewerbungen, 2 Visa Sims, 6 Monate Support.";
+                return "**Üniversite Danışmanlık Paketlerimiz:**<br>- **START BASIC (1.900 €):** 3 Başvuru, Temel Strateji<br>- **START PLUS (2.700 €):** 5 Başvuru, Detaylı Strateji, Vize Simülasyonu<br>- **START PREMIUM (3.900 €):** 8 Başvuru, Kapsamlı Strateji, 2 Vize Simülasyonu, 6 Ay Almanya Destek.<br><br>Başka bir hizmetin fiyatını mı merak etmiştiniz?";
+            }
+            if (q.includes("bloke") || q.includes("sperrkonto") || q.includes("blocked")) {
+                if (lang === 'en') return "**Blocked Account (Sperrkonto):**<br>Required amount is **11.904 €** per year. We coordinate this for free.";
+                if (lang === 'de') return "**Sperrkonto:**<br>Der erforderliche Betrag ist **11.904 €** pro Jahr. Wir koordinieren das kostenlos.";
+                return "**Bloke Hesap (Sperrkonto):**<br>Almanya'da öğrenci vizesi için yıllık **11.904 €** (aylık 992 €) tutarında bloke hesap açılması zorunludur. Start Akademie olarak bloke hesap açılış işlemlerinizi ücretsiz koordine ediyoruz.";
+            }
+            if (q.includes("but ") || q.includes("yardim") || q.includes("ücretsiz") || q.includes("support")) {
+                if (lang === 'en') return "**BuT Support:**<br>Tutoring is completely free for families receiving state aid (Bürgergeld, etc).";
+                if (lang === 'de') return "**BuT Förderung:**<br>Nachhilfe ist für Familien, die staatliche Hilfe beziehen, komplett kostenlos.";
+                return "**Ücretsiz Eğitim Desteği (BuT):**<br>Bürgergeld, Kinderzuschlag veya Wohngeld gibi devlet yardımı alan ailelerin çocuklarına eğitim ve lise ders desteği (Nachhilfe) tamamen **ücretsizdir**. Gerekli belgelerinizle (Bewilligungsbescheid) bize başvurabilirsiniz.";
+            }
+            if (q.includes("adres") || q.includes("nerede") || q.includes("iletisim") || q.includes("telefon") || q.includes("contact") || q.includes("kontakt")) {
+                if (lang === 'en') return "**Contact:**<br>- **Address:** Mainzer Straße 18, 65428 Rüsselsheim<br>- **Phone:** 0179 7424790<br>- **Email:** info@startakademie.de";
+                if (lang === 'de') return "**Kontakt:**<br>- **Adresse:** Mainzer Straße 18, 65428 Rüsselsheim<br>- **Telefon:** 0179 7424790<br>- **E-Mail:** info@startakademie.de";
+                return "**İletişim Bilgilerimiz:**<br>- **Adres:** Mainzer Straße 18, 65428 Rüsselsheim am Main<br>- **Telefon:** 0179 7424790<br>- **E-posta:** info@startakademie.de<br>Bizi hafta içi mesai saatlerinde ziyaret edebilirsiniz.";
+            }
+            if (q.includes("kamp") || q.includes("yaz") || q.includes("sommercamp") || q.includes("camp")) {
+                if (lang === 'en') return "**Summer Camps:**<br>We offer online and in-person intensive camps for exam preparation.";
+                if (lang === 'de') return "**Sommercamps:**<br>Wir bieten online und Vor-Ort-Intensivcamps zur Prüfungsvorbereitung an.";
+                return "**Yaz Kamplarımız (Sommercamp):**<br>Online ve yüz yüze yoğun (Intensivcamp) yaz kampı programlarımız bulunmaktadır. Özellikle 11., 12. ve 13. sınıflar için sınavlara hazırlık kampları düzenlenmektedir.";
+            }
+            if (q.includes("nachhilfe") || q.includes("lise") || q.includes("ders") || q.includes("tutoring")) {
+                if (lang === 'en') return "**Tutoring:**<br>Homework Flat rate is 150 €/month for grades 3-8.";
+                if (lang === 'de') return "**Nachhilfe:**<br>Hausaufgaben-Flat kostet 150 €/Monat für die 3.-8. Klasse.";
+                return "**Okul ve Ders Desteği (Nachhilfe):**<br>Hausaufgaben-Flat (Ödev Desteği) programımız 3.-8. sınıflar için haftada 4 gün aylık 150 €'dur. Ayrıca lise öğrencileri için Abitur hazırlık derslerimiz mevcuttur.";
+            }
+            if (q.includes("merhaba") || q.includes("selam") || q.includes("hello") || q.includes("hi ") || q.includes("hallo")) {
+                if (lang === 'en') return "Hello! Welcome to Start Akademie. How can I help you today?";
+                if (lang === 'de') return "Hallo! Willkommen bei der Start Akademie. Wie kann ich Ihnen heute helfen?";
+                return "Merhaba! Start Akademie'ye hoş geldiniz. Almanya'da üniversite, bloke hesap, vize işlemleri veya okul destek programları (Nachhilfe) hakkında size nasıl yardımcı olabilirim?";
+            }
+            if (q.includes("dosya") || q.includes("belge") || userText === "[Dosya Gönderildi]" || userText === "[File Sent]" || userText === "[Datei gesendet]") {
+                if (lang === 'en') return "I have received your document. Our consultants will review it and get back to you shortly.";
+                if (lang === 'de') return "Ich habe Ihr Dokument erhalten. Unsere Berater werden es überprüfen und sich in Kürze bei Ihnen melden.";
+                return "Gönderdiğiniz belgeyi incelemek üzere aldım. Danışmanlarımız evraklarınızı kontrol edip size en kısa sürede dönüş yapacaktır. Bu belgeyle ilgili sormak istediğiniz özel bir detay var mı?";
+            }
+
+            // Fallback
+            if (lang === 'en') return "For detailed info, please contact our experts at **0179 7424790**. Can I help with anything else?";
+            if (lang === 'de') return "Für detaillierte Informationen kontaktieren Sie bitte unsere Experten unter **0179 7424790**. Kann ich noch irgendwie helfen?";
+            return "Bu konuda size en doğru bilgiyi uzman danışmanlarımız verebilir. Lütfen detaylı görüşme için **0179 7424790** numaralı telefondan bize ulaşın veya iletişim formumuzu doldurun. Başka bir konuda yardımcı olabilir miyim?";
+        }
+
+        async function sendBotMsg() {
+            const txt = document.getElementById('startbot-text');
+            const q = txt.value.trim();
+            if (!q && !selectedFileBase64) return;
+
+            txt.value = '';
+            const chatMessages = document.getElementById('startbot-messages');
+            
+            // Add user message
+            const userMsg = document.createElement('div');
+            userMsg.className = 'chat-msg user';
+            userMsg.innerText = q || '[Dosya Gönderildi]';
+            chatMessages.appendChild(userMsg);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            // Add typing indicator
+            const typingMsg = document.createElement('div');
+            typingMsg.className = 'chat-msg bot';
+            typingMsg.innerHTML = '<span class="pulse-dot" style="display:inline-block;"></span> StartAgent yazıyor...';
+            chatMessages.appendChild(typingMsg);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            // Fetch AI Response
+            const answer = await fetchGemini(q);
+            
+            // Replace typing with actual answer
+            typingMsg.innerHTML = '';
+            // Process basic markdown bold to HTML
+            typingMsg.innerHTML = answer.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\\n/g, '<br>');
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Custom time picker selection
+        document.querySelectorAll('.picker-cell').forEach(cell => {
+            cell.addEventListener('click', () => {
+                cell.parentElement.querySelectorAll('.picker-cell').forEach(c => c.classList.remove('active'));
+                cell.classList.add('active');
+            });
+        });
+
+        // ══════════════════════════════════════════
+        // ══════════════════════════════════════════
+        // CINEMATIC CANVAS GATE — Image Sequence
+        // ══════════════════════════════════════════
+        const canvas = document.getElementById('gate-canvas');
+        const ctx    = canvas ? canvas.getContext('2d') : null;
+        const heroSect = document.getElementById('hero');
+
+        const TOTAL_FRAMES = 192;
+        const frames = new Array(TOTAL_FRAMES);
+        let loadedCount = 0;
+        let currentFrameIndex = 0;   // declare BEFORE any function that references it
+        let rafPending = false;
+
+        // Loading screen elements
+        const loadingScreen = document.getElementById('loading-screen');
+        const loadingBar    = document.getElementById('loading-bar');
+        const loadingPct    = document.getElementById('loading-pct');
+
+        // Resize canvas to fill window
+        function resizeCanvas() {
+            if (!canvas) return;
+            const dpr = window.devicePixelRatio || 1;
+            canvas.width  = window.innerWidth * dpr;
+            canvas.height = window.innerHeight * dpr;
+            if (ctx) {
+                ctx.setTransform(1, 0, 0, 1, 0, 0); // Reset transform
+                ctx.scale(dpr, dpr);
+            }
+            if (frames[currentFrameIndex] && frames[currentFrameIndex].complete) {
+                drawFrame(frames[currentFrameIndex]);
+            }
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        // Cover-fit draw
+        function drawFrame(img) {
+            if (!img || !img.complete || !ctx) return;
+            // Use CSS logical pixels
+            var cw = window.innerWidth;
+            var ch = window.innerHeight;
+            var iw = img.naturalWidth, ih = img.naturalHeight;
+            var scale = Math.max(cw / iw, ch / ih) * 1.15; // Adjusted zoom to retain more sharpness
+            var x = (cw - iw * scale) / 2;
+            var y = (ch - ih * scale) / 2;
+            
+            // 4K Ultra Quality settings
+            ctx.imageSmoothingEnabled = true;
+            ctx.imageSmoothingQuality = 'high';
+            // Removed artificial darkening to let the sky look bright and natural
+            ctx.filter = 'brightness(1.0) contrast(1.05) saturate(1.10)'; 
+            
+            ctx.clearRect(0, 0, cw, ch);
+            ctx.drawImage(img, 0, 0, iw, ih, x, y, iw * scale, ih * scale);
+        }
+
+        // Schedule draw via rAF (prevent double-queuing)
+        function scheduleDrawFrame(idx) {
+            if (!rafPending) {
+                rafPending = true;
+                requestAnimationFrame(() => {
+                    rafPending = false;
+                    drawFrame(frames[idx]);
+                });
+            }
+        }
+
+        // Preload all frames; show progress
+        function onFrameLoaded(i) {
+            loadedCount++;
+            const pct = Math.round((loadedCount / TOTAL_FRAMES) * 100);
+            if (loadingBar)  loadingBar.style.width  = pct + '%';
+            if (loadingPct)  loadingPct.textContent  = pct + '%';
+
+            // Draw first frame as soon as it is ready
+            if (i === 0) scheduleDrawFrame(0);
+
+            // Hide loading screen once everything is loaded
+            if (loadedCount === TOTAL_FRAMES && loadingScreen) {
+                loadingScreen.style.opacity = '0';
+                setTimeout(() => { loadingScreen.style.display = 'none'; }, 800);
+            }
+        }
+
+        const cacheBuster = Date.now();
+        for (let i = 0; i < TOTAL_FRAMES; i++) {
+            const img = new Image();
+            img.onload  = (function(idx){ return function(){ frames[idx] = this; onFrameLoaded(idx); }; })(i);
+            img.onerror = function(){ loadedCount++; }; // skip broken frames
+            img.src = 'assets/gate-frames/frame_' + String(i).padStart(3, '0') + '.webp?v=' + cacheBuster;
+            frames[i] = img; // store reference immediately so array slot exists
+        }
+
+        // Scroll scrub
+        function scrubGate() {
+            if (!heroSect || !canvas) return;
+            const scrolled   = window.scrollY - heroSect.offsetTop;
+            const scrollable = heroSect.offsetHeight - window.innerHeight;
+            const p = Math.max(0, Math.min(1, scrolled / scrollable));
+
+            const fi = Math.min(TOTAL_FRAMES - 1, Math.floor(p * TOTAL_FRAMES));
+            if (fi !== currentFrameIndex) {
+                currentFrameIndex = fi;
+                scheduleDrawFrame(fi);
+            }
+
+            // Hero title & scroll hint fade out
+            const titleEl = document.getElementById('hero-title');
+            const hintEl  = document.getElementById('scroller-hint');
+            if (titleEl) {
+                const titleOp = Math.max(0, 1 - p * 5);
+                titleEl.style.opacity = String(titleOp);
+                titleEl.style.visibility = (titleOp > 0) ? 'visible' : 'hidden';
+            }
+            if (hintEl) {
+                const hintOp = Math.max(0, 1 - p * 8);
+                hintEl.style.opacity  = String(hintOp);
+                hintEl.style.visibility = (hintOp > 0) ? 'visible' : 'hidden';
+            }
+
+            // Info cards
+            const w = document.getElementById('slide-welcome');
+            const b = document.getElementById('slide-bridge');
+            if (w) {
+                const wp = Math.max(0, Math.min(1, (p - 0.30) / 0.25));
+                const wq = Math.max(0, Math.min(1, (p - 0.65) / 0.20));
+                const op = wp * (1 - wq);
+                w.style.opacity   = String(op);
+                w.style.transform = 'translateY(' + ((1 - wp) * 40) + 'px)';
+                w.style.visibility = (op > 0.05) ? 'visible' : 'hidden';
+            }
+            if (b) {
+                const bp = Math.max(0, Math.min(1, (p - 0.70) / 0.25));
+                b.style.opacity   = String(bp);
+                b.style.transform = 'translateY(' + ((1 - bp) * 40) + 'px)';
+                b.style.visibility = (bp > 0.05) ? 'visible' : 'hidden';
+            }
+        }
+
+        window.addEventListener('scroll', scrubGate, { passive: true });
+        scrubGate();
+
+    </script>
+    <!-- University Modal -->
+    <div class="univ-modal-overlay" id="univModal" onclick="if(event.target===this) closeUnivModal()">
+        <div class="univ-modal-content">
+            <div class="univ-modal-header">
+                <h2 data-i18n="univ.modal.title">Tüm Partner Üniversitelerimiz</h2>
+                <button class="univ-modal-close" onclick="closeUnivModal()">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div class="univ-modal-body">
+                <div class="univ-grid">
+                    
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/heidelberg.png" alt="Heidelberg University">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span data-i18n="univ.tag.heidelberg">📍 HEIDELBERG</span>
+                                <span data-i18n="univ.rate.heidelberg">Kabul: ~%15</span>
+                            </div>
+                            <h3 data-i18n="univ.title.heidelberg">Heidelberg Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;" data-i18n="univ.desc.heidelberg">1386 kuruluş yılıyla Almanya'nın en eski ve en prestijli üniversitesi. Tıp, eczacılık ve doğa bilimlerinde dünya çapında liderdir.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/tum.png" alt="TU München">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span data-i18n="univ.tag.munich">📍 MÜNİH</span>
+                                <span data-i18n="univ.rate.munich">Kabul: ~%8</span>
+                            </div>
+                            <h3 data-i18n="univ.title.munich">Münih Teknik Üniversitesi (TUM)</h3>
+                            <p style="font-size: 0.92rem;" data-i18n="univ.desc.munich">Avrupa'nın teknoloji üssü. Mühendislik, bilgisayar bilimi ve yapay zekada dünyanın en iyi üniversiteleri arasında yer alır.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/goethe.png" alt="Goethe University">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span data-i18n="univ.tag.frankfurt">📍 FRANKFURT</span>
+                                <span data-i18n="univ.rate.frankfurt">Kabul: ~%20</span>
+                            </div>
+                            <h3 data-i18n="univ.title.frankfurt">Goethe Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;" data-i18n="univ.desc.frankfurt">Frankfurt'un merkezinde ekonomi, finans, sosyal bilimler ve beşeri bilimlerde öncü küresel araştırma üniversitesi.</p>
+                        </div>
+                    </div>
+
+                    <!-- 1. RWTH Aachen -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/rwth.png" alt="RWTH Aachen">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 AACHEN</span>
+                                <span>Kabul: ~%12</span>
+                            </div>
+                            <h3>RWTH Aachen</h3>
+                            <p style="font-size: 0.92rem;">Avrupa'nın önde gelen teknik üniversitelerinden biri. Makine ve otomotiv mühendisliğinde Almanya'nın zirvesi.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2. LMU Munich -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/lmu.png" alt="LMU Munich">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 MÜNİH</span>
+                                <span>Kabul: ~%14</span>
+                            </div>
+                            <h3>LMU Münih</h3>
+                            <p style="font-size: 0.92rem;">Almanya'nın en köklü ve başarılı üniversitelerinden. Beşeri bilimler, tıp ve fen bilimlerinde dünya standartlarında.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3. TU Berlin -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/tuberlin.png" alt="TU Berlin">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 BERLİN</span>
+                                <span>Kabul: ~%18</span>
+                            </div>
+                            <h3>Berlin Teknik Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;">Girişimcilik ve inovasyonun başkentinde, mühendislik ve sürdürülebilirlik konularında lider bir eğitim kurumu.</p>
+                        </div>
+                    </div>
+
+                    <!-- 4. KIT -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/kit.png" alt="KIT">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 KARLSRUHE</span>
+                                <span>Kabul: ~%16</span>
+                            </div>
+                            <h3>Karlsruhe Teknoloji Enstitüsü (KIT)</h3>
+                            <p style="font-size: 0.92rem;">Almanya'nın en büyük araştırma kurumlarından biri. Bilişim ve mühendislik bilimlerinde küresel bir inovasyon merkezi.</p>
+                        </div>
+                    </div>
+
+                    <!-- 5. FU Berlin -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/fuberlin.png" alt="FU Berlin">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 BERLİN</span>
+                                <span>Kabul: ~%20</span>
+                            </div>
+                            <h3>Freie Universität Berlin</h3>
+                            <p style="font-size: 0.92rem;">"Özgür Üniversite", siyaset bilimi, uluslararası ilişkiler ve sosyal bilimlerde Almanya'nın en saygın kurumlarından biridir.</p>
+                        </div>
+                    </div>
+
+                    <!-- 6. Uni Freiburg -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/freiburg.png" alt="Uni Freiburg">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 FREİBURG</span>
+                                <span>Kabul: ~%15</span>
+                            </div>
+                            <h3>Freiburg Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;">1457 kuruluş yılıyla eşsiz bir tarihi miras. Çevre bilimleri, tıp ve hukuk alanlarında Avrupa'nın en iddialı üniversitelerinden.</p>
+                        </div>
+                    </div>
+
+                    <!-- 7. Uni Tübingen -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/tubingen.png" alt="Uni Tübingen">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 TÜBİNGEN</span>
+                                <span>Kabul: ~%12</span>
+                            </div>
+                            <h3>Tübingen Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;">Nobel ödüllü bilim insanlarının yetiştiği, yapay zeka, nörobilim ve teoloji alanlarında Avrupa'nın elit araştırma merkezi.</p>
+                        </div>
+                    </div>
+
+                    <!-- 8. Uni Bonn -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/bonn.png" alt="Uni Bonn">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 BONN</span>
+                                <span>Kabul: ~%18</span>
+                            </div>
+                            <h3>Bonn Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;">Matematik ve ekonomide dünya çapında otorite. Görkemli ana binasıyla Almanya'nın en prestijli eğitim kurumlarından biri.</p>
+                        </div>
+                    </div>
+
+                    <!-- 9. Uni Göttingen -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/gottingen.png" alt="Uni Göttingen">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 GÖTTİNGEN</span>
+                                <span>Kabul: ~%17</span>
+                            </div>
+                            <h3>Göttingen Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;">Tarih boyunca 40'tan fazla Nobel ödüllü isme ev sahipliği yapmış, fen bilimleri ve fizikte efsanevi bir akademik kurum.</p>
+                        </div>
+                    </div>
+
+                    <!-- 10. Uni Stuttgart -->
+                    <div class="glass-card univ-card">
+                        <div class="univ-image-holder">
+                            <img src="assets/stuttgart.png" alt="Uni Stuttgart">
+                        </div>
+                        <div class="univ-info">
+                            <div class="univ-meta">
+                                <span>📍 STUTTGART</span>
+                                <span>Kabul: ~%16</span>
+                            </div>
+                            <h3>Stuttgart Üniversitesi</h3>
+                            <p style="font-size: 0.92rem;">Almanya'nın sanayi ve teknoloji kalbinde yer alan, otomotiv ve uzay mühendisliği alanlarında öncü teknik üniversite.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openUnivModal() {
+            const modal = document.getElementById('univModal');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden'; 
+            
+            // Render lucide icons if there are any new ones
+            if(window.lucide) {
+                window.lucide.createIcons();
+            }
+        }
+
+        function closeUnivModal() {
+            const modal = document.getElementById('univModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
