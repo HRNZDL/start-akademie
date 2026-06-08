@@ -538,9 +538,7 @@
                         trigger: ".scroll-gate-section",
                         start: "top top",
                         end: "bottom bottom",
-                        scrub: 1,
-                        pin: true,
-                        anticipatePin: 1
+                        scrub: 1
                     }
                 });
 
