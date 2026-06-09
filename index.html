@@ -200,7 +200,7 @@
 
     <!-- ══════════════════════════════════════════
          SCROLL PORTAL SECTION (CINEMATIC)
-         ══════════════════════════════════════════ -->
+         ══════════════════════════════════════════    <!-- 1. CINEMATIC GATE SECTION -->
     <section class="portal-container" id="hero">
         <div class="portal-sticky">
             <!-- 1. Scroll-Driven Image Sequence (Canvas) -->
@@ -1656,10 +1656,10 @@
     <script>
         function openUnivModal() {
             const modal = document.getElementById('univModal');
-            modal.classList.add('active');
-            document.body.style.overflow = 'hidden'; 
-            
-            // Render lucide icons if there are any new ones
+            if (modal) {
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden'; 
+            }
             if(window.lucide) {
                 window.lucide.createIcons();
             }
@@ -1667,8 +1667,37 @@
 
         function closeUnivModal() {
             const modal = document.getElementById('univModal');
-            modal.classList.remove('active');
-            document.body.style.overflow = '';
+            if (modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Premium Mobile Experience: Auto-open StartBot
+        window.addEventListener('load', () => {
+            if (window.innerWidth <= 768) {
+                setTimeout(() => {
+                    const botWin = document.getElementById('startbot-win');
+                    if (botWin && !botWin.classList.contains('active')) {
+                        botWin.classList.add('active');
+                    }
+                }, 1000); // Wait 1 second after load
+            }
+        });
+        
+        // StartBot Toggle Fix (since main.js looks for startbot-panel)
+        const sBotBtn = document.getElementById('startbot-btn');
+        const sBotClose = document.getElementById('startbot-close');
+        const sBotWin = document.getElementById('startbot-win');
+        if(sBotBtn && sBotWin) {
+            sBotBtn.addEventListener('click', () => {
+                sBotWin.classList.toggle('active');
+            });
+        }
+        if(sBotClose && sBotWin) {
+            sBotClose.addEventListener('click', () => {
+                sBotWin.classList.remove('active');
+            });
         }
     </script>
 </body>

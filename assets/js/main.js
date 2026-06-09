@@ -529,31 +529,6 @@
             if (btnStartGame) btnStartGame.addEventListener('click', enter3DGameMode);
             if (btnExitGame) btnExitGame.addEventListener('click', exit3DGameMode);
 
-            /* --- HYLIOX-STYLE SCROLL GATE GSAP TIMELINE --- */
-            if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
-                gsap.registerPlugin(ScrollTrigger);
-
-                const gateTl = gsap.timeline({
-                    scrollTrigger: {
-                        trigger: ".scroll-gate-section",
-                        start: "top top",
-                        end: "bottom bottom",
-                        scrub: 1
-                    }
-                });
-
-                // 1. Fade out initial content
-                gateTl.to(".gate-initial-hero", { opacity: 0, y: -80, pointerEvents: "none", ease: "power1.inOut" }, 0.2)
-                      .to(".scroll-indicator-mouse", { opacity: 0, ease: "power1.inOut" }, 0.2);
-
-                // 2. Animate Slide 1 (Welcome) in and out
-                gateTl.to("#slide-welcome", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 0.8)
-                      .to("#slide-welcome", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 2.5);
-
-                // 3. Animate Slide 2 (Bridge) in and out
-                gateTl.to("#slide-bridge", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 2.8)
-                      .to("#slide-bridge", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 4.5);
-            }
 
             /* --- FLOATING AUTOHIDE GLASS NAVBAR --- */
             const navbar = document.getElementById('navbar');
