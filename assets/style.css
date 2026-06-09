@@ -316,11 +316,12 @@
 
         /* Glassmorphic Panels */
         .glass-card {
-            background: var(--surface);
+            background: rgba(14, 16, 21, 0.65); /* Darkened background for readability */
             border: 1px solid var(--border);
             border-radius: 20px;
             padding: 48px;
             backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px); /* Safari support */
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
             transition: var(--transition);
         }
@@ -1761,7 +1762,7 @@
     
     /* Portal Slides (Cinematic Gate) */
     .portal-slide { width: 95% !important; max-width: 100% !important; }
-    .portal-slide .glass-panel { padding: 24px 16px !important; }
+    .portal-slide .glass-card { padding: 24px 16px !important; }
     
     /* StartBot Chat Window */
     .startbot-window { 
