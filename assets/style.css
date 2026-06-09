@@ -699,7 +699,7 @@
            THE 3 PILLARS / BENTO SECTION
            ══════════════════════════════════════════ */
         .section-padding {
-            padding: 140px 0;
+            padding: 90px 0; /* Reduced from 140px to close the huge gaps */
             position: relative;
         }
 
@@ -1797,6 +1797,7 @@
     .univ-grid {
         grid-template-columns: 1fr !important;
     }
+    .section-padding { padding: 50px 0 !important; }
 }
 
 
