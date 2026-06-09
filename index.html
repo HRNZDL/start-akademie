@@ -27,7 +27,7 @@
         /* overflow-x hidden on html/body BREAKS position:sticky — do NOT add it there */
         body { margin: 0; padding: 0; width: 100%; }
     </style>
-    <link rel="stylesheet" href="assets/style.css?v=24">
+    <link rel="stylesheet" href="assets/style.css?v=25">
 
     <!-- JSON-LD SEO / AEO / GEO Optimizasyonu -->
     <script type="application/ld+json">
@@ -1345,7 +1345,7 @@
             var cw = window.innerWidth;
             var ch = window.innerHeight;
             var iw = img.naturalWidth, ih = img.naturalHeight;
-            var scale = Math.max(cw / iw, ch / ih) * 1.15; // Adjusted zoom to retain more sharpness
+            var scale = Math.max(cw / iw, ch / ih) ;
             var x = (cw - iw * scale) / 2;
             var y = (ch - ih * scale) / 2;
             
