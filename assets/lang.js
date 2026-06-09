@@ -92,7 +92,7 @@ const translations = {
         "univ4.desc": "Almanya'nın en büyük araştırma kurumlarından biri. Bilişim ve mühendislik bilimlerinde küresel bir inovasyon merkezi.",
         "univ4.acc": "Kabul: ~%16",
         "univ5.title": "Freie Universität Berlin",
-        "univ5.desc": ""Özgür Üniversite", siyaset bilimi, uluslararası ilişkiler ve sosyal bilimlerde Almanya'nın en saygın kurumlarından biridir.",
+        "univ5.desc": "\"Özgür Üniversite\", siyaset bilimi, uluslararası ilişkiler ve sosyal bilimlerde Almanya'nın en saygın kurumlarından biridir.",
         "univ5.acc": "Kabul: ~%20",
         "univ6.title": "Freiburg Üniversitesi",
         "univ6.desc": "1457 kuruluş yılıyla eşsiz bir tarihi miras. Çevre bilimleri, tıp ve hukuk alanlarında Avrupa'nın en iddialı üniversitelerinden.",
