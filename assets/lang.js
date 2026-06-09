@@ -122,16 +122,26 @@ document.addEventListener('DOMContentLoaded', function() {
     try { savedLang = localStorage.getItem('preferredLang') || 'tr'; } catch(e) {}
     changeLanguage(savedLang);
 
-    var btnContainer = document.querySelector('.lang-switcher');
+    var btnContainer = document.querySelector('.lang-switcher, .lang-switch-row');
     if (btnContainer) {
         btnContainer.addEventListener('click', function(e) {
-            if (e.target.tagName === 'BUTTON' || e.target.closest('button')) {
-                var btn = e.target.tagName === 'BUTTON' ? e.target : e.target.closest('button');
-                var lang = btn.getAttribute('onclick').match(/'([^']+)'/)[1];
-                if (lang) {
-                    changeLanguage(lang);
-                }
+            var target = e.target.closest('[data-lang]');
+            if (target) {
+                var lang = target.getAttribute('data-lang');
+                if (lang) changeLanguage(lang);
             }
         });
     }
+
+    // Also wire up active state on lang buttons
+    document.querySelectorAll('[data-lang]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('[data-lang]').forEach(function(b) {
+                b.style.color = 'var(--text-muted)';
+                b.style.fontWeight = 'normal';
+            });
+            btn.style.color = 'var(--gold)';
+            btn.style.fontWeight = '700';
+        });
+    });
 });
