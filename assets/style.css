@@ -561,8 +561,8 @@
             opacity: 0;
             transform: translateY(40px);
             visibility: hidden;
-            pointer-events: auto; /* Card catches clicks explicitly */
-            transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+            pointer-events: none;
+            /* No transition — JS scrubGate controls opacity directly */
         }
 
         .portal-slide.active {

@@ -24,9 +24,10 @@
 
     <!-- Mobile Cache Fix & Overflow Lock -->
     <style>
-        html, body { overflow-x: hidden !important; max-width: 100vw; width: 100%; margin: 0; padding: 0; }
+        /* overflow-x hidden on html/body BREAKS position:sticky — do NOT add it there */
+        body { margin: 0; padding: 0; width: 100%; }
     </style>
-    <link rel="stylesheet" href="assets/style.css?v=16">
+    <link rel="stylesheet" href="assets/style.css?v=17">
 
     <!-- JSON-LD SEO / AEO / GEO Optimizasyonu -->
     <script type="application/ld+json">
