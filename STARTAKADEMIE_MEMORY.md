@@ -67,3 +67,20 @@ Kullanıcının "Hepsini verince yaparsın" talimatı üzerine sisteme eklenmek 
 ---
 
 *NOT: Bu dosya projenin ana klasöründe yer alır. Yapay Zeka (StartAgent) ileride projeye kaldığı yerden devam ederken bağlamı kaybetmemek için her oturumun başında bu dosyayı okumalıdır.*
+
+
+### F. 9 Haziran 2026 - Premium UI/UX Iyilestirmeleri (Stable Release)
+- **Kapi Scroll Animasyonu D�zeltmesi:** html, body etiketlerinden overflow-x: hidden kaldirilarak iOS ve masa�st�nde position: sticky hatasi giderildi.
+- **Sinematik Kapi (Canvas) Genis A�i:** G�r�nt�y� kirpan %15 (1.15x) yakinlastirma kapatilarak sato kapisinin tam boy/genis a�iyla g�r�nmesi saglandi.
+- **Glassmorphism Optimizasyonu:** Karanlik modda seffaf kutularin arka plani koyulastirildi (gba(14, 16, 21, 0.65)).
+- **A�ilir Men� (Dropdown) Renkleri:** Karanlik modda native select men�lerinin beyaz kalmasi sorunu option etiketine �zel CSS degiskenleri (ar(--bg-deep)) atanarak ��z�ld�.
+- **Tipografi ve Bosluklar (Padding):** Kaba duran 48px ve 64px i� bosluklar 32px ve 40px'e d�s�r�ld�. B�l�mler (section) arasi devasa 140px'lik bosluklar masa�st�nde 90px, mobilde 50px'e d�s�r�lerek site akisi m�kemmellestirildi.
+- **Ana Baslik Kirilimi:** Hero basliginin l�ks bir sinema afisi gibi ortalanmasi i�in �zel <br> etiketi ve CSS line-height: 1.05 ayarlari uygulandi.
+- **Men� Okunabilirligi (Nav Visibility):** Karanlik modda seffaf header altindan parlayan g�ky�z� nedeniyle siliklesen men� butonlari, �zel --nav-text-color degiskeni ve 	ext-shadow eklenerek her arka planda okunabilir hale getirildi.
+
+### C. Çoklu Dil (Multi-Language) Kapsamlı Optimizasyonlar
+- **Ana Başlık Düzeltmesi:** Türkçe dil seçeneğinde kapı girişinde yanlışlıkla Almanca başlık çıkması sorunu giderildi, Türkçe sinematik başlığa uyarlandı.
+- **Bento Grid Çevirileri:** Ana sayfadaki 3 ana hizmet kutusunun içerisindeki toplam 12 alt madde İngilizce ve Almanca olarak lang.js dosyasına tanımlandı ve tam dinamik hale getirildi.
+- **Üniversiteler Çevirisi:** 10 üniversitenin (TUM, LMU, KIT vb.) isim, açıklama ve kabul oranı metinleri İngilizce ve Almanca olarak çevrilerek sisteme eklendi, artık dil değişimine anında yanıt veriyor.
+- **Danışmanlık (Fiyat) Paketleri Çevirisi:** 3 ayrı pakette yer alan toplam 16 farklı hizmet özelliği detaylı şekilde İngilizce ve Almancaya çevrilerek i18n altyapısına bağlandı.
+- **Dil Değiştirici Bug Fix:** lang.js dosyasında hatalı kesme işaretleri (Syntax Error) nedeniyle dil düğmelerinin tıklanmasını engelleyen teknik arıza giderildi.
