@@ -18,7 +18,7 @@ const translations = {
         "welcome.stat1_desc": "Kabul Oranı",
         "welcome.stat2": "VNN",
         "welcome.stat2_desc": "Akredite Kalite",
-        "hero.main_title": "Ihr Bildungsweg <br><em>in Deutschland</em>",
+        "hero.main_title": "Almanya'daki Eğitim <br><em>Yolculuğunuz</em>",
         "hero.seo_desc": "Almanya'da Eğitim, Nachhilfe ve Üniversite Kabul Danışmanlığı Merkezi",
         "hero.scroll": "GİRİŞ İÇİN KAYDIRIN",
         "pillars.tag": "Start Programları",
