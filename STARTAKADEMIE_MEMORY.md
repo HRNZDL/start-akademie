@@ -84,3 +84,6 @@ Kullanıcının "Hepsini verince yaparsın" talimatı üzerine sisteme eklenmek 
 - **Üniversiteler Çevirisi:** 10 üniversitenin (TUM, LMU, KIT vb.) isim, açıklama ve kabul oranı metinleri İngilizce ve Almanca olarak çevrilerek sisteme eklendi, artık dil değişimine anında yanıt veriyor.
 - **Danışmanlık (Fiyat) Paketleri Çevirisi:** 3 ayrı pakette yer alan toplam 16 farklı hizmet özelliği detaylı şekilde İngilizce ve Almancaya çevrilerek i18n altyapısına bağlandı.
 - **Dil Değiştirici Bug Fix:** lang.js dosyasında hatalı kesme işaretleri (Syntax Error) nedeniyle dil düğmelerinin tıklanmasını engelleyen teknik arıza giderildi.
+
+### D. İçerik Düzenlemesi
+- **Yaz Kampları Bölümü Kaldırıldı:** "Yaz Kampları & Yoğunlaştırılmış Kurslar 2026" ve "12. Sınıfa Güçlü Başlangıç" bölümleri kullanıcının isteği üzerine daha sonra diğer sitelere entegre edilmek üzere index.html üzerinden geçici olarak kaldırıldı.
