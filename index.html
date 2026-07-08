@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Start Akademie | Elite-Bildungsportal & Immersives Erlebnis</title>
     <meta name="description" content="Start Akademie - Frankfurt yakınlarında yerleşik elite ders desteği (Nachhilfe), telc Sprachvorbereitung ve Almanya Devlet Üniversiteleri Kabul & Danışmanlık Portalı.">
 
@@ -145,8 +145,10 @@
     </div>
 
     <!-- Ambient glows -->
-    <div class="glow-orb glow-1"></div>
-    <div class="glow-orb glow-2"></div>
+    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -1;">
+        <div class="glow-orb glow-1"></div>
+        <div class="glow-orb glow-2"></div>
+    </div>
 
     <!-- Navigation Header -->
     <header id="main-header">
@@ -189,6 +191,13 @@
 
     <!-- Mobile Menu Drawer -->
     <div class="mobile-drawer" id="mobile-menu-drawer">
+        <div style="display: flex; gap: 16px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); justify-content: center; font-size: 0.9rem; font-weight: 600;">
+            <a href="#" style="color: var(--gold); text-decoration: none;">TR</a>
+            <span style="color: rgba(255,255,255,0.2);">|</span>
+            <a href="#" style="color: var(--text-muted); text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--text-muted)'">EN</a>
+            <span style="color: rgba(255,255,255,0.2);">|</span>
+            <a href="#" style="color: var(--text-muted); text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--text-muted)'">DE</a>
+        </div>
         <a href="#hero" class="nav-link">Home</a>
         <a href="#pillars" class="nav-link">Programlar</a>
         <a href="#universities" class="nav-link">Üniversiteler</a>
@@ -696,23 +705,23 @@
                 <div class="booking-layout">
                     <div class="booking-info-box">
                         <div>
-                            <span class="section-tag">Kurumsal İrtibat</span>
-                            <h2>Başvurunuzu Planlayın</h2>
-                            <p style="margin-top: 16px; line-height: 1.8;">Frankfurt yakınlarındaki eğitim ofisimize veya online randevuya kaydolarak vize & denklik evraklarınızı uzman rehberlerimizle değerlendirin.</p>
+                            <span class="section-tag" data-i18n="contact.tag">Kurumsal İrtibat</span>
+                            <h2 data-i18n="contact.title">Başvurunuzu Planlayın</h2>
+                            <p style="margin-top: 16px; line-height: 1.8;" data-i18n="contact.desc">Frankfurt yakınlarındaki eğitim ofisimize veya online randevuya kaydolarak vize & denklik evraklarınızı uzman rehberlerimizle değerlendirin.</p>
                         </div>
 
                         <div class="contact-item">
                             <div class="contact-icon"><i data-lucide="map-pin"></i></div>
                             <div>
-                                <h4 style="font-size: 0.95rem; font-weight: 500;">Start Akademie UG Merkez Adresi</h4>
-                                <p style="font-size: 0.9rem; margin-top: 4px;">Mainzer Straße 18, 65428 Rüsselsheim am Main</p>
+                                <h4 style="font-size: 0.95rem; font-weight: 500;" data-i18n="contact.address.title">Start Akademie UG Merkez Adresi</h4>
+                                <p style="font-size: 0.9rem; margin-top: 4px;" data-i18n="contact.address.desc">Mainzer Straße 18, 65428 Rüsselsheim am Main</p>
                             </div>
                         </div>
 
                         <div class="contact-item">
                             <div class="contact-icon"><i data-lucide="phone"></i></div>
                             <div>
-                                <h4 style="font-size: 0.95rem; font-weight: 500;">Telefon / WhatsApp İrtibat</h4>
+                                <h4 style="font-size: 0.95rem; font-weight: 500;" data-i18n="contact.phone.title">Telefon / WhatsApp İrtibat</h4>
                                 <p style="font-size: 0.9rem; margin-top: 4px; color: var(--gold-light);">0179 7424790</p>
                             </div>
                         </div>
@@ -720,7 +729,7 @@
                         <div class="contact-item">
                             <div class="contact-icon"><i data-lucide="mail"></i></div>
                             <div>
-                                <h4 style="font-size: 0.95rem; font-weight: 500;">Resmi E-Posta</h4>
+                                <h4 style="font-size: 0.95rem; font-weight: 500;" data-i18n="contact.email.title">Resmi E-Posta</h4>
                                 <p style="font-size: 0.9rem; margin-top: 4px;">info@startakademie.de</p>
                             </div>
                         </div>
@@ -829,16 +838,16 @@
                     <div class="footer-logo">
                         <img src="assets/logo-full-white.png" alt="Start Akademie Logo" style="height: 56px; width: auto;">
                     </div>
-                    <p style="font-size: 0.9rem; margin-bottom: 24px;">Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını artırırken, Türkiye'den gelen adayların Almanya devlet üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 24px;" data-i18n="footer.desc">Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını artırırken, Türkiye'den gelen adayların Almanya devlet üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.</p>
                     <div class="vnn-stamp">
                         <i data-lucide="shield-check" style="width: 16px; height: 16px;"></i> VNN Üyesi Kurum
                     </div>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Hizmetler</h4>
+                    <h4 data-i18n="footer.services">Hizmetler</h4>
                     <ul>
-                        <li><a href="#pillars">Okul Ders Desteği (Nachhilfe)</a></li>
+                        <li><a href="#pillars" data-i18n="footer.s1">Okul Ders Desteği (Nachhilfe)</a></li>
                         <li><a href="#pricing">Üniversite Danışmanlığı</a></li>
                         <li><a href="#pillars">Online Almanca Kursları</a></li>
                         <li><a href="#camp">Yaz Dil Kampları 2026</a></li>
@@ -846,19 +855,19 @@
                 </div>
 
                 <div class="footer-links">
-                    <h4>Kurumsal</h4>
+                    <h4 data-i18n="footer.corporate">Kurumsal</h4>
                     <ul>
-                        <li><a href="#">Genel Müdür: Mevlüt Uysal</a></li>
-                        <li><a href="#">Etüt Merkezi: Mainzer Straße 18</a></li>
+                        <li><a href="#" data-i18n="footer.c1">Genel Müdür: Mevlüt Uysal</a></li>
+                        <li><a href="#" data-i18n="footer.c2">Etüt Merkezi: Mainzer Straße 18</a></li>
                         <li><a href="#">UG Adresi: Mainzer Straße 18</a></li>
                         <li><a href="#">Instagram: @startakademie</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Yasal Bilgiler</h4>
+                    <h4 data-i18n="footer.legal">Yasal Bilgiler</h4>
                     <ul>
-                        <li><a href="#">Impressum</a></li>
+                        <li><a href="#" data-i18n="footer.l1">Impressum</a></li>
                         <li><a href="#">Datenschutzerklärung</a></li>
                         <li><a href="#">Anerkannter Lernförderanbieter</a></li>
                         <li><a href="#">Kreis Groß-Gerau Lisansı</a></li>
@@ -867,14 +876,15 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Start Akademie UG (haftungsbeschränkt). Tüm hakları saklıdır.</p>
+                <span data-i18n="footer.copyright">&copy; 2026 Start Akademie UG. Tüm Hakları Saklıdır.</span>
                 <div style="display: flex; gap: 24px;">
-                    <a href="#">Gizlilik Sözleşmesi</a>
+                    <a href="#" data-i18n="footer.l2">Gizlilik Sözleşmesi</a>
                     <a href="#">Kullanım Koşulları</a>
                 </div>
             </div>
         </div>
     </footer>
+    </div> <!-- End Content Wrapper -->
 
     <!-- Interactive Scripts & Animations -->
     <script>
@@ -1053,13 +1063,12 @@
             }
         }
         
-        // Auto-greet after 6 seconds if not already opened
+        // Auto-greet after 20 seconds on desktop only
         setTimeout(() => {
-            if (!hasGreeted && startbotWin && !startbotWin.classList.contains('active')) {
+            if (window.innerWidth > 768 && !hasGreeted && startbotWin && !startbotWin.classList.contains('active')) {
                 toggleStartbot();
-                // Play a subtle notification sound if possible or just open
             }
-        }, 6000);
+        }, 20000);
 
         const startbotBtn = document.getElementById('startbot-btn');
         if (startbotBtn) startbotBtn.addEventListener('click', toggleStartbot);
@@ -1210,13 +1219,16 @@
         const TOTAL_FRAMES = 192;
         const frames = new Array(TOTAL_FRAMES);
         let loadedCount = 0;
-        let currentFrameIndex = 0;   // declare BEFORE any function that references it
+        let currentFrameIndex = 0;
         let rafPending = false;
 
         // Loading screen elements
         const loadingScreen = document.getElementById('loading-screen');
         const loadingBar    = document.getElementById('loading-bar');
         const loadingPct    = document.getElementById('loading-pct');
+        
+        let lastWinWidth = window.innerWidth;
+        let cachedWinHeight = window.innerHeight;
 
         // Resize canvas to fill window
         function resizeCanvas() {
@@ -1232,7 +1244,13 @@
                 drawFrame(frames[currentFrameIndex]);
             }
         }
-        window.addEventListener('resize', resizeCanvas);
+        window.addEventListener('resize', () => {
+            if (window.innerWidth !== lastWinWidth) {
+                lastWinWidth = window.innerWidth;
+                cachedWinHeight = window.innerHeight;
+                resizeCanvas();
+            }
+        });
         resizeCanvas();
 
         // Cover-fit draw
@@ -1277,8 +1295,8 @@
             // Draw first frame as soon as it is ready
             if (i === 0) scheduleDrawFrame(0);
 
-            // Hide loading screen once the first 5 frames are loaded to speed up the site!
-            if (loadedCount >= 5 && loadingScreen && loadingScreen.style.display !== 'none') {
+            // Hide loading screen once the first 50 frames are loaded to speed up the site!
+            if (loadedCount >= 50 && loadingScreen && loadingScreen.style.display !== 'none') {
                 loadingScreen.style.opacity = '0';
                 setTimeout(() => { loadingScreen.style.display = 'none'; }, 800);
             }
@@ -1297,7 +1315,7 @@
         function scrubGate() {
             if (!heroSect || !canvas) return;
             const scrolled   = window.scrollY - heroSect.offsetTop;
-            const scrollable = heroSect.offsetHeight - window.innerHeight;
+            const scrollable = heroSect.offsetHeight - cachedWinHeight;
             const p = Math.max(0, Math.min(1, scrolled / scrollable));
 
             const fi = Math.min(TOTAL_FRAMES - 1, Math.floor(p * TOTAL_FRAMES));
@@ -1571,18 +1589,7 @@
                 document.body.style.overflow = '';
             }
         }
-
-        // Premium Mobile Experience: Auto-open StartBot
-        window.addEventListener('load', () => {
-            if (window.innerWidth <= 768) {
-                setTimeout(() => {
-                    const botWin = document.getElementById('startbot-win');
-                    if (botWin && !botWin.classList.contains('active')) {
-                        botWin.classList.add('active');
-                    }
-                }, 1000); // Wait 1 second after load
-            }
-        });
+        // Premium Mobile Experience: Auto-open StartBot removed as per user request
         
         // StartBot Toggle Fix (since main.js looks for startbot-panel)
         const sBotBtn = document.getElementById('startbot-btn');
