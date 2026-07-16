@@ -1,0 +1,275 @@
+
+
+=== SECTION id=game-hud-overlay class=['game-hud'] ===
+Canlı 3D Gezgin
+Almanya Kampüs Simülatörü
+CAMPUS COURTYARD
+Serbest Gezinti Modu
+Üniversite geçitlerinde yürüyün. Gerçek görselleri 3D uzayda inceleyin.
+W
+A
+S
+D
+Yön Tuşları
+Gezintiden Çık (ESC)
+
+=== SECTION id=mobile-menu-panel class=['mobile-menu'] ===
+Home
+Akademik Köprü
+Nachhilfe
+Danışmanlık
+Dil Kursları
+Sommercamp
+İletişim
+Ön Görüşme
+
+=== SECTION id=hero class=['scroll-gate-section'] ===
+Premium Eğitim Danışmanlığı
+Akademik Geleceğe
+Geçiş Kapınız
+Start Akademie, Almanya'da lise okuyan öğrencilerimizi okul başarıları için (Nachhilfe) güçlendirirken, küresel vizyona sahip adayların Almanya devlet üniversitelerine kabul ve vize süreçlerini tek elden yönetir.
+Nachhilfe Keşfet
+Kampüsü Keşfet (3D)
+Akademik Köprü
+Almanya Devlet
+Üniversiteleri Portalı
+Seçkin lise ve üniversitelerden gelen öğrencilerimizin diplomalarını inceliyor, denklik analizlerini yapıyor ve sıfır vize kaybı politikasıyla şartlı kabul alıyoruz.
+%98
+Kabul Oranı
+VNN
+Akredite Kalite
+Almanya Devlet Üniversiteleri · Danışmanlık Portalı
+Start
+Akademie
+Almanya'nın prestijli devlet üniversitelerine
+başvuru & kabul süreçleri için kapınız.
+Keşfetmek için kaydırın
+KAYDIRIN
+
+=== SECTION id=portal-slide-1 class=['portal-slide'] ===
+Premium Eğitim Danışmanlığı
+Akademik Geleceğe
+Geçiş Kapınız
+Start Akademie, Almanya'da lise okuyan öğrencilerimizi okul başarıları için (Nachhilfe) güçlendirirken, küresel vizyona sahip adayların Almanya devlet üniversitelerine kabul ve vize süreçlerini tek elden yönetir.
+Nachhilfe Keşfet
+Kampüsü Keşfet (3D)
+
+=== SECTION id=portal-slide-2 class=['portal-slide'] ===
+Akademik Köprü
+Almanya Devlet
+Üniversiteleri Portalı
+Seçkin lise ve üniversitelerden gelen öğrencilerimizin diplomalarını inceliyor, denklik analizlerini yapıyor ve sıfır vize kaybı politikasıyla şartlı kabul alıyoruz.
+%98
+Kabul Oranı
+VNN
+Akredite Kalite
+
+=== SECTION id=universities class=['story-section'] ===
+Partner & Seçkin Üniversiteler
+Almanya'nın En Prestijli Devlet Üniversiteleri
+Start Akademie olarak danışmanlık verdiğimiz adayları, YÖK denkliği olan, harçsız ve dünya sıralamasında en üst basamaklarda yer alan prestijli Alman devlet üniversitelerine yerleştiriyoruz.
+📍 HEIDELBERG
+Kabul Oranı: ~%15
+Heidelberg Üniversitesi
+1386 yılında kurulan, Almanya'nın en eski ve en prestijli üniversitesi. Özellikle Tıp, Eczacılık, Moleküler Biyoloji ve Temel Bilimler alanında dünya lideridir.
+Almanca Hazırlık & Şartlı Kabul
+📍 MÜNİH
+Kabul Oranı: ~%8
+Münih Teknik Üniversitesi (TUM)
+Avrupa'nın teknoloji, mühendislik ve inovasyon üssü. Bilgisayar Bilimleri, Yapay Zeka, Otomotiv ve Mühendislik dallarında dünya devleriyle ortak çalışır.
+Teknoloji & İngilizce Lisans/Yüksek Lisans
+📍 FRANKFURT
+Kabul Oranı: ~%20
+Goethe Üniversitesi Frankfurt
+Finans, Ekonomi, Hukuk ve Sosyal Bilimler merkezi. Frankfurt finans bölgesine yakınlığı ile öğrencilerine dev staj ve kariyer fırsatları sunar.
+Finans & Ekonomi Staj Ort
+
+=== SECTION id=nachhilfe class=['story-section'] ===
+Nachhilfe in Deutschland
+Müfredat Destekli Okul Dersleri
+Bahnhofstraße 22/22a etüt merkezimizde, Gymnasium/Abitur seviyesine kadar, anadili Almanca olan nitelikli eğitmenlerimizle okul derslerinde tam başarı sağlıyoruz.
+Ders Destek Modellerimiz
+01
+Birebir Özel Ders (Einzelunterricht)
+Tamamen çocuğunuzun ihtiyaçlarına odaklanan kişiselleştirilmiş program.
+02
+Ev Ödevi Kulübü (Hausaufgaben-Flat)
+Haftada 4 gün, uzman eğitmenler eşliğinde eksiksiz ödev takipleri.
+6 Adımda Etüt Takip Süreci
+BuT Desteği
+%100 Ücretsiz Eğitim
+Sosyal yardım (Bürgergeld, Wohngeld vb.) alan ailelerin çocukları için ders masraflarını **Jobcenter %100 karşılar.**
+Uygunluk Testi
+Almanya'da sosyal yardım alıyor musunuz? (Wohngeld, Bürgergeld vb.)
+Evet, alıyorum
+Hayır, almıyorum
+Çocuğunuz Rüsselsheim veya Groß-Gerau bölgesindeki bir okula gidiyor mu?
+Evet, gidiyor
+Başka bir yer
+Tebrikler! %100 Ücretsiz Desteğe Uygunsunuz
+Start Akademie, Groß-Gerau bölgesinin resmi BuT ders sağlayıcısıdır. Onaylı başvuru evraklarınızla 
+
+=== SECTION id=but-wizard-container class=['but-wizard'] ===
+Uygunluk Testi
+Almanya'da sosyal yardım alıyor musunuz? (Wohngeld, Bürgergeld vb.)
+Evet, alıyorum
+Hayır, almıyorum
+Çocuğunuz Rüsselsheim veya Groß-Gerau bölgesindeki bir okula gidiyor mu?
+Evet, gidiyor
+Başka bir yer
+Tebrikler! %100 Ücretsiz Desteğe Uygunsunuz
+Start Akademie, Groß-Gerau bölgesinin resmi BuT ders sağlayıcısıdır. Onaylı başvuru evraklarınızla kayıt tamamen ücretsizdir.
+Başvuru Adımları
+Özel Kayıt Avantajı
+Doğrudan devlet desteğiniz olmasa bile, bütçenize en uygun ders paketlerimiz ve ev ödevi kulübü seçeneklerimizle yanınızdayız.
+Özel Paketleri Sorun
+
+=== SECTION id=but-step-1 class=['tester-step', 'active'] ===
+Almanya'da sosyal yardım alıyor musunuz? (Wohngeld, Bürgergeld vb.)
+Evet, alıyorum
+Hayır, almıyorum
+
+=== SECTION id=but-step-2 class=['tester-step'] ===
+Çocuğunuz Rüsselsheim veya Groß-Gerau bölgesindeki bir okula gidiyor mu?
+Evet, gidiyor
+Başka bir yer
+
+=== SECTION id=but-result-success class=['tester-step'] ===
+Tebrikler! %100 Ücretsiz Desteğe Uygunsunuz
+Start Akademie, Groß-Gerau bölgesinin resmi BuT ders sağlayıcısıdır. Onaylı başvuru evraklarınızla kayıt tamamen ücretsizdir.
+Başvuru Adımları
+
+=== SECTION id=but-result-fail class=['tester-step'] ===
+Özel Kayıt Avantajı
+Doğrudan devlet desteğiniz olmasa bile, bütçenize en uygun ders paketlerimiz ve ev ödevi kulübü seçeneklerimizle yanınızdayız.
+Özel Paketleri Sorun
+
+=== SECTION id=beratung class=['story-section'] ===
+Bildungsberatung
+Almanya Resmi Üniversite Kabul Paketlerimiz
+Almanya devlet üniversitelerine, lisans, yüksek lisans ve Ausbildung yerleşimlerine yönelik, uçtan uca kabul ve entegrasyon desteği içeren paketlerimiz.
+START BASIC
+1.900 €
+Temel Başvuru Paketi
+Akademik Uygunluk Analizi
+Bölüm ve Üniversite Seçimi
+3 Üniversiteye Resmi Başvuru
+Temel CV / Motivasyon Desteği
+Vize Mülakat Simülasyonu
+Almanya Konaklama Desteği
+Görüşme Planla
+ÖNERİLEN
+START PLUS
+2.700 €
+Genişletilmiş Danışmanlık
+Akademik Uygunluk Analizi
+Bölüm ve Üniversite Seçimi
+5 Üniversiteye Resmi Başvuru
+Detaylı CV ve Motivasyon Mektubu
+Detaylı Vize Dosyası Hazırlığı
+1 Adet Vize Simülasyonu
+Varış Sonrası 6 Ay Destek
+Görüşme Planla
+START PREMIUM
+3.900 €
+Elit ve Entegrasyon Garantili
+Akademik Uygunluk Analizi
+Bölüm ve Üniversite Seçimi
+8 Üniversiteye Resmi Başvuru
+İleri Düzey CV & Motivasyon Mektubu
+Tam Kapsamlı Vize Süreç Yönetimi
+2 Adet Vize Simülasyonu
+6 Ay Almanya Sonrası Canlı Destek
+Görüşme Planla
+Sperrkonto & Resmi Bütçe H
+
+=== SECTION id=sperrkonto-simulator class=['card'] ===
+Sperrkonto & Resmi Bütçe Hesaplayıcı
+Almanya vizesi almak için açılması yasal olarak zorunlu bloke hesap (Sperrkonto) bütçenizi anında simüle edin.
+Almanya'da Kalınacak Süre:
+12 Ay
+Baden-Württemberg Eyaletinde okuyacağım (Dönemlik 1.500 € harç ekler)
+Bütçe Dağılım Grafiği
+Bloke Hesap
+Eyalet Harcı
+Vize & Resmi Harçlar
+Sperrkonto Gerekli Tutar
+11.904 €
+Aylık Ödenek: 992 €
+Vize Görüşme Harcı:
+75 €
+uni-assist Başvuru Ücreti:
+75 €
+Eyalet Eğitim Harcı:
+3.000 €
+Toplam Tahmini Bütçe:
+12.054 €
+
+=== SECTION id=sprachkurse class=['story-section'] ===
+Sprachkurse & Sommercamp
+Canlı Online Dil Sınıfları & Yaz Kampları
+Almanya şartlı kabul ve lise eğitimi için gereken en temel dil seviyesini (A1-C1) Türkiye'de veya Sommercamp 2026 yoğun hazırlık sınıflarımızda edinin.
+Canlı Online Almanca (A1 - C1)
+Goethe-Institut, telc, DSH ve TestDaF sınavlarına yönelik yoğun akademik dil sınıfları.
+Sınav formatına tam entegre soru çözümleri
+Haftalık özel konuşma (Speaking) kulüpleri
+Sommercamp 2026 (Yaz Kampları)
+Lisenin üst kademesine (Oberstufe) ve Abitur sınavlarına en güçlü hazırlık köprüsü.
+Yüz Yüze Camp:
+Stark in die 12. Klasse
+Canlı Online (1:1):
+Sommerkurs Englisch
+
+=== SECTION id=contact class=['story-section'] ===
+Kurumsal Randevu
+Bizimle Ön Görüşme Planlayın
+Bahnhofstraße 22 etüt merkezimizi ziyaret edebilir, veya randevu sihirbazını kullanarak uzmanlarımızla ön görüşme planlayabilirsiniz.
+Resmi UG Adresi (Görüşmeler)
+Mainzer Straße 18, 65428 Rüsselsheim am Main
+Müşteri İlişkileri & Danışmanlık
+Etüt & Eğitim Merkezi (Dersler)
+Bahnhofstraße 22 / 22a, 65428 Rüsselsheim am Main
+Sınıflar & Etüt Alanı
+Canlı Telefon & WhatsApp Hattı
+0179 7424790
+WhatsApp ile Sorun
+Adınız Soyadınız:
+E-Posta:
+Telefon:
+Hizmet Alanı:
+Okul Ders Desteği (Nachhilfe - Almanya)
+Almanya Üniversite Danışmanlığı
+Online Almanca/İngilizce Dil Kursu
+Görüşme Günü:
+Pzt
+25.05
+Sal
+26.05
+Çar
+27.05
+Per
+28.05
+Uygun Saat:
+09:00
+11:30
+14:00
+16:30
+Randevuyu Planla
+
+=== SECTION id=startbot-panel class=['startbot-window'] ===
+Startbot AI
+Online Destek
+Hallo! Start Akademie Destek Asistanına hoş geldiniz. Almanya'da bloke hesap (Sperrkonto), ücretsiz Jobcenter BuT ders destekleri veya Abitur Sommercamp programlarımız hakkında size nasıl yardımcı olabilirim?
+Bloke Hesap Bütçesi
+Jobcenter BuT Desteği
+Sommercamp 2026
+Danışmanlık Fiyatları
+
+=== SECTION id=startbot-messages-box class=['startbot-messages'] ===
+Hallo! Start Akademie Destek Asistanına hoş geldiniz. Almanya'da bloke hesap (Sperrkonto), ücretsiz Jobcenter BuT ders destekleri veya Abitur Sommercamp programlarımız hakkında size nasıl yardımcı olabilirim?
+
+=== SECTION id=startbot-quick-chips class=['startbot-chips'] ===
+Bloke Hesap Bütçesi
+Jobcenter BuT Desteği
+Sommercamp 2026
+Danışmanlık Fiyatları

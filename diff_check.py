@@ -1,0 +1,1 @@
+print('Diff check script generated')

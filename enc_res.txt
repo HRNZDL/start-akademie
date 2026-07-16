@@ -1,0 +1,3 @@
+sıfır: 1
+scrollö: 0
+forö: 0

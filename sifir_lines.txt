@@ -1,0 +1,25 @@
+Line 215: <link href="httpsıfıraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+Line 235: <script sıfıre.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+Line 445: Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını (Nachhilfe) artırırken, Türkiye'den gelen adayların Almanya devlet Üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.
+Line 769: <li data-i18n="nachhilfe.models.m3_desc"><strong data-i18n="nachhilfe.models.m3">Hausıfıreuung:</strong> Wir unterstützen bei Hausaufgaben und sorgen für mehr Sicherheit.</li>
+Line 1203: <ul clasıfıres">
+Line 1229: <span clasıfıred-badge">En Çok Tercih Edilen</span>
+Line 1241: <ul clasıfıres">
+Line 1277: <ul clasıfıres">
+Line 1957: <div clasıfırm-box">
+Line 1965: <div clasıfırm">
+Line 1967: <div clasıfırow-2">
+Line 1969: <div clasıfıroup">
+Line 1977: <div clasıfıroup">
+Line 1989: <div clasıfırow-2">
+Line 1991: <div clasıfıroup">
+Line 1999: <div clasıfıroup">
+Line 2021: <div clasıfıroup">
+Line 2119: <div clasıfıreview" id="sıfıreview">
+Line 2159: <div clasıfırid">
+Line 2163: <div clasıfır-logo">
+Line 2169: <p style="font-size: 0.9rem; margin-bottom: 24px;">Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını artırırken, Türkiye'den gelen adayların Almanya devlet Üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.</p>
+Line 2181: <div clasıfır-links">
+Line 2201: <div clasıfır-links">
+Line 2221: <div clasıfır-links">
+Line 2243: <div clasıfır-bottom">

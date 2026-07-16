@@ -1,0 +1,174 @@
+[a] Ön Görüşme
+[a] Home
+[a] Programlar
+[a] Üniversiteler
+[a] Danışmanlık
+[a] Denklik Testi
+[a] Sommercamp
+[a] İletişim
+[a] Ön Görüşme
+[li] Grundschule, Mittel- und Oberstufe
+[li] Tüm yaygın okul derslerinde özel destek
+[li] Birebir ve odaklanmış küçük gruplar
+[li] BuT devlet yardımı ile tamamen ücretsiz
+[li] Almanya'da Lisans ve Yüksek Lisans
+[li] Ausbildung (Mesleki Eğitim) yerleşimi
+[li] Akademik uygunluk ve vize dosyası
+[li] Kişisel dosya rehberliği & danışmanlık
+[li] Online Deutschkurse (A1 - C1)
+[li] Online Englischkurse (A1 - C1)
+[li] Nitelikli eğitim kadrosuyla canlı ders
+[li] Türkiye'den esnek saatli katılım modeli
+[span] Kalınacak Süre (Ay)
+[span] 12 Ay
+[span] 0 €
+[span] Finansal Oran Dağılımı
+[span] Resmi Bloke Hesap
+[span] İşlem Ücreti
+[span] Toplam Gerekli Bütçe
+[span] Aylık Bloke Ödeme:
+[strong] 992 € / Ay
+[span] Toplam Bloke Tutar:
+[strong] 11.904 €
+[span] Kurulum ve İşlem Harcı:
+[strong] 99 €
+[button] Tüm Üniversiteleri Keşfet
+[h3] START BASIC
+[p] Temel Başvuru Paketi
+[li] Akademik Uygunluk Analizi
+[li] Bölüm ve Üniversite Seçimi
+[li] 3 Üniversiteye Kadar Başvuru
+[li] Temel Motivasyon Mektubu Desteği
+[li] Vize Görüşmesi Simülasyonu
+[li] Almanya Sonrası Destek
+[span] En Çok Tercih Edilen
+[h3] START PLUS
+[p] Kapsamlı Başvuru & Kabul
+[li] Akademik Uygunluk Analizi
+[li] 5 Üniversiteye Kadar Başvuru
+[li] Detaylı Motivasyon & CV Tasarımı
+[li] Detaylı Vize Evrak Dosyası Hazırlığı
+[li] 1 Adet Vize Randevu Simülasyonu
+[li] Almanya Sonrası 3 Ay Destek
+[h3] START PREMIUM
+[p] Vize & Varış Garantili VIP
+[li] Akademik Uygunluk Analizi
+[li] 8 Üniversiteye Kadar Başvuru
+[li] Genişletilmiş CV & Motivasyon Yazımı
+[li] 2 Adet Birebir Vize Simülasyonu
+[li] Detaylı Konaklama & Yurt Yönlendirmesi
+[li] Almanya Sonrası 6 Ay Destek
+[li] Matematik (Lise İleri Düzey)
+[li] Almanca: Analiz & Yazma Eğitimi
+[li] İngilizce: Makale & Metin Analizi
+[li] Sınav Eğitimi & Öğrenme Stratejileri
+[li] Gramer & Yazım:Zamanlar, Edilgen Çatı, Deneme Yazımı.
+[li] Metin Analizi & Edebiyat:Kısa hikaye yorumlama.
+[li] Kültür & Medya:Birleşik Krallık/ABD siyasetini anlama.
+[li] Argümantasyon:Fikirleri temellendirme.
+[li] Metin Analizi:Karmaşık metinler, Shakespeare.
+[li] Akademik Yazım:Yorumlama, Tartışma.
+[li] Medya & Politika:Küresel sorunları değerlendirme.
+[li] Mediasyon:İçerikleri akıcı aktarma.
+[li] Söylem Analizi:Retorik analiz.
+[li] Abitur Writing:Yapı & Kesinlik.
+[li] Toplum:Demokrasiyi eleştirel analiz etme.
+[li] Argümantasyon:Karşı argümanları entegre etme.
+[h3] Almanya'da üniversite tamamen ücretsiz mi?
+[h3] YKS olmadan başvuru yapılabilir mi?
+[h3] Almanca bilmeden başvuru mümkün mü?
+[h3] Öğrenciler Almanya'da çalışabilir mi?
+[h3] Start Akademie kabul veya vize garantisi verir mi?
+[span] Kurumsal İrtibat
+[h2] Başvurunuzu Planlayın
+[p] Frankfurt yakınlarındaki eğitim ofisimize veya online randevuya kaydolarak vize & denklik evraklarınızı uzman rehberlerimizle değerlendirin.
+[h4] Start Akademie UG Merkez Adresi
+[p] Mainzer Straße 18, 65428 Rüsselsheim am Main
+[h4] Telefon / WhatsApp İrtibat
+[p] 0179 7424790
+[h4] Resmi E-Posta
+[p] info@startakademie.de
+[h3] Kişiselleştirilmiş Randevu Alın
+[p] Lütfen bilgilerinizi eksiksiz doldurun. Eğitim danışmanlarımız 24 saat içinde size dönüş yapacaktır.
+[label] Adınız Soyadınız
+[label] Telefon / WhatsApp
+[label] E-Posta Adresiniz
+[label] Hizmet Alanı
+[label] Görüşme Tarihi
+[button] Görüşme Talebi Gönder
+[h4] StartAgent
+[p] Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını artırırken, Türkiye'den gelen adayların Almanya devlet üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.
+[h4] Hizmetler
+[li] Okul Ders Desteği (Nachhilfe)
+[a] Okul Ders Desteği (Nachhilfe)
+[li] Üniversite Danışmanlığı
+[a] Üniversite Danışmanlığı
+[li] Online Almanca Kursları
+[a] Online Almanca Kursları
+[li] Yaz Dil Kampları 2026
+[a] Yaz Dil Kampları 2026
+[h4] Kurumsal
+[li] Genel Müdür: Mevlüt Uysal
+[a] Genel Müdür: Mevlüt Uysal
+[li] Etüt Merkezi: Mainzer Straße 18
+[a] Etüt Merkezi: Mainzer Straße 18
+[li] UG Adresi: Mainzer Straße 18
+[a] UG Adresi: Mainzer Straße 18
+[li] Instagram: @startakademie
+[a] Instagram: @startakademie
+[h4] Yasal Bilgiler
+[li] Impressum
+[a] Impressum
+[li] Datenschutzerklärung
+[a] Datenschutzerklärung
+[li] Anerkannter Lernförderanbieter
+[a] Anerkannter Lernförderanbieter
+[li] Kreis Groß-Gerau Lisansı
+[a] Kreis Groß-Gerau Lisansı
+[p] © 2026 Start Akademie UG (haftungsbeschränkt). Tüm hakları saklıdır.
+[a] Gizlilik Sözleşmesi
+[a] Kullanım Koşulları
+[span] 📍 AACHEN
+[span] Kabul: ~%12
+[h3] RWTH Aachen
+[p] Avrupa'nın önde gelen teknik üniversitelerinden biri. Makine ve otomotiv mühendisliğinde Almanya'nın zirvesi.
+[span] 📍 MÜNİH
+[span] Kabul: ~%14
+[h3] LMU Münih
+[p] Almanya'nın en köklü ve başarılı üniversitelerinden. Beşeri bilimler, tıp ve fen bilimlerinde dünya standartlarında.
+[span] 📍 BERLİN
+[span] Kabul: ~%18
+[h3] Berlin Teknik Üniversitesi
+[p] Girişimcilik ve inovasyonun başkentinde, mühendislik ve sürdürülebilirlik konularında lider bir eğitim kurumu.
+[span] 📍 KARLSRUHE
+[span] Kabul: ~%16
+[h3] Karlsruhe Teknoloji Enstitüsü (KIT)
+[p] Almanya'nın en büyük araştırma kurumlarından biri. Bilişim ve mühendislik bilimlerinde küresel bir inovasyon merkezi.
+[span] 📍 BERLİN
+[span] Kabul: ~%20
+[h3] Freie Universität Berlin
+[p] "Özgür Üniversite", siyaset bilimi, uluslararası ilişkiler ve sosyal bilimlerde Almanya'nın en saygın kurumlarından biridir.
+[span] 📍 FREİBURG
+[span] Kabul: ~%15
+[h3] Freiburg Üniversitesi
+[p] 1457 kuruluş yılıyla eşsiz bir tarihi miras. Çevre bilimleri, tıp ve hukuk alanlarında Avrupa'nın en iddialı üniversitelerinden.
+[span] 📍 TÜBİNGEN
+[span] Kabul: ~%12
+[h3] Tübingen Üniversitesi
+[p] Nobel ödüllü bilim insanlarının yetiştiği, yapay zeka, nörobilim ve teoloji alanlarında Avrupa'nın elit araştırma merkezi.
+[span] 📍 BONN
+[span] Kabul: ~%18
+[h3] Bonn Üniversitesi
+[p] Matematik ve ekonomide dünya çapında otorite. Görkemli ana binasıyla Almanya'nın en prestijli eğitim kurumlarından biri.
+[span] 📍 GÖTTİNGEN
+[span] Kabul: ~%17
+[h3] Göttingen Üniversitesi
+[p] Tarih boyunca 40'tan fazla Nobel ödüllü isme ev sahipliği yapmış, fen bilimleri ve fizikte efsanevi bir akademik kurum.
+[span] 📍 STUTTGART
+[span] Kabul: ~%16
+[h3] Stuttgart Üniversitesi
+[p] Almanya'nın sanayi ve teknoloji kalbinde yer alan, otomotiv ve uzay mühendisliği alanlarında öncü teknik üniversite.
+[input (placeholder)] Adınız Soyadınız
+[input (placeholder)] 05XX XXX XX XX
+[input (placeholder)] mail@example.com
+[input (placeholder)] Sorunuzu buraya yazın...

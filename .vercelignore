@@ -1,0 +1,13 @@
+*.zip
+*.py
+*.txt
+*.json
+*.md
+scratch/
+.*
+!.vercel
+*.backup.html
+index_*.html
+test*.html
+logo-concepts.html
+sprite-test.html

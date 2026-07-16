@@ -17,7 +17,9 @@ function toggleTheme() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('start_theme');
+    // Force light theme by default for the new corporate identity
+    const savedTheme = localStorage.getItem('start_theme') || 'light';
+    
     if (savedTheme === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
         const icon = document.getElementById('theme-icon');
@@ -25,6 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
             icon.setAttribute('data-lucide', 'moon');
         }
     } else {
-        document.documentElement.setAttribute('data-theme', 'dark'); // Force dark by default
+        document.documentElement.setAttribute('data-theme', 'dark');
+        const icon = document.getElementById('theme-icon');
+        if (icon) {
+            icon.setAttribute('data-lucide', 'sun');
+        }
     }
 });

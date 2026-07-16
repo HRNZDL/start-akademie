@@ -1,0 +1,24 @@
+{
+  "name": "start-akademie",
+  "version": "1.0.0",
+  "description": "Harun Bey, bu klasör **Start Akademie** projesi için tamamen sıfırdan ve bağımsız bir şekilde oluşturulmuş yerel çalışma alanınızdır.",
+  "main": "extract-frames.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRNZDL/start-akademie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRNZDL/start-akademie/issues"
+  },
+  "homepage": "https://github.com/HRNZDL/start-akademie#readme",
+  "dependencies": {
+    "image-size": "^2.0.2",
+    "puppeteer": "^25.3.0"
+  }
+}

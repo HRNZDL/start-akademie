@@ -216,6 +216,13 @@ const translations = {
         "footer.copyright": "© 2026 Start Akademie UG. Tüm Hakları Saklıdır."
     },
     "en": {
+        "nav.university": "University",
+        "nav.languages": "Language Courses",
+        "nav.ausbildung": "Ausbildung",
+        "nav.recognition": "Equivalence",
+        "nav.exchange": "Exchange & Summer",
+        "nav.accommodation": "Accommodation",
+        "nav.about": "About Us",
         "nav.home": "Home",
         "nav.programs": "Programs",
         "nav.universities": "Universities",
@@ -437,6 +444,13 @@ const translations = {
         "footer.copyright": "© 2026 Start Akademie UG. All Rights Reserved."
     },
     "de": {
+        "nav.university": "Universität",
+        "nav.languages": "Sprachkurse",
+        "nav.ausbildung": "Ausbildung",
+        "nav.recognition": "Anerkennung",
+        "nav.exchange": "Austausch & Sommer",
+        "nav.accommodation": "Unterkunft",
+        "nav.about": "Über uns",
         "nav.home": "Startseite",
         "nav.programs": "Programme",
         "nav.universities": "Universitäten",

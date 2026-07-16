@@ -1,0 +1,242 @@
+# START AKADEMIE
+## [www.startakademie.com](http://www.startakademie.com) Web Sitesi Yenileme ve İçerik Güncelleme Brifingi
+## 1. Üç internet sitesinin görev dağılımı
+### [www.startakademie.de](http://www.startakademie.de)
+### [www.startakademie.com](http://www.startakademie.com)
+### [www.startakademie.online](http://www.startakademie.online)
+## 2. Kurumsal yazım standardı
+# 3. Mevcut ana menünün değiştirilmesi
+> Ana Sayfa | Programlar | Üniversiteler | Danışmanlık | Denklik Testi | Yaz Kampı | İletişim
+> *Ana Sayfa | Üniversite | Dil Kursları | Ausbildung | Denklik | Değişim ve Yaz Programları | Konaklama | Hakkımızda | İletişim*
+Online Dil Kursları ve Nachhilfe, ana sayfadaki yönlendirme kartları üzerinden kendi sitelerine gönderilecektir.
+# 4. Üst bilgi alanı
+Masaüstü görünümünde sayfanın üst kısmında sade bir iletişim çubuğu bulunabilir:
+# 5. Ücretsiz görüşme ve ücretli analiz ayrımı
+## Ücretsiz Tanışma Görüşmesi
+## Ayrıntılı Dosya Analizi ve Yol Haritası
+# 6. Hero alanının tamamen yeniden yazılması
+## Yeni hero başlığı
+## Yeni alt metin
+## Ana buton
+## İkinci buton
+## Hero alanında gösterilecek üç güven unsuru
+## Hero alanından kesinlikle kaldırılacak ifadeler
+# 7. Hero görseli ve tasarım dili
+## Görsel yaklaşım
+## Ana renkler
+## Hizmet vurgu renkleri
+# 8. Mevcut “Üç Eğitim Kanadı” bölümünün korunup yeniden yazılması
+## Kart 1 — Nachhilfe
+## Kart 2 — Eğitim ve Kariyer
+Aynı sayfadaki ana hizmetler alanına kaydırma.
+## Kart 3 — Online Dil Kursları
+## Kullanılmayacak kart başlıkları
+# 9. Ana sayfaya altı ana hizmet kartı eklenmesi
+## 1. Üniversite
+## 2. Dil Kursları
+## 3. Ausbildung
+## 4. Denklik
+## 5. Değişim ve Yaz Programları
+## 6. Konaklama
+# 10. Mevcut bloke hesap hesaplayıcısının kaldırılması
+Mevcut ana sayfada “Sperrkonto Finansal Planlayıcı” başlıklı büyük bir bloke hesap hesaplayıcısı bulunmaktadır. Hesaplayıcı sabit aylık ve toplam tutarlar göstermektedir. ([Start Akademie][1])
+Bu bölüm ana sayfadan tamamen kaldırılacaktır.
+## Kaldırılma nedenleri
+* Ana sayfadaki hizmet odağını dağıtmaktadır.
+Vize sayfasında yalnızca şu kısa madde bulunabilir:
+Ayrı “Finansal Güvence” sayfası veya kartı hazırlanmayacaktır.
+# 11. Mevcut üniversite kartları bölümünün değiştirilmesi
+## Kesinlikle kaldırılacaklar
+## Bölümün yeni başlığı
+## Yeni kartlar
+### Akademik uygunluk
+### Program uyumu
+### Şehir ve bütçe
+### Başvuru yöntemi
+# 12. “Size Uygun Yol Hangisi?” bölümü eklenmesi
+Ana sayfaya ziyaretçinin kendi durumunu seçebileceği yönlendirme alanı eklenecektir.
+## Başlık
+## Seçenekler
+Her seçim ilgili hizmet sayfasına veya ön değerlendirme formuna yönlendirilmelidir.
+# 13. Mevcut Denklik Testinin yeniden adlandırılması
+## Yeni adı
+## Sorular
+## Sonuç metni
+## Kullanılmayacak ifadeler
+# 14. “İlk görüşmeden Almanya’daki ilk günlere kadar” süreç bölümü
+Ana sayfada beş aşamalı görsel süreç alanı bulunacaktır.
+## Başlık
+## 1. Ön değerlendirme
+## 2. Kişisel yol haritası
+## 3. Başvuru ve takip
+## 4. Dijital vize süreci
+## 5. Almanya’daki ilk adımlar
+# 15. Üniversite sayfası
+## Sayfa başlığı
+## Giriş metni
+## Bölümler
+### Lisans başvuruları
+### Yüksek lisans başvuruları
+### Studienkolleg
+### Üniversite ve bölüm seçimi
+### Başvuru yöntemleri
+### Şartlı kabul ve dil süreci
+### Dijital öğrenci vizesi başvuru desteği
+## Kullanılmayacak ifade
+# 16. Dil Kursları sayfası
+## Sayfa başlığı
+## Giriş metni
+## Bölümler
+### Üniversiteye bağlı dil kursları
+### DSH ve studienvorbereitender Deutschkurs
+### Özel dil okulları
+### Kurs seçimi ve başvuru
+### Dil kursu vizesi başvuru desteği
+## Bilgi kutusu
+# 17. Ausbildung sayfası
+## Sayfa başlığı
+## Giriş metni
+## Bölümler
+### Uygunluk değerlendirmesi
+### Meslek alanı seçimi
+### Almanca başvuru dosyası
+### İşletme ve okul başvuruları
+### Mülakat hazırlığı
+### Ausbildung vizesi başvuru desteği
+## Uyarı
+# 18. Denklik sayfası
+## Sayfa başlığı
+## Giriş metni
+## Ana gruplar
+### Okul ve akademik diplomalar
+### Mesleki denklik
+### Mesleğe özel denklik
+## Ortak hizmet süreci
+## Uyarı
+# 19. Değişim ve Yaz Programları sayfası
+## Sayfa başlığı
+## Erasmus öğrenim hareketliliği
+## Erasmus staj hareketliliği
+## Almanya’da staj
+## Üniversite öğrencileri için yaz dönemi çalışma
+## Genel uyarı
+# 20. Konaklama sayfası
+## Sayfa başlığı
+## Öğrenci konaklama projesi
+## Bölge ve ulaşım avantajları
+## Almanya’ya Varış ve İlk Yerleşim Desteği
+# 21. Dijital vize başvuru desteğinin siteye yerleştirilmesi
+Aşağıdaki üç hizmet sayfasında görünür olacaktır:
+Üç bağlantı aynı ortak bilgi sayfasına veya ortak içerik modülüne yönlendirilebilir.
+## Ortak açıklama
+## Hizmet kapsamı
+## Zorunlu uyarı
+## Kaldırılacak vize ifadeleri
+# 22. Mevcut üniversite paketleri bölümünün değiştirilmesi
+## Yeni bölüm başlığı
+## Uygulama kuralı
+## Buton
+# 23. Mevcut ek hizmetler bölümünün değiştirilmesi
+## Yeni başlık
+# 24. Hakkımızda sayfası
+## Sayfa başlığı
+## Ana metin
+## Vurgular
+## Kullanılmayacak iddialar
+# 25. Danışman profilleri
+Ana sayfada kısa profil kartları; Hakkımızda sayfasında daha ayrıntılı ekip profilleri hazırlanmalıdır.
+# 26. Vaka örnekleri bölümü
+Ana sayfada veya ayrı bir “Danışan Dosyalarından Örnekler” sayfasında, kişisel bilgiler gizlenerek gerçek süreç örnekleri gösterilebilir.
+# 27. Hizmet durumu etiketleri
+# 28. İki ayrı form hazırlanması
+## Form 1 — Kısa Tanışma Görüşmesi Formu
+* Datenschutz onayı
+## Form 2 — Ayrıntılı Ön Değerlendirme Formu
+### Kişisel bilgiler
+### Eğitim bilgileri
+### Dil bilgileri
+### Hedef
+### Dosya yükleme
+### Onay
+* Datenschutz
+# 29. Mevcut chatbotun yeniden yapılandırılması
+## Yeni başlangıç mesajı
+## Chatbotun kapsayacağı konular
+## Nachhilfe sorusu geldiğinde
+## Online kurs sorusu geldiğinde
+# 30. Sık Sorulan Sorular bölümünün yeniden düzenlenmesi
+## Üniversite
+## Dil Kursları
+## Ausbildung
+## Denklik
+## Vize
+## Konaklama ve İlk Yerleşim
+# 31. Broşür indirme alanı
+Ana sayfada veya “Rehberler ve Broşürler” bölümünde iki onaylanmış PDF gösterilecektir:
+# 32. İletişim sayfası
+## Gösterilecek bilgiler
+## QR kod
+QR kodun her sayfada kullanılmasına gerek yoktur.
+# 33. Footer’ın tamamen yeniden düzenlenmesi
+## Sütun 1 — Start Akademie
+## Sütun 2 — Hizmetler
+## Sütun 3 — Diğer Sitelerimiz
+## Sütun 4 — Bilgilendirme
+## Sütun 5 — Kurumsal
+* Impressum
+* Datenschutz
+## Sütun 6 — İletişim
+## Footer alt satırı
+* Impressum
+* Datenschutz
+# 34. Ana sayfanın nihai sıralaması
+Ana sayfa aşağıdaki sırada kurulacaktır:
+# 35. “Neden Start Akademie?” bölümü
+## Başlık
+## İçerik
+# 36. Ana çağrı butonları
+## Ana CTA
+## İkinci CTA
+## Diğer CTA’lar
+Aynı sayfada çok sayıda farklı CTA metni kullanılmamalıdır.
+# 37. Eski URL’lerin korunması ve 301 yönlendirmeleri
+Adı değişen veya kaldırılan sayfalar en yakın yeni sayfaya *301 yönlendirmesiyle* bağlanmalıdır.
+* Eski Üniversiteler → Üniversite sayfası
+* Eski Danışmanlık → ana hizmetler veya Üniversite sayfası
+* Eski Yaz Kampı → Değişim ve Yaz Programları veya kaldırılmış bilgi sayfası
+Kırık link, 404 sayfası veya Google’da boş sonuç oluşturulmamalıdır.
+Özel bir 404 sayfası da hazırlanmalıdır:
+> Aradığınız sayfa taşınmış veya güncellenmiş olabilir.
+* Ana Sayfaya Dön
+# 38. SEO gereklilikleri
+Her sayfa için ayrı:
+## Örnek sayfa başlıkları
+# 39. Mobil tasarım gereklilikleri
+* Görseller sayfayı yavaşlatmamalı
+# 40. Teknik altyapı
+* Impressum
+* Datenschutz
+# 41. Yayına geçmeden önce zorunlu testler
+## Görsel testler
+## Tarayıcı testleri
+## İşlev testleri
+* 404 sayfası
+## İçerik testleri
+# 42. Kesinlikle kaldırılacak eski içeriklerin toplu listesi
+* Bloke hesap hesaplayıcısının ana sayfadaki büyük bölümü
+# 43. Korunabilecek mevcut unsurlar
+* Impressum ve Datenschutz sayfaları
+# 44. Tasarımcıdan teslim alınacak dosya ve erişimler
+# 45. Nihai proje tanımı
+> .com sitesinin altı ana hizmeti Üniversite, Dil Kursları, Ausbildung, Denklik, Değişim ve Yaz Programları ve Konaklama olacaktır. Dijital vize desteği Üniversite, Dil Kursları ve Ausbildung sayfalarının içinde; Almanya’ya Varış ve İlk Yerleşim Desteği ise Konaklama sayfasının içinde sunulacaktır.
+# User Requests
+1. ama sayfa bozuldu bak böyle oldu 
+# START AKADEMIE
+## [www.startakademie.com](http://www.startakademie.com) Web Sitesi Yenileme ve İçerik Güncelleme Brifingi
+# Previous Session Summary:
+### 1. Outstanding User Requests
+### 2. User Knowledge
+### 3. Work Accomplished
+### 4. Model Knowledge
+### 5. Files and Code
+### 6. Current Work and Next Steps

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Hakkımızda – Start Akademie | Start Akademie</title>
+    <meta name="description" content="Start Akademie hakkında: kuruluş hikayesi, ekip, misyon ve Almanya eğitim danışmanlığı vizyonu.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Scripts -->
+    <script src="assets/lang.js?v=21"></script>
+    <script src="assets/theme.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <style>body { margin: 0; padding: 0; width: 100%; }</style>
+    <link rel="stylesheet" href="assets/style.css?v=36">
+
+    <style>
+      /* ── Subpage Hero Banner ── */
+      .page-hero {
+        background: linear-gradient(135deg, var(--navy) 0%, #0a1628 60%, #0d1b2a 100%);
+        padding: 140px 0 80px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .page-hero::before {
+        content: '';
+        position: absolute; inset: 0;
+        background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0,80,158,0.25) 0%, transparent 70%);
+      }
+      .page-hero h1 {
+        font-family: var(--font-serif);
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        color: var(--text);
+        margin-bottom: 16px;
+        position: relative;
+      }
+      .page-hero h1 em { color: var(--gold); font-style: normal; }
+      .page-hero p.hero-sub {
+        font-size: 1.1rem;
+        color: var(--text-muted);
+        max-width: 620px;
+        margin: 0 auto 32px;
+        position: relative;
+        line-height: 1.7;
+      }
+      .badge-prep {
+        display: inline-block;
+        background: rgba(255,193,7,0.12);
+        border: 1px solid var(--gold);
+        color: var(--gold);
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 5px 12px;
+        border-radius: 999px;
+        margin-bottom: 16px;
+      }
+      /* ── Content sections ── */
+      .content-section { padding: 80px 0; }
+      .content-section.alt { background: var(--surface); }
+      .content-section h2 {
+        font-family: var(--font-serif);
+        font-size: clamp(1.6rem, 3vw, 2.4rem);
+        margin-bottom: 16px;
+        color: var(--text);
+      }
+      .content-section h2 em { color: var(--gold); font-style: normal; }
+      .lead-text {
+        font-size: 1.05rem;
+        color: var(--text-muted);
+        line-height: 1.8;
+        max-width: 720px;
+        margin-bottom: 40px;
+      }
+      /* ── Feature grid ── */
+      .feat-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+      }
+      .feat-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        padding: 28px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .feat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+      }
+      .feat-card .icon-wrap {
+        width: 48px; height: 48px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, var(--blue) 0%, var(--navy) 100%);
+        display: flex; align-items: center; justify-content: center;
+        margin-bottom: 16px;
+        color: #fff;
+      }
+      .feat-card h3 { font-size: 1rem; margin-bottom: 8px; color: var(--text); }
+      .feat-card p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0; }
+      /* ── Step list ── */
+      .step-list { list-style: none; padding: 0; margin: 0; }
+      .step-list li {
+        display: flex; gap: 20px; align-items: flex-start;
+        padding: 20px 0;
+        border-bottom: 1px solid var(--glass-border);
+      }
+      .step-list li:last-child { border-bottom: none; }
+      .step-num {
+        min-width: 40px; height: 40px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+        display: flex; align-items: center; justify-content: center;
+        font-weight: 700; font-size: 0.9rem; color: var(--navy);
+      }
+      .step-content h4 { margin: 0 0 4px; font-size: 1rem; color: var(--text); }
+      .step-content p { margin: 0; font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; }
+      /* ── CTA Banner ── */
+      .cta-banner {
+        background: linear-gradient(135deg, var(--blue) 0%, var(--navy) 100%);
+        border-radius: 24px;
+        padding: 60px 40px;
+        text-align: center;
+        margin: 60px 0;
+      }
+      .cta-banner h2 { font-family: var(--font-serif); font-size: clamp(1.6rem,3vw,2.2rem); color: #fff; margin-bottom: 12px; }
+      .cta-banner p { color: rgba(255,255,255,0.75); margin-bottom: 32px; font-size: 1rem; }
+      /* ── FAQ accordion ── */
+      .faq-item {
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        margin-bottom: 12px;
+        overflow: hidden;
+      }
+      .faq-q {
+        width: 100%; text-align: left; background: var(--glass-bg);
+        border: none; padding: 18px 24px; cursor: pointer;
+        font-size: 0.95rem; font-weight: 600; color: var(--text);
+        display: flex; justify-content: space-between; align-items: center;
+        gap: 12px;
+      }
+      .faq-q:hover { background: rgba(0,80,158,0.08); }
+      .faq-a {
+        max-height: 0; overflow: hidden;
+        transition: max-height 0.4s ease, padding 0.4s ease;
+        font-size: 0.9rem; color: var(--text-muted); line-height: 1.7;
+        padding: 0 24px;
+      }
+      .faq-item.open .faq-a { max-height: 300px; padding: 0 24px 20px; }
+      .faq-item.open .faq-chevron { transform: rotate(180deg); }
+      .faq-chevron { transition: transform 0.3s; flex-shrink: 0; }
+      /* ── Contact form ── */
+      .form-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 20px;
+        padding: 40px;
+      }
+      .form-card h3 { font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 8px; color: var(--text); }
+      .form-card p.form-sub { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 28px; }
+      .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
+      .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+      .form-group label { font-size: 0.82rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+      .form-group input, .form-group select, .form-group textarea {
+        background: var(--surface); border: 1px solid var(--glass-border);
+        border-radius: 10px; padding: 12px 16px;
+        font-size: 0.95rem; color: var(--text); font-family: var(--font-sans);
+        transition: border-color 0.3s, box-shadow 0.3s;
+        outline: none; width: 100%; box-sizing: border-box;
+      }
+      .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+        border-color: var(--gold); box-shadow: 0 0 0 3px rgba(212,175,55,0.15);
+      }
+      .form-group textarea { resize: vertical; min-height: 100px; }
+      /* ── Info table ── */
+      .info-table { width: 100%; border-collapse: collapse; }
+      .info-table tr { border-bottom: 1px solid var(--glass-border); }
+      .info-table th, .info-table td { padding: 14px 20px; text-align: left; font-size: 0.9rem; }
+      .info-table th { color: var(--text-muted); font-weight: 600; width: 200px; }
+      .info-table td { color: var(--text); }
+    </style>
+</head>
+<body>
+
+    <!-- Ambient glows -->
+    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -1;">
+        <div class="glow-orb glow-1"></div>
+        <div class="glow-orb glow-2"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
+                <img src="assets/logo-full-white.png" alt="Start Akademie Logo" class="nav-brand-img nav-logo-dark" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;">
+                <img src="assets/logo-full-dark.png" alt="Start Akademie Logo" class="nav-brand-img nav-logo-light" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;">
+            </a>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link" data-i18n="nav.home">Ana Sayfa</a>
+                <a href="uni.html" class="nav-link " data-i18n="nav.university">Üniversite</a>
+                <a href="dil.html" class="nav-link " data-i18n="nav.languages">Dil Kursları</a>
+                <a href="ausbildung.html" class="nav-link " data-i18n="nav.ausbildung">Ausbildung</a>
+                <a href="denklik.html" class="nav-link " data-i18n="nav.recognition">Denklik</a>
+                <a href="degisim.html" class="nav-link " data-i18n="nav.exchange">Değişim &amp; Yaz</a>
+                <a href="konaklama.html" class="nav-link " data-i18n="nav.accommodation">Konaklama</a>
+                <a href="hakkimizda.html" class="nav-link active" data-i18n="nav.about">Hakkımızda</a>
+                <a href="iletisim.html" class="nav-link " data-i18n="nav.contact">İletişim</a>
+            </div>
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <!-- Language Selector -->
+                <div style="display: flex; gap: 8px; margin-right: 12px; font-size: 0.8rem; font-weight: 600;">
+                    <span class="lang-btn" data-lang="tr" onclick="changeLanguage('tr')" style="cursor: pointer; color: var(--text-muted);">TR</span>
+                    <span class="lang-btn" data-lang="en" onclick="changeLanguage('en')" style="cursor: pointer; color: var(--text-muted);">EN</span>
+                    <span class="lang-btn" data-lang="de" onclick="changeLanguage('de')" style="cursor: pointer; color: var(--text-muted);">DE</span>
+                </div>
+                <!-- Theme Toggle -->
+                <button onclick="toggleTheme()" aria-label="Tema Değiştir" style="background: none; border: none; color: var(--text); cursor: pointer; display: flex; align-items: center; margin-right: 8px;">
+                    <i id="theme-icon" data-lucide="sun"></i>
+                </button>
+                <a href="iletisim.html" class="btn btn-primary btn-header-consult" style="padding: 10px 20px; font-size: 0.8rem;">
+                    <span data-i18n="nav.meeting">Ön Görüşme</span> <i data-lucide="calendar"></i>
+                </a>
+                <button class="mobile-btn" id="mobile-toggle" aria-label="Menü">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-drawer" id="mobile-menu-drawer">
+        <div style="display: flex; gap: 16px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); justify-content: center; font-size: 0.9rem; font-weight: 600;">
+            <span class="lang-btn" onclick="changeLanguage('tr')" style="cursor:pointer; color: var(--gold);">TR</span>
+            <span style="color: rgba(255,255,255,0.2);">|</span>
+            <span class="lang-btn" onclick="changeLanguage('en')" style="cursor:pointer; color: var(--text-muted);">EN</span>
+            <span style="color: rgba(255,255,255,0.2);">|</span>
+            <span class="lang-btn" onclick="changeLanguage('de')" style="cursor:pointer; color: var(--text-muted);">DE</span>
+        </div>
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Ana Sayfa</a>
+        <a href="uni.html" class="nav-link" data-i18n="nav.university">Üniversite</a>
+        <a href="dil.html" class="nav-link" data-i18n="nav.languages">Dil Kursları</a>
+        <a href="ausbildung.html" class="nav-link" data-i18n="nav.ausbildung">Ausbildung</a>
+        <a href="denklik.html" class="nav-link" data-i18n="nav.recognition">Denklik</a>
+        <a href="degisim.html" class="nav-link" data-i18n="nav.exchange">Değişim &amp; Yaz Programları</a>
+        <a href="konaklama.html" class="nav-link" data-i18n="nav.accommodation">Konaklama</a>
+        <a href="hakkimizda.html" class="nav-link" data-i18n="nav.about">Hakkımızda</a>
+        <a href="iletisim.html" class="nav-link" data-i18n="nav.contact">İletişim</a>
+        <a href="iletisim.html" class="btn btn-primary" style="margin-top: 20px; width: 100%;" data-i18n="nav.meeting">Ön Görüşme</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="badge-prep">🏛️ Kurumsal</div>
+            <h1>Start Akademie <em>Hakkında</em></h1>
+            <p class="hero-sub">Rüsselsheim am Main merkezli Start Akademie UG, Almanya'da yaşayan ve buraya gelmeyi planlayan bireylerin eğitim yolculuklarında güvenilir rehberi olmayı misyon edinmiştir.</p>
+        </div>
+    </section>
+
+    <!-- Hikaye -->
+    <section class="content-section">
+        <div class="container" style="max-width: 860px;">
+            <h2>Biz <em>Kimiz?</em></h2>
+            <p class="lead-text">Start Akademie, Frankfurt'un hemen yanı başında, Rüsselsheim am Main'da Mevlüt Uysal tarafından kurulmuştur. Hem yerel okul öğrencilerine ders desteği (Nachhilfe) sunan hem de yurt dışından Almanya'ya gelmek isteyen bireylere danışmanlık veren bir eğitim merkezi olarak büyüdük.</p>
+            <p class="lead-text">Bugün iki temel misyonumuzu sürdürüyoruz: <strong>Nachhilfe</strong> ile Rüsselsheim ve çevresindeki lise öğrencilerini akademik olarak desteklemek; <strong>danışmanlık</strong> hizmetiyle Türkiye'den ve diğer ülkelerden gelen adayların Almanya devlet üniversitelerine, Ausbildung programlarına ve dil kurslarına güvenli şekilde ulaşmalarını sağlamak.</p>
+
+            <div class="feat-grid" style="margin-top: 40px;">
+                <div class="feat-card" style="text-align:center;">
+                    <div style="font-family: var(--font-serif); font-size: 2.5rem; color: var(--gold); margin-bottom: 8px;">300+</div>
+                    <h3>Danışmanlık Görüşmesi</h3>
+                    <p>Şimdiye kadar gerçekleştirilen ön değerlendirme ve danışmanlık görüşmesi sayısı.</p>
+                </div>
+                <div class="feat-card" style="text-align:center;">
+                    <div style="font-family: var(--font-serif); font-size: 2.5rem; color: var(--gold); margin-bottom: 8px;">7+</div>
+                    <h3>Yıl Deneyim</h3>
+                    <p>Almanya'da eğitim ve danışmanlık alanında kesintisiz hizmet.</p>
+                </div>
+                <div class="feat-card" style="text-align:center;">
+                    <div style="font-family: var(--font-serif); font-size: 2.5rem; color: var(--gold); margin-bottom: 8px;">VNN</div>
+                    <h3>Üye Kurum</h3>
+                    <p>Verband für Nachhilfe- und Nachmittagsangebote üyesi, tanınan Lernförderanbieter.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Misyon / Vizyon -->
+    <section class="content-section alt">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+                <div>
+                    <h2>🎯 <em>Misyonumuz</em></h2>
+                    <p style="color: var(--text-muted); line-height: 1.8;">Her bireyin eğitim hedeflerine ulaşmasını kolaylaştırmak. Almanya'ya gelmek isteyen adaylara doğru bilgi, güvenilir süreç ve kişiye özel rehberlik sunmak. Yanlış yönlendirme veya belirsiz beklentilerle zaman ve para kaybını engellemek.</p>
+                </div>
+                <div>
+                    <h2>🔭 <em>Vizyonumuz</em></h2>
+                    <p style="color: var(--text-muted); line-height: 1.8;">Almanya'da eğitim ve kariyer fırsatlarına erişimi demokratikleştiren; şeffaf, dijital ve güvenilir bir danışmanlık platformu olmak. Nachhilfe'den üniversite danışmanlığına, dil kurslarından Ausbildung'a kadar bütüncül bir eğitim ekosistemine liderlik etmek.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Değerler -->
+    <section class="content-section">
+        <div class="container">
+            <h2>Temel <em>Değerlerimiz</em></h2>
+            <div class="feat-grid">
+                <div class="feat-card">
+                    <div class="icon-wrap"><i data-lucide="shield" style="width:22px;height:22px;"></i></div>
+                    <h3>Şeffaflık</h3>
+                    <p>Süreçler, ücretler ve beklentiler konusunda tam şeffaflık. Sizi yanıltacak hiçbir vaat verilmez.</p>
+                </div>
+                <div class="feat-card">
+                    <div class="icon-wrap"><i data-lucide="user-check" style="width:22px;height:22px;"></i></div>
+                    <h3>Kişiselleştirme</h3>
+                    <p>Her danışanımızın koşulları farklıdır. Tek tip değil, kişiye özel çözümler üretiriz.</p>
+                </div>
+                <div class="feat-card">
+                    <div class="icon-wrap"><i data-lucide="clock" style="width:22px;height:22px;"></i></div>
+                    <h3>Güvenilirlik</h3>
+                    <p>Söz verdiğimiz iletişim ve geri bildirim sürelerine mutlaka uyarız.</p>
+                </div>
+                <div class="feat-card">
+                    <div class="icon-wrap"><i data-lucide="leaf" style="width:22px;height:22px;"></i></div>
+                    <h3>Etik</h3>
+                    <p>Garanti verilemeyen sonuçlar için garanti iddiasında bulunmayız. Gerçekçi beklentiler yönetiriz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adres -->
+    <section class="content-section alt">
+        <div class="container" style="max-width: 720px; text-align: center;">
+            <h2>Bizi <em>Ziyaret Edin</em></h2>
+            <p style="color: var(--text-muted); margin-bottom: 32px;">Merkezimiz Frankfurt yakınlarında, Rüsselsheim am Main'dadır. Yüz yüze görüşmeler için randevu talep edebilirsiniz.</p>
+            <div style="background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 16px; padding: 32px;">
+                <p style="font-size: 1rem; color: var(--text); line-height: 2;">
+                    <strong>Start Akademie UG (haftungsbeschränkt)</strong><br>
+                    Mainzer Straße 18<br>
+                    65428 Rüsselsheim am Main<br>
+                    📞 <a href="tel:+491797424790" style="color: var(--gold);">+49 179 742 47 90</a><br>
+                    ✉️ <a href="mailto:info@startakademie.com" style="color: var(--gold);">info@startakademie.com</a>
+                </p>
+                <a href="https://maps.google.com/?q=Mainzer+Straße+18,+65428+Rüsselsheim+am+Main" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top: 16px;">Google Maps'te Aç →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ FOOTER ══ -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Brand -->
+                <div>
+                    <div class="footer-logo">
+                        <img src="assets/logo-full-white.png" alt="Start Akademie Logo" style="height: 56px; width: auto;">
+                    </div>
+                    <p style="font-size: 0.9rem; margin-bottom: 24px;" data-i18n="footer.desc">
+                        Almanya'da eğitim ve kariyer hedefleriniz için kişiye özel danışmanlık.
+                    </p>
+                    <div class="vnn-stamp">
+                        <i data-lucide="shield-check" style="width: 16px; height: 16px;"></i> VNN Üyesi Kurum
+                    </div>
+                </div>
+
+                <!-- Col 2: Services -->
+                <div class="footer-links">
+                    <h4 data-i18n="footer.services">Hizmetler</h4>
+                    <ul>
+                        <li><a href="uni.html" data-i18n="nav.university">Üniversite</a></li>
+                        <li><a href="dil.html" data-i18n="nav.languages">Dil Kursları</a></li>
+                        <li><a href="ausbildung.html" data-i18n="nav.ausbildung">Ausbildung</a></li>
+                        <li><a href="denklik.html" data-i18n="nav.recognition">Denklik</a></li>
+                        <li><a href="degisim.html" data-i18n="nav.exchange">Değişim &amp; Yaz Programları</a></li>
+                        <li><a href="konaklama.html" data-i18n="nav.accommodation">Konaklama</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Other sites -->
+                <div class="footer-links">
+                    <h4>Diğer Sitelerimiz</h4>
+                    <ul>
+                        <li><a href="https://www.startakademie.de" target="_blank" rel="noopener">Nachhilfe – startakademie.de</a></li>
+                        <li><a href="https://www.startakademie.online" target="_blank" rel="noopener">Online Dil Kursları – startakademie.online</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Info -->
+                <div class="footer-links">
+                    <h4>Bilgilendirme</h4>
+                    <ul>
+                        <li><a href="index.html#sss">Sık Sorulan Sorular</a></li>
+                        <li><a href="index.html#packages">Hizmet Paketleri</a></li>
+                        <li><a href="uni.html">Üniversite Uygunluk Değerlendirmesi</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 5: Corporate -->
+                <div class="footer-links">
+                    <h4 data-i18n="footer.corporate">Kurumsal</h4>
+                    <ul>
+                        <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
+                        <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
+                        <li><a href="impressum.html" data-i18n="footer.l1">Impressum</a></li>
+                        <li><a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 6: Contact -->
+                <div class="footer-links">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li><a href="https://maps.google.com/?q=Mainzer+Straße+18,+65428+Rüsselsheim" target="_blank" rel="noopener">📍 Mainzer Straße 18, 65428 Rüsselsheim am Main</a></li>
+                        <li><a href="tel:+491797424790">📞 +49 179 742 47 90</a></li>
+                        <li><a href="mailto:info@startakademie.com">✉️ info@startakademie.com</a></li>
+                        <li><a href="https://www.instagram.com/startakademie" target="_blank" rel="noopener">📸 @startakademie</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span data-i18n="footer.copyright">&copy; 2026 Start Akademie UG (haftungsbeschränkt). Tüm Hakları Saklıdır.</span>
+                <div style="display: flex; gap: 24px;">
+                    <a href="impressum.html" data-i18n="footer.l1">Impressum</a>
+                    <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a>
+                    <a href="impressum.html">Kullanım Koşulları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- StartBot -->
+    <div id="startbot-bubble" style="position:fixed;bottom:24px;right:24px;z-index:9999;">
+        <button id="startbot-btn" aria-label="StartBot"
+            style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--navy));border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 4px 20px rgba(0,80,158,0.4);">
+            <i data-lucide="bot" style="width:20px;height:20px;"></i>
+        </button>
+        <div id="startbot-win" style="position:absolute;bottom:60px;right:0;width:280px;height:380px;background:var(--surface);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;display:none;flex-direction:column;box-shadow:0 8px 32px rgba(0,0,0,0.25);">
+            <div style="background:linear-gradient(135deg,var(--blue),var(--navy));padding:14px 16px;display:flex;align-items:center;justify-content:space-between;">
+                <span style="font-size:0.85rem;font-weight:700;color:#fff;">StartBot 🤖</span>
+                <button id="startbot-close" style="background:none;border:none;color:#fff;cursor:pointer;padding:2px;display:flex;"><i data-lucide="x" style="width:16px;height:16px;"></i></button>
+            </div>
+            <iframe src="https://www.chatbase.co/chatbot-iframe/wT-KoF8pnpTAbdMcMaorj" style="flex:1;border:none;width:100%;"></iframe>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // Header scroll
+        const hdr = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            hdr.classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const mobileDrawer = document.getElementById('mobile-menu-drawer');
+        if (mobileToggle && mobileDrawer) {
+            mobileToggle.addEventListener('click', () => {
+                mobileDrawer.classList.toggle('open');
+            });
+        }
+
+        // StartBot toggle
+        const sBotBtn = document.getElementById('startbot-btn');
+        const sBotClose = document.getElementById('startbot-close');
+        const sBotWin = document.getElementById('startbot-win');
+        if (sBotBtn && sBotWin) {
+            sBotBtn.addEventListener('click', () => {
+                sBotWin.style.display = sBotWin.style.display === 'flex' ? 'none' : 'flex';
+            });
+        }
+        if (sBotClose && sBotWin) {
+            sBotClose.addEventListener('click', () => { sBotWin.style.display = 'none'; });
+        }
+
+        // FAQ accordion
+        document.querySelectorAll('.faq-q').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.closest('.faq-item');
+                item.classList.toggle('open');
+            });
+        });
+
+        // Language init
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('lang') || 'tr';
+            if (typeof changeLanguage === 'function') changeLanguage(savedLang);
+        });
+    </script>
+</body>
+</html>

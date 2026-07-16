@@ -1,0 +1,23 @@
+{
+  "redirects": [
+    { "source": "/universiteler", "destination": "/uni.html", "statusCode": 301 },
+    { "source": "/danismanlik", "destination": "/uni.html", "statusCode": 301 },
+    { "source": "/yaz-kampi", "destination": "/degisim.html", "statusCode": 301 },
+    { "source": "/programlar", "destination": "/index.html", "statusCode": 301 },
+    { "source": "/denklik-testi", "destination": "/denklik.html", "statusCode": 301 },
+    { "source": "/nachhilfe", "destination": "https://www.startakademie.de", "statusCode": 301 },
+    { "source": "/online", "destination": "https://www.startakademie.online", "statusCode": 301 }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+      ]
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

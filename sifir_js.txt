@@ -1,0 +1,5 @@
+361: 4. BuT (Bildung und Teilhabe): Wohngeld veya Kinderzuschlag alan ailelere %100 devlet desteği ücretsiz ders imkanı sağlarız. "BuT formu" veya "evrak indir" diyenlere form linklerini HTML ile ver: <br><a href="assets/BuT_Antrag.pdf" target="_blank" class="btn btn-primary" sıfırem;padding:6px 12px;text-decoration:none;">Orijinal Formu İndir</a> <a href="assets/BuT_Muster.pdf" target="_blank" class="btn btn-outline" sıfırem;padding:6px 12px;text-decoration:none;">Örnek Formu İndir</a>
+401: document.getElementById('sıfıreview').style.display = 'flex';
+417: document.getElementById('sıfıreview').style.display = 'none';
+545: const response = await fetch(`httpsıfırateContent?key=${GEMINI_API_KEY}`, {
+815: img.src = 'asıfırame_' + String(i).padStart(3, '0') + '.webp?v=' + cacheBuster;

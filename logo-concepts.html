@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Akademie - Premium Logo Concepts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #111;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #0a0a0a;
+            width: 100%;
+            border-bottom: 1px solid #333;
+        }
+
+        h1 {
+            font-weight: 300;
+            letter-spacing: 2px;
+            color: #D4AF37;
+        }
+
+        p {
+            color: #888;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 40px;
+        }
+
+        .concept-card {
+            background: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #333;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .concept-card:hover {
+            transform: translateY(-5px);
+            border-color: #D4AF37;
+        }
+
+        .concept-title {
+            padding: 20px;
+            background: #222;
+            border-bottom: 1px solid #333;
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .concept-title span {
+            font-size: 0.8rem;
+            color: #D4AF37;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+
+        .logo-preview {
+            padding: 60px 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Dark background preview */
+        .preview-dark {
+            background: #0a0a0a;
+        }
+
+        /* Light background preview */
+        .preview-light {
+            background: #fdfbf7; /* Cream/White */
+        }
+
+        .logo-svg {
+            height: 70px;
+            width: auto;
+        }
+
+        /* Reusable Gold Gradient for SVGs */
+        svg .gold-fill {
+            fill: url(#gold-gradient);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Shared Gold Gradient Definition -->
+    <svg width="0" height="0" style="position:absolute;">
+        <defs>
+            <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#BF953F" />
+                <stop offset="25%" stop-color="#FCF6BA" />
+                <stop offset="50%" stop-color="#B38728" />
+                <stop offset="75%" stop-color="#FBF5B7" />
+                <stop offset="100%" stop-color="#AA771C" />
+            </linearGradient>
+            <linearGradient id="gold-gradient-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8a6b2c" />
+                <stop offset="50%" stop-color="#b88f32" />
+                <stop offset="100%" stop-color="#73571f" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <div class="header">
+        <h1>Premium Logo Concepts</h1>
+        <p>Altın Sarısı ve Beyaz tonlarının gücü. Aşağıdaki tasarımlar, Almanya'ya prestijli bir eğitim köprüsü kuran "Start Akademie" için özel olarak vektörel (SVG) formatta kodlanmıştır.</p>
+    </div>
+
+    <div class="container">
+
+        <!-- CONCEPT 1: THE GATE (Kapı / Kemer Konsepti) -->
+        <div class="concept-card">
+            <div class="concept-title">Concept 1: The Gateway <span>Modern Lüks</span></div>
+            <div class="logo-preview preview-dark">
+                <!-- SVG Logo -->
+                <svg class="logo-svg" viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Elegant Abstract Arch/Gate Icon -->
+                    <g transform="translate(10, 20)">
+                        <path d="M 40,80 L 40,30 C 40,10 60,10 60,30 L 60,80" fill="none" stroke="url(#gold-gradient)" stroke-width="6" />
+                        <path d="M 25,80 L 25,35 C 25,-5 75,-5 75,35 L 75,80" fill="none" stroke="url(#gold-gradient)" stroke-width="2" opacity="0.6"/>
+                        <circle cx="50" cy="45" r="4" fill="url(#gold-gradient)" />
+                    </g>
+                    <!-- Typography -->
+                    <text x="110" y="65" font-family="'Cinzel', serif" font-weight="700" font-size="44" fill="#ffffff" letter-spacing="4">START</text>
+                    <text x="115" y="90" font-family="'Montserrat', sans-serif" font-weight="300" font-size="16" fill="url(#gold-gradient)" letter-spacing="8">AKADEMIE</text>
+                </svg>
+            </div>
+            <div class="logo-preview preview-light">
+                <!-- SVG Logo (Dark text for light bg) -->
+                <svg class="logo-svg" viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(10, 20)">
+                        <path d="M 40,80 L 40,30 C 40,10 60,10 60,30 L 60,80" fill="none" stroke="url(#gold-gradient-dark)" stroke-width="6" />
+                        <path d="M 25,80 L 25,35 C 25,-5 75,-5 75,35 L 75,80" fill="none" stroke="url(#gold-gradient-dark)" stroke-width="2" opacity="0.6"/>
+                        <circle cx="50" cy="45" r="4" fill="url(#gold-gradient-dark)" />
+                    </g>
+                    <text x="110" y="65" font-family="'Cinzel', serif" font-weight="700" font-size="44" fill="#1a1a1a" letter-spacing="4">START</text>
+                    <text x="115" y="90" font-family="'Montserrat', sans-serif" font-weight="400" font-size="16" fill="url(#gold-gradient-dark)" letter-spacing="8">AKADEMIE</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- CONCEPT 2: THE PRESTIGE SHIELD (Arma Konsepti) -->
+        <div class="concept-card">
+            <div class="concept-title">Concept 2: The Academy Crest <span>Klasik Elit</span></div>
+            <div class="logo-preview preview-dark">
+                <!-- SVG Logo -->
+                <svg class="logo-svg" viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Minimalist Crest Icon -->
+                    <g transform="translate(15, 20)">
+                        <path d="M 40,0 L 75,15 L 75,50 C 75,75 40,95 40,95 C 40,95 5,75 5,50 L 5,15 Z" fill="none" stroke="url(#gold-gradient)" stroke-width="3" />
+                        <text x="40" y="60" font-family="'Cinzel', serif" font-weight="700" font-size="32" fill="url(#gold-gradient)" text-anchor="middle">S</text>
+                    </g>
+                    <!-- Typography -->
+                    <text x="120" y="65" font-family="'Playfair Display', serif" font-weight="700" font-size="42" fill="#ffffff" letter-spacing="2">Start</text>
+                    <text x="123" y="90" font-family="'Montserrat', sans-serif" font-weight="400" font-size="14" fill="url(#gold-gradient)" letter-spacing="10">AKADEMIE</text>
+                </svg>
+            </div>
+            <div class="logo-preview preview-light">
+                <svg class="logo-svg" viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(15, 20)">
+                        <path d="M 40,0 L 75,15 L 75,50 C 75,75 40,95 40,95 C 40,95 5,75 5,50 L 5,15 Z" fill="none" stroke="url(#gold-gradient-dark)" stroke-width="3" />
+                        <text x="40" y="60" font-family="'Cinzel', serif" font-weight="700" font-size="32" fill="url(#gold-gradient-dark)" text-anchor="middle">S</text>
+                    </g>
+                    <text x="120" y="65" font-family="'Playfair Display', serif" font-weight="700" font-size="42" fill="#1a1a1a" letter-spacing="2">Start</text>
+                    <text x="123" y="90" font-family="'Montserrat', sans-serif" font-weight="600" font-size="14" fill="url(#gold-gradient-dark)" letter-spacing="10">AKADEMIE</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- CONCEPT 3: THE COMPASS/STAR (Yön/Yıldız Konsepti) -->
+        <div class="concept-card">
+            <div class="concept-title">Concept 3: The North Star <span>Rehberlik & Güven</span></div>
+            <div class="logo-preview preview-dark">
+                <!-- SVG Logo -->
+                <svg class="logo-svg" viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Minimalist Star/Compass Icon -->
+                    <g transform="translate(20, 25)">
+                        <path d="M 35,0 L 42,28 L 70,35 L 42,42 L 35,70 L 28,42 L 0,35 L 28,28 Z" fill="url(#gold-gradient)" />
+                        <circle cx="35" cy="35" r="5" fill="#111" />
+                    </g>
+                    <!-- Typography -->
+                    <text x="110" y="68" font-family="'Montserrat', sans-serif" font-weight="600" font-size="40" fill="#ffffff" letter-spacing="4">START</text>
+                    <text x="113" y="92" font-family="'Montserrat', sans-serif" font-weight="300" font-size="16" fill="url(#gold-gradient)" letter-spacing="12">AKADEMIE</text>
+                </svg>
+            </div>
+            <div class="logo-preview preview-light">
+                <svg class="logo-svg" viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(20, 25)">
+                        <path d="M 35,0 L 42,28 L 70,35 L 42,42 L 35,70 L 28,42 L 0,35 L 28,28 Z" fill="url(#gold-gradient-dark)" />
+                        <circle cx="35" cy="35" r="5" fill="#fdfbf7" />
+                    </g>
+                    <text x="110" y="68" font-family="'Montserrat', sans-serif" font-weight="600" font-size="40" fill="#1a1a1a" letter-spacing="4">START</text>
+                    <text x="113" y="92" font-family="'Montserrat', sans-serif" font-weight="400" font-size="16" fill="url(#gold-gradient-dark)" letter-spacing="12">AKADEMIE</text>
+                </svg>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

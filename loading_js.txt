@@ -1,0 +1,22 @@
+263: // Progress bar
+265: const prog = document.getElementById('wizard-progress');
+283: const prog = document.getElementById('wizard-progress');
+489: // Loading indicator
+491: const loadingMsg = document.createElement('div');
+493: loadingMsg.className = 'chat-msg bot typing-indicator-box';
+495: loadingMsg.innerHTML = '<span class="typing-indicator"><span>.</span><span>.</span><span>.</span></span>';
+497: chatMessages.appendChild(loadingMsg);
+565: chatMessages.removeChild(loadingMsg);
+613: if (chatMessages.contains(loadingMsg)) {
+615: chatMessages.removeChild(loadingMsg);
+679: // Loading screen elements
+681: const loadingScreen = document.getElementById('loading-screen');
+683: const loadingBar    = document.getElementById('loading-bar');
+685: const loadingPct    = document.getElementById('loading-pct');
+771: // Preload all frames; show progress
+779: if (loadingBar)  loadingBar.style.width  = pct + '%';
+781: if (loadingPct)  loadingPct.textContent  = pct + '%';
+791: // Hide loading screen once everything is loaded
+793: if (loadedCount === TOTAL_FRAMES && loadingScreen) {
+795: loadingScreen.style.opacity = '0';
+797: setTimeout(() => { loadingScreen.style.display = 'none'; }, 800);

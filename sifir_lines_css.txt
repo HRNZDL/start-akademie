@@ -1,0 +1,13 @@
+Line 25: --sıfır: rgba(18, 22, 38, 0.65);
+Line 75: --sıfır: linear-gradient(145deg, #ffffff, #e6e9f0);
+Line 583: opacity: 0.85; /* Slightly sıfır than pure black, but very legible */
+Line 661: .sıfıre {
+Line 851: background: var(--sıfır);
+Line 2361: .price-features li.crosıfıre {
+Line 3185: .sıfıreview {
+Line 3211: .sıfıreview i { width: 14px; height: 14px; color: var(--gold); }
+Line 3213: .sıfıreview .close-btn {
+Line 3223: .sıfıreview .close-btn:hover { color: #ff4444; }
+Line 3303: .sıfır {
+Line 3455: :root[data-theme="light"] .sıfıreview {
+Line 3495: :root[data-theme="light"] .sıfır {

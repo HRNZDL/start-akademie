@@ -1,0 +1,5479 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Akademie | Elite-Bildungsportal & Immersives Erlebnis</title>
+    <meta name="description" content="Start Akademie - Premium Nachhilfe in Rüsselsheim, telc Sprachvorbereitung und exklusive Bildungsberatung für Deutschland.">
+    
+    <!-- Preconnect & Google Fonts — Premium Editorial Stack -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,300;1,9..144,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets / Luxury Cinematic Design System -->
+    <style>
+        :root {
+
+            /* Palette */
+
+            --bg: #030407;
+
+            --bg-deep: #010204;
+
+            --text: #f4f3ef;
+
+            --text-muted: #8d909a;
+
+            --gold: #d4af64;
+
+            --gold-light: #ebd6a8;
+
+            --gold-glow: rgba(212, 175, 100, 0.18);
+
+            --border: rgba(255, 255, 255, 0.06);
+
+            --border-hover: rgba(212, 175, 100, 0.25);
+
+            --surface: rgba(12, 14, 24, 0.45);
+
+            --surface-color: rgba(18, 22, 38, 0.65);
+
+            
+
+            /* Fonts */
+
+            --font-serif: 'Fraunces', Georgia, serif;
+
+            --font-display: 'DM Sans', sans-serif;
+
+            --font-mono: 'DM Mono', monospace;
+
+
+
+            --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+            --transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+            
+
+            --header-bg: rgba(3, 4, 7, 0.4);
+
+            --header-scrolled-bg: rgba(3, 4, 7, 0.88);
+
+        }
+
+
+
+        :root[data-theme="light"] {
+
+            --bg: #f4f5f7; /* Cooler, modern tech-grey background */
+
+            --bg-deep: #ffffff;
+
+            --text: #0f1115; /* Extremely crisp black/navy */
+
+            --text-muted: #5e636e; /* Modern slate grey */
+
+            --gold: #d4af64; /* Keep the bright gold for modern pop */
+
+            --gold-light: #ebd6a8;
+
+            --gold-glow: rgba(212, 175, 100, 0.25);
+
+            --border: rgba(255, 255, 255, 0.8); /* For 3D beveling */
+
+            --border-hover: rgba(212, 175, 100, 0.4);
+
+            --surface: linear-gradient(145deg, #ffffff, #f0f2f5); /* 3D gradient surface */
+
+            --surface-color: linear-gradient(145deg, #ffffff, #e6e9f0);
+
+            
+
+            --header-bg: rgba(253, 251, 247, 0.95); /* Creamy warm white */
+
+            --header-scrolled-bg: rgba(253, 251, 247, 0.98);
+
+        }
+
+
+
+        :root[data-theme="light"] header:not(.scrolled) {
+
+            background: transparent !important; /* En üstteyken arka plan yok */
+
+            border-bottom: none !important;
+
+            box-shadow: none !important;
+
+        }
+
+
+
+        :root[data-theme="light"] header.scrolled {
+
+            background: #fdfbf7;
+
+            backdrop-filter: none;
+
+            border-bottom: none !important;
+
+            box-shadow: 0 4px 24px rgba(0,0,0,0.05) !important;
+
+        }
+
+
+
+        /* Scrolled (Krem Arka Plan) İçi Koyu öazılar */
+
+        :root[data-theme="light"] header.scrolled .nav-link,
+
+        :root[data-theme="light"] header.scrolled button i,
+
+        :root[data-theme="light"] header.scrolled .brand-logo {
+
+            color: #1a1a1c !important; 
+
+            font-weight: 500;
+
+        }
+
+
+
+        /* En ostte (Şeffaf Arka Plan) İçi Beyaz öazılar (Karanlık Videoda Okunması İçin) */
+
+        :root[data-theme="light"] header:not(.scrolled) .nav-link,
+
+        :root[data-theme="light"] header:not(.scrolled) button i,
+
+        :root[data-theme="light"] header:not(.scrolled) .brand-logo {
+
+            color: #ffffff !important; 
+
+            font-weight: 500;
+
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5); /* Videoda kaybı diye gölge */
+
+        }
+
+
+
+        /* Ensure blue logo is visible on dark video background */
+
+        header:not(.scrolled) .nav-brand-img {
+
+            filter: drop-shadow(0 2px 12px rgba(255,255,255,0.7)) drop-shadow(0 0 24px rgba(255,255,255,0.5));
+
+        }
+
+        header.scrolled .nav-brand-img {
+
+            filter: none;
+
+        }
+
+
+
+        :root[data-theme="light"] header .nav-link:hover,
+
+        :root[data-theme="light"] header .nav-link.active {
+
+            color: var(--gold) !important; 
+
+        }
+
+        
+
+        :root[data-theme="light"] .nav-link::after {
+
+            display: none !important; /* Ayrım çizgisini tamamen kaldırdık */
+
+        }
+
+
+
+        :root[data-theme="light"] .brand-logo svg {
+
+            transition: color 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+        }
+
+
+
+        /* Clean transparent native SVG logo */
+
+
+
+        /* â•â•â•â•â•â•â• Modern Language Switcher â•â•â•â•â•â•â• */
+
+        .lang-switcher {
+
+            position: relative;
+
+            display: flex;
+
+            align-items: center;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(16px);
+
+            -webkit-backdrop-filter: blur(16px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            border-radius: 100px;
+
+            padding: 3px;
+
+            gap: 0;
+
+            margin-right: 12px;
+
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.06);
+
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+        }
+
+        .lang-switcher:hover {
+
+            border-color: rgba(212, 175, 100, 0.25);
+
+            box-shadow: 0 4px 20px rgba(0,0,0,0.12), 0 0 0 1px rgba(212, 175, 100, 0.1);
+
+        }
+
+
+
+        /* Sliding active indicator pill */
+
+        .lang-slider {
+
+            position: absolute;
+
+            top: 3px;
+
+            left: 3px;
+
+            width: calc(100% / 3 - 2px);
+
+            height: calc(100% - 6px);
+
+            background: linear-gradient(135deg, rgba(212, 175, 100, 0.9), rgba(190, 155, 80, 0.9));
+
+            border-radius: 100px;
+
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+
+            box-shadow: 0 2px 8px rgba(212, 175, 100, 0.35), inset 0 1px 0 rgba(255,255,255,0.25);
+
+            z-index: 0;
+
+        }
+
+
+
+        .lang-btn {
+
+            position: relative;
+
+            z-index: 1;
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 5px;
+
+            padding: 6px 12px;
+
+            border: none;
+
+            background: none;
+
+            cursor: pointer;
+
+            font-family: var(--font-display);
+
+            font-size: 0.72rem;
+
+            font-weight: 600;
+
+            letter-spacing: 0.04em;
+
+            color: rgba(255, 255, 255, 0.55);
+
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+            white-space: nowrap;
+
+            border-radius: 100px;
+
+            -webkit-tap-highlight-color: transparent;
+
+        }
+
+        .lang-btn:hover {
+
+            color: rgba(255, 255, 255, 0.9);
+
+        }
+
+        .lang-btn.active {
+
+            color: #1a1510 !important;
+
+            text-shadow: none !important;
+
+            font-weight: 700;
+
+        }
+
+
+
+        .lang-country {
+
+            font-size: 0.6rem;
+
+            opacity: 0.6;
+
+            font-weight: 500;
+
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+            padding-right: 2px;
+
+        }
+
+        .lang-label {
+
+            font-size: 0.72rem;
+
+            font-weight: 600;
+
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+        }
+
+        .lang-btn.active .lang-country,
+
+        .lang-btn.active .lang-label {
+
+            color: #1a1510 !important;
+
+        }
+
+        .lang-btn.active .lang-country {
+
+            opacity: 0.7;
+
+        }
+
+        .lang-btn.active .lang-label {
+
+            font-weight: 800;
+
+        }
+
+
+
+        /* Light mode overrides */
+
+        :root[data-theme="light"] header.scrolled .lang-switcher {
+
+            background: rgba(26, 26, 28, 0.06);
+
+            border-color: rgba(26, 26, 28, 0.1);
+
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.8);
+
+        }
+
+        :root[data-theme="light"] header.scrolled .lang-btn {
+
+            color: rgba(26, 26, 28, 0.45) !important;
+
+            text-shadow: none !important;
+
+        }
+
+        :root[data-theme="light"] header.scrolled .lang-btn:hover {
+
+            color: rgba(26, 26, 28, 0.75) !important;
+
+        }
+
+        :root[data-theme="light"] header.scrolled .lang-btn.active {
+
+            color: #1a1510 !important;
+
+        }
+
+        :root[data-theme="light"] header:not(.scrolled) .lang-switcher {
+
+            background: rgba(0, 0, 0, 0.2);
+
+            border-color: rgba(255, 255, 255, 0.15);
+
+        }
+
+        :root[data-theme="light"] header:not(.scrolled) .lang-btn {
+
+            color: rgba(255, 255, 255, 0.6) !important;
+
+            text-shadow: 0 1px 4px rgba(0,0,0,0.3) !important;
+
+        }
+
+        :root[data-theme="light"] header:not(.scrolled) .lang-btn:hover {
+
+            color: rgba(255, 255, 255, 0.95) !important;
+
+        }
+
+        :root[data-theme="light"] header:not(.scrolled) .lang-btn.active {
+
+            color: #1a1510 !important;
+
+            text-shadow: none !important;
+
+        }
+
+
+
+        /* â•â•â•â•â•â•â• End Language Switcher â•â•â•â•â•â•â• */
+
+
+
+        /* Reset & Base */
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+            box-sizing: border-box;
+
+            scroll-behavior: smooth;
+
+        }
+
+
+
+        html, body {
+
+            background-color: var(--bg);
+
+            color: var(--text);
+
+            font-family: var(--font-display);
+
+            -webkit-font-smoothing: antialiased;
+
+            line-height: 1.7;
+
+        }
+
+
+
+        section {
+
+            scroll-margin-top: 100px;
+
+        }
+
+
+
+        /* Grain overlay */
+
+        /* Removed grain overlay due to Safari click-blocking bugs */
+
+
+
+        /* Glow effects */
+
+        .glow-orb {
+
+            position: absolute;
+
+            border-radius: 50%;
+
+            filter: blur(140px);
+
+            z-index: 0;
+
+            pointer-events: none;
+
+            opacity: 0.4;
+
+        }
+
+
+
+        .glow-1 {
+
+            top: 15%;
+
+            left: -10%;
+
+            width: 50vw;
+
+            height: 50vw;
+
+            background: radial-gradient(circle, rgba(212, 175, 100, 0.08) 0%, transparent 80%);
+
+        }
+
+
+
+        .glow-2 {
+
+            bottom: 20%;
+
+            right: -10%;
+
+            width: 45vw;
+
+            height: 45vw;
+
+            background: radial-gradient(circle, rgba(59, 111, 212, 0.07) 0%, transparent 80%);
+
+        }
+
+
+
+        /* Typography */
+
+        h1, h2, h3, h4 {
+
+            color: var(--text);
+
+            font-family: var(--font-display);
+
+            font-weight: 600; /* Bolder, more premium modern feel */
+
+            letter-spacing: -0.03em; /* Tighter letter spacing for modern tech look */
+
+        }
+
+
+
+        h1 {
+
+            font-size: clamp(3rem, 7vw, 6rem);
+
+            line-height: 1.05;
+
+        }
+
+
+
+        h2 {
+
+            font-size: clamp(2.2rem, 4.5vw, 3.8rem);
+
+            line-height: 1.15;
+
+        }
+
+
+
+        h3 {
+
+            font-size: clamp(1.4rem, 2vw, 2.2rem);
+
+            font-weight: 600;
+
+        }
+
+
+
+        p {
+
+            color: var(--text);
+
+            opacity: 0.85; /* Slightly softer than pure black, but very legible */
+
+            font-size: 1.05rem; /* Slightly larger for readability */
+
+            line-height: 1.7;
+
+        }
+
+
+
+        a {
+
+            color: inherit;
+
+            text-decoration: none;
+
+        }
+
+
+
+        .italic-accent {
+
+            font-family: var(--font-serif);
+
+            font-style: italic;
+
+            color: var(--gold-light);
+
+        }
+
+
+
+        /* Layout Container */
+
+        .container {
+
+            max-width: 1280px;
+
+            margin: 0 auto;
+
+            padding: 0 2.5rem;
+
+            width: 100%;
+
+            position: relative;
+
+            z-index: 2;
+
+        }
+
+
+
+        /* Monospace Label */
+
+        .section-tag {
+
+            font-family: var(--font-mono);
+
+            font-size: 0.72rem;
+
+            letter-spacing: 0.2em;
+
+            text-transform: uppercase;
+
+            color: var(--gold);
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            margin-bottom: 24px;
+
+        }
+
+
+
+        .sub-feature {
+
+            content: '';
+
+            width: 24px;
+
+            height: 1px;
+
+            background: var(--gold);
+
+            opacity: 0.6;
+
+        }
+
+
+
+        /* Buttons */
+
+        .btn {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 10px;
+
+            padding: 14px 28px;
+
+            border-radius: 6px;
+
+            font-size: 0.88rem;
+
+            font-weight: 500;
+
+            letter-spacing: 0.02em;
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+            border: 1px solid transparent;
+
+        }
+
+
+
+        .btn-primary {
+
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+
+            color: var(--bg-deep);
+
+            box-shadow: 0 4px 24px var(--gold-glow);
+
+            font-weight: 600;
+
+        }
+
+
+
+        .btn-primary:hover {
+
+            transform: translateö(-2px);
+
+            box-shadow: 0 8px 32px rgba(212, 175, 100, 0.35);
+
+        }
+
+
+
+        .btn-outline {
+
+            background: rgba(255, 255, 255, 0.02);
+
+            border-color: rgba(255, 255, 255, 0.15);
+
+            color: var(--text);
+
+        }
+
+
+
+        .btn-outline:hover {
+
+            background: rgba(255, 255, 255, 0.05);
+
+            border-color: var(--gold);
+
+            color: var(--gold-light);
+
+        }
+
+
+
+        /* Light Mode Button & Text Overrides */
+
+        :root .btn-outline {
+
+            border-color: rgba(0, 0, 0, 0.15);
+
+            color: #222;
+
+            background: rgba(255, 255, 255, 0.6);
+
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+
+        }
+
+        :root .btn-outline:hover {
+
+            background: #fff;
+
+            border-color: var(--gold);
+
+            color: var(--gold);
+
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+        }
+
+        :root .btn-primary {
+
+            color: #fff;
+
+            text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+
+        }
+
+        /* Text colors for Glass Card based on theme */
+
+        :root[data-theme="light"] .glass-card p {
+
+            color: #444 !important;
+
+            font-weight: 500;
+
+        }
+
+        :root[data-theme="light"] .glass-card h2 {
+
+            color: #111 !important;
+
+        }
+
+        
+
+        :root:not([data-theme="light"]) .glass-card p {
+
+            color: rgba(255, 255, 255, 0.85) !important;
+
+            font-weight: 400;
+
+        }
+
+        :root:not([data-theme="light"]) .glass-card h2 {
+
+            color: #ffffff !important;
+
+        }
+
+
+
+        /* Glassmorphic Panels */
+
+        .glass-card {
+
+            background: var(--surface);
+
+            border: 1px solid var(--border);
+
+            border-radius: 20px;
+
+            padding: 48px;
+
+            backdrop-filter: blur(24px);
+
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+
+            transition: var(--transition);
+
+        }
+
+
+
+        .glass-card:hover {
+
+            border-color: var(--border-hover);
+
+            background: var(--surface-color);
+
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(212, 175, 100, 0.05);
+
+            transform: translateö(-5px);
+
+        }
+
+
+
+        /* 3D Modern Premium Enhancements */
+
+        :root[data-theme="light"] .glass-card {
+
+            background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(248, 249, 252, 0.9) 100%);
+
+            backdrop-filter: blur(20px);
+
+            -webkit-backdrop-filter: blur(20px);
+
+            /* 3D Shadow: Sharp drop + soft ambient + inset top highlight */
+
+            box-shadow: 0 20px 40px rgba(15, 17, 21, 0.06), 0 1px 3px rgba(15, 17, 21, 0.03), inset 0 2px 0 rgba(255, 255, 255, 1);
+
+            border: 1px solid rgba(15, 17, 21, 0.04);
+
+            border-radius: 20px; /* Modern rounded corners */
+
+        }
+
+        
+
+        :root[data-theme="light"] .glass-card:hover {
+
+            box-shadow: 0 30px 60px rgba(15, 17, 21, 0.1), 0 4px 15px rgba(212, 175, 100, 0.15), inset 0 2px 0 rgba(255, 255, 255, 1);
+
+            border-color: rgba(212, 175, 100, 0.3);
+
+            transform: translateö(-8px) scale(1.01);
+
+        }
+
+
+
+        /* Header Navigation */
+
+        header {
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 80px;
+
+            z-index: 1000;
+
+            display: flex;
+
+            align-items: center;
+
+            background: var(--header-bg);
+
+            backdrop-filter: blur(20px);
+
+            border-bottom: 1px solid var(--border);
+
+            transition: var(--transition);
+
+        }
+
+
+
+        header.scrolled {
+
+            height: 64px;
+
+            background: var(--header-scrolled-bg);
+
+            border-bottom-color: var(--border-hover);
+
+        }
+
+
+
+        .nav-container {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            width: 100%;
+
+        }
+
+
+
+        .brand-logo {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            text-decoration: none;
+
+            transition: var(--transition);
+
+        }
+
+
+
+        .nav-brand-img {
+
+            height: 52px;
+
+            width: auto;
+
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+        }
+
+
+
+        header.scrolled .nav-brand-img {
+
+            height: 42px;
+
+        }
+
+
+
+        .brand-logo span {
+
+            font-family: var(--font-mono);
+
+            font-style: normal;
+
+            font-size: 0.65rem;
+
+            letter-spacing: 0.18em;
+
+            color: var(--gold);
+
+            text-transform: uppercase;
+
+            margin-top: 4px;
+
+            display: block;
+
+        }
+
+
+
+        .nav-menu {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: clamp(8px, 1vw, 24px);
+
+        }
+
+
+
+        .nav-link {
+
+            font-size: clamp(0.75rem, 0.9vw, 0.85rem);
+
+            font-weight: 400;
+
+            color: var(--text-muted);
+
+            letter-spacing: 0.02em;
+
+            transition: color 0.3s;
+
+            position: relative;
+
+            padding: 8px 0;
+
+            white-space: nowrap;
+
+        }
+
+
+
+        .nav-link:hover, .nav-link.active {
+
+            color: var(--text);
+
+        }
+
+
+
+        .nav-link::after {
+
+            content: '';
+
+            position: absolute;
+
+            bottom: 0;
+
+            left: 0;
+
+            width: 0;
+
+            height: 1px;
+
+            background: var(--gold);
+
+            transition: width 0.3s ease;
+
+        }
+
+
+
+        .nav-link:hover::after, .nav-link.active::after {
+
+            width: 100%;
+
+        }
+
+
+
+        /* Mobile Toggle */
+
+        .mobile-btn {
+
+            display: none;
+
+            background: none;
+
+            border: none;
+
+            color: var(--text);
+
+            cursor: pointer;
+
+            font-size: 1.5rem;
+
+        }
+
+
+
+        /* Mobile Drawer */
+
+        .mobile-drawer {
+
+            position: fixed;
+
+            inset: 0;
+
+            top: 80px;
+
+            background: rgba(3, 4, 7, 0.98);
+
+            z-index: 999;
+
+            display: flex;
+
+            flex-direction: column;
+
+            padding: 40px;
+
+            gap: 24px;
+
+            transform: translateX(100%);
+
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+            backdrop-filter: blur(20px);
+
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+        }
+
+
+
+        .mobile-drawer.open {
+
+            transform: translateX(0);
+
+        }
+
+
+
+        /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+           PORTAL SCROLL SECTION (CINEMATIC)
+
+           â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+        .portal-container {
+
+            position: relative;
+
+            width: 100%;
+
+            height: 400vh; /* Natively holds the scroll duration */
+
+            background: var(--bg-deep);
+
+        }
+
+
+
+        .portal-sticky {
+
+            position: sticky;
+
+            top: 0;
+
+            width: 100%;
+
+            height: 100vh;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            overflow: hidden;
+
+        }
+
+
+
+        /* Scroll-Driven Video View */
+
+        .video-container {
+
+            position: absolute;
+
+            inset: 0;
+
+            z-index: 1;
+
+            overflow: hidden;
+
+            background: var(--bg-deep);
+
+        }
+
+
+
+        .gate-video {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: cover;
+
+            object-position: center;
+
+        }
+
+
+
+        .video-overlay {
+
+            position: absolute;
+
+            inset: 0;
+
+            /* Soft dark vignette to make the gold/white text pop elegantly */
+
+            background: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 100%);
+
+            z-index: 2;
+
+            pointer-events: none;
+
+        }
+
+
+
+        .hero-glass-panel {
+
+            background: rgba(10, 11, 15, 0.55);
+
+            backdrop-filter: blur(24px);
+
+            -webkit-backdrop-filter: blur(24px);
+
+            border: 1px solid rgba(255, 255, 255, 0.05);
+
+            padding: 24px 40px;
+
+            border-radius: 32px;
+
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(212,175,100,0.1) inset;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+        }
+
+        
+
+        @media (max-width: 768px) {
+
+            .hero-glass-panel { padding: 32px 24px; border-radius: 24px; }
+
+        }
+
+
+
+        /* Editorial content overlays */
+
+        .portal-slides-container {
+
+            position: absolute;
+
+            inset: 0;
+
+            z-index: 999;
+
+            pointer-events: none; /* Container ignores clicks */
+
+        }
+
+
+
+        .portal-slide {
+
+            position: absolute;
+
+            top: 50%;
+
+            left: 50%;
+
+            transform: translate(-50%, calc(-50% + 40px));
+
+            width: 90%;
+
+            max-width: 620px;
+
+            opacity: 0;
+
+            visibility: hidden;
+
+            pointer-events: auto; /* Card catches clicks explicitly */
+
+            transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+
+        }
+
+
+
+        .portal-slide.active {
+
+            opacity: 1;
+
+            transform: translateö(0);
+
+            pointer-events: auto;
+
+        }
+
+
+
+
+
+        /* Initial Screen Title (before gate opens) */
+
+        .gate-initial-hero {
+
+            position: absolute;
+
+            top: 50%;
+
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            z-index: 5;
+
+            text-align: center;
+
+            pointer-events: auto;
+
+            max-width: 680px;
+
+            width: 100%;
+
+            padding: 0 24px;
+
+            will-change: transform, opacity;
+
+        }
+
+
+
+        .gate-initial-hero h1 {
+
+            font-size: clamp(3.2rem, 8vw, 6.2rem);
+
+            margin-bottom: 24px;
+
+            color: #ffffff !important; /* Always light on dark video */
+
+            text-shadow: 0 4px 24px rgba(0,0,0,0.4); /* Elegant, soft contrast instead of harsh black shadow */
+
+            line-height: 1.1;
+
+        }
+
+        
+
+        .gate-initial-hero h1 em {
+
+            background: linear-gradient(135deg, #ffffff, var(--gold));
+
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+
+            font-style: normal; /* No more outdated italics */
+
+            font-weight: 700; /* Bold and commanding */
+
+            filter: drop-shadow(0 4px 20px rgba(0,0,0,0.4));
+
+            white-space: nowrap;
+
+        }
+
+
+
+        .hero-badge {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            padding: 8px 20px;
+
+            border-radius: 100px;
+
+            background: rgba(0, 0, 0, 0.4);
+
+            border: 1px solid rgba(212, 175, 100, 0.3);
+
+            backdrop-filter: blur(12px);
+
+            -webkit-backdrop-filter: blur(12px);
+
+            font-family: var(--font-mono);
+
+            font-size: 0.75rem;
+
+            letter-spacing: 0.2em;
+
+            color: var(--gold) !important;
+
+            text-transform: uppercase;
+
+            margin-bottom: 12px;
+
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+
+        }
+
+
+
+        .pulse-dot {
+
+            width: 6px;
+
+            height: 6px;
+
+            background: var(--gold);
+
+            border-radius: 50%;
+
+            box-shadow: 0 0 12px var(--gold);
+
+            animation: pulse-dot-anim 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+        }
+
+
+
+        @keyframes pulse-dot-anim {
+
+            0%, 100% { opacity: 1; transform: scale(1); }
+
+            50% { opacity: 0.4; transform: scale(1.5); }
+
+        }
+
+
+
+        .hero-seo-desc {
+
+            font-size: 0.95rem;
+
+            display: block;
+
+            opacity: 0.95;
+
+            color: #e2e2e5 !important;
+
+            text-shadow: 0 4px 16px rgba(0,0,0,0.9);
+
+            font-weight: 400;
+
+            letter-spacing: 0.02em;
+
+        }
+
+
+
+        /* Mouse indicator */
+
+        .scroll-hint {
+
+            position: absolute;
+
+            bottom: 40px;
+
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            z-index: 6;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            gap: 12px;
+
+            color: rgba(244, 243, 239, 0.45);
+
+            font-family: var(--font-mono);
+
+            font-size: 0.65rem;
+
+            letter-spacing: 0.2em;
+
+            text-transform: uppercase;
+
+            pointer-events: none;
+
+            transition: opacity 0.4s ease;
+
+        }
+
+
+
+        .mouse-icon {
+
+            width: 20px;
+
+            height: 32px;
+
+            border: 2px solid rgba(244, 243, 239, 0.25);
+
+            border-radius: 12px;
+
+            position: relative;
+
+        }
+
+
+
+        .mouse-dot {
+
+            width: 4px;
+
+            height: 8px;
+
+            background: var(--gold);
+
+            border-radius: 2px;
+
+            position: absolute;
+
+            top: 6px;
+
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            animation: mouse-scroll 1.6s infinite;
+
+        }
+
+
+
+        @keyframes mouse-scroll {
+
+            0% { transform: translate(-50%, 0); opacity: 1; }
+
+            100% { transform: translate(-50%, 8px); opacity: 0; }
+
+        }
+
+
+
+        /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+           THE 3 PILLARS / BENTO SECTION
+
+           â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+        .section-padding {
+
+            padding: 140px 0;
+
+            position: relative;
+
+        }
+
+
+
+        .bento-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 32px;
+
+            margin-top: 48px;
+
+        }
+
+
+
+        .bento-card {
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: space-between;
+
+            padding: 40px;
+
+        }
+
+
+
+        /* 3D Bento Enhancements */
+
+        :root[data-theme="light"] .bento-card {
+
+            background: linear-gradient(145deg, #ffffff, #f4f5f8);
+
+            border: 1px solid rgba(255,255,255,0.8);
+
+            box-shadow: 
+
+                -10px -10px 20px rgba(255,255,255,0.8),
+
+                15px 15px 35px rgba(15,17,21,0.05),
+
+                inset 2px 2px 0px rgba(255,255,255,1);
+
+            border-radius: 24px;
+
+        }
+
+        :root[data-theme="light"] .bento-card:hover {
+
+            box-shadow: 
+
+                -10px -10px 20px rgba(255,255,255,0.9),
+
+                20px 20px 45px rgba(15,17,21,0.08),
+
+                0 0 20px rgba(212,175,100,0.15),
+
+                inset 2px 2px 0px rgba(255,255,255,1);
+
+            border-color: rgba(212,175,100,0.2);
+
+            transform: translateö(-6px);
+
+        }
+
+
+
+        .bento-card h3 {
+
+            font-family: var(--font-display);
+
+            font-weight: 700;
+
+            font-size: 1.8rem;
+
+            margin-bottom: 16px;
+
+            letter-spacing: -0.03em;
+
+        }
+
+
+
+        /* 3D Modern Icons */
+
+        .card-header-icon {
+
+            width: 56px;
+
+            height: 56px;
+
+            border-radius: 14px;
+
+            background: linear-gradient(135deg, rgba(212, 175, 100, 0.15), rgba(212, 175, 100, 0.05));
+
+            border: 1px solid rgba(212, 175, 100, 0.4);
+
+            box-shadow: 0 8px 16px rgba(212, 175, 100, 0.15), inset 0 2px 0 rgba(255, 255, 255, 0.5);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            color: var(--gold);
+
+            margin-bottom: 28px;
+
+            transition: var(--transition);
+
+        }
+
+        .bento-card:hover .card-header-icon {
+
+            transform: scale(1.1) translateö(-4px);
+
+            box-shadow: 0 12px 24px rgba(212, 175, 100, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.8);
+
+            background: linear-gradient(135deg, rgba(212, 175, 100, 0.2), rgba(212, 175, 100, 0.08));
+
+        }
+
+
+
+        /* Subtitle tag logic */
+
+        :root[data-theme="light"] .card-subtitle-tag {
+
+            color: #666;
+
+            font-weight: 600;
+
+        }
+
+        :root:not([data-theme="light"]) .card-subtitle-tag {
+
+            color: rgba(255,255,255,0.45);
+
+        }
+
+
+
+        .card-points {
+
+            list-style: none;
+
+            margin: 28px 0;
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 14px;
+
+        }
+
+
+
+        .card-points li {
+
+            font-size: 0.92rem;
+
+            color: var(--text-muted);
+
+            display: flex;
+
+            align-items: flex-start; /* Better for multiline text */
+
+            gap: 12px;
+
+            line-height: 1.5;
+
+        }
+
+
+
+        /* Make the text color darker in light mode for readability */
+
+        :root[data-theme="light"] .card-points li {
+
+            color: #555;
+
+        }
+
+
+
+        .card-points li::before {
+
+            content: '→';
+
+            color: var(--gold);
+
+            margin-top: 2px; /* Aligns arrow with first line of wrapped text */
+
+            font-weight: 500;
+
+        }
+
+
+
+        /* SPERRKONTO CALCULATOR */
+
+        .calculator-layout {
+
+            display: grid;
+
+            grid-template-columns: 1.1fr 0.9fr;
+
+            gap: 64px;
+
+            align-items: center;
+
+        }
+
+
+
+        .calc-slider-box {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 32px;
+
+        }
+
+
+
+        .slider-group {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 12px;
+
+        }
+
+
+
+        .slider-header {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            font-size: 0.95rem;
+
+            font-weight: 500;
+
+        }
+
+
+
+        .slider-value {
+
+            color: var(--gold);
+
+            font-family: var(--font-mono);
+
+            font-weight: bold;
+
+        }
+
+
+
+        .custom-range {
+
+            -webkit-appearance: none;
+
+            width: 100%;
+
+            height: 6px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            border-radius: 3px;
+
+            outline: none;
+
+        }
+
+
+
+        .custom-range::-webkit-slider-thumb {
+
+            -webkit-appearance: none;
+
+            width: 20px;
+
+            height: 20px;
+
+            border-radius: 50%;
+
+            background: var(--gold);
+
+            box-shadow: 0 0 12px var(--gold-glow);
+
+            cursor: pointer;
+
+            transition: 0.2s ease-in-out;
+
+        }
+
+
+
+        .custom-range::-webkit-slider-thumb:hover {
+
+            transform: scale(1.2);
+
+        }
+
+
+
+        .calc-visual-wrap {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 12px;
+
+            margin-top: 16px;
+
+        }
+
+
+
+        .calc-progress-bar {
+
+            height: 12px;
+
+            border-radius: 6px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            display: flex;
+
+            overflow: hidden;
+
+        }
+
+
+
+        .bar-slice-sperr { background: linear-gradient(90deg, var(--gold-deep), var(--gold)); }
+
+        .bar-slice-fee { background: #3b6fd4; }
+
+
+
+        .calc-result-panel {
+
+            background: rgba(255, 255, 255, 0.02);
+
+            border: 1px solid rgba(255, 255, 255, 0.05);
+
+            border-radius: 12px;
+
+            padding: 40px;
+
+            text-align: center;
+
+        }
+
+
+
+        .calc-total-number {
+
+            font-family: var(--font-serif);
+
+            font-style: italic;
+
+            font-size: 3.5rem;
+
+            color: var(--gold);
+
+            line-height: 1.1;
+
+            margin: 12px 0 24px;
+
+        }
+
+
+
+        .calc-breakdown {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 14px;
+
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+
+            padding-top: 24px;
+
+            text-align: left;
+
+        }
+
+
+
+        .breakdown-row {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            font-size: 0.92rem;
+
+            color: var(--text-muted);
+
+        }
+
+
+
+        .calc-legend {
+
+            display: flex; 
+
+            gap: 24px; 
+
+            font-size: 0.8rem; 
+
+            font-family: var(--font-mono); 
+
+            margin-top: 8px;
+
+            color: var(--text-muted);
+
+        }
+
+
+
+        /* Light Mode Overrides for Calculator */
+
+        :root[data-theme="light"] .custom-range {
+
+            background: rgba(0, 0, 0, 0.1);
+
+        }
+
+        :root[data-theme="light"] .calc-progress-bar {
+
+            background: rgba(0, 0, 0, 0.1);
+
+        }
+
+        :root[data-theme="light"] .calc-result-panel {
+
+            border: 1px solid rgba(0, 0, 0, 0.05);
+
+            background: rgba(0, 0, 0, 0.02);
+
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+
+        }
+
+        :root[data-theme="light"] .calc-breakdown {
+
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+
+        }
+
+        :root[data-theme="light"] .breakdown-row {
+
+            color: #555;
+
+        }
+
+        :root[data-theme="light"] .breakdown-row strong {
+
+            color: #111;
+
+        }
+
+        :root[data-theme="light"] .calc-legend {
+
+            color: #555;
+
+        }
+
+
+
+        /* ELITE UNIVERSITIES */
+
+        .univ-slider {
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 32px;
+
+            margin-top: 48px;
+
+        }
+
+
+
+        .univ-card {
+
+            overflow: hidden;
+
+            padding: 0;
+
+            display: flex;
+
+            flex-direction: column;
+
+        }
+
+
+
+        .univ-image-holder {
+
+            width: 100%;
+
+            height: 240px;
+
+            overflow: hidden;
+
+            position: relative;
+
+        }
+
+
+
+        .univ-image-holder img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: cover;
+
+            transition: transform 0.8s var(--ease-out-expo);
+
+        }
+
+
+
+        .univ-card:hover .univ-image-holder img {
+
+            transform: scale(1.08);
+
+        }
+
+
+
+        .univ-info {
+
+            padding: 36px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 16px;
+
+            flex-grow: 1;
+
+        }
+
+
+
+        .univ-meta {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            font-family: var(--font-mono);
+
+            font-size: 0.72rem;
+
+            color: var(--gold);
+
+        }
+
+
+
+        .univ-info h3 {
+
+            font-family: var(--font-serif);
+
+            font-style: italic;
+
+            font-size: 1.45rem;
+
+        }
+
+
+
+        /* DANIŞMANLIK PAKETLERİ (Pricing Grid) */
+
+        .pricing-table {
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 32px;
+
+            margin-top: 48px;
+
+        }
+
+
+
+        .price-card {
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: space-between;
+
+            position: relative;
+
+            transition: var(--transition);
+
+        }
+
+
+
+        .price-card.featured {
+
+            border-color: var(--gold);
+
+            box-shadow: 0 24px 56px var(--gold-glow);
+
+            transform: scale(1.05);
+
+            z-index: 2;
+
+        }
+
+
+
+        :root[data-theme="light"] .price-card.featured {
+
+            background: linear-gradient(145deg, #ffffff, #fdfaf4);
+
+            border-width: 2px;
+
+            box-shadow: 0 30px 60px rgba(212,175,100,0.15), 0 10px 20px rgba(15,17,21,0.06), inset 0 2px 0 #ffffff;
+
+        }
+
+
+
+        .featured-badge {
+
+            position: absolute;
+
+            top: -14px;
+
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+
+            color: var(--bg-deep);
+
+            padding: 4px 18px;
+
+            border-radius: 30px;
+
+            font-family: var(--font-mono);
+
+            font-size: 0.65rem;
+
+            font-weight: 600;
+
+            letter-spacing: 0.1em;
+
+            text-transform: uppercase;
+
+        }
+
+
+
+        .price-header {
+
+            text-align: center;
+
+            border-bottom: 1px solid var(--border);
+
+            padding-bottom: 28px;
+
+            margin-bottom: 28px;
+
+        }
+
+
+
+        .price-amount {
+
+            font-family: var(--font-display);
+
+            font-weight: 700;
+
+            font-size: 3.5rem;
+
+            color: var(--text);
+
+            margin: 8px 0;
+
+            letter-spacing: -0.04em;
+
+        }
+
+
+
+        :root[data-theme="light"] .price-amount {
+
+            background: linear-gradient(135deg, var(--text), var(--gold));
+
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+
+        }
+
+
+
+        .price-features {
+
+            list-style: none;
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 16px;
+
+            margin-bottom: 40px;
+
+            flex-grow: 1;
+
+        }
+
+
+
+        .price-features li {
+
+            font-size: 0.92rem;
+
+            color: var(--text-muted);
+
+            display: flex;
+
+            gap: 12px;
+
+            align-items: flex-start;
+
+        }
+
+
+
+        .price-features li.check::before {
+
+            content: '✓';
+
+            color: var(--gold);
+
+            font-weight: bold;
+
+        }
+
+
+
+        .price-features li.cross-feature {
+
+            content: '✕';
+
+            color: rgba(255, 255, 255, 0.15);
+
+        }
+
+
+
+        .price-features li.cross {
+
+            opacity: 0.4;
+
+            text-decoration: line-through;
+
+        }
+
+
+
+        /* BUT WIZARD */
+
+        .wizard-layout {
+
+            max-width: 800px;
+
+            margin: 48px auto 0;
+
+        }
+
+
+
+        .wizard-step {
+
+            display: none;
+
+            flex-direction: column;
+
+            gap: 28px;
+
+        }
+
+
+
+        .wizard-step.active {
+
+            display: flex;
+
+            animation: fadeInStep 0.4s ease forwards;
+
+        }
+
+
+
+        @keyframes fadeInStep {
+
+            from { opacity: 0; transform: translateö(10px); }
+
+            to { opacity: 1; transform: translateö(0); }
+
+        }
+
+
+
+        .wizard-buttons {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 20px;
+
+        }
+
+
+
+        .wizard-btn-option {
+
+            background: rgba(255, 255, 255, 0.02);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            border-radius: 8px;
+
+            padding: 24px;
+
+            color: var(--text);
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+            text-align: center;
+
+            font-family: var(--font-display);
+
+            font-size: 1rem;
+
+            font-weight: 500;
+
+        }
+
+
+
+        .wizard-btn-option:hover {
+
+            border-color: var(--gold);
+
+            background: rgba(212, 175, 100, 0.05);
+
+            color: var(--gold-light);
+
+        }
+
+
+
+        .wizard-progress {
+
+            height: 3px;
+
+            background: rgba(255, 255, 255, 0.06);
+
+            border-radius: 2px;
+
+            margin-bottom: 32px;
+
+            overflow: hidden;
+
+        }
+
+
+
+        .wizard-progress-bar {
+
+            height: 100%;
+
+            background: var(--gold);
+
+            width: 25%;
+
+            transition: width 0.4s ease;
+
+        }
+
+
+
+        .wizard-result-box {
+
+            text-align: center;
+
+            padding: 24px 0;
+
+        }
+
+
+
+        /* SOMMERCAMP TIMELINE */
+
+        .camp-timeline {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 32px;
+
+            margin-top: 48px;
+
+        }
+
+
+
+        /* BOOKING FORM */
+
+        .booking-layout {
+
+            display: grid;
+
+            grid-template-columns: 0.9fr 1.1fr;
+
+            gap: 64px;
+
+            align-items: start;
+
+        }
+
+
+
+        .booking-info-box {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 28px;
+
+        }
+
+
+
+        .contact-item {
+
+            display: flex;
+
+            gap: 20px;
+
+            align-items: flex-start;
+
+        }
+
+
+
+        .contact-icon {
+
+            width: 44px;
+
+            height: 44px;
+
+            border-radius: 8px;
+
+            background: rgba(255, 255, 255, 0.02);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            color: var(--gold);
+
+            flex-shrink: 0;
+
+        }
+
+
+
+        .booking-form-box {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 20px;
+
+        }
+
+
+
+        .form-row-2 {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 20px;
+
+        }
+
+
+
+        .form-group {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 8px;
+
+        }
+
+
+
+        .form-group label {
+
+            font-family: var(--font-mono);
+
+            font-size: 0.72rem;
+
+            color: var(--text-muted);
+
+            letter-spacing: 0.1em;
+
+            text-transform: uppercase;
+
+        }
+
+
+
+        .form-group input, .form-group select {
+
+            background: rgba(255, 255, 255, 0.03);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            border-radius: 6px;
+
+            padding: 14px 18px;
+
+            color: var(--text);
+
+            font-family: var(--font-display);
+
+            font-size: 0.95rem;
+
+            outline: none;
+
+            transition: var(--transition);
+
+        }
+
+
+
+        .form-group input:focus, .form-group select:focus {
+
+            border-color: var(--gold);
+
+            box-shadow: 0 0 12px rgba(212, 175, 100, 0.15);
+
+        }
+
+
+
+        /* Custom Time/Date Picker Cards */
+
+        .picker-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: 10px;
+
+        }
+
+
+
+        .picker-cell {
+
+            background: rgba(255, 255, 255, 0.02);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            border-radius: 6px;
+
+            padding: 12px;
+
+            text-align: center;
+
+            font-size: 0.88rem;
+
+            font-weight: 500;
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+        }
+
+
+
+        .picker-cell:hover {
+
+            border-color: var(--gold);
+
+            background: rgba(212, 175, 100, 0.05);
+
+        }
+
+
+
+        .picker-cell.active {
+
+            background: var(--gold);
+
+            border-color: var(--gold);
+
+            color: var(--bg-deep);
+
+            font-weight: 600;
+
+        }
+
+
+
+        /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+           PREMIUM SMART CHATBOT (STARTBOT)
+
+           â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+        .startbot-container {
+
+            position: fixed;
+
+            bottom: 40px;
+
+            right: 40px;
+
+            z-index: 1000;
+
+        }
+
+
+
+        .startbot-bubble {
+
+            width: 64px;
+
+            height: 64px;
+
+            border-radius: 50%;
+
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+
+            color: var(--bg-deep);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            cursor: pointer;
+
+            box-shadow: 0 12px 36px rgba(212, 175, 100, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.5);
+
+            border: none;
+
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+            position: relative;
+
+        }
+
+
+
+        .startbot-bubble:hover {
+
+            transform: scale(1.08) translateö(-4px);
+
+            box-shadow: 0 16px 42px rgba(212, 175, 100, 0.5), inset 0 2px 4px rgba(255, 255, 255, 0.6);
+
+        }
+
+
+
+        .startbot-pulse {
+
+            position: absolute;
+
+            inset: 0;
+
+            border-radius: 50%;
+
+            border: 2px solid var(--gold-light);
+
+            animation: bot-radar 2.4s infinite cubic-bezier(0.16, 1, 0.3, 1);
+
+            pointer-events: none;
+
+        }
+
+
+
+        @keyframes bot-radar {
+
+            0% { transform: scale(1); opacity: 0.8; }
+
+            100% { transform: scale(1.6); opacity: 0; }
+
+        }
+
+
+
+        .startbot-window {
+
+            position: fixed;
+
+            top: 0;
+
+            right: 0;
+
+            width: 460px;
+
+            height: 100vh;
+
+            background: rgba(10, 11, 15, 0.85);
+
+            border-left: 1px solid rgba(255, 255, 255, 0.12);
+
+            box-shadow: -20px 0 60px rgba(0, 0, 0, 0.6), inset 1px 0 0 rgba(255,255,255,0.05);
+
+            display: none;
+
+            flex-direction: column;
+
+            overflow: hidden;
+
+            backdrop-filter: blur(24px);
+
+            -webkit-backdrop-filter: blur(24px);
+
+            transform-origin: right;
+
+            animation: bot-slide 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+            z-index: 1001;
+
+        }
+
+
+
+        @keyframes bot-slide {
+
+            from { opacity: 0; transform: translateX(100%); }
+
+            to { opacity: 1; transform: translateX(0); }
+
+        }
+
+
+
+        @media (max-width: 768px) {
+
+            .startbot-window { width: 100%; border-left: none; }
+
+        }
+
+
+
+        .rich-card {
+
+            background: rgba(255,255,255,0.05);
+
+            border: 1px solid rgba(255,255,255,0.1);
+
+            border-radius: 12px;
+
+            padding: 16px;
+
+            margin-top: 12px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 8px;
+
+        }
+
+
+
+        .rich-card h5 {
+
+            font-size: 1rem;
+
+            color: var(--gold-light);
+
+            margin: 0;
+
+        }
+
+
+
+        .rich-card p {
+
+            font-size: 0.85rem;
+
+            color: var(--text-muted);
+
+            margin: 0;
+
+        }
+
+
+
+        .rich-card .btn {
+
+            font-size: 0.85rem;
+
+            padding: 8px 16px;
+
+            margin-top: 8px;
+
+            align-self: flex-start;
+
+            text-decoration: none;
+
+        }
+
+
+
+        .startbot-window.active {
+
+            display: flex;
+
+        }
+
+
+
+        .typing-indicator span {
+
+            animation: blink 1.4s infinite both;
+
+            font-size: 20px;
+
+            line-height: 10px;
+
+        }
+
+        .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+
+        .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes blink { 0% { opacity: 0.2; } 20% { opacity: 1; } 100% { opacity: 0.2; } }
+
+
+
+        .startbot-header {
+
+            padding: 24px;
+
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 100%);
+
+        }
+
+
+
+        .startbot-header h4 {
+
+            font-family: var(--font-serif);
+
+            font-style: italic;
+
+            font-size: 1.25rem;
+
+            color: var(--gold-light);
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+        }
+
+
+
+        .startbot-header h4::before {
+
+            content: '';
+
+            display: inline-block;
+
+            width: 8px;
+
+            height: 8px;
+
+            background: #2ecc71;
+
+            border-radius: 50%;
+
+            box-shadow: 0 0 8px #2ecc71;
+
+        }
+
+
+
+        .startbot-chat {
+
+            flex-grow: 1;
+
+            padding: 24px;
+
+            overflow-y: auto;
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 16px;
+
+        }
+
+
+
+        .chat-msg {
+
+            padding: 14px 18px;
+
+            border-radius: 16px;
+
+            font-size: 0.92rem;
+
+            max-width: 85%;
+
+            line-height: 1.5;
+
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+        }
+
+
+
+        .chat-msg.bot {
+
+            background: rgba(255, 255, 255, 0.04);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            border-bottom-left-radius: 4px;
+
+            color: var(--text);
+
+            align-self: flex-start;
+
+        }
+
+
+
+        .chat-msg.user {
+
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+
+            color: var(--bg-deep);
+
+            border-bottom-right-radius: 4px;
+
+            align-self: flex-end;
+
+            font-weight: 500;
+
+        }
+
+
+
+        .startbot-chips {
+
+            display: flex;
+
+            gap: 10px;
+
+            padding: 16px 24px;
+
+            overflow-x: auto;
+
+            white-space: nowrap;
+
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+
+        }
+
+
+
+        .startbot-chips::-webkit-scrollbar {
+
+            display: none;
+
+        }
+
+
+
+        .startbot-chip {
+
+            background: rgba(212, 175, 100, 0.08);
+
+            border: 1px solid rgba(212, 175, 100, 0.25);
+
+            color: var(--gold-light);
+
+            padding: 8px 16px;
+
+            border-radius: 100px;
+
+            font-size: 0.8rem;
+
+            font-weight: 500;
+
+            cursor: pointer;
+
+            transition: all 0.3s ease;
+
+        }
+
+
+
+        .startbot-chip:hover {
+
+            background: var(--gold);
+
+            color: var(--bg-deep);
+
+            transform: translateö(-2px);
+
+        }
+
+
+
+        .startbot-input-wrapper {
+
+            display: flex;
+
+            flex-direction: column;
+
+            background: rgba(0,0,0,0.2);
+
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+
+            padding: 12px 24px 16px 24px;
+
+        }
+
+
+
+        .selected-file-preview {
+
+            display: none;
+
+            align-items: center;
+
+            gap: 8px;
+
+            background: rgba(255,255,255,0.05);
+
+            border: 1px solid rgba(255,255,255,0.1);
+
+            padding: 6px 12px;
+
+            border-radius: 6px;
+
+            margin-bottom: 8px;
+
+            font-size: 0.8rem;
+
+            color: var(--text);
+
+            width: fit-content;
+
+        }
+
+        .selected-file-preview i { width: 14px; height: 14px; color: var(--gold); }
+
+        .selected-file-preview .close-btn {
+
+            cursor: pointer;
+
+            color: var(--text-muted);
+
+            margin-left: 4px;
+
+        }
+
+        .selected-file-preview .close-btn:hover { color: #ff4444; }
+
+
+
+        .startbot-input {
+
+            display: flex;
+
+            gap: 12px;
+
+            align-items: center;
+
+        }
+
+
+
+        .startbot-input input {
+
+            flex-grow: 1;
+
+            background: rgba(255, 255, 255, 0.05);
+
+            border: 1px solid rgba(255, 255, 255, 0.1);
+
+            border-radius: 100px;
+
+            padding: 12px 20px;
+
+            color: var(--text);
+
+            font-family: var(--font-display);
+
+            font-size: 0.95rem;
+
+            outline: none;
+
+            transition: var(--transition);
+
+        }
+
+
+
+        .startbot-input input:focus {
+
+            border-color: var(--gold);
+
+            background: rgba(255, 255, 255, 0.08);
+
+        }
+
+
+
+        .startbot-file-btn {
+
+            width: 44px;
+
+            height: 44px;
+
+            border-radius: 50%;
+
+            background: rgba(255, 255, 255, 0.05);
+
+            border: 1px solid rgba(255, 255, 255, 0.1);
+
+            color: var(--text-muted);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+            flex-shrink: 0;
+
+        }
+
+        .sub-footer {
+
+            background: rgba(255, 255, 255, 0.1);
+
+            color: var(--text);
+
+        }
+
+
+
+        .startbot-input button.send-btn {
+
+            width: 44px;
+
+            height: 44px;
+
+            border-radius: 50%;
+
+            background: var(--gold);
+
+            color: var(--bg-deep);
+
+            border: none;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+            flex-shrink: 0;
+
+        }
+
+        
+
+        .startbot-input button.send-btn:hover {
+
+            transform: scale(1.05);
+
+            box-shadow: 0 4px 12px rgba(212, 175, 100, 0.4);
+
+        }
+
+
+
+        /* LIGHT MODE STARTBOT OVERRIDES */
+
+        :root[data-theme="light"] .startbot-window {
+
+            background: rgba(255, 255, 255, 0.95);
+
+            border-left-color: rgba(0, 0, 0, 0.08);
+
+            box-shadow: -20px 0 60px rgba(15, 17, 21, 0.12), inset 1px 0 0 #ffffff;
+
+        }
+
+        :root[data-theme="light"] .rich-card {
+
+            background: rgba(0,0,0,0.02);
+
+            border-color: rgba(0,0,0,0.06);
+
+        }
+
+        :root[data-theme="light"] .rich-card h5 {
+
+            color: #1a1a1c;
+
+        }
+
+        :root[data-theme="light"] .rich-card p {
+
+            color: #5e636e;
+
+        }
+
+        :root[data-theme="light"] .startbot-header {
+
+            border-bottom-color: rgba(0, 0, 0, 0.06);
+
+            background: linear-gradient(180deg, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0) 100%);
+
+        }
+
+        :root[data-theme="light"] .startbot-header h4 {
+
+            color: #1a1a1c;
+
+        }
+
+        :root[data-theme="light"] .chat-msg.bot {
+
+            background: #ffffff;
+
+            border-color: rgba(0, 0, 0, 0.06);
+
+            color: #1a1a1c;
+
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+
+        }
+
+        :root[data-theme="light"] .chat-msg.user {
+
+            color: #ffffff;
+
+            text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+
+        }
+
+        :root[data-theme="light"] .startbot-chips {
+
+            border-top-color: rgba(0, 0, 0, 0.04);
+
+        }
+
+        :root[data-theme="light"] .startbot-chip {
+
+            background: #ffffff;
+
+            color: #1a1a1c;
+
+            border-color: rgba(0,0,0,0.1);
+
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+
+        }
+
+        :root[data-theme="light"] .startbot-chip:hover {
+
+            background: var(--gold);
+
+            color: #ffffff;
+
+            border-color: var(--gold);
+
+        }
+
+        :root[data-theme="light"] .startbot-input-wrapper {
+
+            background: rgba(244, 245, 248, 0.8);
+
+            border-top-color: rgba(0, 0, 0, 0.06);
+
+        }
+
+        :root[data-theme="light"] .selected-file-preview {
+
+            background: #ffffff;
+
+            border-color: rgba(0,0,0,0.1);
+
+            color: #1a1a1c;
+
+        }
+
+        :root[data-theme="light"] .startbot-input input {
+
+            background: #ffffff;
+
+            border-color: rgba(0, 0, 0, 0.1);
+
+            color: #1a1a1c;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02) inset;
+
+        }
+
+        :root[data-theme="light"] .startbot-input input:focus {
+
+            border-color: var(--gold);
+
+            box-shadow: 0 0 0 2px rgba(212, 175, 100, 0.2);
+
+        }
+
+        :root[data-theme="light"] .startbot-file-btn {
+
+            background: #ffffff;
+
+            border-color: rgba(0,0,0,0.1);
+
+            color: #5e636e;
+
+        }
+
+        :root[data-theme="light"] .sub-footer {
+
+            background: rgba(0,0,0,0.05);
+
+            color: #1a1a1c;
+
+        }
+
+        :root[data-theme="light"] .startbot-input button.send-btn {
+
+            color: #ffffff;
+
+        }
+
+
+
+        /* Footer */
+
+        footer {
+
+            background: var(--bg-deep);
+
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+            padding: 100px 0 40px;
+
+            position: relative;
+
+            z-index: 2;
+
+        }
+
+
+
+        :root[data-theme="light"] footer {
+
+            background: #fdfbf7;
+
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+
+        }
+
+
+
+        .footer-logo img {
+
+            height: 56px; 
+
+            width: auto; 
+
+            filter: grayscale(1) brightness(2);
+
+            transition: var(--transition);
+
+        }
+
+
+
+        :root[data-theme="light"] .footer-logo img {
+
+            filter: grayscale(1) brightness(0.1);
+
+        }
+
+
+
+        :root[data-theme="light"] .footer-links h4 {
+
+            color: #1a1a1c;
+
+            font-weight: 700;
+
+        }
+
+
+
+        :root[data-theme="light"] .footer-links a {
+
+            color: #5e636e;
+
+        }
+
+
+
+        :root[data-theme="light"] .footer-links a:hover {
+
+            color: var(--gold);
+
+        }
+
+
+
+        :root[data-theme="light"] .footer-bottom {
+
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+
+            color: #5e636e;
+
+        }
+
+        
+
+        :root[data-theme="light"] .vnn-stamp {
+
+            background: #ffffff;
+
+            border: 1px solid rgba(0,0,0,0.1);
+
+            color: #1a1a1c;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+
+        }
+
+
+
+        .footer-grid {
+
+            display: grid;
+
+            grid-template-columns: 1.5fr 1fr 1fr 1fr;
+
+            gap: 48px;
+
+            margin-bottom: 60px;
+
+        }
+
+
+
+        .footer-logo {
+
+            font-family: var(--font-serif);
+
+            font-style: italic;
+
+            font-size: 1.5rem;
+
+            color: var(--text);
+
+            margin-bottom: 16px;
+
+        }
+
+
+
+        .footer-logo span {
+
+            font-family: var(--font-mono);
+
+            font-style: normal;
+
+            font-size: 0.7rem;
+
+            color: var(--gold);
+
+            letter-spacing: 0.2em;
+
+            text-transform: uppercase;
+
+        }
+
+
+
+        .footer-links h4 {
+
+            font-family: var(--font-mono);
+
+            font-size: 0.75rem;
+
+            letter-spacing: 0.15em;
+
+            text-transform: uppercase;
+
+            color: var(--gold);
+
+            margin-bottom: 24px;
+
+        }
+
+
+
+        .footer-links ul {
+
+            list-style: none;
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 12px;
+
+        }
+
+
+
+        .footer-links a {
+
+            color: var(--text-muted);
+
+            font-size: 0.92rem;
+
+            transition: color 0.3s;
+
+        }
+
+
+
+        .footer-links a:hover {
+
+            color: var(--text);
+
+        }
+
+
+
+        .vnn-stamp {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            padding: 8px 16px;
+
+            background: rgba(212, 175, 100, 0.05);
+
+            border: 1px solid rgba(212, 175, 100, 0.2);
+
+            border-radius: 4px;
+
+            font-family: var(--font-mono);
+
+            font-size: 0.72rem;
+
+            color: var(--gold-light);
+
+        }
+
+
+
+        .footer-bottom {
+
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+            padding-top: 32px;
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            font-size: 0.8rem;
+
+            color: var(--text-muted);
+
+        }
+
+
+
+        /* Responsive */
+
+        @media (max-width: 1250px) {
+
+            .nav-menu, .btn-header-consult {
+
+                display: none;
+
+            }
+
+
+
+            .mobile-btn {
+
+                display: flex;
+
+            }
+
+        }
+
+        
+
+        @media (max-width: 1024px) {
+
+            .bento-grid, .univ-slider, .pricing-table {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+
+            .calculator-layout, .booking-layout, .camp-timeline {
+
+                grid-template-columns: 1fr;
+
+                gap: 40px;
+
+            }
+
+        }
+
+
+</style>
+</head>
+<body>
+
+    <!-- Ambient Cosmic overlay -->
+    <div class="cosmic-overlay"></div>
+
+    <!-- 3D WebGL Canvas background -->
+    <canvas id="canvas-3d"></canvas>
+
+    <!-- 3D Game Mode HUD Overlay -->
+    <div class="game-hud" id="game-hud-overlay">
+        <div class="hud-header">
+            <div class="hud-badge"><span class="pulse-dot"></span> Canlı 3D Gezgin</div>
+            <div class="hud-title">Almanya Kampüs Simülatörü</div>
+        </div>
+
+        <div class="hud-compass">
+            <span id="hud-direction">CAMPUS COURTYARD</span>
+        </div>
+
+        <div class="hud-reticle"></div>
+
+        <div class="hud-status">
+            <h4><i data-lucide="navigation"></i> Serbest Gezinti Modu</h4>
+            <p>Üniversite geçitlerinde yürüyün. Gerçek görselleri 3D uzayda inceleyin.</p>
+            
+            <div class="hud-keys">
+                <span class="key-btn">W</span>
+                <span class="key-btn">A</span>
+                <span class="key-btn">S</span>
+                <span class="key-btn">D</span>
+                <span class="key-btn">Yön Tuşları</span>
+            </div>
+        </div>
+
+        <div class="hud-radar">
+            <div class="radar-sweep"></div>
+            <div class="radar-player" id="radar-player"></div>
+        </div>
+
+        <div class="hud-actions">
+            <button class="btn btn-primary btn-exit-game" id="btn-exit-3d-game">
+                <i data-lucide="log-out"></i> Gezintiden Çık (ESC)
+            </button>
+        </div>
+    </div>
+
+    <!-- 1. NAVBAR SECTION -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                <svg width="40" height="40" viewBox="0 0 100 100" class="logo-svg">
+                    <path d="M 28 22 L 72 46 C 76 48 76 52 72 54 L 28 78 C 24 80 20 77 20 72 L 20 59 M 20 41 L 20 28 C 20 23 24 20 28 22 Z" fill="none" stroke="#00f0ff" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+                    <path d="M 8 50 L 40 50 M 32 42 L 40 50 L 32 58" fill="none" stroke="#c5a059" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">START</span>
+                    <span class="logo-sub">Akademie</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="#" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">Akademik Köprü</a>
+                <a href="#nachhilfe" class="nav-item">Nachhilfe</a>
+                <a href="#beratung" class="nav-item">Danışmanlık</a>
+                <a href="#sprachkurse" class="nav-item">Dil Kursları</a>
+                <a href="#camp" class="nav-item">Sommercamp</a>
+                <a href="#contact" class="nav-item">İletişim</a>
+            </div>
+
+            <div class="navbar-actions">
+                <a href="#contact" class="btn btn-primary btn-sm btn-magnetic">Ön Görüşme <i data-lucide="calendar"></i></a>
+                <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Menü">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Panel -->
+    <div class="mobile-menu" id="mobile-menu-panel">
+        <a href="#" class="mobile-menu-item">Home</a>
+        <a href="#about" class="mobile-menu-item">Akademik Köprü</a>
+        <a href="#nachhilfe" class="mobile-menu-item">Nachhilfe</a>
+        <a href="#beratung" class="mobile-menu-item">Danışmanlık</a>
+        <a href="#sprachkurse" class="mobile-menu-item">Dil Kursları</a>
+        <a href="#camp" class="mobile-menu-item">Sommercamp</a>
+        <a href="#contact" class="mobile-menu-item">İletişim</a>
+        <a href="#contact" class="btn btn-primary w-full mt-4">Ön Görüşme <i data-lucide="calendar"></i></a>
+    </div>
+
+    <!-- 2. SCROLL GATE STORYTELLING PORTAL (HYLIOX-STYLE REVEAL) -->
+    <section class="scroll-gate-section" id="hero">
+        <div class="gate-viewport">
+            <!-- 1. The Inner Campus Environment (Revealed on Open) -->
+            <div class="inner-campus-view">
+                <div class="inner-overlay"></div>
+                
+                <!-- Immersive Floating Information Cards (Flows as user scrolls) -->
+                <div class="portal-content-overlay">
+                    <!-- Slide 1: Welcome & About Start Akademie -->
+                    <div class="portal-slide" id="portal-slide-1">
+                        <div class="glass-panel">
+                            <p style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; opacity: 0.9;">Premium Eğitim Danışmanlığı</p>
+                            <h2 style="font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 24px; color: var(--cream);">Akademik Geleceğe<br><em>Geçiş Kapınız</em></h2>
+                            <div style="width: 40px; height: 1px; background: var(--gold); opacity: 0.4; margin-bottom: 28px;"></div>
+                            <p style="font-size: 1rem; line-height: 1.8; color: rgba(240,238,232,0.7); margin-bottom: 32px;">
+                                Start Akademie, Almanya'da lise okuyan öğrencilerimizi okul başarıları için (Nachhilfe) güçlendirirken, küresel vizyona sahip adayların Almanya devlet üniversitelerine kabul ve vize süreçlerini tek elden yönetir.
+                            </p>
+                            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                                <a href="#nachhilfe" class="btn btn-primary">Nachhilfe Keşfet <i data-lucide="arrow-right"></i></a>
+                                <button id="btn-start-3d-game" class="btn btn-outline">Kampüsü Keşfet (3D) <i data-lucide="gamepad-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Academic Colonnade / Portal Statistics -->
+                    <div class="portal-slide" id="portal-slide-2">
+                        <div class="glass-panel panel-right">
+                            <p style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; opacity: 0.9;">Akademik Köprü</p>
+                            <h2 style="font-size: clamp(1.8rem, 3.5vw, 2.8rem); margin-bottom: 24px; color: var(--cream);">Almanya Devlet<br><em>Üniversiteleri Portalı</em></h2>
+                            <div style="width: 40px; height: 1px; background: var(--gold); opacity: 0.4; margin-bottom: 28px;"></div>
+                            <p style="font-size: 0.95rem; line-height: 1.8; color: rgba(240,238,232,0.65); margin-bottom: 32px;">
+                                Seçkin lise ve üniversitelerden gelen öğrencilerimizin diplomalarını inceliyor, denklik analizlerini yapıyor ve sıfır vize kaybı politikasıyla şartlı kabul alıyoruz.
+                            </p>
+                            <div style="display: flex; gap: 48px; border-top: 1px solid rgba(212,175,100,0.12); padding-top: 24px;">
+                                <div>
+                                    <div class="stat-number">%98</div>
+                                    <p style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); margin-top: 6px;">Kabul Oranı</p>
+                                </div>
+                                <div>
+                                    <div class="stat-number" style="color: var(--cyan);">VNN</div>
+                                    <p style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); margin-top: 6px;">Akredite Kalite</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. The Sliding Neoclassical Gates (Front Cover Layer) -->
+            <div class="gate-doors-container">
+                <div class="gate-door left-door"></div>
+                <div class="gate-door right-door"></div>
+                
+                <!-- Initial Landing Content overlay before split -->
+                <div class="gate-initial-content" style="position: absolute; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 4; pointer-events: none;">
+                    <div style="text-align: center; pointer-events: auto; max-width: 640px; padding: 0 24px;">
+                        <p style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 28px; opacity: 0.8;">Almanya Devlet Üniversiteleri · Danışmanlık Portalı</p>
+                        <h1 style="font-family: var(--font-serif); font-style: italic; font-size: clamp(3rem, 8vw, 5.5rem); font-weight: 300; letter-spacing: -0.02em; line-height: 1.05; color: var(--cream); margin-bottom: 24px;">
+                            <span class="gradient-text">Start</span><br>Akademie
+                        </h1>
+                        <div style="width: 48px; height: 1px; background: var(--gold); margin: 24px auto; opacity: 0.5;"></div>
+                        <p style="font-family: var(--font-display); font-size: 0.95rem; color: rgba(240,238,232,0.6); letter-spacing: 0.01em; line-height: 1.7; margin-bottom: 36px;">Almanya'nın prestijli devlet üniversitelerine<br>başvuru & kabul süreçleri için kapınız.</p>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 10px; color: rgba(240,238,232,0.35); font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;">
+                            <span style="width: 20px; height: 1px; background: currentColor; display: inline-block;"></span>
+                            Keşfetmek için kaydırın
+                            <span style="width: 20px; height: 1px; background: currentColor; display: inline-block;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Scroll Down Mouse Indicator -->
+            <div class="scroll-indicator-mouse">
+                <span class="mouse-wheel-dot"></span>
+                <span>KAYDIRIN</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.5 ELITE UNIVERSITIES SHOWCASE SECTION -->
+    <section class="story-section" id="universities">
+        <div class="container">
+            <div class="glass-panel panel-wide">
+                <div class="section-badge"><i data-lucide="award"></i> Partner & Seçkin Üniversiteler</div>
+                <h2>Almanya'nın En Prestijli Devlet Üniversiteleri</h2>
+                <p style="max-width: 800px; margin-bottom: 40px;">
+                    Start Akademie olarak danışmanlık verdiğimiz adayları, YÖK denkliği olan, harçsız ve dünya sıralamasında en üst basamaklarda yer alan prestijli Alman devlet üniversitelerine yerleştiriyoruz.
+                </p>
+                
+                <div class="univ-grid">
+                    <!-- Heidelberg -->
+                    <div class="univ-card card">
+                        <div class="univ-img-wrapper">
+                            <img src="assets/heidelberg.png" alt="Heidelberg University" class="univ-img">
+                            <div class="univ-overlay"></div>
+                        </div>
+                        <div class="univ-content">
+                            <div class="univ-meta">
+                                <span>📍 HEIDELBERG</span>
+                                <span>Kabul Oranı: ~%15</span>
+                            </div>
+                            <h3 class="univ-title">Heidelberg Üniversitesi</h3>
+                            <p class="univ-desc">1386 yılında kurulan, Almanya'nın en eski ve en prestijli üniversitesi. Özellikle Tıp, Eczacılık, Moleküler Biyoloji ve Temel Bilimler alanında dünya lideridir.</p>
+                            <div style="margin-top: auto; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.04); font-size: 0.8rem; color: var(--accent-cyan); display: flex; align-items: center; gap: 6px;">
+                                <i data-lucide="book-open" style="width: 14px; height: 14px;"></i> Almanca Hazırlık & Şartlı Kabul
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TUM -->
+                    <div class="univ-card card">
+                        <div class="univ-img-wrapper">
+                            <img src="assets/tum.png" alt="TU München" class="univ-img">
+                            <div class="univ-overlay"></div>
+                        </div>
+                        <div class="univ-content">
+                            <div class="univ-meta">
+                                <span>📍 MÜNİH</span>
+                                <span>Kabul Oranı: ~%8</span>
+                            </div>
+                            <h3 class="univ-title">Münih Teknik Üniversitesi (TUM)</h3>
+                            <p class="univ-desc">Avrupa'nın teknoloji, mühendislik ve inovasyon üssü. Bilgisayar Bilimleri, Yapay Zeka, Otomotiv ve Mühendislik dallarında dünya devleriyle ortak çalışır.</p>
+                            <div style="margin-top: auto; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.04); font-size: 0.8rem; color: var(--accent-cyan); display: flex; align-items: center; gap: 6px;">
+                                <i data-lucide="cpu" style="width: 14px; height: 14px;"></i> Teknoloji & İngilizce Lisans/Yüksek Lisans
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Goethe Frankfurt -->
+                    <div class="univ-card card">
+                        <div class="univ-img-wrapper">
+                            <img src="assets/goethe.png" alt="Goethe University Frankfurt" class="univ-img">
+                            <div class="univ-overlay"></div>
+                        </div>
+                        <div class="univ-content">
+                            <div class="univ-meta">
+                                <span>📍 FRANKFURT</span>
+                                <span>Kabul Oranı: ~%20</span>
+                            </div>
+                            <h3 class="univ-title">Goethe Üniversitesi Frankfurt</h3>
+                            <p class="univ-desc">Finans, Ekonomi, Hukuk ve Sosyal Bilimler merkezi. Frankfurt finans bölgesine yakınlığı ile öğrencilerine dev staj ve kariyer fırsatları sunar.</p>
+                            <div style="margin-top: auto; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.04); font-size: 0.8rem; color: var(--accent-cyan); display: flex; align-items: center; gap: 6px;">
+                                <i data-lucide="trending-up" style="width: 14px; height: 14px;"></i> Finans & Ekonomi Staj Ortaklıkları
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. NACHHILFE STORY CHECKPOINT: FLYING INSIDE THE MATH/SUBJECT CONSTELLATION -->
+    <section class="story-section" id="nachhilfe">
+        <div class="container">
+            <div class="glass-panel panel-wide">
+                <div class="section-badge"><i data-lucide="book-open"></i> Nachhilfe in Deutschland</div>
+                <h2>Müfredat Destekli Okul Dersleri</h2>
+                <p style="max-width: 800px; margin-bottom: 40px;">
+                    Bahnhofstraße 22/22a etüt merkezimizde, Gymnasium/Abitur seviyesine kadar, anadili Almanca olan nitelikli eğitmenlerimizle okul derslerinde tam başarı sağlıyoruz.
+                </p>
+
+                <div class="grid-2col">
+                    <!-- Support pillars & Hausaufgaben flat -->
+                    <div class="card card-border-cyan">
+                        <h3 style="margin-bottom: 24px;"><i data-lucide="user-check" class="text-blue"></i> Ders Destek Modellerimiz</h3>
+                        <div class="support-pillars">
+                            <div class="pillar-item">
+                                <div class="pillar-num">01</div>
+                                <div>
+                                    <h4>Birebir Özel Ders (Einzelunterricht)</h4>
+                                    <p>Tamamen çocuğunuzun ihtiyaçlarına odaklanan kişiselleştirilmiş program.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-num">02</div>
+                                <div>
+                                    <h4>Ev Ödevi Kulübü (Hausaufgaben-Flat)</h4>
+                                    <p>Haftada 4 gün, uzman eğitmenler eşliğinde eksiksiz ödev takipleri.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline w-full mt-6 btn-magnetic" id="btn-show-etut-steps-modal" style="margin-top: 24px;">6 Adımda Etüt Takip Süreci <i data-lucide="info"></i></button>
+                    </div>
+
+                    <!-- BuT State Support Wizard -->
+                    <div class="card card-border-green">
+                        <div class="but-card-header">
+                            <h3 style="margin-bottom: 0;"><i data-lucide="shield-check" style="color: var(--accent-green);"></i> BuT Desteği</h3>
+                            <div class="but-badge-clean"><i data-lucide="check-circle"></i> %100 Ücretsiz Eğitim</div>
+                        </div>
+                        
+                        <p style="margin-bottom: 20px;">Sosyal yardım (Bürgergeld, Wohngeld vb.) alan ailelerin çocukları için ders masraflarını **Jobcenter %100 karşılar.**</p>
+                        
+                        <div class="but-wizard" id="but-wizard-container">
+                            <h4 class="tester-title"><i data-lucide="help-circle" style="color: var(--accent-green);"></i> Uygunluk Testi</h4>
+                            
+                            <div class="tester-step active" id="but-step-1">
+                                <p class="step-question">Almanya'da sosyal yardım alıyor musunuz? (Wohngeld, Bürgergeld vb.)</p>
+                                <div class="step-buttons">
+                                    <button class="btn btn-cyan btn-magnetic" id="but-yes-1">Evet, alıyorum</button>
+                                    <button class="btn btn-outline btn-magnetic" id="but-no-1">Hayır, almıyorum</button>
+                                </div>
+                            </div>
+
+                            <div class="tester-step" id="but-step-2">
+                                <p class="step-question">Çocuğunuz Rüsselsheim veya Groß-Gerau bölgesindeki bir okula gidiyor mu?</p>
+                                <div class="step-buttons">
+                                    <button class="btn btn-cyan btn-magnetic" id="but-yes-2">Evet, gidiyor</button>
+                                    <button class="btn btn-outline btn-magnetic" id="but-no-2">Başka bir yer</button>
+                                </div>
+                            </div>
+
+                            <div class="tester-step" id="but-result-success">
+                                <div class="result-icon result-success-icon"><i data-lucide="check-circle"></i></div>
+                                <h4 style="color: var(--accent-green);" class="text-center">Tebrikler! %100 Ücretsiz Desteğe Uygunsunuz</h4>
+                                <p class="text-center" style="font-size: 0.85rem; margin-top: 8px;">Start Akademie, Groß-Gerau bölgesinin resmi BuT ders sağlayıcısıdır. Onaylı başvuru evraklarınızla kayıt tamamen ücretsizdir.</p>
+                                <button class="btn btn-cyan w-full mt-4 btn-magnetic" id="btn-but-success-cta">Başvuru Adımları <i data-lucide="arrow-right"></i></button>
+                            </div>
+
+                            <div class="tester-step" id="but-result-fail">
+                                <div class="result-icon result-fail-icon"><i data-lucide="alert-circle"></i></div>
+                                <h4 style="color: var(--accent-gold);" class="text-center">Özel Kayıt Avantajı</h4>
+                                <p class="text-center" style="font-size: 0.85rem; margin-top: 8px;">Doğrudan devlet desteğiniz olmasa bile, bütçenize en uygun ders paketlerimiz ve ev ödevi kulübü seçeneklerimizle yanınızdayız.</p>
+                                <a href="#contact" class="btn btn-outline w-full mt-4 btn-magnetic">Özel Paketleri Sorun <i data-lucide="mail"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. BILDUNGSBERATUNG STORY CHECKPOINT: FLYING THROUGH DEEP COSMIC EDUCATION TIMELINE -->
+    <section class="story-section" id="beratung">
+        <div class="container">
+            <div class="glass-panel panel-wide">
+                <div class="section-badge"><i data-lucide="graduation-cap"></i> Bildungsberatung</div>
+                <h2>Almanya Resmi Üniversite Kabul Paketlerimiz</h2>
+                <p style="max-width: 800px; margin-bottom: 40px;">
+                    Almanya devlet üniversitelerine, lisans, yüksek lisans ve Ausbildung yerleşimlerine yönelik, uçtan uca kabul ve entegrasyon desteği içeren paketlerimiz.
+                </p>
+
+                <!-- Pricing Grid -->
+                <div class="packages-grid">
+                    
+                    <!-- Basic -->
+                    <div class="pkg-card">
+                        <div class="pkg-header">
+                            <h4>START BASIC</h4>
+                            <div class="pkg-price">1.900 €</div>
+                            <p class="pkg-sub">Temel Başvuru Paketi</p>
+                        </div>
+                        <ul class="pkg-features">
+                            <li><i data-lucide="check" class="icon-check"></i> Akademik Uygunluk Analizi</li>
+                            <li><i data-lucide="check" class="icon-check"></i> Bölüm ve Üniversite Seçimi</li>
+                            <li><i data-lucide="check" class="icon-check"></i> 3 Üniversiteye Resmi Başvuru</li>
+                            <li><i data-lucide="check" class="icon-check"></i> Temel CV / Motivasyon Desteği</li>
+                            <li class="disabled"><i data-lucide="x" class="icon-x"></i> Vize Mülakat Simülasyonu</li>
+                            <li class="disabled"><i data-lucide="x" class="icon-x"></i> Almanya Konaklama Desteği</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-gold btn-magnetic">Görüşme Planla <i data-lucide="arrow-right"></i></a>
+                    </div>
+
+                    <!-- Plus (Recommended) -->
+                    <div class="pkg-card featured">
+                        <div class="pkg-badge">ÖNERİLEN</div>
+                        <div class="pkg-header">
+                            <h4>START PLUS</h4>
+                            <div class="pkg-price">2.700 €</div>
+                            <p class="pkg-sub">Genişletilmiş Danışmanlık</p>
+                        </div>
+                        <ul class="pkg-features">
+                            <li><i data-lucide="check" class="icon-check"></i> Akademik Uygunluk Analizi</li>
+                            <li><i data-lucide="check" class="icon-check"></i> Bölüm ve Üniversite Seçimi</li>
+                            <li><i data-lucide="check" class="icon-check"></i> 5 Üniversiteye Resmi Başvuru</li>
+                            <li><i data-lucide="check" class="icon-check"></i> Detaylı CV ve Motivasyon Mektubu</li>
+                            <li><i data-lucide="check" class="icon-check"></i> Detaylı Vize Dosyası Hazırlığı</li>
+                            <li><i data-lucide="check" class="icon-check"></i> 1 Adet Vize Simülasyonu</li>
+                            <li class="disabled"><i data-lucide="x" class="icon-x"></i> Varış Sonrası 6 Ay Destek</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-gold btn-magnetic">Görüşme Planla <i data-lucide="arrow-right"></i></a>
+                    </div>
+
+                    <!-- Premium -->
+                    <div class="pkg-card">
+                        <div class="pkg-header">
+                            <h4>START PREMIUM</h4>
+                            <div class="pkg-price">3.900 €</div>
+                            <p class="pkg-sub">Elit ve Entegrasyon Garantili</p>
+                        </div>
+                        <ul class="pkg-features">
+                            <li><i data-lucide="check" class="icon-check"></i> Akademik Uygunluk Analizi</li>
+                            <li><i data-lucide="check" class="icon-check"></i> Bölüm ve Üniversite Seçimi</li>
+                            <li><i data-lucide="check" class="icon-check"></i> 8 Üniversiteye Resmi Başvuru</li>
+                            <li><i data-lucide="check" class="icon-check"></i> İleri Düzey CV & Motivasyon Mektubu</li>
+                            <li><i data-lucide="check" class="icon-check"></i> Tam Kapsamlı Vize Süreç Yönetimi</li>
+                            <li><i data-lucide="check" class="icon-check"></i> 2 Adet Vize Simülasyonu</li>
+                            <li><i data-lucide="check" class="icon-check"></i> 6 Ay Almanya Sonrası Canlı Destek</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-gold btn-magnetic">Görüşme Planla <i data-lucide="arrow-right"></i></a>
+                    </div>
+
+                </div>
+
+                <!-- Sperrkonto Calculator -->
+                <div class="card" style="margin-top: 48px;" id="sperrkonto-simulator">
+                    <div class="calc-grid">
+                        <div class="slider-group">
+                            <h3 class="text-blue"><i data-lucide="calculator"></i> Sperrkonto & Resmi Bütçe Hesaplayıcı</h3>
+                            <p style="font-size: 0.9rem; margin-bottom: 20px;">Almanya vizesi almak için açılması yasal olarak zorunlu bloke hesap (Sperrkonto) bütçenizi anında simüle edin.</p>
+                            
+                            <div class="form-group" style="margin-bottom: 16px;">
+                                <div class="slider-label" style="margin-bottom: 8px;">
+                                    <span>Almanya'da Kalınacak Süre:</span>
+                                    <span class="text-blue" id="slider-months-display" style="font-weight: 700;">12 Ay</span>
+                                </div>
+                                <input type="range" min="1" max="24" value="12" class="range-slider" id="slider-months-input">
+                            </div>
+
+                            <div class="checkbox-group" style="margin-bottom: 24px;">
+                                <label class="checkbox-label" for="chk-bw-input">
+                                    <input type="checkbox" id="chk-bw-input">
+                                    <span>Baden-Württemberg Eyaletinde okuyacağım (Dönemlik 1.500 € harç ekler)</span>
+                                </label>
+                            </div>
+
+                            <div class="visual-bar-container">
+                                <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Bütçe Dağılım Grafiği</div>
+                                <div class="visual-bar" id="visual-progress-bar">
+                                    <div class="bar-segment bar-sperrkonto" style="width: 85%;"></div>
+                                    <div class="bar-segment bar-bw" style="width: 0%;"></div>
+                                    <div class="bar-segment bar-fees" style="width: 15%;"></div>
+                                </div>
+                                <div class="visual-legend">
+                                    <span><span class="dot dot-blue"></span> Bloke Hesap</span>
+                                    <span id="legend-bw-item" style="display: none;"><span class="dot dot-gold"></span> Eyalet Harcı</span>
+                                    <span><span class="dot dot-cyan"></span> Vize & Resmi Harçlar</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="calc-results">
+                            <div class="result-box">
+                                <span style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted);">Sperrkonto Gerekli Tutar</span>
+                                <div class="result-val text-blue" id="val-sperrkonto">11.904 €</div>
+                                <span style="font-size: 0.85rem; color: var(--text-muted);">Aylık Ödenek: 992 €</span>
+                            </div>
+                            <div class="result-row">
+                                <span>Vize Görüşme Harcı:</span>
+                                <strong>75 €</strong>
+                            </div>
+                            <div class="result-row">
+                                <span>uni-assist Başvuru Ücreti:</span>
+                                <strong>75 €</strong>
+                            </div>
+                            <div class="result-row" id="bw-row-display" style="display: none;">
+                                <span>Eyalet Eğitim Harcı:</span>
+                                <strong class="text-gold" id="val-bw">3.000 €</strong>
+                            </div>
+                            <div style="height: 1px; background: rgba(255,255,255,0.06); margin: 16px 0;"></div>
+                            <div class="result-row total">
+                                <span>Toplam Tahmini Bütçe:</span>
+                                <strong id="val-total">12.054 €</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. ONLINE CLASSES & SOMMERCAMP CHECKPOINT: FLYING THROUGH FLOATING LANGUAGES -->
+    <section class="story-section" id="sprachkurse">
+        <div class="container">
+            <div class="glass-panel panel-wide">
+                <div class="section-badge"><i data-lucide="languages"></i> Sprachkurse & Sommercamp</div>
+                <h2>Canlı Online Dil Sınıfları & Yaz Kampları</h2>
+                <p style="max-width: 800px; margin-bottom: 40px;">
+                    Almanya şartlı kabul ve lise eğitimi için gereken en temel dil seviyesini (A1-C1) Türkiye'de veya Sommercamp 2026 yoğun hazırlık sınıflarımızda edinin.
+                </p>
+
+                <div class="grid-2col">
+                    <div class="card card-border-cyan">
+                        <div class="card-icon"><i data-lucide="globe"></i></div>
+                        <h3>Canlı Online Almanca (A1 - C1)</h3>
+                        <p style="margin-bottom: 20px; font-size: 0.92rem;">Goethe-Institut, telc, DSH ve TestDaF sınavlarına yönelik yoğun akademik dil sınıfları.</p>
+                        <ul class="wing-list">
+                            <li><i data-lucide="check-circle"></i> Sınav formatına tam entegre soru çözümleri</li>
+                            <li><i data-lucide="check-circle"></i> Haftalık özel konuşma (Speaking) kulüpleri</li>
+                        </ul>
+                    </div>
+
+                    <div class="card card-border-cyan">
+                        <div class="card-icon"><i data-lucide="graduation-cap"></i></div>
+                        <h3>Sommercamp 2026 (Yaz Kampları)</h3>
+                        <p style="margin-bottom: 20px; font-size: 0.92rem;">Lisenin üst kademesine (Oberstufe) ve Abitur sınavlarına en güçlü hazırlık köprüsü.</p>
+                        <div class="timeline-details" style="border: none; padding: 0; margin: 0;">
+                            <div class="row" style="margin-bottom: 8px;">
+                                <span><i data-lucide="users"></i> Yüz Yüze Camp:</span>
+                                <strong>Stark in die 12. Klasse</strong>
+                            </div>
+                            <div class="row">
+                                <span><i data-lucide="laptop"></i> Canlı Online (1:1):</span>
+                                <strong>Sommerkurs Englisch</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CONTACT CHECKPOINT: PEACEFUL COSMOS WITH BOOKING ENGINE -->
+    <section class="story-section" id="contact">
+        <div class="container">
+            <div class="glass-panel panel-wide">
+                <div class="section-badge"><i data-lucide="calendar"></i> Kurumsal Randevu</div>
+                <h2>Bizimle Ön Görüşme Planlayın</h2>
+                <p style="max-width: 800px; margin-bottom: 40px;">
+                    Bahnhofstraße 22 etüt merkezimizi ziyaret edebilir, veya randevu sihirbazını kullanarak uzmanlarımızla ön görüşme planlayabilirsiniz.
+                </p>
+
+                <div class="contact-grid">
+                    
+                    <!-- Address cards -->
+                    <div>
+                        <div class="address-card">
+                            <div class="address-icon"><i data-lucide="building"></i></div>
+                            <div>
+                                <h4>Resmi UG Adresi (Görüşmeler)</h4>
+                                <p>Mainzer Straße 18, 65428 Rüsselsheim am Main</p>
+                                <span class="address-tag">Müşteri İlişkileri & Danışmanlık</span>
+                            </div>
+                        </div>
+                        <div class="address-card">
+                            <div class="address-icon"><i data-lucide="school"></i></div>
+                            <div>
+                                <h4>Etüt & Eğitim Merkezi (Dersler)</h4>
+                                <p>Bahnhofstraße 22 / 22a, 65428 Rüsselsheim am Main</p>
+                                <span class="address-tag">Sınıflar & Etüt Alanı</span>
+                            </div>
+                        </div>
+                        <div class="address-card">
+                            <div class="address-icon"><i data-lucide="message-square" style="color: var(--accent-green);"></i></div>
+                            <div>
+                                <h4>Canlı Telefon & WhatsApp Hattı</h4>
+                                <p style="font-weight: 700; font-size: 1.15rem; color: #ffffff;">0179 7424790</p>
+                                <a href="https://wa.me/491797424790" target="_blank" class="btn btn-outline btn-cyan btn-sm btn-magnetic" style="margin-top: 12px;"><i data-lucide="message-circle"></i> WhatsApp ile Sorun</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Booking form -->
+                    <div class="booking-card">
+                        <form class="booking-form" onsubmit="event.preventDefault(); alert('Randevu talebiniz başarıyla alınmıştır!');">
+                            <div class="form-group" style="display: flex; flex-direction: column; gap: 8px;">
+                                <label style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted);">Adınız Soyadınız:</label>
+                                <input type="text" required placeholder="Ahmet Yılmaz">
+                            </div>
+
+                            <div class="form-grid-2">
+                                <div class="form-group" style="display: flex; flex-direction: column; gap: 8px;">
+                                    <label style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted);">E-Posta:</label>
+                                    <input type="email" required placeholder="name@domain.com">
+                                </div>
+                                <div class="form-group" style="display: flex; flex-direction: column; gap: 8px;">
+                                    <label style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted);">Telefon:</label>
+                                    <input type="tel" required placeholder="0179...">
+                                </div>
+                            </div>
+
+                            <div class="form-group" style="display: flex; flex-direction: column; gap: 8px;">
+                                <label style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted);">Hizmet Alanı:</label>
+                                <select required>
+                                    <option value="nachhilfe">Okul Ders Desteği (Nachhilfe - Almanya)</option>
+                                    <option value="study">Almanya Üniversite Danışmanlığı</option>
+                                    <option value="language">Online Almanca/İngilizce Dil Kursu</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" style="display: flex; flex-direction: column; gap: 8px;">
+                                <label style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted);">Görüşme Günü:</label>
+                                <div class="picker-grid" id="day-picker-cards">
+                                    <div class="picker-card active" data-day="Pazartesi">
+                                        <span class="day-lbl">Pzt</span>
+                                        <span style="font-size: 0.95rem; font-weight: 800;">25.05</span>
+                                    </div>
+                                    <div class="picker-card" data-day="Salı">
+                                        <span class="day-lbl">Sal</span>
+                                        <span style="font-size: 0.95rem; font-weight: 800;">26.05</span>
+                                    </div>
+                                    <div class="picker-card" data-day="Çarşamba">
+                                        <span class="day-lbl">Çar</span>
+                                        <span style="font-size: 0.95rem; font-weight: 800;">27.05</span>
+                                    </div>
+                                    <div class="picker-card" data-day="Perşembe">
+                                        <span class="day-lbl">Per</span>
+                                        <span style="font-size: 0.95rem; font-weight: 800;">28.05</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group" style="display: flex; flex-direction: column; gap: 8px;">
+                                <label style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted);">Uygun Saat:</label>
+                                <div class="picker-grid" id="time-picker-cards">
+                                    <div class="time-picker-card active" data-time="09:00">09:00</div>
+                                    <div class="time-picker-card" data-time="11:30">11:30</div>
+                                    <div class="time-picker-card" data-time="14:00">14:00</div>
+                                    <div class="time-picker-card" data-time="16:30">16:30</div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-full btn-magnetic" style="margin-top: 16px;"><i data-lucide="check"></i> Randevuyu Planla</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. FOOTER SECTION -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="#" class="logo">
+                    <svg width="36" height="36" viewBox="0 0 100 100" class="logo-svg">
+                        <path d="M 28 22 L 72 46 C 76 48 76 52 72 54 L 28 78 C 24 80 20 77 20 72 L 20 59 M 20 41 L 20 28 C 20 23 24 20 28 22 Z" fill="none" stroke="#ffffff" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+                        <path d="M 8 50 L 40 50 M 32 42 L 40 50 L 32 58" fill="none" stroke="#00d2ff" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">START</span>
+                        <span class="logo-sub">Akademie</span>
+                    </div>
+                </a>
+                <p style="margin-top: 20px; font-size: 0.9rem; line-height: 1.6;">Frankfurt Rüsselsheim ve Groß-Gerau bölgesinde tescilli, VNN kalitesine sahip ders desteği (Nachhilfe) ve Almanya resmi üniversite kabul danışmanlığı sağlayıcısı.</p>
+                
+                <div class="social-row">
+                    <a href="https://www.instagram.com/startakademie" target="_blank" class="social-link" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="https://wa.me/491797424790" target="_blank" class="social-link" aria-label="WhatsApp"><i data-lucide="message-square"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Hizmet Kollarımız</h4>
+                <ul>
+                    <li><a href="#nachhilfe">Almanya'da Nachhilfe</a></li>
+                    <li><a href="#nachhilfe">Hausaufgaben-Flat</a></li>
+                    <li><a href="#nachhilfe">Devlet Desteği (BuT)</a></li>
+                    <li><a href="#camp">Sommercamp 2026</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Üniversite Kabulü</h4>
+                <ul>
+                    <li><a href="#beratung">Lisans Başvuruları</a></li>
+                    <li><a href="#beratung">Yüksek Lisans / Master</a></li>
+                    <li><a href="#beratung">Ausbildung Yerleşimi</a></li>
+                    <li><a href="#sprachkurse">Canlı Online Dil Sınıfları</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Kurumsal Kalite</h4>
+                <div class="vnn-box" style="margin-bottom: 16px;">VNN ÜYESİDİR</div>
+                <p style="font-size: 0.8rem; line-height: 1.5; color: var(--text-muted);">Start Akademie, Almanya Ders Destek Kurumları Federal Birliği (VNN) tescilli resmi üyesidir.</p>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; <span id="copyright-year"></span> Start Akademie UG. Tüm hakları saklıdır. Tasarım: "L'Élite Immersive".</p>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE FLOATING AI CHATBOT -->
+    <div class="startbot">
+        <button class="startbot-trigger" id="startbot-toggle-btn" aria-label="Startbot AI ile Konuş">
+            <div class="startbot-pulse"></div>
+            <i data-lucide="message-circle" style="width: 28px; height: 28px;"></i>
+        </button>
+
+        <div class="startbot-window" id="startbot-panel">
+            <div class="startbot-header">
+                <div class="startbot-info">
+                    <div class="startbot-avatar"><i data-lucide="bot" style="width: 20px; height: 20px;"></i></div>
+                    <div>
+                        <h4 style="font-size: 0.95rem; font-weight: 800;">Startbot AI</h4>
+                        <p style="font-size: 0.72rem; display: flex; align-items: center; gap: 4px;"><span class="online-dot"></span> Online Destek</p>
+                    </div>
+                </div>
+                <button class="startbot-close" id="startbot-close-btn" style="background: transparent; border: none; color: var(--text-muted); cursor: pointer;"><i data-lucide="x"></i></button>
+            </div>
+
+            <div class="startbot-messages" id="startbot-messages-box">
+                <div class="msg bot">
+                    Hallo! Start Akademie Destek Asistanına hoş geldiniz. Almanya'da bloke hesap (Sperrkonto), ücretsiz Jobcenter BuT ders destekleri veya Abitur Sommercamp programlarımız hakkında size nasıl yardımcı olabilirim?
+                </div>
+            </div>
+
+            <div class="startbot-chips" id="startbot-quick-chips">
+                <span class="startbot-chip" data-question="Bütçe / Bloke Hesap ne kadar?">Bloke Hesap Bütçesi</span>
+                <span class="startbot-chip" data-question="Ücretsiz BuT okul desteği nedir?">Jobcenter BuT Desteği</span>
+                <span class="startbot-chip" data-question="Sommercamp 2026 kayıtları ne zaman?">Sommercamp 2026</span>
+                <span class="startbot-chip" data-question="Danışmanlık paket ücretleri nedir?">Danışmanlık Fiyatları</span>
+            </div>
+
+            <div class="startbot-input">
+                <input type="text" id="startbot-txt-input" placeholder="Mesajınızı yazın...">
+                <button id="startbot-send-btn" style="background: var(--accent-cyan); border: none; border-radius: 4px; color: white; cursor: pointer; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;"><i data-lucide="send" style="width: 16px; height: 16px;"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACTION FLOW MODAL -->
+    <div class="modal" id="action-modal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3 id="modal-title-lbl">Süreç Detayları</h3>
+                <button class="modal-close" id="modal-close-btn"><i data-lucide="x"></i></button>
+            </div>
+            <div class="modal-body" id="modal-body-content">
+                <!-- Content injected dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Lenis smooth scroll -->
+    <script src="https://unpkg.com/lenis@1/dist/lenis.min.js"></script>
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Three.js (WebGL) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Immersive Cinematic WebGL Storytelling Flight Controller -->
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+
+<script>
+
+        console.log("Start Akademie Elite-Portal Initializing...");
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Safe Lucide initialization
+            try {
+                if (typeof lucide !== 'undefined') {
+                    lucide.createIcons();
+                    console.log("Lucide Icons initialized.");
+                } else {
+                    console.warn("Lucide library not loaded.");
+                }
+            } catch(e) {
+                console.error("Lucide setup failed:", e);
+            }
+
+            // Safe Lenis smooth scroll initialization
+            let lenis = null;
+            try {
+                if (typeof Lenis !== 'undefined') {
+                    lenis = new Lenis({ lerp: 0.08, smoothWheel: true });
+                    if (typeof ScrollTrigger !== 'undefined') {
+                        lenis.on('scroll', ScrollTrigger.update);
+                    }
+                    if (typeof gsap !== 'undefined') {
+                        gsap.ticker.add((time) => lenis.raf(time * 1000));
+                        gsap.ticker.lagSmoothing(0);
+                    }
+                    console.log("Lenis Smooth Scroll active.");
+                } else {
+                    console.warn("Lenis library not loaded.");
+                }
+            } catch (e) {
+                console.error("Lenis setup failed:", e);
+            }
+
+            // Safe GSAP registration
+            try {
+                if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+                    gsap.registerPlugin(ScrollTrigger);
+                    console.log("GSAP ScrollTrigger registered.");
+                }
+            } catch (e) {
+                console.error("GSAP setup failed:", e);
+            }
+
+            // Dynamic Copyright Year
+            const yearSpan = document.getElementById('copyright-year');
+            if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+            /* --- IMMERSIVE 3D WEBGL FLIGHT JOURNEY SCENE --- */
+            // Immersive 3D Game variables
+            let isGameActive = false;
+            let moveForward = false;
+            let moveBackward = false;
+            let moveLeft = false;
+            let moveRight = false;
+            
+            let mouseX = 0;
+            let mouseY = 0;
+            let targetYaw = 0;
+            let targetPitch = 0;
+            let currentYaw = 0;
+            let currentPitch = 0;
+
+            const gameKeys = {
+                w: false, a: false, s: false, d: false,
+                ArrowUp: false, ArrowDown: false, ArrowLeft: false, ArrowRight: false
+            };
+
+            /* --- IMMERSIVE 3D WEBGL MULTI-CAMPUS EXPLORER (THREE.JS) --- */
+            function initWebGLFlight() {
+                try {
+                    const canvas = document.getElementById('canvas-3d');
+                    if (!canvas) return;
+
+                    if (typeof THREE === 'undefined') {
+                        console.warn("Three.js not loaded. Skipping 3D flight rendering.");
+                        return;
+                    }
+
+                    let width = window.innerWidth;
+                    let height = window.innerHeight;
+
+                    const scene = new THREE.Scene();
+                    
+                    // Perspective Camera
+                    const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+                    camera.position.set(0, 0.5, 18); // Walking eye level height
+
+                    const renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
+                    renderer.setSize(width, height);
+                    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+                    // LIGHTS
+                    const ambientLight = new THREE.AmbientLight(0xffffff, 0.45);
+                    scene.add(ambientLight);
+
+                    const cyanLight = new THREE.PointLight(0x00f0ff, 2.5, 30);
+                    cyanLight.position.set(-10, 5, -10);
+                    scene.add(cyanLight);
+
+                    const goldLight = new THREE.PointLight(0xc5a059, 2.5, 30);
+                    goldLight.position.set(10, 5, -25);
+                    scene.add(goldLight);
+
+                    // CYBERNETIC CAMPUS FLOOR (GROUND)
+                    const groundGrid = new THREE.GridHelper(120, 60, 0x00f0ff, 0x011a3b);
+                    groundGrid.position.y = -2.5;
+                    scene.add(groundGrid);
+
+                    const groundGeom = new THREE.PlaneGeometry(120, 120);
+                    const groundMat = new THREE.MeshBasicMaterial({
+                        color: 0x010206,
+                        transparent: true,
+                        opacity: 0.9,
+                        side: THREE.DoubleSide
+                    });
+                    const ground = new THREE.Mesh(groundGeom, groundMat);
+                    ground.rotation.x = Math.PI / 2;
+                    ground.position.y = -2.52;
+                    scene.add(ground);
+
+                    // Premium Solid semi-translucent materials
+                    const goldWireMaterial = new THREE.MeshBasicMaterial({
+                        color: 0xc5a059, // Gold
+                        wireframe: false,
+                        transparent: true,
+                        opacity: 0.65
+                    });
+
+                    const cyanWireMaterial = new THREE.MeshBasicMaterial({
+                        color: 0x00f0ff, // Cyan
+                        wireframe: false,
+                        transparent: true,
+                        opacity: 0.4
+                    });
+
+                    const portalMaterial = new THREE.MeshBasicMaterial({
+                        color: 0x00f0ff,
+                        wireframe: false,
+                        transparent: true,
+                        opacity: 0.25,
+                        blending: THREE.AdditiveBlending
+                    });
+
+                    // Texture Loader for Real University Visuals
+                    const textureLoader = new THREE.TextureLoader();
+                    const heidelbergTex = textureLoader.load('assets/heidelberg.png');
+                    const tumTex = textureLoader.load('assets/tum.png');
+                    const goetheTex = textureLoader.load('assets/goethe.png');
+
+                    // Create basic materials using the textures
+                    const heidelbergTexMat = new THREE.MeshBasicMaterial({
+                        map: heidelbergTex,
+                        side: THREE.DoubleSide,
+                        transparent: true,
+                        opacity: 0.9
+                    });
+                    const tumTexMat = new THREE.MeshBasicMaterial({
+                        map: tumTex,
+                        side: THREE.DoubleSide,
+                        transparent: true,
+                        opacity: 0.9
+                    });
+                    const goetheTexMat = new THREE.MeshBasicMaterial({
+                        map: goetheTex,
+                        side: THREE.DoubleSide,
+                        transparent: true,
+                        opacity: 0.9
+                    });
+
+                    // 3D ENVIRONMENT 1: HEIDELBERG NEOCLASSICAL COLONNADE COURT
+                    const heidelbergGroup = new THREE.Group();
+                    scene.add(heidelbergGroup);
+
+                    // Left & Right Colonnades
+                    const columnGeom = new THREE.CylinderGeometry(0.15, 0.18, 5, 8);
+                    const columnCount = 10;
+                    for (let i = 0; i < columnCount; i++) {
+                        const zPos = 15 - i * 6; // Spacing along corridor
+                        
+                        // Left column
+                        const colL = new THREE.Mesh(columnGeom, goldWireMaterial);
+                        colL.position.set(-6, 0, zPos);
+                        heidelbergGroup.add(colL);
+
+                        // Right column
+                        const colR = new THREE.Mesh(columnGeom, goldWireMaterial);
+                        colR.position.set(6, 0, zPos);
+                        heidelbergGroup.add(colR);
+                    }
+
+                    // Neoclassical University Main Facade Gate (Heidelberg Entrance)
+                    const portalGroup = new THREE.Group();
+                    portalGroup.position.set(0, 0, 12);
+                    heidelbergGroup.add(portalGroup);
+
+                    // Columns
+                    for(let i = 0; i < 4; i++) {
+                        const col = new THREE.Mesh(columnGeom, goldWireMaterial);
+                        col.position.x = (i - 1.5) * 2;
+                        portalGroup.add(col);
+                    }
+                    // Plinth
+                    const plinth = new THREE.Mesh(new THREE.BoxGeometry(7.5, 0.4, 1.5), goldWireMaterial);
+                    plinth.position.y = -2.5;
+                    portalGroup.add(plinth);
+                    // Pediment (Roof)
+                    const roof = new THREE.Mesh(new THREE.ConeGeometry(4.5, 1.5, 4), goldWireMaterial);
+                    roof.rotation.y = Math.PI / 4;
+                    roof.position.y = 3.25;
+                    portalGroup.add(roof);
+
+                    // Heidelberg Real University Photo Billboard inside 3D Archway
+                    const heidelbergBillboard = new THREE.Mesh(new THREE.PlaneGeometry(8, 4.5), heidelbergTexMat);
+                    heidelbergBillboard.position.set(0, 0.5, 11.5); // Positioned directly inside the neoclassical column archway
+                    heidelbergGroup.add(heidelbergBillboard);
+
+                    // 3D ENVIRONMENT 2: TU MÜNCHEN (TUM) CYBERNETIC HALL
+                    const tumGroup = new THREE.Group();
+                    tumGroup.position.set(0, 0, -25);
+                    scene.add(tumGroup);
+
+                    // Cybernetic Solar Pavilion
+                    const pavilionGeom = new THREE.IcosahedronGeometry(4.5, 2);
+                    const pavilion = new THREE.Mesh(pavilionGeom, cyanWireMaterial);
+                    pavilion.position.set(0, 2, 0);
+                    tumGroup.add(pavilion);
+
+                    // Tech columns
+                    const techColumnGeom = new THREE.BoxGeometry(0.3, 5, 0.3);
+                    for(let i = 0; i < 6; i++) {
+                        const angle = (i / 6) * Math.PI * 2;
+                        const r = 8;
+                        const col = new THREE.Mesh(techColumnGeom, cyanWireMaterial);
+                        col.position.set(Math.cos(angle) * r, 0, Math.sin(angle) * r);
+                        tumGroup.add(col);
+                    }
+
+                    // TUM Real University Photo Billboard inside 3D Cybernetic Hall
+                    const tumBillboard = new THREE.Mesh(new THREE.PlaneGeometry(8, 4.5), tumTexMat);
+                    tumBillboard.position.set(0, 1.5, -2); // Positioned inside the cybernetic pavilion
+                    tumGroup.add(tumBillboard);
+
+                    // 3D ENVIRONMENT 3: HUMBOLDT BERLIN SPEECH WAVES (Particles)
+                    const starsCount = 400;
+                    const starPositions = new Float32Array(starsCount * 3);
+                    const starColors = new Float32Array(starsCount * 3);
+                    const colorCyan = new THREE.Color('#00f0ff');
+                    const colorGold = new THREE.Color('#c5a059');
+
+                    for(let i = 0; i < starsCount; i++) {
+                        starPositions[i*3] = (Math.random() - 0.5) * 60;
+                        starPositions[i*3+1] = -2.5 + Math.random() * 15;
+                        starPositions[i*3+2] = -15 - Math.random() * 60;
+
+                        const clr = Math.random() > 0.5 ? colorCyan : colorGold;
+                        starColors[i*3] = clr.r;
+                        starColors[i*3+1] = clr.g;
+                        starColors[i*3+2] = clr.b;
+                    }
+                    const starGeo = new THREE.BufferGeometry();
+                    starGeo.setAttribute('position', new THREE.BufferAttribute(starPositions, 3));
+                    starGeo.setAttribute('color', new THREE.BufferAttribute(starColors, 3));
+
+                    // Dynamic Texture for particles
+                    const pCanvas = document.createElement('canvas');
+                    pCanvas.width = 16;
+                    pCanvas.height = 16;
+                    const pCtx = pCanvas.getContext('2d');
+                    const grad = pCtx.createRadialGradient(8, 8, 0, 8, 8, 8);
+                    grad.addColorStop(0, 'rgba(255,255,255,1)');
+                    grad.addColorStop(0.3, 'rgba(255,255,255,0.8)');
+                    grad.addColorStop(1, 'rgba(255,255,255,0)');
+                    pCtx.fillStyle = grad;
+                    pCtx.fillRect(0, 0, 16, 16);
+                    const pTexture = new THREE.CanvasTexture(pCanvas);
+
+                    const starMat = new THREE.PointsMaterial({
+                        size: 0.25,
+                        vertexColors: true,
+                        map: pTexture,
+                        transparent: true,
+                        opacity: 0.85,
+                        blending: THREE.AdditiveBlending,
+                        depthWrite: false
+                    });
+                    const starField = new THREE.Points(starGeo, starMat);
+                    scene.add(starField);
+
+                    // 3D ENVIRONMENT 3: GOETHE FRANKFURT CAMPUS (NEW 3D PORTAL)
+                    const goetheGroup = new THREE.Group();
+                    goetheGroup.position.set(0, 0, -65);
+                    scene.add(goetheGroup);
+
+                    // Goethe Classical Archway columns
+                    for (let i = 0; i < 2; i++) {
+                        const col = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.25, 6, 12), goldWireMaterial);
+                        col.position.set(i === 0 ? -4 : 4, 0.5, 0);
+                        goetheGroup.add(col);
+                    }
+                    const goetheBeam = new THREE.Mesh(new THREE.BoxGeometry(9, 0.5, 1.2), goldWireMaterial);
+                    goetheBeam.position.set(0, 3.5, 0);
+                    goetheGroup.add(goetheBeam);
+
+                    // Goethe Real University Photo Billboard inside 3D Archway
+                    const goetheBillboard = new THREE.Mesh(new THREE.PlaneGeometry(8, 4.5), goetheTexMat);
+                    goetheBillboard.position.set(0, 0.5, -0.5);
+                    goetheGroup.add(goetheBillboard);
+
+                    // FLOATING RESEARCH NODES & MATH CLUSTERS (Interactive)
+                    const researchNodes = [];
+                    const nodeGeoms = [
+                        new THREE.OctahedronGeometry(0.4),
+                        new THREE.TorusGeometry(0.3, 0.08, 6, 16),
+                        new THREE.IcosahedronGeometry(0.35, 0)
+                    ];
+                    
+                    for (let i = 0; i < 15; i++) {
+                        const geom = nodeGeoms[i % nodeGeoms.length];
+                        const mat = (i % 2 === 0) ? goldWireMaterial : cyanWireMaterial;
+                        const mesh = new THREE.Mesh(geom, mat);
+                        
+                        mesh.position.set(
+                            (Math.random() - 0.5) * 10,
+                            -1 + Math.random() * 4,
+                            15 - Math.random() * 50
+                        );
+                        scene.add(mesh);
+                        researchNodes.push(mesh);
+                    }
+
+                    // Render loop
+                    const clock = new THREE.Clock();
+                    function animate() {
+                        requestAnimationFrame(animate);
+                        const elapsedTime = clock.getElapsedTime();
+
+                        // Dynamic idle animations for environmental groups
+                        pavilion.rotation.y = elapsedTime * 0.15;
+                        pavilion.rotation.z = Math.sin(elapsedTime * 0.2) * 0.2;
+                        
+                        portalGroup.position.y = Math.sin(elapsedTime * 0.5) * 0.08;
+
+                        researchNodes.forEach((node, idx) => {
+                            node.rotation.x = elapsedTime * (0.2 + (idx * 0.03));
+                            node.rotation.y = elapsedTime * (0.3 + (idx * 0.02));
+                            node.position.y += Math.sin(elapsedTime + idx) * 0.003;
+                        });
+
+                        // 3D GAME MODE MOVEMENT & PHYSICS
+                        if (isGameActive) {
+                            // Lerp yaw and pitch for smooth rotation look
+                            currentYaw += (targetYaw - currentYaw) * 0.1;
+                            currentPitch += (targetPitch - currentPitch) * 0.1;
+
+                            camera.rotation.set(0, 0, 0); // Reset
+                            camera.rotation.y = currentYaw;
+                            camera.rotation.x = currentPitch;
+
+                            // Calculate keyboard movement vector
+                            const forward = new THREE.Vector3(0, 0, -1).applyQuaternion(camera.quaternion);
+                            forward.y = 0; // Stick to flat ground plane
+                            forward.normalize();
+
+                            const right = new THREE.Vector3(1, 0, 0).applyQuaternion(camera.quaternion);
+                            right.y = 0;
+                            right.normalize();
+
+                            const speed = 0.18;
+                            
+                            if (gameKeys.w || gameKeys.ArrowUp) camera.position.addScaledVector(forward, speed);
+                            if (gameKeys.s || gameKeys.ArrowDown) camera.position.addScaledVector(forward, -speed);
+                            if (gameKeys.a || gameKeys.ArrowLeft) camera.position.addScaledVector(right, -speed);
+                            if (gameKeys.d || gameKeys.ArrowRight) camera.position.addScaledVector(right, speed);
+
+                            // Collisions / Boundaries (Keep user inside the beautiful campus corridor)
+                            camera.position.x = Math.max(-20, Math.min(20, camera.position.x));
+                            camera.position.z = Math.max(-80, Math.min(22, camera.position.z));
+                            camera.position.y = 0.5; // Stay at realistic human walk height
+
+                            // Update HUD Radar / Minimap Player blip location
+                            const radarPlayer = document.getElementById('radar-player');
+                            if (radarPlayer) {
+                                const percentX = (camera.position.x - (-20)) / 40;
+                                const percentZ = (camera.position.z - (-60)) / 82;
+                                radarPlayer.style.left = (15 + percentX * 90) + 'px';
+                                radarPlayer.style.top = (15 + percentZ * 90) + 'px';
+                            }
+
+                            // Dynamic compass readouts
+                            const hudDirection = document.getElementById('hud-direction');
+                            if (hudDirection) {
+                                let zone = "CAMPUS COURTYARD";
+                                if (camera.position.z > 5) zone = "HEIDELBERG COLONNADE";
+                                else if (camera.position.z < -15) zone = "TU MÜNCHEN DIGITAL PLATFORM";
+                                hudDirection.textContent = `LOC: X: ${camera.position.x.toFixed(1)} Z: ${camera.position.z.toFixed(1)} | ${zone}`;
+                            }
+                        } else {
+                            // SCROLL STORYTELLING MODE: Camera rotation is idle parallax
+                            camera.rotation.x = 0;
+                            camera.rotation.y = 0;
+                            camera.rotation.z = 0;
+                        }
+
+                        renderer.render(scene, camera);
+                    }
+                    animate();
+
+                    // GSAP ScrollTrigger Flight Timeline (Activated only when NOT in game mode)
+                    let scrollTimeline = null;
+                    function setupScrollTimeline() {
+                        if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+                            scrollTimeline = gsap.timeline({
+                                scrollTrigger: {
+                                    trigger: "body",
+                                    start: "top top",
+                                    end: "bottom bottom",
+                                    scrub: 1.2,
+                                    onUpdate: (self) => {
+                                        if (isGameActive) return; // Do not overwrite if playing
+                                        
+                                        // Standard storytelling flight positions
+                                        const progress = self.progress;
+                                        camera.position.z = 18 - progress * 85; // Zooms all the way past Goethe
+                                        camera.position.x = Math.sin(progress * Math.PI * 2) * 2;
+                                        camera.position.y = 0.5 + Math.cos(progress * Math.PI) * 0.8;
+                                        
+                                        // Slow rotating corridor perspective
+                                        camera.rotation.y = Math.sin(progress * Math.PI) * 0.25;
+                                    }
+                                }
+                            });
+                        }
+                    }
+                    setupScrollTimeline();
+
+                    // Event Listeners for 3D Game controls
+                    window.addEventListener('keydown', (e) => {
+                        if (!isGameActive) return;
+                        if (e.key === 'Escape' || e.key === 'Esc') {
+                            exit3DGameMode();
+                            return;
+                        }
+                        const key = e.key.toLowerCase();
+                        if (key in gameKeys) gameKeys[key] = true;
+                        if (e.key in gameKeys) gameKeys[e.key] = true;
+                    });
+
+                    window.addEventListener('keyup', (e) => {
+                        const key = e.key.toLowerCase();
+                        if (key in gameKeys) gameKeys[key] = false;
+                        if (e.key in gameKeys) gameKeys[e.key] = false;
+                    });
+
+                    // Mouse Drag/Move to Look rotation math
+                    let isDragging = false;
+                    window.addEventListener('mousedown', () => { isDragging = true; });
+                    window.addEventListener('mouseup', () => { isDragging = false; });
+                    
+                    window.addEventListener('mousemove', (e) => {
+                        if (!isGameActive) return;
+                        
+                        // Intuitive Drag-to-Look on click, or mouse-center offset
+                        const centerX = window.innerWidth / 2;
+                        const centerY = window.innerHeight / 2;
+                        
+                        targetYaw = - (e.clientX - centerX) * 0.0028;
+                        targetPitch = - (e.clientY - centerY) * 0.002;
+                        
+                        // Limit vertical look angle (pitch limit) to avoid camera flipping upside down
+                        targetPitch = Math.max(-Math.PI / 4, Math.min(Math.PI / 4, targetPitch));
+                    });
+
+                    // Touch Drag to look (Mobile support!)
+                    window.addEventListener('touchmove', (e) => {
+                        if (!isGameActive) return;
+                    });
+                    // Resize handler
+                    window.addEventListener('resize', () => {
+                        width = window.innerWidth;
+                        height = window.innerHeight;
+                        camera.aspect = width / height;
+                        camera.updateProjectionMatrix();
+                        renderer.setSize(width, height);
+                    });
+
+                    console.log("3D Immersive Multi-Campus Explorer Engine loaded successfully.");
+                } catch(err) {
+                    console.error("Critical error in 3D WebGL initialization:", err);
+                }
+            }
+            
+            // Trigger 3D init
+            initWebGLFlight();
+
+            /* --- 3D GAME MODE ACTIVATION TRIGGERS --- */
+            const btnStartGame = document.getElementById('btn-start-3d-game');
+            const btnExitGame = document.getElementById('btn-exit-3d-game');
+            const gameHudOverlay = document.getElementById('game-hud-overlay');
+
+            function enter3DGameMode() {
+                isGameActive = true;
+                const canvas = document.getElementById('canvas-3d');
+                if (canvas) canvas.style.display = 'block';
+                document.body.classList.add('game-lock');
+                if (gameHudOverlay) gameHudOverlay.classList.add('active');
+                if (typeof lenis !== 'undefined' && lenis) {
+                    lenis.stop();
+                }
+            }
+
+            function exit3DGameMode() {
+                isGameActive = false;
+                const canvas = document.getElementById('canvas-3d');
+                if (canvas) canvas.style.display = 'none';
+                document.body.classList.remove('game-lock');
+                if (gameHudOverlay) gameHudOverlay.classList.remove('active');
+                
+                // Clear active keys
+                for (let key in gameKeys) gameKeys[key] = false;
+                if (typeof lenis !== 'undefined' && lenis) {
+                    lenis.start();
+                }
+            }
+
+            if (btnStartGame) btnStartGame.addEventListener('click', enter3DGameMode);
+            if (btnExitGame) btnExitGame.addEventListener('click', exit3DGameMode);
+
+            /* --- HYLIOX-STYLE SCROLL GATE GSAP TIMELINE --- */
+            if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+                gsap.registerPlugin(ScrollTrigger);
+
+                const gateTl = gsap.timeline({
+                    scrollTrigger: {
+                        trigger: ".scroll-gate-section",
+                        start: "top top",
+                        end: "bottom bottom",
+                        scrub: 1,
+                        pin: true,
+                        anticipatePin: 1
+                    }
+                });
+
+                // 1. Swing open the doors in 3D space, fade out initial overlay, and scale background courtyard
+                gateTl.to(".gate-door.left-door", { rotateY: -110, opacity: 0, ease: "power1.inOut" }, 0)
+                      .to(".gate-door.right-door", { rotateY: 110, opacity: 0, ease: "power1.inOut" }, 0)
+                      .to(".inner-campus-view", { opacity: 1, scale: 1, ease: "power1.out" }, 0)
+                      .to(".gate-initial-content", { opacity: 0, y: -80, ease: "power1.inOut" }, 0)
+                      .to(".scroll-indicator-mouse", { opacity: 0, ease: "power1.inOut" }, 0);
+
+                // 2. Animate Slide 1 (Akademik Geleceğe Geçiş) in and out
+                gateTl.to("#portal-slide-1", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 0.8)
+                      .to("#portal-slide-1", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 2.5);
+
+                // 3. Animate Slide 2 (Almanya Devlet Üniversiteleri) in and out
+                gateTl.to("#portal-slide-2", { opacity: 1, y: 0, pointerEvents: "auto", duration: 1.5 }, 2.8)
+                      .to("#portal-slide-2", { opacity: 0, y: -60, pointerEvents: "none", duration: 1.5 }, 4.5);
+            }
+
+            /* --- FLOATING AUTOHIDE GLASS NAVBAR --- */
+            const navbar = document.getElementById('navbar');
+            let lastScrollY = window.scrollY;
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+
+                if (window.scrollY > lastScrollY && window.scrollY > 120) {
+                    navbar.classList.add('hidden');
+                } else {
+                    navbar.classList.remove('hidden');
+                }
+                lastScrollY = window.scrollY;
+            });
+
+            /* --- MOBILE MENU PANEL --- */
+            const mobileToggleBtn = document.getElementById('mobile-toggle-btn');
+            const mobileMenuPanel = document.getElementById('mobile-menu-panel');
+
+            if (mobileToggleBtn && mobileMenuPanel) {
+                mobileToggleBtn.addEventListener('click', () => {
+                    mobileMenuPanel.classList.toggle('active');
+                    const isActive = mobileMenuPanel.classList.contains('active');
+                    mobileToggleBtn.innerHTML = isActive ? '<i data-lucide="x"></i>' : '<i data-lucide="menu"></i>';
+                    try { lucide.createIcons(); } catch(e) {}
+                });
+
+                mobileMenuPanel.querySelectorAll('a').forEach(item => {
+                    item.addEventListener('click', () => {
+                        mobileMenuPanel.classList.remove('active');
+                        mobileToggleBtn.innerHTML = '<i data-lucide="menu"></i>';
+                        try { lucide.createIcons(); } catch(e) {}
+                    });
+                });
+            }
+
+            /* --- GSAP ANIMATION PRESETS: PANEL REVEALS --- */
+            if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+                gsap.utils.toArray('.glass-panel, .card').forEach(el => {
+                    gsap.fromTo(el, 
+                        { opacity: 0, y: 50 },
+                        { 
+                            opacity: 1, 
+                            y: 0, 
+                            duration: 1.4, 
+                            ease: 'power4.out',
+                            scrollTrigger: {
+                                trigger: el,
+                                start: 'top 85%',
+                                toggleActions: 'play none none none'
+                            }
+                        }
+                    );
+                });
+
+                /* --- MAGNETIC HOVER BUTTONS --- */
+                document.querySelectorAll('.btn-magnetic').forEach(btn => {
+                    btn.addEventListener('mousemove', (e) => {
+                        const rect = btn.getBoundingClientRect();
+                        const x = e.clientX - rect.left - rect.width / 2;
+                        const y = e.clientY - rect.top - rect.height / 2;
+                        gsap.to(btn, { x: x * 0.25, y: y * 0.25, duration: 0.3, ease: 'power2.out' });
+                    });
+                    btn.addEventListener('mouseleave', () => {
+                        gsap.to(btn, { x: 0, y: 0, duration: 0.5, ease: 'elastic.out(1, 0.3)' });
+                    });
+                });
+
+                /* --- 3D CARD PERSPECTIVE TILT --- */
+                document.querySelectorAll('.card, .pkg-card').forEach(card => {
+                    card.addEventListener('mousemove', (e) => {
+                        const rect = card.getBoundingClientRect();
+                        const x = e.clientX - rect.left;
+                        const y = e.clientY - rect.top;
+                        
+                        const xc = rect.width / 2;
+                        const yc = rect.height / 2;
+                        
+                        const angleX = (yc - y) / 16;
+                        const angleY = (x - xc) / 16;
+                        
+                        gsap.to(card, {
+                            rotateX: angleX,
+                            rotateY: angleY,
+                            duration: 0.3,
+                            ease: 'power2.out'
+                        });
+                    });
+
+                    card.addEventListener('mouseleave', () => {
+                        gsap.to(card, {
+                            rotateX: 0,
+                            rotateY: 0,
+                            duration: 0.5,
+                            ease: 'power2.out'
+                        });
+                    });
+                });
+            }
+
+            /* --- SPERRKONTO COST SIMULATOR --- */
+            const sliderMonthsInput = document.getElementById('slider-months-input');
+            const sliderMonthsDisplay = document.getElementById('slider-months-display');
+            const chkBwInput = document.getElementById('chk-bw-input');
+            const bwRowDisplay = document.getElementById('bw-row-display');
+            const legendBwItem = document.getElementById('legend-bw-item');
+
+            const valSperrkonto = document.getElementById('val-sperrkonto');
+            const valBw = document.getElementById('val-bw');
+            const valTotal = document.getElementById('val-total');
+            const visualProgressBar = document.getElementById('visual-progress-bar');
+
+            function formatCurrency(val) {
+                return val.toLocaleString('de-DE') + ' €';
+            }
+
+            function updateBudgetCalculator() {
+                if (!sliderMonthsInput) return;
+                const months = parseInt(sliderMonthsInput.value);
+                sliderMonthsDisplay.textContent = months + ' Ay';
+
+                const sperrkontoAmount = months * 992;
+                valSperrkonto.textContent = formatCurrency(sperrkontoAmount);
+
+                const visaFee = 75;
+                const assistFee = 75;
+                const totalFees = visaFee + assistFee;
+
+                let bwTax = 0;
+                if (chkBwInput && chkBwInput.checked) {
+                    bwRowDisplay.style.display = 'flex';
+                    legendBwItem.style.display = 'inline-flex';
+                    const semesters = Math.ceil(months / 6);
+                    bwTax = semesters * 1500;
+                    valBw.textContent = formatCurrency(bwTax);
+                } else {
+                    bwRowDisplay.style.display = 'none';
+                    legendBwItem.style.display = 'none';
+                }
+
+                const totalAmount = sperrkontoAmount + totalFees + bwTax;
+                valTotal.textContent = formatCurrency(totalAmount);
+
+                if (visualProgressBar) {
+                    const pctSperrkonto = (sperrkontoAmount / totalAmount) * 100;
+                    const pctBw = (bwTax / totalAmount) * 100;
+                    const pctFees = (totalFees / totalAmount) * 100;
+
+                    visualProgressBar.querySelector('.bar-sperrkonto').style.width = pctSperrkonto + '%';
+                    visualProgressBar.querySelector('.bar-bw').style.width = pctBw + '%';
+                    visualProgressBar.querySelector('.bar-fees').style.width = pctFees + '%';
+                }
+            }
+
+            if (sliderMonthsInput) {
+                sliderMonthsInput.addEventListener('input', updateBudgetCalculator);
+            }
+            if (chkBwInput) {
+                chkBwInput.addEventListener('change', updateBudgetCalculator);
+            }
+            updateBudgetCalculator(); // Init calculation
+
+            /* --- BuT ELIGIBILITY WIZARD --- */
+            const butYes1 = document.getElementById('but-yes-1');
+            const butNo1 = document.getElementById('but-no-1');
+            const butYes2 = document.getElementById('but-yes-2');
+            const butNo2 = document.getElementById('but-no-2');
+
+            const butStep1 = document.getElementById('but-step-1');
+            const butStep2 = document.getElementById('but-step-2');
+            const butResultSuccess = document.getElementById('but-result-success');
+            const butResultFail = document.getElementById('but-result-fail');
+
+            if (butYes1 && butNo1 && butStep1) {
+                butYes1.addEventListener('click', () => {
+                    butStep1.classList.remove('active');
+                    butStep2.classList.add('active');
+                });
+                butNo1.addEventListener('click', () => {
+                    butStep1.classList.remove('active');
+                    butResultFail.classList.add('active');
+                });
+            }
+
+            if (butYes2 && butNo2 && butStep2) {
+                butYes2.addEventListener('click', () => {
+                    butStep2.classList.remove('active');
+                    butResultSuccess.classList.add('active');
+                });
+                butNo2.addEventListener('click', () => {
+                    butStep2.classList.remove('active');
+                    butResultFail.classList.add('active');
+                });
+            }
+
+            /* --- ACTION FLOW MODALS --- */
+            const actionModal = document.getElementById('action-modal');
+            const modalTitleLbl = document.getElementById('modal-title-lbl');
+            const modalBodyContent = document.getElementById('modal-body-content');
+            const modalCloseBtn = document.getElementById('modal-close-btn');
+
+            const btnShowEtutStepsModal = document.getElementById('btn-show-etut-steps-modal');
+            const btnButSuccessCta = document.getElementById('btn-but-success-cta');
+
+            function showModal(title, steps) {
+                modalTitleLbl.textContent = title;
+                modalBodyContent.innerHTML = '';
+                const stepsFlowDiv = document.createElement('div');
+                stepsFlowDiv.className = 'steps-flow';
+
+                steps.forEach((step, index) => {
+                    const stepDiv = document.createElement('div');
+                    stepDiv.className = 'flow-step';
+                    stepDiv.innerHTML = `
+                        <div class="flow-num">${index + 1}</div>
+                        <div>
+                            <h4>${step.title}</h4>
+                            <p>${step.desc}</p>
+                        </div>
+                    `;
+                    stepsFlowDiv.appendChild(stepDiv);
+                });
+                modalBodyContent.appendChild(stepsFlowDiv);
+                actionModal.classList.add('active');
+            }
+
+            if (btnShowEtutStepsModal && actionModal && modalCloseBtn) {
+                btnShowEtutStepsModal.addEventListener('click', () => {
+                    showModal('6 Adımda Ödev Etüt Takip Süreci', [
+                        { title: 'Ankommen (Varış)', desc: 'Çocuğunuz belirlenen etüt saatlerinde Rüsselsheim merkezimize giriş yapar.' },
+                        { title: 'Selbstständig arbeiten (Bağımsız Çalışma)', desc: 'Ödevler odaklanmış sınıfta bireysel çözülmeye başlar.' },
+                        { title: 'Unterstützung (Destek)', desc: 'Eğitmenlerimiz takıldığı yerleri açıklar ve soruları pedagojik yaklaşımla anlatır.' },
+                        { title: 'Kontrolle (Kontrol)', desc: 'Ödevlerin eksiksizliği ve doğruluğu eğitmenlerimizce tek tek incelenip onaylanır.' },
+                        { title: 'Fertig? (Bitti mi?)', desc: 'Tüm ödevler bittiğinde çocuk veli bilgisi dahilinde güvenle uğurlanır.' },
+                        { title: 'Keine Hausaufgaben? (Ödev Yoksa?)', desc: 'Ödevsiz günlerde kitap okuma, test yaprakları veya zeka oyunları ile vakit verimli değerlendirilir.' }
+                    ]);
+                });
+
+                if (btnButSuccessCta) {
+                    btnButSuccessCta.addEventListener('click', () => {
+                        showModal('6 Adımda Ücretsiz BuT Nachhilfe Başvurusu', [
+                            { title: 'Belge Talebi', desc: 'Start Akademie merkezimizden okul onay formu da dahil olmak üzere BuT başvuru formlarını talep edin.' },
+                            { title: 'Formu Doldurma', desc: 'Velisi olarak çocuğunuzun ve kendinizin kurumsal bilgilerini formda eksiksiz doldurun.' },
+                            { title: 'Okul Onayı (Lernförderung Bedarf)', desc: 'Sınıf öğretmeni veya okul yönetimi, çocuğun bu ders desteğine ihtiyacı olduğunu onaylayarak formu imzalar.' },
+                            { title: 'Jobcenter / Sozialamt Gönderimi', desc: 'İmzalı ve onaylı evrakları bağlı bulunduğunuz yetkili sosyal yardım dairesine iletin.' },
+                            { title: 'Onay Belgesi (Bewilligung)', desc: 'Sosyal daire başvurunuzu inceler ve %100 devlet onay belgesini posta yoluyla adresinize gönderir.' },
+                            { title: 'Ücretsiz Kayıt', desc: 'Bu onay belgesiyle Start Akademie\'ye gelin, derslerimize tamamen ücretsiz başlayın! Ödemeyi doğrudan devlet yapar.' }
+                        ]);
+                    });
+                }
+
+                modalCloseBtn.addEventListener('click', () => {
+                    actionModal.classList.remove('active');
+                });
+
+                actionModal.addEventListener('click', (e) => {
+                    if (e.target === actionModal) {
+                        actionModal.classList.remove('active');
+                    }
+                });
+            }
+
+            /* --- BOOKING DATE/TIME PICKERS --- */
+            const dayPickerCards = document.querySelectorAll('#day-picker-cards .picker-card');
+            const timePickerCards = document.querySelectorAll('#time-picker-cards .time-picker-card');
+
+            dayPickerCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    dayPickerCards.forEach(c => c.classList.remove('active'));
+                    card.classList.add('active');
+                });
+            });
+
+            timePickerCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    timePickerCards.forEach(c => c.classList.remove('active'));
+                    card.classList.add('active');
+                });
+            });
+
+            /* --- STARTBOT CHATBOT LOGIC --- */
+            const startbotToggleBtn = document.getElementById('startbot-toggle-btn');
+            const startbotPanel = document.getElementById('startbot-panel');
+            const startbotCloseBtn = document.getElementById('startbot-close-btn');
+
+            const startbotTxtInput = document.getElementById('startbot-txt-input');
+            const startbotSendBtn = document.getElementById('startbot-send-btn');
+            const startbotMessagesBox = document.getElementById('startbot-messages-box');
+            const startbotQuickChips = document.querySelectorAll('#startbot-quick-chips .startbot-chip');
+
+            if (startbotToggleBtn && startbotPanel && startbotCloseBtn) {
+                startbotToggleBtn.addEventListener('click', () => {
+                    startbotPanel.classList.toggle('active');
+                });
+
+                startbotCloseBtn.addEventListener('click', () => {
+                    startbotPanel.classList.remove('active');
+                });
+            }
+
+            function appendBotMessage(sender, text) {
+                const msgDiv = document.createElement('div');
+                msgDiv.className = `msg ${sender}`;
+                msgDiv.textContent = text;
+                startbotMessagesBox.appendChild(msgDiv);
+                startbotMessagesBox.scrollTop = startbotMessagesBox.scrollHeight;
+            }
+
+            function botResponse(userMsg) {
+                appendBotMessage('bot', 'Düşünüyorum...');
+                const loader = startbotMessagesBox.lastChild;
+
+                setTimeout(() => {
+                    if (loader) loader.remove();
+                    const text = userMsg.toLowerCase();
+
+                    if (text.includes('but') || text.includes('ücretsiz') || text.includes('sosyal') || text.includes('devlet')) {
+                        appendBotMessage('bot', 'Almanya\'da Bürgergeld, Wohngeld veya Kinderzuschlag alan aileler için ders desteği tamamen ücretsizdir (BuT)! Form hazırlıklarınızı biz yönetiyoruz.');
+                    } else if (text.includes('bloke') || text.includes('sperrkonto') || text.includes('bütçe') || text.includes('maliyet')) {
+                        appendBotMessage('bot', 'Öğrenci vizesi için zorunlu bloke hesap bütçesi aylık 992 € (yıllık 11.904 €) düzeyindedir. Vize harcı ise 75 €\'dur. Sayfamızdaki akıllı simülatör ile detayları inceleyebilirsiniz.');
+                    } else if (text.includes('sommercamp') || text.includes('kamp') || text.includes('hazırlık') || text.includes('abitur')) {
+                        appendBotMessage('bot', 'Yaz 2026 Abitur ve İngilizce Sommercamp kayıtlarımız başlamıştır. Kontenjanlar dolmadan hızlıca randevu alabilirsiniz.');
+                    } else if (text.includes('danışmanlık') || text.includes('paket') || text.includes('ücret') || text.includes('fiyat')) {
+                        appendBotMessage('bot', 'Almanya üniversite danışmanlığımızda 3 paketimiz bulunur: Start Basic (1.900 €), Start Plus (2.700 €) ve Start Premium (3.900 € - 6 ay Almanya yerinde entegrasyon desteği içerir).');
+                    } else {
+                        appendBotMessage('bot', 'Sorunuz için teşekkürler! Size vize bloke hesabı, ücretsiz BuT okul desteği veya Sommercamp ders takvimlerimizle ilgili konularda daha detaylı yardımcı olmak için heyecan duyuyoruz. Lütfen randevu formumuzu doldurun.');
+                    }
+                }, 800);
+            }
+
+            function handleSend() {
+                const txt = startbotTxtInput.value.trim();
+                if (!txt) return;
+
+                appendBotMessage('user', txt);
+                startbotTxtInput.value = '';
+                botResponse(txt);
+            }
+
+            if (startbotSendBtn && startbotTxtInput) {
+                startbotSendBtn.addEventListener('click', handleSend);
+                startbotTxtInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') handleSend();
+                });
+            }
+
+            startbotQuickChips.forEach(chip => {
+                chip.addEventListener('click', () => {
+                    const question = chip.getAttribute('data-question');
+                    appendBotMessage('user', question);
+                    botResponse(question);
+                });
+            });
+
+        });
+    
+</script>
+</body>
+</html>

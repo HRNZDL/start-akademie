@@ -1,0 +1,30 @@
+685:                         <li><a href="#">UG Adresi: Mainzer Straße 18</a></li>
+686:                         <li><a href="#">Instagram: @startakademie</a></li>
+687:                     </ul>
+688:                 </div>
+689: 
+690:                 <div class="footer-links">
+691:                     <h4>Yasal Bilgiler</h4>
+692:                     <ul>
+693:                         <li><a href="#">Impressum</a></li>
+694:                         <li><a href="#">Datenschutzerklärung</a></li>
+695:                         <li><a href="#">Anerkannter Lernförderanbieter</a></li>
+696:                         <li><a href="#">Kreis Groß-Gerau Lisansı</a></li>
+697:                     </ul>
+698:                 </div>
+699:             </div>
+700: 
+701:             <div class="footer-bottom">
+702:                 <p>&copy; 2026 Start Akademie UG (haftungsbeschränkt). Tüm hakları saklıdır.</p>
+703:                 <div style="display: flex; gap: 24px;">
+704:                     <a href="#">Gizlilik Sözleşmesi</a>
+705:                     <a href="#">Kullanım Koşulları</a>
+706:                 </div>
+707:             </div>
+708:         </div>
+709:     </footer>
+710: 
+711:     <!-- Interactive Scripts & Animations -->
+712:     <script src="assets/js/main.js"></script>
+713: </body>
+714: </html>

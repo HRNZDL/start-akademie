@@ -1,0 +1,50 @@
+1: lucide.createIcons();
+2: 
+3: 
+4: 
+5: // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+6: 
+7: // HEADER: scroll shrink + gold border
+8: 
+9: // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+10: 
+11: const mainHeader = document.getElementById('main-header');
+12: 
+13: window.addEventListener('scroll', () => {
+14: 
+15: if (window.scrollY > 60) {
+16: 
+17: mainHeader.classList.add('scrolled');
+18: 
+19: } else {
+20: 
+21: mainHeader.classList.remove('scrolled');
+22: 
+23: }
+24: 
+25: 
+26: 
+27: // Active nav tracking
+28: 
+29: const sections = document.querySelectorAll('section[id]');
+30: 
+31: let current = '';
+32: 
+33: sections.forEach(s => {
+34: 
+35: if (window.scrollY >= s.offsetTop - 140) current = s.id;
+36: 
+37: });
+38: 
+39: document.querySelectorAll('.nav-link').forEach(link => {
+40: 
+41: link.classList.remove('active');
+42: 
+43: if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+44: 
+45: });
+46: 
+47: }, { passive: true });
+48: 
+49: 
+50: 

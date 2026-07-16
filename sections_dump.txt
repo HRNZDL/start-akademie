@@ -1,0 +1,6 @@
+Section 0: ['Akademik Geleceğe<br><em>Geçiş Kapınız</em>', 'Almanya Devlet<br><em>Üniversiteleri Portalı</em>']
+Section 1: ["Almanya'nın En Prestijli Devlet Üniversiteleri"]
+Section 2: ['Müfredat Destekli Okul Dersleri']
+Section 3: ['Almanya Resmi Üniversite Kabul Paketlerimiz']
+Section 4: ['Canlı Online Dil Sınıfları & Yaz Kampları']
+Section 5: ['Bizimle Ön Görüşme Planlayın']

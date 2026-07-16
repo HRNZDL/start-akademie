@@ -1,0 +1,94 @@
+# 28. İki ayrı form hazırlanması
+
+Mevcut sitedeki randevu formunda üniversite, Nachhilfe, online kurs ve yaz kampı seçenekleri aynı formda yer almaktadır. ([Start Akademie][1])
+
+Bu form sistemi ikiye ayrılacaktır.
+
+## Form 1 — Kısa Tanışma Görüşmesi Formu
+
+Alanlar:
+
+* Ad soyad
+* Telefon / WhatsApp
+* E-posta
+* Bulunduğu ülke
+* Hizmet alanı
+* Tercih edilen görüşme şekli
+* Kısa mesaj
+* Datenschutz onayı
+
+Hizmet seçenekleri:
+
+* Üniversite – Lisans
+* Üniversite – Yüksek Lisans
+* Studienkolleg
+* Almanya’daki Dil Kursları
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz Dönemi Çalışma
+* Konaklama
+* İlk Yerleşim
+* Dijital Vize Desteği
+* Diğer
+
+## Form 2 — Ayrıntılı Ön Değerlendirme Formu
+
+### Kişisel bilgiler
+
+* Ad soyad
+* Doğum yılı
+* Uyruk
+* Bulunduğu ülke ve şehir
+* Telefon
+* E-posta
+
+### Eğitim bilgileri
+
+* Lise türü
+* Mezuniyet yılı
+* YKS durumu
+* Üniversite ve bölüm
+* Eğitim devam ediyor mu?
+* Mezuniyet durumu
+* Not ortalaması
+
+### Dil bilgileri
+
+* Almanca seviyesi
+* İngilizce seviyesi
+* Dil sertifikaları
+
+### Hedef
+
+* Lisans
+* Yüksek lisans
+* Studienkolleg
+* Dil kursu
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz dönemi çalışma
+* Konaklama
+
+### Dosya yükleme
+
+* Diploma
+* Transkript
+* Dil sertifikası
+* CV
+* Pasaport veya kimlik
+* Diğer belgeler
+
+### Onay
+
+* Verilerin danışmanlık amacıyla işlenmesi
+* Datenschutz
+* Bilgilerin doğru olduğuna dair onay
+
+Dosya yükleme sistemi güvenli olmalı ve yetkisiz erişime karşı korunmalıdır.
+
+---
+

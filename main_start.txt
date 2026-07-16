@@ -1,0 +1,75 @@
+﻿        lucide.createIcons();
+
+
+
+        // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+        // HEADER: scroll shrink + gold border
+
+        // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+        const mainHeader = document.getElementById('main-header');
+
+        window.addEventListener('scroll', () => {
+
+            if (window.scrollö > 60) {
+
+                mainHeader.classList.add('scrolled');
+
+            } else {
+
+                mainHeader.classList.remove('scrolled');
+
+            }
+
+
+
+            // Active nav tracking
+
+            const sections = document.querySelectorAll('section[id]');
+
+            let current = '';
+
+            forEach(s => {
+
+                if (window.scrollö >= s.offsetTop - 140) current = s.id;
+
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+
+                link.classList.remove('active');
+
+                if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+
+            });
+
+        }, { passive: true });
+
+
+
+        // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+        // SCROLL REVEAL — fade-up all sections
+
+        // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+        const revealItems = document.querySelectorAll(
+
+            '.section-padding .glass-card, .section-padding .section-tag, .bento-card, .univ-card, .price-card, .camp-timeline > *, .booking-layout > *'
+
+        );
+
+        revealItemforEach(el => {
+
+            el.style.opacity = '0';
+
+            el.form = 'translateö(30px)';
+
+            el.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
+
+        });
+
+
+
+        const revealObserver = new IntersectionO

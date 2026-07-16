@@ -1,0 +1,8 @@
+Test Section 0: ["Almanya'da Eğitim Yolunuz <em>Burada Başlar</em>", 'Resmi Kabul ve <em>Vize Danışmanlığı</em>', 'Ihr Bildungsweg <em>in Deutschland</em>']
+Test Section 1: ['Geleceğe Ulaşan Üç Eğitim Kanadı']
+Test Section 2: ['Sperrkonto Finansal Planlayıcı']
+Test Section 3: ['Geleceğinizi Şekillendiren Kampüsler']
+Test Section 4: ['Resmi Danışmanlık Paketleri']
+Test Section 5: ['Almanya Üniversite Uygunluk Sihirbazı']
+Test Section 6: ['Yaz İngilizce Hazırlık Kampları 2026']
+Test Section 7: ['Başvurunuzu Planlayın']

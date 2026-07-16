@@ -1,0 +1,365 @@
+# 15. Üniversite sayfası
+
+## Sayfa başlığı
+
+> *Almanya’da Üniversite Eğitimi*
+
+## Giriş metni
+
+> Almanya’da üniversiteye giden yol her öğrenci için farklıdır. Lise türü, YKS sonucu, Türkiye’deki üniversite eğitimi, dil seviyesi, not ortalaması ve hedef bölüm birlikte değerlendirilmelidir.
+
+## Bölümler
+
+### Lisans başvuruları
+
+* Eğitim geçmişi analizi
+* Üniversiteye giriş hakkının değerlendirilmesi
+* Bölüm araştırması
+* Başvuru belgeleri
+* uni-assist veya doğrudan başvuru
+
+### Yüksek lisans başvuruları
+
+* Lisans alanı ile program uyumu
+* Ders içerikleri ve kredi değerlendirmesi
+* Almanca veya İngilizce program araştırması
+* Akademik CV
+* Motivasyon yazısı
+* Başvuru takibi
+
+### Studienkolleg
+
+* Studienkolleg gerekliliğinin değerlendirilmesi
+* Uygun alan veya kurs türü
+* Dil şartı
+* Aufnahmeprüfung
+* Başvuru süreci
+
+### Üniversite ve bölüm seçimi
+
+* Akademik geçmiş
+* Dil seviyesi
+* Şehir
+* Bütçe
+* Kariyer hedefi
+
+### Başvuru yöntemleri
+
+* uni-assist
+* VPD
+* Doğrudan başvuru
+* Üniversite portalları
+* Ek belge talepleri
+
+### Şartlı kabul ve dil süreci
+
+* Üniversiteye bağlı dil kursu
+* DSH hazırlığı
+* Dil şartının tamamlanması
+* Kesin kayıt süreci
+
+### Dijital öğrenci vizesi başvuru desteği
+
+Ortak dijital vize içeriğine bağlantı.
+
+## Kullanılmayacak ifade
+
+* Üniversite hazırlık
+
+Bunun yerine yalnızca gerçek süreç adları kullanılmalıdır:
+
+* Studienkolleg
+* Üniversiteye bağlı dil kursu
+* DSH hazırlığı
+* Şartlı kabul
+
+---
+
+# 16. Dil Kursları sayfası
+
+## Sayfa başlığı
+
+> *Almanya’daki Dil Kurslarına Başvuru*
+
+## Giriş metni
+
+> Dil kursu seçimi yalnızca mevcut seviyeye göre değil, öğrencinin üniversite, Ausbildung veya kariyer hedefine göre yapılmalıdır.
+
+## Bölümler
+
+### Üniversiteye bağlı dil kursları
+
+* Üniversite bünyesindeki kurslar
+* Başvuru şartları
+* Kabul türleri
+* Üniversite bağlantısı
+
+### DSH ve studienvorbereitender Deutschkurs
+
+* DSH hazırlığı
+* Üniversiteye hazırlık amaçlı dil eğitimi
+* Başlangıç seviyesi
+* Kurs ve sınav bağlantısı
+
+### Özel dil okulları
+
+* Şehir ve okul araştırması
+* Seviye
+* Süre
+* Yoğunluk
+* Kayıt şartları
+
+### Kurs seçimi ve başvuru
+
+* Seviye ve hedef analizi
+* Alternatif kursların karşılaştırılması
+* Evrak kontrolü
+* Başvuru
+* Kabul veya kayıt takibi
+
+### Dil kursu vizesi başvuru desteği
+
+Ortak dijital vize içeriğine bağlantı.
+
+## Bilgi kutusu
+
+> Start Akademie’nin kendi online Almanca kursları için www.startakademie.online adresini ziyaret ediniz.
+
+---
+
+# 17. Ausbildung sayfası
+
+## Sayfa başlığı
+
+> *Almanya’da Ausbildung*
+
+## Giriş metni
+
+> Ausbildung, işletmedeki uygulamalı eğitim ile meslek okulundaki teorik eğitimin birlikte yürütüldüğü mesleki eğitim yoludur.
+
+## Bölümler
+
+### Uygunluk değerlendirmesi
+
+* Eğitim geçmişi
+* Almanca seviyesi
+* Mesleki ilgi
+* Almanya’dan veya Türkiye’den başvuru
+* Başvuru zamanlaması
+
+### Meslek alanı seçimi
+
+* İlgi ve yetenek
+* Eğitim geçmişi
+* Dil ihtiyacı
+* İş piyasası
+* Uzun vadeli kariyer hedefi
+
+### Almanca başvuru dosyası
+
+* Lebenslauf
+* Anschreiben
+* Diploma
+* Transkript
+* Sertifikalar
+* Belgelerin düzenlenmesi
+
+### İşletme ve okul başvuruları
+
+* İlan araştırması
+* Başvuru gönderimi
+* İşveren yazışmaları
+* Başvuru takibi
+
+### Mülakat hazırlığı
+
+* İşveren görüşmesi
+* Sık sorulan sorular
+* Almanca ifade
+* Mesleki motivasyon
+
+### Ausbildung vizesi başvuru desteği
+
+Ortak dijital vize içeriğine bağlantı.
+
+## Uyarı
+
+> Start Akademie Ausbildung yeri, sözleşme veya işveren kabulü garantisi vermez.
+
+---
+
+# 18. Denklik sayfası
+
+## Sayfa başlığı
+
+> *Diploma ve Mesleki Denklik Hizmetleri*
+
+## Giriş metni
+
+> Denklik süreci diplomanın türüne, mesleğe, çalışılmak istenen alana, eyalete ve yetkili kuruma göre değişebilir. Doğru kurumun belirlenmesi ve dosyanın eksiksiz hazırlanması sürecin temelidir.
+
+## Ana gruplar
+
+### Okul ve akademik diplomalar
+
+* Lise diploması
+* Açık Lise
+* Ön lisans
+* ZAB diploma değerlendirmesi
+
+### Mesleki denklik
+
+* Meslek lisesi
+* Meslek diploması
+* Kalfalık
+* Ustalık
+* IHK-FOSA ve diğer yetkili makamlar
+
+### Mesleğe özel denklik
+
+* Öğretmenlik
+* Erzieher
+* Pädagogische Fachkraft
+* Sozialarbeiter
+* Sozialpädagoge
+* Sağlık meslekleri
+
+## Ortak hizmet süreci
+
+* Ön dosya analizi
+* Yetkili makamın belirlenmesi
+* Belge listesinin hazırlanması
+* Dosyanın düzenlenmesi
+* Başvuru desteği
+* Ek belge taleplerinin takibi
+* Sonucun açıklanması
+
+## Uyarı
+
+> Start Akademie denklik kararı vermez. Nihai karar ilgili resmî makama aittir.
+
+---
+
+# 19. Değişim ve Yaz Programları sayfası
+
+## Sayfa başlığı
+
+> *Değişim ve Yaz Programları*
+
+## Erasmus öğrenim hareketliliği
+
+* Üniversite ve şehir değerlendirmesi
+* Belge kontrolü
+* Learning Agreement hazırlık desteği
+* Konaklama ve Almanya hazırlığı
+* Erasmus sonrası eğitim ve kariyer planı
+
+## Erasmus staj hareketliliği
+
+* Staj hedefinin belirlenmesi
+* Başvuru dosyası
+* CV ve motivasyon yazısı
+* Almanya’daki ilk adımlar
+
+## Almanya’da staj
+
+* Bölümle bağlantılı staj araştırması
+* Başvuru dosyası
+* CV ve motivasyon yazısı
+* İşveren başvuruları
+* Yazışma ve takip
+
+## Üniversite öğrencileri için yaz dönemi çalışma
+
+Başlık:
+
+> *Almanya’da Üniversite Öğrencileri İçin Yaz Dönemi Çalışma Programı*
+
+Açıklama:
+
+> Türkiye’de üniversite okuyan öğrencilerin resmî tatil dönemlerinde Almanya’da kısa süreli çalışma, dil pratiği ve kültürel deneyim kazanmasına yönelik hazırlanan programdır.
+
+Durum etiketi:
+
+> *Ön talep ve işveren iş birliği aşamasında*
+
+Aşağıdaki ifadeler somut işveren anlaşması olmadan kullanılmayacaktır:
+
+* Opel’de çalışma
+* İş garantili
+* Kesin yerleştirme
+* Kesin pozisyon
+* Kesin ücret
+
+## Genel uyarı
+
+> Erasmus seçimi, staj yeri veya işveren kabulü garanti edilmez.
+
+---
+
+# 20. Konaklama sayfası
+
+## Sayfa başlığı
+
+> *Öğrenci Konaklaması ve Almanya’daki İlk Adımlar*
+
+## Öğrenci konaklama projesi
+
+* Rüsselsheim veya Bischofsheim merkezli planlama
+* Rhein-Main bölgesi
+* Üniversite ve dil kurslarına ulaşım
+* Geçici veya orta süreli öğrenci konaklaması
+* Öğrenci odaları
+* Ön talep formu
+
+Durum etiketi:
+
+> *Ön talep alınıyor / Hazırlık aşamasında*
+
+Bina ve kapasite kesinleşmeden şu bilgiler yayımlanmayacaktır:
+
+* Kesin adres
+* Kesin oda sayısı
+* Kesin ücret
+* Kesin başlangıç tarihi
+* Konaklama garantisi
+
+## Bölge ve ulaşım avantajları
+
+Bir harita hazırlanabilir.
+
+Merkez:
+
+* Rüsselsheim
+* Bischofsheim
+
+Yakın şehirler:
+
+* Mainz
+* Wiesbaden
+* Frankfurt
+* Darmstadt
+
+Yakındaki üniversiteler ve yüksekokullar ikonlarla gösterilebilir.
+
+Ulaşım süreleri, yayımlanmadan önce güncel güzergâhlar üzerinden kontrol edilmeli ve “yaklaşık” olarak belirtilmelidir.
+
+## Almanya’ya Varış ve İlk Yerleşim Desteği
+
+* Havalimanı veya istasyondan ulaşım planı
+* Konaklama yerine yerleşme
+* Anmeldung
+* Wohnungsgeberbestätigung
+* Sağlık sigortası
+* Banka hesabı
+* SIM kart ve telefon hattı
+* Üniversite veya kurs kaydı
+* Ulaşım kartı
+* Ausländerbehörde
+* Oturum başvurusu
+* İlk resmî işlemler için yol haritası
+
+Karşılama veya yerinde refakat, yalnızca satın alınan hizmet kapsamında bulunuyorsa sunulacaktır.
+
+---
+

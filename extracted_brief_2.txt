@@ -1,0 +1,729 @@
+# 24. Hakkımızda sayfası
+
+## Sayfa başlığı
+
+> *Start Akademie Hakkında*
+
+## Ana metin
+
+> Start Akademie, Almanya merkezli bir eğitim ve kariyer danışmanlığı kurumudur. Danışanların eğitim geçmişlerini, dil seviyelerini, mevcut belgelerini ve uzun vadeli hedeflerini birlikte değerlendirerek kişiye özel yol haritaları oluşturur.
+
+## Vurgular
+
+* Almanya merkezli kurum
+* Rhein-Main bölgesinde yerel bilgi ve deneyim
+* Kişiye özel dosya analizi
+* Üniversite, denklik ve eğitim başvurularında uygulamalı deneyim
+* Başvurudan Almanya’daki ilk adımlara kadar destek
+* Süreci bizzat yaşamış danışmanlar
+* Şeffaf hizmet kapsamı
+* Gerçekçi yönlendirme
+
+## Kullanılmayacak iddialar
+
+* Almanya’nın en iyi danışmanlık şirketi
+* Yüzde yüz kabul
+* Yüzde yüz vize
+* Kesin sonuç
+* Resmî partner
+* Akredite kurum
+
+Bu ifadeler yalnızca belgelenebilir ve hukuken kullanılabilir olmaları hâlinde eklenebilir.
+
+---
+
+# 25. Danışman profilleri
+
+Ana sayfada kısa profil kartları; Hakkımızda sayfasında daha ayrıntılı ekip profilleri hazırlanmalıdır.
+
+Her profil şunları içermelidir:
+
+* Fotoğraf
+* Ad soyad
+* Görev
+* Uzmanlık alanı
+* Kısa özgeçmiş
+* Bildiği diller
+* İlgili hizmete bağlantı
+
+Örnek roller:
+
+* Üniversite başvuru danışmanı
+* Denklik danışmanı
+* Erasmus danışmanı
+* Ausbildung danışmanı
+* İlk yerleşim danışmanı
+
+Erasmus danışmanı için gerçek deneyim çerçevesinde şu vurgu kullanılabilir:
+
+> Türkiye’den Erasmus programıyla Almanya’ya gelmiş ve süreci kişisel olarak yaşamış danışmanımız, öğrencilerin başvuru, hazırlık ve adaptasyon süreçlerine destek verir.
+
+---
+
+# 26. Vaka örnekleri bölümü
+
+Ana sayfada veya ayrı bir “Danışan Dosyalarından Örnekler” sayfasında, kişisel bilgiler gizlenerek gerçek süreç örnekleri gösterilebilir.
+
+Örnek konular:
+
+* Açık Lise mezunu için Studienkolleg yolu
+* Türkiye’de üniversite okuyan öğrencinin Almanya’da devam planı
+* Üniversiteye bağlı dil kursu başvurusu
+* Öğretmenlik denkliği
+* Ön lisans diploma değerlendirmesi
+* Dijital vize dosyasının hazırlanması
+* Erasmus sonrası yüksek lisans planı
+
+Her vaka şu formatta sunulmalıdır:
+
+* Başlangıç durumu
+* Hedef
+* Karşılaşılan sorun
+* Belirlenen yol
+* Yapılan işlemler
+* Sonuç veya güncel aşama
+
+Süreç tamamlanmamışsa kesin başarı hikâyesi gibi gösterilmemeli; “Başvuru süreci devam ediyor” yazılmalıdır.
+
+---
+
+# 27. Hizmet durumu etiketleri
+
+Yönetim panelinden değiştirilebilir etiket sistemi hazırlanmalıdır:
+
+* Aktif hizmet
+* Başvurular açık
+* Ön talep alınıyor
+* Hazırlık aşamasında
+* Yakında
+* Kontenjan dolu
+* İşveren iş birlikleri oluşturuluyor
+
+Örnek kullanım:
+
+* Üniversite başvuruları — Aktif hizmet
+* Denklik — Aktif hizmet
+* Online Almanca kursları — Ön talep alınıyor
+* Öğrenci konaklaması — Ön talep alınıyor
+* Yaz dönemi çalışma — İşveren iş birlikleri oluşturuluyor
+
+---
+
+# 28. İki ayrı form hazırlanması
+
+Mevcut sitedeki randevu formunda üniversite, Nachhilfe, online kurs ve yaz kampı seçenekleri aynı formda yer almaktadır. ([Start Akademie][1])
+
+Bu form sistemi ikiye ayrılacaktır.
+
+## Form 1 — Kısa Tanışma Görüşmesi Formu
+
+Alanlar:
+
+* Ad soyad
+* Telefon / WhatsApp
+* E-posta
+* Bulunduğu ülke
+* Hizmet alanı
+* Tercih edilen görüşme şekli
+* Kısa mesaj
+* Datenschutz onayı
+
+Hizmet seçenekleri:
+
+* Üniversite – Lisans
+* Üniversite – Yüksek Lisans
+* Studienkolleg
+* Almanya’daki Dil Kursları
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz Dönemi Çalışma
+* Konaklama
+* İlk Yerleşim
+* Dijital Vize Desteği
+* Diğer
+
+## Form 2 — Ayrıntılı Ön Değerlendirme Formu
+
+### Kişisel bilgiler
+
+* Ad soyad
+* Doğum yılı
+* Uyruk
+* Bulunduğu ülke ve şehir
+* Telefon
+* E-posta
+
+### Eğitim bilgileri
+
+* Lise türü
+* Mezuniyet yılı
+* YKS durumu
+* Üniversite ve bölüm
+* Eğitim devam ediyor mu?
+* Mezuniyet durumu
+* Not ortalaması
+
+### Dil bilgileri
+
+* Almanca seviyesi
+* İngilizce seviyesi
+* Dil sertifikaları
+
+### Hedef
+
+* Lisans
+* Yüksek lisans
+* Studienkolleg
+* Dil kursu
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz dönemi çalışma
+* Konaklama
+
+### Dosya yükleme
+
+* Diploma
+* Transkript
+* Dil sertifikası
+* CV
+* Pasaport veya kimlik
+* Diğer belgeler
+
+### Onay
+
+* Verilerin danışmanlık amacıyla işlenmesi
+* Datenschutz
+* Bilgilerin doğru olduğuna dair onay
+
+Dosya yükleme sistemi güvenli olmalı ve yetkisiz erişime karşı korunmalıdır.
+
+---
+
+# 29. Mevcut chatbotun yeniden yapılandırılması
+
+Mevcut chatbot; vize, bloke hesap, BuT ve lise ders desteği gibi .com, .de ve diğer hizmetleri birbirine karıştırmaktadır. ([Start Akademie][1])
+
+## Yeni başlangıç mesajı
+
+> Merhaba, Start Akademie Eğitim ve Kariyer Danışmanlığına hoş geldiniz. Üniversite, dil kursu, Ausbildung, denklik, değişim programları, konaklama ve dijital vize süreçleri hakkında size nasıl yardımcı olabilirim?
+
+## Chatbotun kapsayacağı konular
+
+* Üniversite
+* Yüksek lisans
+* Studienkolleg
+* Dil kursları
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz dönemi çalışma
+* Konaklama
+* Dijital vize
+* İlk yerleşim
+* Görüşme talebi
+
+## Nachhilfe sorusu geldiğinde
+
+> Nachhilfe ve okul ders desteği hizmetlerimiz için sizi www.startakademie.de adresine yönlendirebilirim.
+
+## Online kurs sorusu geldiğinde
+
+> Start Akademie online dil kursları için www.startakademie.online adresini ziyaret edebilirsiniz.
+
+Chatbot kesin kabul, vize veya denklik sonucu söylememelidir.
+
+---
+
+# 30. Sık Sorulan Sorular bölümünün yeniden düzenlenmesi
+
+Mevcut SSS alanı korunacak, ancak kategorilere ayrılacaktır. ([Start Akademie][1])
+
+## Üniversite
+
+* Almanya’da üniversiteye doğrudan başlayabilir miyim?
+* Studienkolleg gerekli mi?
+* Açık Lise mezunları başvurabilir mi?
+* YKS olmadan başvuru yapılabilir mi?
+* Şartlı kabul nedir?
+* İngilizce programlara başvurabilir miyim?
+
+## Dil Kursları
+
+* Üniversite dil kursu ile özel dil okulu arasındaki fark nedir?
+* Hangi Almanca seviyesi gerekir?
+* DSH hazırlık kursu nedir?
+* Dil kursu vizesi için hangi belgeler gerekir?
+
+## Ausbildung
+
+* Ausbildung için hangi Almanca seviyesi gerekir?
+* Türkiye’den Ausbildung başvurusu yapılabilir mi?
+* Yaş sınırı var mı?
+* Start Akademie işveren veya Ausbildung yeri garantisi veriyor mu?
+
+## Denklik
+
+* Hangi kurum diploma denkliği yapar?
+* Lise ve meslek denkliği arasındaki fark nedir?
+* Öğretmenlik denkliği nasıl ilerler?
+* Denklik ne kadar sürer?
+* Ek belge talep edilirse ne yapılır?
+
+## Vize
+
+* Dijital vize başvurusunda nasıl destek veriliyor?
+* Start Akademie vize başvurusunu benim adıma mı yapıyor?
+* Bloke hesap veya garantörlük işlemini Start Akademie yapıyor mu?
+* Dijital ön inceleme vize garantisi anlamına gelir mi?
+
+## Konaklama ve İlk Yerleşim
+
+* Konaklama garantisi veriliyor mu?
+* Almanya’ya geldikten sonra hangi resmî işlemler yapılır?
+* Anmeldung için hangi belge gerekir?
+* Ausländerbehörde sürecinde destek veriliyor mu?
+
+Hızla değişebilecek rakamlar ve mevzuat bilgileri kaynak ve güncelleme tarihi olmadan sabit metin olarak kullanılmamalıdır.
+
+---
+
+# 31. Broşür indirme alanı
+
+Ana sayfada veya “Rehberler ve Broşürler” bölümünde iki onaylanmış PDF gösterilecektir:
+
+1. *Almanya’da Eğitim ve Kariyer Broşürü*
+2. *Hizmet Paketleri ve Ücretler Broşürü*
+
+Her broşür için:
+
+* Kapak görseli
+* Kısa açıklama
+* PDF görüntüle
+* PDF indir
+
+butonları bulunmalıdır.
+
+PDF dosyaları telefonda sorunsuz açılmalı ve indirilebilmelidir.
+
+Daha sonra eklenebilecek içerikler:
+
+* Üniversite başvuru rehberi
+* Denklik rehberi
+* Dijital vize kontrol listesi
+* Almanya’ya ilk geliş kontrol listesi
+* Ausbildung başvuru rehberi
+
+---
+
+# 32. İletişim sayfası
+
+## Gösterilecek bilgiler
+
+* Start Akademie UG (haftungsbeschränkt)
+* Mainzer Straße 18
+* 65428 Rüsselsheim am Main
+* Telefon / WhatsApp
+* info@startakademie.com
+* www.startakademie.com
+* Çalışma saatleri
+* Google Maps
+* İletişim formu
+* WhatsApp butonu
+* Randevu talebi butonu
+
+## QR kod
+
+Yalnızca gerçek ve test edilmiş QR kod kullanılmalıdır.
+
+QR kod şu adrese gitmelidir:
+
+https://www.startakademie.com
+
+QR kodun her sayfada kullanılmasına gerek yoktur.
+
+---
+
+# 33. Footer’ın tamamen yeniden düzenlenmesi
+
+Mevcut footer; Nachhilfe, üniversite danışmanlığı, online kurslar, yaz kampları, .de e-posta adresi ve bazı üyelik ifadelerini aynı yerde göstermektedir. ([Start Akademie][1])
+
+Yeni footer şu şekilde hazırlanacaktır:
+
+## Sütun 1 — Start Akademie
+
+> Almanya’da eğitim ve kariyer hedefleriniz için kişiye özel danışmanlık.
+
+## Sütun 2 — Hizmetler
+
+* Üniversite
+* Dil Kursları
+* Ausbildung
+* Denklik
+* Değişim ve Yaz Programları
+* Konaklama
+
+## Sütun 3 — Diğer Sitelerimiz
+
+* Nachhilfe — www.startakademie.de
+* Online Dil Kursları — www.startakademie.online
+
+## Sütun 4 — Bilgilendirme
+
+* Dijital Vize Süreci
+* Üniversite Uygunluk Ön Değerlendirmesi
+* Sık Sorulan Sorular
+* Broşürler
+* Hizmet Paketleri ve Ücretler
+
+## Sütun 5 — Kurumsal
+
+* Hakkımızda
+* Ekibimiz
+* İletişim
+* Impressum
+* Datenschutz
+* AGB / Hizmet Şartları
+
+## Sütun 6 — İletişim
+
+* Adres
+* Telefon / WhatsApp
+* info@startakademie.com
+* Çalışma saatleri
+* Instagram
+
+## Footer alt satırı
+
+* Impressum
+* Datenschutz
+* Cookie-Einstellungen
+* Kullanım Şartları
+* © 2026 Start Akademie UG
+
+Doğrulanmamış üyelik, lisans veya akreditasyon ifadeleri kaldırılmalıdır.
+
+---
+
+# 34. Ana sayfanın nihai sıralaması
+
+Ana sayfa aşağıdaki sırada kurulacaktır:
+
+1. Üst iletişim çubuğu
+2. Yeni ana menü
+3. Hero alanı
+4. Nachhilfe / Eğitim ve Kariyer / Online Dil Kursları yönlendirme kartları
+5. Altı ana hizmet kartı
+6. Size Uygun Yol Hangisi?
+7. İlk Görüşmeden Almanya’daki İlk Günlerinize Kadar
+8. Üniversite ve Program Seçimini Nasıl Yapıyoruz?
+9. Üniversite Danışmanlığı Paketleri
+10. Tekil ve İlave Hizmetler
+11. Neden Start Akademie?
+12. Danışman profilleri
+13. Gerçek vaka örnekleri
+14. Üniversite Uygunluk Ön Değerlendirmesi
+15. Konaklama ve yeni programlar için ön talep alanı
+16. Sık Sorulan Sorular
+17. Broşürler ve Rehberler
+18. Ücretsiz Tanışma Görüşmesi alanı
+19. Footer
+
+---
+
+# 35. “Neden Start Akademie?” bölümü
+
+## Başlık
+
+> *Neden Start Akademie?*
+
+## İçerik
+
+* Almanya merkezli danışmanlık
+* Kişiye özel değerlendirme
+* Üniversite, Ausbildung ve denklik süreçlerinde uygulamalı deneyim
+* Güncel başvuru sistemlerine uygun dosya hazırlığı
+* Başvurudan Almanya’daki ilk adımlara kadar destek
+* Şeffaf hizmet kapsamı
+* Gerçekçi yönlendirme
+* Süreci yaşamış danışmanlarla destek
+
+Doğrulanamayan sayı, başarı yüzdesi veya “en iyi” iddiası kullanılmamalıdır.
+
+---
+
+# 36. Ana çağrı butonları
+
+Sitede tutarlı bir buton sistemi kullanılacaktır.
+
+## Ana CTA
+
+> *Ücretsiz Tanışma Görüşmesi Alın*
+
+## İkinci CTA
+
+> *Ön Değerlendirme Formunu Doldurun*
+
+## Diğer CTA’lar
+
+* Hizmeti İnceleyin
+* Size Uygun Yolu Keşfedin
+* WhatsApp’tan Bize Ulaşın
+* Broşürü İndirin
+* Ücretleri İnceleyin
+* Ön Talep Oluşturun
+
+Aynı sayfada çok sayıda farklı CTA metni kullanılmamalıdır.
+
+---
+
+# 37. Eski URL’lerin korunması ve 301 yönlendirmeleri
+
+Mevcut site yayından kaldırılmadan önce bütün mevcut URL’ler ve bağlantılar listelenmelidir.
+
+Adı değişen veya kaldırılan sayfalar en yakın yeni sayfaya *301 yönlendirmesiyle* bağlanmalıdır.
+
+Örnek:
+
+* Eski Programlar → yeni hizmetler bölümü
+* Eski Üniversiteler → Üniversite sayfası
+* Eski Danışmanlık → ana hizmetler veya Üniversite sayfası
+* Eski Denklik Testi → Üniversite Uygunluk Ön Değerlendirmesi
+* Eski Yaz Kampı → Değişim ve Yaz Programları veya kaldırılmış bilgi sayfası
+
+Kırık link, 404 sayfası veya Google’da boş sonuç oluşturulmamalıdır.
+
+Özel bir 404 sayfası da hazırlanmalıdır:
+
+> Aradığınız sayfa taşınmış veya güncellenmiş olabilir.
+
+Butonlar:
+
+* Ana Sayfaya Dön
+* Hizmetleri İncele
+* Bizimle İletişime Geç
+
+---
+
+# 38. SEO gereklilikleri
+
+Her sayfa için ayrı:
+
+* SEO başlığı
+* Meta açıklaması
+* H1 başlığı
+* URL yapısı
+* Open Graph görseli
+* Sosyal medya paylaşım başlığı
+* Görsel alt metinleri
+
+hazırlanmalıdır.
+
+## Örnek sayfa başlıkları
+
+* Almanya’da Üniversite Danışmanlığı | Start Akademie
+* Almanya Dil Kursu Başvurusu | Start Akademie
+* Almanya’da Ausbildung Danışmanlığı
+* Almanya Diploma ve Mesleki Denklik
+* Erasmus ve Yaz Programları Almanya
+* Almanya Öğrenci Konaklaması
+* Dijital Öğrenci Vizesi Başvuru Desteği
+* Almanya’ya Varış ve İlk Yerleşim Desteği
+
+Anahtar kelimeler doğal metin içinde kullanılmalı; yapay anahtar kelime tekrarından kaçınılmalıdır.
+
+---
+
+# 39. Mobil tasarım gereklilikleri
+
+Mobil kullanım birincil öncelik olacaktır.
+
+* Menü rahat açılmalı
+* Kartlar tek sütuna geçmeli
+* Yazılar küçülmemeli
+* Butonlar parmakla kolay kullanılmalı
+* WhatsApp butonu sabit olabilir
+* Telefon ve e-posta tıklanabilir olmalı
+* Form alanları büyük ve kolay doldurulur olmalı
+* Dosya yükleme telefondan çalışmalı
+* PDF’ler mobil tarayıcıda açılmalı
+* Metinler üst üste binmemeli
+* Görseller sayfayı yavaşlatmamalı
+* Yatay taşma olmamalı
+
+---
+
+# 40. Teknik altyapı
+
+* Kolay yönetilebilir CMS
+* Yönetim panelinden içerik değiştirme
+* Yönetim panelinden fiyat güncelleme
+* Yönetim panelinden hizmet durum etiketi değiştirme
+* Çok dilli altyapı
+* Güvenli form ve dosya yükleme
+* Spam koruması
+* SSL
+* Otomatik yedekleme
+* Görsel optimizasyonu
+* Önbellekleme
+* Cookie consent
+* DSGVO uyumu
+* Impressum
+* Datenschutz
+* Google Search Console
+* Analiz sistemi veya DSGVO uyumlu alternatif
+* WhatsApp entegrasyonu
+* PDF indirme altyapısı
+* SEO alanları
+* XML sitemap
+* Robots.txt kontrolü
+* 301 yönlendirmeleri
+* Güvenlik güncellemeleri
+
+---
+
+# 41. Yayına geçmeden önce zorunlu testler
+
+Site doğrudan canlıya alınmayacak; önce test alanında Start Akademie onayına sunulacaktır.
+
+## Görsel testler
+
+* Masaüstü
+* Tablet
+* iPhone
+* Android
+* Farklı ekran boyutları
+
+## Tarayıcı testleri
+
+* Chrome
+* Safari
+* Firefox
+* Edge
+* Mobil Safari
+* Mobil Chrome
+
+## İşlev testleri
+
+* Bütün menüler
+* Bütün butonlar
+* WhatsApp bağlantıları
+* Telefon bağlantıları
+* E-posta bağlantıları
+* Formlar
+* Form bildirimleri
+* Dosya yükleme
+* Dil seçimi
+* PDF görüntüleme
+* PDF indirme
+* Chatbot
+* QR kod
+* Harita
+* 301 yönlendirmeleri
+* 404 sayfası
+
+## İçerik testleri
+
+* Türkçe karakterler
+* Metin taşması
+* Başlıkların kesilmesi
+* Eski e-posta adresleri
+* Eski fiyatlar
+* Eski garanti ifadeleri
+* Yanlış domainler
+* Nachhilfe ve online kurs içeriklerinin doğru sitelere yönlendirilmesi
+
+---
+
+# 42. Kesinlikle kaldırılacak eski içeriklerin toplu listesi
+
+* Programlar menüsü
+* Üniversiteler menüsü
+* Danışmanlık menüsü
+* Denklik Testi adı
+* Yaz Kampı ana menüsü
+* Sıfır vize kaybı politikası
+* Resmî kabul sağlıyoruz
+* %98 kabul oranı
+* Vize garantisi
+* Kabul garantisi
+* Vize ve Varış Garantili VIP
+* Vize görüşmesi simülasyonu
+* Vize Rehberim Paketi
+* Bloke hesap hesaplayıcısının ana sayfadaki büyük bölümü
+* Üniversite kabul yüzdeleri
+* Partner üniversitelerimiz ifadesi
+* Start Basic / Plus / Premium eski içerikleri
+* Eski ek hizmet fiyatları
+* Online İngilizce kursu iddiası, aktif değilse
+* Yaz Dil Kampı 2026
+* .com sitesi içinde ayrıntılı Nachhilfe içeriği
+* .com sitesi içinde ayrıntılı online kurs içeriği
+* info@startakademie.de
+* Doğrulanmamış VNN, lisans veya akreditasyon ifadeleri
+* “Üniversite hazırlık” gibi belirsiz genel ifadeler
+
+---
+
+# 43. Korunabilecek mevcut unsurlar
+
+* Start Akademie logosu
+* Mavi-beyaz kurumsal kimlik
+* Mevcut modern geçiş ve animasyon yaklaşımının sadeleştirilmiş hâli
+* Üç ana yönlendirme kartı fikri
+* SSS altyapısı
+* İletişim formu altyapısı
+* Chatbot altyapısı
+* Üniversite uygunluk aracı altyapısı
+* Dil seçimi altyapısı
+* Impressum ve Datenschutz sayfaları
+* Mobil menü altyapısı
+* Mevcut adres ve telefon bilgileri, doğrulanarak
+
+---
+
+# 44. Tasarımcıdan teslim alınacak dosya ve erişimler
+
+Çalışma tamamlandığında Start Akademie’ye şu erişimler teslim edilmelidir:
+
+* Yönetim paneli erişimi
+* Hosting erişimi
+* Domain ve DNS bilgileri
+* Tema veya proje kaynak dosyaları
+* Kullanılan lisansların listesi
+* Form bildirim adresleri
+* Yedekleme sistemi erişimi
+* Analytics erişimi
+* Search Console erişimi
+* Eklenti listesi
+* Güncelleme ve bakım bilgisi
+* Tasarımda kullanılan görsel ve ikonların lisans bilgileri
+
+Yalnız tasarımcının kontrolünde kalan, Start Akademie’nin erişemediği bir sistem oluşturulmamalıdır.
+
+---
+
+# 45. Nihai proje tanımı
+
+> www.startakademie.com, Start Akademie’nin Almanya’da Eğitim ve Kariyer Danışmanlığı ana sitesi olarak yeniden yapılandırılacaktır. Mevcut sitenin logo, kurumsal renk, üçlü yönlendirme fikri, form, SSS, chatbot ve uygunluk testi gibi kullanılabilir altyapıları korunabilir; ancak hizmet mimarisi, metinler, menü, paketler, üniversite alanı, vize anlatımı, iletişim formu ve footer tamamen güncellenecektir.
+>
+> Nachhilfe hizmetleri www.startakademie.de, Start Akademie’nin kendi online dil kursları ise www.startakademie.online adresine yönlendirilecektir.
+>
+> .com sitesinin altı ana hizmeti Üniversite, Dil Kursları, Ausbildung, Denklik, Değişim ve Yaz Programları ve Konaklama olacaktır. Dijital vize desteği Üniversite, Dil Kursları ve Ausbildung sayfalarının içinde; Almanya’ya Varış ve İlk Yerleşim Desteği ise Konaklama sayfasının içinde sunulacaktır.
+>
+> Sitede kabul, vize, denklik, işveren, staj veya konaklama garantisi çağrıştıran hiçbir ifade kullanılmayacaktır. Hazır olmayan hizmetler “Ön talep alınıyor” veya “Hazırlık aşamasında” etiketiyle gösterilecektir.
+>
+> Web sitesi, onaylanan “Almanya’da Eğitim ve Kariyer” ve “Hizmet Paketleri ve Ücretler” broşürleriyle aynı kurumsal kimlikte olacak; mobil kullanım, DSGVO uyumu, kolay içerik yönetimi, SEO, güvenli form sistemi ve teknik performans öncelikli hazırlanacaktır.
+
+[1]: https://www.startakademie.com/ "Start Akademie | Elite-Bildungsportal & Immersives Erlebnis" 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-07-16T09:56:39+02:00.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from Gemini 3.1 Pro (High) to Claude Opus 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>

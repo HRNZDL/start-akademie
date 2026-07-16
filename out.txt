@@ -1,0 +1,63 @@
+> Ana Sayfa | Programlar | Üniversiteler | Danışmanlık | Denklik Testi | Yaz Kampı | İletişim
+> *Ana Sayfa | Üniversite | Dil Kursları | Ausbildung | Denklik | Değişim ve Yaz Programları | Konaklama | Hakkımızda | İletişim*
+Online Dil Kursları ve Nachhilfe, ana sayfadaki yönlendirme kartları üzerinden kendi sitelerine gönderilecektir.
+Masaüstü görünümünde sayfanın üst kısmında sade bir iletişim çubuğu bulunabilir:
+Aynı sayfadaki ana hizmetler alanına kaydırma.
+# 9. Ana sayfaya altı ana hizmet kartı eklenmesi
+Mevcut ana sayfada “Sperrkonto Finansal Planlayıcı” başlıklı büyük bir bloke hesap hesaplayıcısı bulunmaktadır. Hesaplayıcı sabit aylık ve toplam tutarlar göstermektedir. ([Start Akademie][1])
+Bu bölüm ana sayfadan tamamen kaldırılacaktır.
+* Ana sayfadaki hizmet odağını dağıtmaktadır.
+Vize sayfasında yalnızca şu kısa madde bulunabilir:
+Ayrı “Finansal Güvence” sayfası veya kartı hazırlanmayacaktır.
+Ana sayfaya ziyaretçinin kendi durumunu seçebileceği yönlendirme alanı eklenecektir.
+Her seçim ilgili hizmet sayfasına veya ön değerlendirme formuna yönlendirilmelidir.
+Ana sayfada beş aşamalı görsel süreç alanı bulunacaktır.
+# 15. Üniversite sayfası
+## Sayfa başlığı
+# 16. Dil Kursları sayfası
+## Sayfa başlığı
+# 17. Ausbildung sayfası
+## Sayfa başlığı
+# 18. Denklik sayfası
+## Sayfa başlığı
+# 19. Değişim ve Yaz Programları sayfası
+## Sayfa başlığı
+# 20. Konaklama sayfası
+## Sayfa başlığı
+Aşağıdaki üç hizmet sayfasında görünür olacaktır:
+Üç bağlantı aynı ortak bilgi sayfasına veya ortak içerik modülüne yönlendirilebilir.
+# 24. Hakkımızda sayfası
+## Sayfa başlığı
+Ana sayfada kısa profil kartları; Hakkımızda sayfasında daha ayrıntılı ekip profilleri hazırlanmalıdır.
+Ana sayfada veya ayrı bir “Danışan Dosyalarından Örnekler” sayfasında, kişisel bilgiler gizlenerek gerçek süreç örnekleri gösterilebilir.
+* Datenschutz onayı
+* Datenschutz
+Ana sayfada veya “Rehberler ve Broşürler” bölümünde iki onaylanmış PDF gösterilecektir:
+# 32. İletişim sayfası
+QR kodun her sayfada kullanılmasına gerek yoktur.
+* Impressum
+* Datenschutz
+* AGB / Hizmet Şartları
+* Impressum
+* Datenschutz
+# 34. Ana sayfanın nihai sıralaması
+Ana sayfa aşağıdaki sırada kurulacaktır:
+Aynı sayfada çok sayıda farklı CTA metni kullanılmamalıdır.
+Adı değişen veya kaldırılan sayfalar en yakın yeni sayfaya *301 yönlendirmesiyle* bağlanmalıdır.
+* Eski Üniversiteler → Üniversite sayfası
+* Eski Danışmanlık → ana hizmetler veya Üniversite sayfası
+* Eski Yaz Kampı → Değişim ve Yaz Programları veya kaldırılmış bilgi sayfası
+Kırık link, 404 sayfası veya Google’da boş sonuç oluşturulmamalıdır.
+Özel bir 404 sayfası da hazırlanmalıdır:
+> Aradığınız sayfa taşınmış veya güncellenmiş olabilir.
+* Ana Sayfaya Dön
+Her sayfa için ayrı:
+## Örnek sayfa başlıkları
+* Görseller sayfayı yavaşlatmamalı
+* Impressum
+* Datenschutz
+* 404 sayfası
+* Bloke hesap hesaplayıcısının ana sayfadaki büyük bölümü
+* Impressum ve Datenschutz sayfaları
+> .com sitesinin altı ana hizmeti Üniversite, Dil Kursları, Ausbildung, Denklik, Değişim ve Yaz Programları ve Konaklama olacaktır. Dijital vize desteği Üniversite, Dil Kursları ve Ausbildung sayfalarının içinde; Almanya’ya Varış ve İlk Yerleşim Desteği ise Konaklama sayfasının içinde sunulacaktır.
+1. ama sayfa bozuldu bak böyle oldu 

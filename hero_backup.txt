@@ -1,0 +1,25 @@
+<section class="scroll-gate-section" id="hero">
+        <div class="gate-viewport">
+            <!-- 1. The Inner Campus Environment (Revealed on Open) -->
+            <div class="inner-campus-view">
+                <div class="inner-overlay"></div>
+                
+                <!-- Immersive Floating Information Cards (Flows as user scrolls) -->
+                <div class="portal-content-overlay">
+                    <!-- Slide 1: Welcome & About Start Akademie -->
+                    <div class="portal-slide" id="portal-slide-1">
+                        <div class="glass-panel">
+                            <p style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; opacity: 0.9;">Premium Eğitim Danışmanlığı</p>
+                            <h2 style="font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 24px; color: var(--cream);">Akademik Geleceğe<br><em>Geçiş Kapınız</em></h2>
+                            <div style="width: 40px; height: 1px; background: var(--gold); opacity: 0.4; margin-bottom: 28px;"></div>
+                            <p style="font-size: 1rem; line-height: 1.8; color: rgba(240,238,232,0.7); margin-bottom: 32px;">
+                                Start Akademie, Almanya'da lise okuyan öğrencilerimizi okul başarıları için (Nachhilfe) güçlendirirken, küresel vizyona sahip adayların Almanya devlet üniversitelerine kabul ve vize süreçlerini tek elden yönetir.
+                            </p>
+                            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                                <a href="#nachhilfe" class="btn btn-primary">Nachhilfe Keşfet <i data-lucide="arrow-right"></i></a>
+                                <button id="btn-start-3d-game" class="btn btn-outline">Kampüsü Keşfet (3D) <i data-lucide="gamepad-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                

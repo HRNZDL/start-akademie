@@ -1,0 +1,45 @@
+# 21. Dijital vize başvuru desteğinin siteye yerleştirilmesi
+
+Vize bağımsız ana menü başlığı olmayacaktır.
+
+Aşağıdaki üç hizmet sayfasında görünür olacaktır:
+
+* Üniversite → Dijital Öğrenci Vizesi Başvuru Desteği
+* Dil Kursları → Dil Kursu Vizesi Başvuru Desteği
+* Ausbildung → Ausbildung Vizesi Başvuru Desteği
+
+Üç bağlantı aynı ortak bilgi sayfasına veya ortak içerik modülüne yönlendirilebilir.
+
+## Ortak açıklama
+
+> Güncel dijital başvuru sisteminde gerekli belgelerin eksiksiz, doğru ve sisteme uygun biçimde hazırlanması önemlidir. Start Akademie; belge listesinin hazırlanması, dosyanın kontrolü, belgelerin dijital sisteme uygun düzenlenmesi, yükleme desteği ve eksik belge bildirimlerinin takip edilmesi konusunda danışmanlık sağlar.
+
+## Hizmet kapsamı
+
+* Vize türüne uygun evrak listesi
+* Belgelerin içerik kontrolü
+* Form kontrolü
+* Belgelerin uygun biçimde adlandırılması ve sıralanması
+* Dijital sisteme uygun dosya hazırlığı
+* Portala yükleme desteği
+* Eksik belge taleplerinin değerlendirilmesi
+* Biyometri ve asıl belge randevusu öncesi son kontrol
+* Bloke hesap veya Verpflichtungserklärung belgeleri hakkında genel bilgilendirme
+
+## Zorunlu uyarı
+
+> Start Akademie vize kararı vermez, vize sonucunu garanti etmez ve resmî makamların yerine işlem yapmaz. Nihai karar yetkili resmî makamlara aittir.
+
+## Kaldırılacak vize ifadeleri
+
+* Vize Rehberim Paketi
+* Vize görüşmesi simülasyonu
+* Vize garantisi
+* Vize ve varış garantili VIP
+* Sıfır vize kaybı
+* Dosyanızı güvence altına alıyoruz
+* Sizin adınıza vize alıyoruz
+* Garantör buluyoruz
+
+---
+

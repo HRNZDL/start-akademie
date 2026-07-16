@@ -1,0 +1,19 @@
+# 15. Üniversite sayfası
+# 16. Dil Kursları sayfası
+# 17. Ausbildung sayfası
+# 18. Denklik sayfası
+# 19. Değişim ve Yaz Programları sayfası
+# 20. Konaklama sayfası
+# 24. Hakkımızda sayfası
+* Datenschutz onayı
+* Datenschutz
+# 32. İletişim sayfası
+# 33. Footer’ın tamamen yeniden düzenlenmesi
+* Impressum
+* Datenschutz
+* Impressum
+* Datenschutz
+# 37. Eski URL’lerin korunması ve 301 yönlendirmeleri
+* Impressum
+* Datenschutz
+* Impressum ve Datenschutz sayfaları

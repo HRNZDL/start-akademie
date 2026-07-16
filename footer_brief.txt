@@ -1,0 +1,89 @@
+# 32. İletişim sayfası
+
+## Gösterilecek bilgiler
+
+* Start Akademie UG (haftungsbeschränkt)
+* Mainzer Straße 18
+* 65428 Rüsselsheim am Main
+* Telefon / WhatsApp
+* info@startakademie.com
+* www.startakademie.com
+* Çalışma saatleri
+* Google Maps
+* İletişim formu
+* WhatsApp butonu
+* Randevu talebi butonu
+
+## QR kod
+
+Yalnızca gerçek ve test edilmiş QR kod kullanılmalıdır.
+
+QR kod şu adrese gitmelidir:
+
+https://www.startakademie.com
+
+QR kodun her sayfada kullanılmasına gerek yoktur.
+
+---
+
+# 33. Footer’ın tamamen yeniden düzenlenmesi
+
+Mevcut footer; Nachhilfe, üniversite danışmanlığı, online kurslar, yaz kampları, .de e-posta adresi ve bazı üyelik ifadelerini aynı yerde göstermektedir. ([Start Akademie][1])
+
+Yeni footer şu şekilde hazırlanacaktır:
+
+## Sütun 1 — Start Akademie
+
+> Almanya’da eğitim ve kariyer hedefleriniz için kişiye özel danışmanlık.
+
+## Sütun 2 — Hizmetler
+
+* Üniversite
+* Dil Kursları
+* Ausbildung
+* Denklik
+* Değişim ve Yaz Programları
+* Konaklama
+
+## Sütun 3 — Diğer Sitelerimiz
+
+* Nachhilfe — www.startakademie.de
+* Online Dil Kursları — www.startakademie.online
+
+## Sütun 4 — Bilgilendirme
+
+* Dijital Vize Süreci
+* Üniversite Uygunluk Ön Değerlendirmesi
+* Sık Sorulan Sorular
+* Broşürler
+* Hizmet Paketleri ve Ücretler
+
+## Sütun 5 — Kurumsal
+
+* Hakkımızda
+* Ekibimiz
+* İletişim
+* Impressum
+* Datenschutz
+* AGB / Hizmet Şartları
+
+## Sütun 6 — İletişim
+
+* Adres
+* Telefon / WhatsApp
+* info@startakademie.com
+* Çalışma saatleri
+* Instagram
+
+## Footer alt satırı
+
+* Impressum
+* Datenschutz
+* Cookie-Einstellungen
+* Kullanım Şartları
+* © 2026 Start Akademie UG
+
+Doğrulanmamış üyelik, lisans veya akreditasyon ifadeleri kaldırılmalıdır.
+
+---
+

@@ -1,0 +1,11 @@
+301: rDesc.innerText = 'Lise türünüz ve öKS yerleştirme sonucunuz, Almanya devlet Üniversitelerine doğrudan şartlı kabul başvurusunda bulunmanız için mükemmel seviyede eşleşiyor. Dil planlaması ve vize evrak hazırlık sürecinizi başlatmak üzere ücretsiz ön görüşme randevusu oluşturun.';
+309: rDesc.innerText = 'Sahip olduğunuz uluslararası diploma (IB, Abitur vb.), öKS sınav puanına ihtiyaç duymaksızın doğrudan Alman yükseköğrenim kurumlarına başvuru hakkı sağlayabilir. Belgelerinizin resmi denklik onayını kontrol etmek üzere randevunuzu planlayalım.';
+317: rDesc.innerText = 'Mevcut lise mezuniyeti durumunuz ve öKS yerleşmeniz nedeniyle Almanya devlet Üniversitelerine kabul alabilmeniz için 1 yıllık Studienkolleg (Hazırlık Okulu) veya yoğun Almanca eğitimi almanız gerekebilir. Sizin için en verimli geçiş rotasını çizelim.';
+331: const GEMINI_API_KEö = "AQ.Ab8RN6Jtu7TDccxwzo8Rwökpab79EJCa1404TZ13mfo3GVEZjg";
+351: const SöSTEM_PROMPT = `Sen 'Start Akademie' isimli Almanya (Hessen, Rüsselsheim Bahnhofstraße 22) merkezli bir eğitim danışmanlığı kurumunun resmi öapay Zeka Asistanısın (StartAgent). Telefonumuz: 0179 7424790.
+353: Görevlerin:
+357: 2. Kurum hizmetleri: Almanya'da üÜniversite danışmanlığı lise öğrencilerine yönelik etüt/Nachhilfe (BuT desteği), online Almanca kursları ve yaz kampları (2026).
+467: if (GEMINI_API_KEö === "BURAöA_KENDI_API_ANAHTARINIZI_öAZIN" || GEMINI_API_KEö === "") {
+475: botMsg.innerHTML = '<span style="color:var(--gold)">âš ï¸? API Anahtarı Eksik:</span> Gemini yapay zekasının cevap verebilmesi için lütfen <code>index.html</code> dosyasındaki 3020. satıra (GEMINI_API_KEö) kendi anahtarınızı yapıştırın.';
+545: const response = await fetch(`httpsıfırateContent?key=${GEMINI_API_KEö}`, {
+553: systemInstruction: { parts: [{ text: SöSTEM_PROMPT }] },

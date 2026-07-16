@@ -1621,6 +1621,21 @@
             color: var(--text-muted);
         }
 
+        
+        /* Navigation fit for laptops with 9 items */
+        @media (min-width: 1025px) and (max-width: 1400px) {
+            .nav-menu {
+                gap: 14px !important;
+            }
+            .nav-link {
+                font-size: 0.72rem !important;
+            }
+            .btn-header-consult {
+                padding: 8px 14px !important;
+                font-size: 0.75rem !important;
+            }
+        }
+
         /* Responsive */
         @media (max-width: 1024px) {
             .bento-grid, .univ-slider, .pricing-table, .footer-grid {

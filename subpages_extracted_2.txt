@@ -1,0 +1,294 @@
+# 24. Hakkımızda sayfası
+
+## Sayfa başlığı
+
+> *Start Akademie Hakkında*
+
+## Ana metin
+
+> Start Akademie, Almanya merkezli bir eğitim ve kariyer danışmanlığı kurumudur. Danışanların eğitim geçmişlerini, dil seviyelerini, mevcut belgelerini ve uzun vadeli hedeflerini birlikte değerlendirerek kişiye özel yol haritaları oluşturur.
+
+## Vurgular
+
+* Almanya merkezli kurum
+* Rhein-Main bölgesinde yerel bilgi ve deneyim
+* Kişiye özel dosya analizi
+* Üniversite, denklik ve eğitim başvurularında uygulamalı deneyim
+* Başvurudan Almanya’daki ilk adımlara kadar destek
+* Süreci bizzat yaşamış danışmanlar
+* Şeffaf hizmet kapsamı
+* Gerçekçi yönlendirme
+
+## Kullanılmayacak iddialar
+
+* Almanya’nın en iyi danışmanlık şirketi
+* Yüzde yüz kabul
+* Yüzde yüz vize
+* Kesin sonuç
+* Resmî partner
+* Akredite kurum
+
+Bu ifadeler yalnızca belgelenebilir ve hukuken kullanılabilir olmaları hâlinde eklenebilir.
+
+---
+
+# 25. Danışman profilleri
+
+Ana sayfada kısa profil kartları; Hakkımızda sayfasında daha ayrıntılı ekip profilleri hazırlanmalıdır.
+
+Her profil şunları içermelidir:
+
+* Fotoğraf
+* Ad soyad
+* Görev
+* Uzmanlık alanı
+* Kısa özgeçmiş
+* Bildiği diller
+* İlgili hizmete bağlantı
+
+Örnek roller:
+
+* Üniversite başvuru danışmanı
+* Denklik danışmanı
+* Erasmus danışmanı
+* Ausbildung danışmanı
+* İlk yerleşim danışmanı
+
+Erasmus danışmanı için gerçek deneyim çerçevesinde şu vurgu kullanılabilir:
+
+> Türkiye’den Erasmus programıyla Almanya’ya gelmiş ve süreci kişisel olarak yaşamış danışmanımız, öğrencilerin başvuru, hazırlık ve adaptasyon süreçlerine destek verir.
+
+---
+
+# 26. Vaka örnekleri bölümü
+
+Ana sayfada veya ayrı bir “Danışan Dosyalarından Örnekler” sayfasında, kişisel bilgiler gizlenerek gerçek süreç örnekleri gösterilebilir.
+
+Örnek konular:
+
+* Açık Lise mezunu için Studienkolleg yolu
+* Türkiye’de üniversite okuyan öğrencinin Almanya’da devam planı
+* Üniversiteye bağlı dil kursu başvurusu
+* Öğretmenlik denkliği
+* Ön lisans diploma değerlendirmesi
+* Dijital vize dosyasının hazırlanması
+* Erasmus sonrası yüksek lisans planı
+
+Her vaka şu formatta sunulmalıdır:
+
+* Başlangıç durumu
+* Hedef
+* Karşılaşılan sorun
+* Belirlenen yol
+* Yapılan işlemler
+* Sonuç veya güncel aşama
+
+Süreç tamamlanmamışsa kesin başarı hikâyesi gibi gösterilmemeli; “Başvuru süreci devam ediyor” yazılmalıdır.
+
+---
+
+# 27. Hizmet durumu etiketleri
+
+Yönetim panelinden değiştirilebilir etiket sistemi hazırlanmalıdır:
+
+* Aktif hizmet
+* Başvurular açık
+* Ön talep alınıyor
+* Hazırlık aşamasında
+* Yakında
+* Kontenjan dolu
+* İşveren iş birlikleri oluşturuluyor
+
+Örnek kullanım:
+
+* Üniversite başvuruları — Aktif hizmet
+* Denklik — Aktif hizmet
+* Online Almanca kursları — Ön talep alınıyor
+* Öğrenci konaklaması — Ön talep alınıyor
+* Yaz dönemi çalışma — İşveren iş birlikleri oluşturuluyor
+
+---
+
+# 28. İki ayrı form hazırlanması
+
+Mevcut sitedeki randevu formunda üniversite, Nachhilfe, online kurs ve yaz kampı seçenekleri aynı formda yer almaktadır. ([Start Akademie][1])
+
+Bu form sistemi ikiye ayrılacaktır.
+
+## Form 1 — Kısa Tanışma Görüşmesi Formu
+
+Alanlar:
+
+* Ad soyad
+* Telefon / WhatsApp
+* E-posta
+* Bulunduğu ülke
+* Hizmet alanı
+* Tercih edilen görüşme şekli
+* Kısa mesaj
+* Datenschutz onayı
+
+Hizmet seçenekleri:
+
+* Üniversite – Lisans
+* Üniversite – Yüksek Lisans
+* Studienkolleg
+* Almanya’daki Dil Kursları
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz Dönemi Çalışma
+* Konaklama
+* İlk Yerleşim
+* Dijital Vize Desteği
+* Diğer
+
+## Form 2 — Ayrıntılı Ön Değerlendirme Formu
+
+### Kişisel bilgiler
+
+* Ad soyad
+* Doğum yılı
+* Uyruk
+* Bulunduğu ülke ve şehir
+* Telefon
+* E-posta
+
+### Eğitim bilgileri
+
+* Lise türü
+* Mezuniyet yılı
+* YKS durumu
+* Üniversite ve bölüm
+* Eğitim devam ediyor mu?
+* Mezuniyet durumu
+* Not ortalaması
+
+### Dil bilgileri
+
+* Almanca seviyesi
+* İngilizce seviyesi
+* Dil sertifikaları
+
+### Hedef
+
+* Lisans
+* Yüksek lisans
+* Studienkolleg
+* Dil kursu
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz dönemi çalışma
+* Konaklama
+
+### Dosya yükleme
+
+* Diploma
+* Transkript
+* Dil sertifikası
+* CV
+* Pasaport veya kimlik
+* Diğer belgeler
+
+### Onay
+
+* Verilerin danışmanlık amacıyla işlenmesi
+* Datenschutz
+* Bilgilerin doğru olduğuna dair onay
+
+Dosya yükleme sistemi güvenli olmalı ve yetkisiz erişime karşı korunmalıdır.
+
+---
+
+# 29. Mevcut chatbotun yeniden yapılandırılması
+
+Mevcut chatbot; vize, bloke hesap, BuT ve lise ders desteği gibi .com, .de ve diğer hizmetleri birbirine karıştırmaktadır. ([Start Akademie][1])
+
+## Yeni başlangıç mesajı
+
+> Merhaba, Start Akademie Eğitim ve Kariyer Danışmanlığına hoş geldiniz. Üniversite, dil kursu, Ausbildung, denklik, değişim programları, konaklama ve dijital vize süreçleri hakkında size nasıl yardımcı olabilirim?
+
+## Chatbotun kapsayacağı konular
+
+* Üniversite
+* Yüksek lisans
+* Studienkolleg
+* Dil kursları
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz dönemi çalışma
+* Konaklama
+* Dijital vize
+* İlk yerleşim
+* Görüşme talebi
+
+## Nachhilfe sorusu geldiğinde
+
+> Nachhilfe ve okul ders desteği hizmetlerimiz için sizi www.startakademie.de adresine yönlendirebilirim.
+
+## Online kurs sorusu geldiğinde
+
+> Start Akademie online dil kursları için www.startakademie.online adresini ziyaret edebilirsiniz.
+
+Chatbot kesin kabul, vize veya denklik sonucu söylememelidir.
+
+---
+
+# 30. Sık Sorulan Sorular bölümünün yeniden düzenlenmesi
+
+Mevcut SSS alanı korunacak, ancak kategorilere ayrılacaktır. ([Start Akademie][1])
+
+## Üniversite
+
+* Almanya’da üniversiteye doğrudan başlayabilir miyim?
+* Studienkolleg gerekli mi?
+* Açık Lise mezunları başvurabilir mi?
+* YKS olmadan başvuru yapılabilir mi?
+* Şartlı kabul nedir?
+* İngilizce programlara başvurabilir miyim?
+
+## Dil Kursları
+
+* Üniversite dil kursu ile özel dil okulu arasındaki fark nedir?
+* Hangi Almanca seviyesi gerekir?
+* DSH hazırlık kursu nedir?
+* Dil kursu vizesi için hangi belgeler gerekir?
+
+## Ausbildung
+
+* Ausbildung için hangi Almanca seviyesi gerekir?
+* Türkiye’den Ausbildung başvurusu yapılabilir mi?
+* Yaş sınırı var mı?
+* Start Akademie işveren veya Ausbildung yeri garantisi veriyor mu?
+
+## Denklik
+
+* Hangi kurum diploma denkliği yapar?
+* Lise ve meslek denkliği arasındaki fark nedir?
+* Öğretmenlik denkliği nasıl ilerler?
+* Denklik ne kadar sürer?
+* Ek belge talep edilirse ne yapılır?
+
+## Vize
+
+* Dijital vize başvurusunda nasıl destek veriliyor?
+* Start Akademie vize başvurusunu benim adıma mı yapıyor?
+* Bloke hesap veya garantörlük işlemini Start Akademie yapıyor mu?
+* Dijital ön inceleme vize garantisi anlamına gelir mi?
+
+## Konaklama ve İlk Yerleşim
+
+* Konaklama garantisi veriliyor mu?
+* Almanya’ya geldikten sonra hangi resmî işlemler yapılır?
+* Anmeldung için hangi belge gerekir?
+* Ausländerbehörde sürecinde destek veriliyor mu?
+
+Hızla değişebilecek rakamlar ve mevzuat bilgileri kaynak ve güncelleme tarihi olmadan sabit metin olarak kullanılmamalıdır.
+
+---
+

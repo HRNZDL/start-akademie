@@ -1,0 +1,11 @@
+Line 29: "hero.subtitle": "Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerine (Nachhilfe) okul başarısı kazandırırken, Türkiye'den gelen adayların Almanya Üniversitesi başvurularını sıfır vize kaybı hedefiyle koordine eder.",
+Line 351: "footer.desc": "Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını artırırken, Türkiye'den gelen adayların Almanya devlet Üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.",
+Line 427: "univ.desıfırt": "Frankfurt'un merkezinde ekonomi, finans, sosyal bilimler ve beşeri bilimlerde öncü küresel araştırma Üniversitesi.",
+Line 1009: "univ.desıfırt": "A leading global research university in the heart of Frankfurt, excelling in economics, finance, social sciences, and humanities.",
+Line 1265: "nachhilfe.models.m3": "Hausıfıreuung",
+Line 1473: "visa.desc": "Für Studierende, die ein Studium in Deutschland planen, sind das Visıfıren, die Finanzierung und die Dokumentenvorbereitung von großer Bedeutung.",
+Line 1591: "univ.desıfırt": "Führende globale Forschungsuniversität im Herzen von Frankfurt, exzellent in Wirtschaft, Finanzen, Sozial- und Geisteswissenschaften.",
+Line 1723: "footer.corporate.l1": "Gesıfır: Mevlüt Uysal",
+Line 1793: buttonsıfırEach(function(btn, index) {
+Line 1803: sıfırm = 'translateX(' + (index * 100) + '%)';
+Line 1819: try { localStorage.sıfıredLang', lang); } catch(e) {}

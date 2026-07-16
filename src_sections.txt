@@ -1,0 +1,260 @@
+
+
+=== SECTION id=main-header class=None ===
+Home
+Programlar
+Üniversiteler
+Danışmanlık
+Denklik Testi
+Sommercamp
+İletişim
+TR
+EN
+DE
+Ön Görüşme
+
+=== SECTION id=mobile-menu-drawer class=['mobile-drawer'] ===
+Home
+Programlar
+Üniversiteler
+Danışmanlık
+Denklik Testi
+Sommercamp
+İletişim
+Ön Görüşme
+
+=== SECTION id=hero class=['portal-container'] ===
+Premium Eğitim
+Almanya'da Eğitim Yolunuz
+Burada Başlar
+Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını (Nachhilfe) artırırken, Türkiye'den gelen adayların Almanya devlet üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.
+Keşfetmeye Devam Edin
+Akademik Köprü
+Resmi Kabul ve
+Vize Danışmanlığı
+Eğitim yolculuğunuzu riske atmayın. Akademik denklik analizinden resmi vize dosyanızın mükemmelleştirilmesine kadar tüm aşamaları uzman kadromuzla güvence altına alıyoruz.
+%98
+Kabul Oranı
+VNN
+Akredite Kalite
+Start Akademie UG
+Ihr Bildungsweg
+in Deutschland
+Almanya'da Eğitim, Nachhilfe ve Üniversite Kabul Danışmanlığı Merkezi
+GİRİŞ İÇİN KAYDIRIN
+
+=== SECTION id=slide-welcome class=['portal-slide'] ===
+Premium Eğitim
+Almanya'da Eğitim Yolunuz
+Burada Başlar
+Start Akademie, Frankfurt yakınlarındaki merkeziyle lise öğrencilerinin okul başarısını (Nachhilfe) artırırken, Türkiye'den gelen adayların Almanya devlet üniversitesi başvurularını sıfır vize kaybı politikasıyla koordine eder.
+Keşfetmeye Devam Edin
+
+=== SECTION id=slide-bridge class=['portal-slide'] ===
+Akademik Köprü
+Resmi Kabul ve
+Vize Danışmanlığı
+Eğitim yolculuğunuzu riske atmayın. Akademik denklik analizinden resmi vize dosyanızın mükemmelleştirilmesine kadar tüm aşamaları uzman kadromuzla güvence altına alıyoruz.
+%98
+Kabul Oranı
+VNN
+Akredite Kalite
+
+=== SECTION id=hero-title class=['gate-initial-hero'] ===
+Start Akademie UG
+Ihr Bildungsweg
+in Deutschland
+Almanya'da Eğitim, Nachhilfe ve Üniversite Kabul Danışmanlığı Merkezi
+
+=== SECTION id=pillars class=['section-padding'] ===
+Start Programları
+Geleceğe Ulaşan Üç Eğitim Kanadı
+Almanya yerelindeki okul desteklerinden, üniversite kabul ve hazırlık kurslarına kadar hedefinize özel kurumsal eğitim çözümlerimiz.
+Nachhilfe
+in Deutschland
+Deutschsprachiger Bereich
+Grundschule, Mittel- und Oberstufe
+Tüm yaygın okul derslerinde özel destek
+Birebir ve odaklanmış küçük gruplar
+BuT devlet yardımı ile tamamen ücretsiz
+Ders Desteği Başvurusu
+Bildungsberatung
+für Deutschland
+Aday Odaklı / Türkçe 🇹🇷
+Almanya'da Lisans ve Yüksek Lisans
+Ausbildung (Mesleki Eğitim) yerleşimi
+Akademik uygunluk ve vize dosyası
+Kişisel dosya rehberliği & danışmanlık
+Kabul Danışmanlığı Keşfet
+Online
+Sprachkurse
+Türkçe Ağırlıklı / Canlı 🇹🇷
+Online Deutschkurse (A1 - C1)
+Online Englischkurse (A1 - C1)
+Nitelikli eğitim kadrosuyla canlı ders
+Türkiye'den esnek saatli katılım modeli
+Dil Kursuna Kaydol
+
+=== SECTION id=calculator class=['section-padding'] ===
+Bloke Hesap Hesaplayıcı
+Sperrkonto Finansal Planlayıcı
+Almanya'da eğitim vizesi alabilmeniz için kanıtlamanız gereken güncel Bloke Hesap (Sperrkonto) miktarını belirleyin. Resmi referans tutar aylık 992 €'dur.
+Kalınacak Süre (Ay)
+12 Ay
+Aylık Ek Harçlık (Opsiyonel)
+0 €
+Finansal Oran Dağılımı
+Resmi Bloke Hesap
+İşlem Ücreti
+Toplam Gerekli Bütçe
+12.003 €
+Aylık Bloke Ödeme:
+992 € / Ay
+Toplam Bloke Tutar:
+11.904 €
+Kurulum ve İşlem Harcı:
+99 €
+
+=== SECTION id=universities class=['section-padding'] ===
+Alman Devlet Üniversiteleri
+Geleceğinizi Şekillendiren Kampüsler
+YÖK denkliği olan, dünya sıralamalarında üst seviyedeki ve harçsız Alman Devlet Üniversitelerine şartlı kabul başvurularınızı gerçekleştiriyoruz.
+📍 HEIDELBERG
+Kabul: ~%15
+Heidelberg Üniversitesi
+1386 kuruluş yılıyla Almanya'nın en eski ve en prestijli üniversitesi. Tıp, eczacılık ve doğa bilimlerinde dünya çapında liderdir.
+📍 MÜNİH
+Kabul: ~%8
+Münih Teknik Üniversitesi (TUM)
+Avrupa'nın teknoloji üssü. Mühendislik, bilgisayar bilimi ve yapay zekada dünyanın en iyi üniversiteleri arasında yer alır.
+📍 FRANKFURT
+Kabul: ~%20
+Goethe Üniversitesi
+Frankfurt'un merkezinde ekonomi, finans, sosyal bilimler ve beşeri bilimlerde öncü küresel araştırma üniversitesi.
+
+=== SECTION id=pricing class=['section-padding'] ===
+Paket ve Hizmetler
+Resmi Danışmanlık Paketleri
+Denklik analizinden vize randevu simülasyonuna kadar ihtiyacınıza uygun kapsamlı başvuru ve vize rehberliği paketlerimiz.
+START BASIC
+1.900 €
+Temel Başvuru Paketi
+Akademik Uygunluk Analizi
+Bölüm ve Üniversite Seçimi
+3 Üniversiteye Kadar Başvuru
+Temel Motivasyon Mektubu Desteği
+Vize Görüşmesi Simülasyonu
+Almanya Sonrası Destek
+Basic Paket Seç
+En Çok Tercih Edilen
+START PLUS
+2.700 €
+Kapsamlı Başvuru & Kabul
+Akademik Uygunluk Analizi
+5 Üniversiteye Kadar Başvuru
+Detaylı Motivasyon & CV Tasarımı
+Detaylı Vize Evrak Dosyası Hazırlığı
+1 Adet Vize Randevu Simülasyonu
+Almanya Sonrası 3 Ay Destek
+Plus Paket Seç
+START PREMIUM
+3.900 €
+Vize & Varış Garantili VIP
+Akademik Uygunluk Analizi
+8 Üniversiteye Kadar Başvuru
+Genişletilmiş CV & Motivasyon Yazımı
+2 Adet Birebir Vize Simülasyonu
+Detaylı Konaklama & Yurt Yönlendirmesi
+Almanya Sonrası 6 Ay Destek
+Premium Paket Seç
+
+=== SECTION id=wizard class=['section-padding'] ===
+Hızlı Denklik Testi
+Almanya Üniversite Uygunluk Sihirbazı
+Lise mezuniyet bilginize göre doğrudan Almanya devlet üniversitesine kabul alıp alamayacağınızı 4 adımda hızlıca kontrol edin.
+1. Mezun olduğunuz / olacağınız lise türü hangisidir?
+Anadolu veya Fen Lisesi
+Meslek veya İmam Hatip Lisesi
+2. Uluslararası bir diplomanız var mı? (IB, Abitur, AP vb.)
+Evet (IB / Abitur / AP mevcut)
+Hayır (Sadece YKS / Lise Diploması)
+3. Güncel Almanca dil seviyeniz nedir?
+B1 ve Üzeri
+Başlangıç Seviyesi / Hiç Yok
+4. YKS sınavına girdiniz mi ve bir üniversiteye yerleştiniz mi?
+Evet, 4 yıllık bölüme yerleştim
+Hayır, henüz girmedim/yerleşmedim
+Değerlendiriliyor...
+Birebir Analiz Randevusu Alın
+
+=== SECTION id=step-1 class=['wizard-step', 'active'] ===
+1. Mezun olduğunuz / olacağınız lise türü hangisidir?
+Anadolu veya Fen Lisesi
+Meslek veya İmam Hatip Lisesi
+
+=== SECTION id=step-2 class=['wizard-step'] ===
+2. Uluslararası bir diplomanız var mı? (IB, Abitur, AP vb.)
+Evet (IB / Abitur / AP mevcut)
+Hayır (Sadece YKS / Lise Diploması)
+
+=== SECTION id=step-3 class=['wizard-step'] ===
+3. Güncel Almanca dil seviyeniz nedir?
+B1 ve Üzeri
+Başlangıç Seviyesi / Hiç Yok
+
+=== SECTION id=step-4 class=['wizard-step'] ===
+4. YKS sınavına girdiniz mi ve bir üniversiteye yerleştiniz mi?
+Evet, 4 yıllık bölüme yerleştim
+Hayır, henüz girmedim/yerleşmedim
+
+=== SECTION id=camp class=['section-padding'] ===
+Abitur / Oberstufe Boost
+Yaz İngilizce Hazırlık Kampları 2026
+11, 12 ve 13. sınıflar için İngilizce derslerinde başarıyı garantileyen 4 haftalık yoğun birebir kamp programımız.
+RESMİ TARİHLER
+06.07.2026 – 31.07.2026
+Pazartesiden Cumaya her gün canlı online derslerle lise İngilizce müfredatını güçlendiriyoruz.
+Günlük 90 Dk
+20 Canlı Ders
+KAMP KAPSAMI VE MODEL
+Birebir Online-Einzelunterricht
+Kamp derslerimiz tamamen 1:1 formatında yürütülür. Öğrencinin eksik olduğu gramer yapıları, text analizi ve akıcı konuşma becerileri hedeflenir.
+Ön Kayıt Oluşturun
+
+=== SECTION id=contact class=['section-padding'] ===
+Kurumsal İrtibat
+Başvurunuzu Planlayın
+Frankfurt yakınlarındaki eğitim ofisimize veya online randevuya kaydolarak vize & denklik evraklarınızı uzman rehberlerimizle değerlendirin.
+Start Akademie UG Merkez Adresi
+Mainzer Straße 18, 65428 Rüsselsheim am Main
+Telefon / WhatsApp İrtibat
+0179 7424790
+Resmi E-Posta
+info@startakademie.de
+Kişiselleştirilmiş Randevu Alın
+Lütfen bilgilerinizi eksiksiz doldurun. Eğitim danışmanlarımız 24 saat içinde size dönüş yapacaktır.
+Adınız Soyadınız
+Telefon / WhatsApp
+E-Posta Adresiniz
+Hizmet Alanı
+Almanya Devlet Üniversitesi Danışmanlığı
+Okul Ders Desteği (Nachhilfe)
+Çevrimiçi Almanca/İngilizce Dil Kursu
+Yaz Dil Kampı 2026
+Görüşme Tarihi
+Pzt
+Sal
+Çar
+Per
+Görüşme Talebi Gönder
+
+=== SECTION id=startbot-win class=['startbot-window'] ===
+StartBot
+Asistanı
+Merhaba! Start Akademie eğitim danışmanlığı asistanına hoş geldiniz. Almanya'da eğitim vizesi, bloke hesap ve lise ders destekleri hakkında size nasıl yardımcı olabilirim?
+Bloke Hesap Miktarı
+Ücretsiz BuT Desteği
+Adres & İletişim
+
+=== SECTION id=startbot-messages class=['startbot-chat'] ===
+Merhaba! Start Akademie eğitim danışmanlığı asistanına hoş geldiniz. Almanya'da eğitim vizesi, bloke hesap ve lise ders destekleri hakkında size nasıl yardımcı olabilirim?
