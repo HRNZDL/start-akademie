@@ -3,18 +3,32 @@
         }
 
         :root {
-            /* Palette */
-            --bg: #090a0f;
-            --bg-deep: #060609;
-            --text: #f4f3ef;
-            --text-muted: #8d909a;
-            --gold: #d4af64;
-            --gold-light: #ebd6a8;
-            --gold-glow: rgba(212, 175, 100, 0.18);
-            --border: rgba(255, 255, 255, 0.08);
-            --border-hover: rgba(212, 175, 100, 0.3);
-            --surface: rgba(255, 255, 255, 0.02);
-            --surface-hover: rgba(255, 255, 255, 0.05);
+            /* Palette - Corporate Light */
+            --bg: #ffffff;
+            --bg-deep: #f5f5f7;
+            --text: #1d1d1f;
+            --text-muted: #6e6e73;
+            
+            /* Start Akademie Corporate Colors */
+            --navy: #0d1b2a;
+            --navy-light: #1b263b;
+            --blue: #00509e;
+            --blue-light: #0077b6;
+            --gold: #00509e; /* Mapping gold to blue to avoid breaking old classes temporarily */
+            --gold-light: #0077b6;
+            
+            --border: rgba(13, 27, 42, 0.08);
+            --border-hover: rgba(0, 80, 158, 0.3);
+            --surface: #ffffff;
+            --surface-hover: #f1f5f9;
+
+            /* Service Accent Colors */
+            --c-uni: #0077b6; /* Mavi */
+            --c-dil: #f57c00; /* Turuncu */
+            --c-aus: #009688; /* Turkuaz/Yesil */
+            --c-denk: #7b2cbf; /* Mor */
+            --c-deg: #e91e63; /* Pembe */
+            --c-kon: #d81159; /* Sicak Vurgu */
             
             /* Fonts */
             --font-serif: 'Fraunces', Georgia, serif;
@@ -24,25 +38,23 @@
             --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
             --transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
             
-            --header-bg: rgba(9, 10, 15, 0.3);
-            --header-scrolled-bg: rgba(9, 10, 15, 0.65);
+            --header-bg: rgba(255, 255, 255, 0.95);
+            --header-scrolled-bg: rgba(255, 255, 255, 0.98);
         }
 
-        :root[data-theme="light"] { --nav-text-color: #555555;
-            --bg: #f5f5f7;
-            --bg-deep: #ffffff;
-            --text: #1d1d1f;
-            --text-muted: #6e6e73;
-            --gold: #b38b4d;
-            --gold-light: #d4af64;
-            --gold-glow: rgba(179, 139, 77, 0.12);
-            --border: rgba(0, 0, 0, 0.08);
-            --border-hover: rgba(212, 175, 100, 0.4);
-            --surface: rgba(255, 255, 255, 0.85);
-            --surface-hover: #ffffff;
+        :root[data-theme="dark"] { 
+            --nav-text-color: #f4f3ef;
+            --bg: #0d1b2a;
+            --bg-deep: #0a111a;
+            --text: #f4f3ef;
+            --text-muted: #8d909a;
+            --border: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(0, 119, 182, 0.4);
+            --surface: rgba(255, 255, 255, 0.02);
+            --surface-hover: rgba(255, 255, 255, 0.05);
             
-            --header-bg: rgba(245, 245, 247, 0.95); /* Apple-like light grey */
-            --header-scrolled-bg: rgba(245, 245, 247, 0.98);
+            --header-bg: rgba(13, 27, 42, 0.85); 
+            --header-scrolled-bg: rgba(13, 27, 42, 0.95);
         }
 
         :root[data-theme="light"] header:not(.scrolled) {
@@ -1282,20 +1294,22 @@
         }
 
         .startbot-bubble {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--gold), var(--gold-light));
-            color: var(--bg-deep);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 8px 32px rgba(212, 175, 100, 0.3);
-            border: none;
-            transition: var(--transition);
-            position: relative;
-        }
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    color: var(--bg-deep);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(212, 175, 100, 0.4);
+    border: none;
+    transition: var(--transition);
+    position: relative;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
 
         .startbot-bubble:hover {
             transform: scale(1.06) rotate(6deg);
@@ -1317,26 +1331,25 @@
 
         /* --- PREMIUM CHATBOT UI --- */
         .startbot-window {
-            position: fixed; /* Changed to fixed so it stays in viewport while scrolling */
-            bottom: 80px;
-            right: 20px;
-            width: 320px;
-            height: 420px;
-            /* Premium Dark Mode Glass */
-            background: rgba(14, 16, 21, 0.85);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 24px;
-            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.7), 0 0 40px rgba(212, 175, 100, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
-            display: none;
-            flex-direction: column;
-            overflow: hidden;
-            backdrop-filter: blur(30px) saturate(150%);
-            -webkit-backdrop-filter: blur(30px) saturate(150%);
-            z-index: 999999;
-            transform: translateY(20px);
-            opacity: 0;
-            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 280px;
+    height: 380px;
+    background: rgba(14, 16, 21, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 100, 0.1);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    z-index: 999999;
+    transform: translateY(20px) scale(0.95);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
         
         .startbot-window.active {
             display: flex;
