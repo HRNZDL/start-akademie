@@ -76,12 +76,12 @@
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Almanya Üniversite Danışmanlığı",
+        "name": "Start Akademie | Eğitim ve Kariyer Danışmanlığı",
         "provider": {
           "@type": "EducationalOrganization",
           "name": "Start Akademie UG"
         },
-        "description": "Sıfır vize red politikası ile Almanya devlet üniversitelerine kabul ve başvuru danışmanlığı. START BASIC, PLUS ve PREMIUM paketleri.",
+        "description": "Almanya'da eğitim ve kariyer yolculuğunuzda kişiye özel danışmanlık."
         "offers": {
           "@type": "Offer",
           "price": "1900.00",
@@ -351,6 +351,33 @@
         </div>
     </section>
 
+
+    <!-- ══════════════════════════════════════════
+         SİZE UYGUN YOL HANGİSİ? (QUICK NAVIGATION)
+         ══════════════════════════════════════════ -->
+    <section class="section-padding" style="background: var(--surface-hover); padding-bottom: 24px;" id="yol-secimi">
+        <div class="container">
+            <div style="text-align: center; max-width: 720px; margin: 0 auto 32px;">
+                <span class="section-tag">Hızlı Yönlendirme</span>
+                <h2>Size Uygun Yol Hangisi?</h2>
+                <p style="margin-top: 16px; font-size: 1.05rem; color: var(--text-muted);">Durumunuzu seçin, size en uygun hizmet sayfasına veya ön değerlendirme formuna doğrudan ulaşın.</p>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; max-width: 900px; margin: 0 auto;">
+                <a href="uni.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Lise mezunuyum</a>
+                <a href="uni.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Açık Lise mezunuyum</a>
+                <a href="uni.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Üniversite öğrencisiyim</a>
+                <a href="uni.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Üniversite mezunuyum</a>
+                <a href="uni.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Yüksek lisans yapmak istiyorum</a>
+                <a href="dil.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Almanya'da dil kursuna gitmek istiyorum</a>
+                <a href="ausbildung.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Ausbildung yapmak istiyorum</a>
+                <a href="denklik.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Diplomamı denkleştirmek istiyorum</a>
+                <a href="degisim.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Erasmus yapmak istiyorum</a>
+                <a href="degisim.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Almanya'da staj yapmak istiyorum</a>
+                <a href="degisim.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Yazın Almanya'da çalışmak istiyorum</a>
+                <a href="konaklama.html" class="btn btn-outline" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">Konaklama arıyorum</a>
+            </div>
+        </div>
+    </section>
     <!-- ══════════════════════════════════════════
          6 ANA HİZMET KARTLARI
          ══════════════════════════════════════════ -->
@@ -620,102 +647,52 @@
         </div>
     </section>
 
-    <!-- ══════════════════════════════════════════
-         DANIŞMANLIK PAKETLERİ VE FİYATLANDIRMA
+<!-- ══════════════════════════════════════════
+         ÜNİVERSİTE DANIŞMANLIĞI PAKETLERİ
          ══════════════════════════════════════════ -->
-    <section class="section-padding" style="background: rgba(255, 255, 255, 0.01);" id="pricing">
+    <section class="section-padding" id="pricing" style="background: var(--surface-hover);">
         <div class="container">
-            <div style="text-align: center; max-width: 720px; margin: 0 auto 64px;">
+            <div style="text-align: center; max-width: 720px; margin: 0 auto 48px;">
                 <span class="section-tag" data-i18n="price.tag">Paket ve Hizmetler</span>
-                <h2 data-i18n="price.title">Resmi Danışmanlık Paketleri</h2>
-                <p style="margin-top: 16px;" data-i18n="price.desc">İhtiyacınıza uygun başvuru ve vize rehberliği paketlerimiz. Fiyatlarımız geçici olarak değerlendirme sürecindedir.</p>
+                <h2 data-i18n="price.title">Üniversite Danışmanlığı Paketleri</h2>
+                <p style="margin-top: 16px; font-size: 1.05rem;" data-i18n="price.desc">İhtiyacınıza uygun başvuru ve rehberlik paketleri ile sürecinizi şeffaf bir şekilde yönetiyoruz.</p>
             </div>
-
-            <div class="pricing-table">
-                <!-- Basic -->
-                <div class="glass-card price-card">
-                    <div class="price-header">
-                        <h3 style="font-size: 1.5rem;">START BASIC</h3>
-                        <div class="price-amount">€ XXX</div>
-                        <p style="font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;"><span data-i18n="price.basic.sub">Temel Başvuru Paketi</span></p>
-                    </div>
-                    <ul class="price-features">
-                        <li class="check"><span data-i18n="price.f1">Akademik Uygunluk Analizi</span></li>
-                        <li class="check">Bölüm ve Üniversite Seçimi (Max 3)</li>
-                        <li class="check">Ön Evrak Kontrolü</li>
-                        <li class="check">Şablon Motivasyon Mektubu & CV</li>
-                        <li class="cross">Uni-Assist & Portal Başvuruları</li>
-                        <li class="cross">Vize Danışmanlığı</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-outline" style="width: 100%;">Basic Paket Seç</a>
-                </div>
-
-                <!-- Plus (Featured) -->
-                <div class="glass-card price-card featured">
-                    <span class="featured-badge"><span data-i18n="price.badge">En Çok Tercih Edilen</span></span>
-                    <div class="price-header">
-                        <h3 style="font-size: 1.5rem;">START PLUS</h3>
-                        <div class="price-amount">€ XXX</div>
-                        <p style="font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;"><span data-i18n="price.plus.sub">Kapsamlı Başvuru & Kabul</span></p>
-                    </div>
-                    <ul class="price-features">
-                        <li class="check"><span data-i18n="price.f1">Akademik Uygunluk Analizi</span></li>
-                        <li class="check">Max 5 Üniversiteye Kadar Başvuru (Uni-Assist & Portal)</li>
-                        <li class="check">Kişiye Özel Motivasyon & CV</li>
-                        <li class="check">VPD & Not Çevirisi Süreçleri</li>
-                        <li class="cross">Vize Görüşmesi Simülasyonu</li>
-                        <li class="cross">Konaklama & Almanya İçi Destek</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary" style="width: 100%;">Plus Paket Seç</a>
-                </div>
-
-                <!-- Premium -->
-                <div class="glass-card price-card">
-                    <div class="price-header">
-                        <h3 style="font-size: 1.5rem;">START PREMIUM</h3>
-                        <div class="price-amount">€ XXX</div>
-                        <p style="font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;"><span data-i18n="price.premium.sub">Başvuru, Vize & Varış (VIP)</span></p>
-                    </div>
-                    <ul class="price-features">
-                        <li class="check">Plus Paketteki Tüm Hizmetler</li>
-                        <li class="check">Max 8 Üniversiteye Başvuru</li>
-                        <li class="check">Sperrkonto & Sigorta Açılışı</li>
-                        <li class="check">Eksiksiz Vize Dosyası Hazırlığı</li>
-                        <li class="check">Birebir Vize Simülasyonu</li>
-                        <li class="check">Konaklama Yönlendirmesi & Almanya Oryantasyonu</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-outline" style="width: 100%;">Premium Paket Seç</a>
-                </div>
-            </div>
-
-            <!-- TEKİL HİZMETLER MODÜLÜ -->
-            <div style="margin-top: 64px;">
-                <div style="text-align: center; margin-bottom: 32px;">
-                    <h3 style="font-size: 1.8rem; font-family: var(--font-serif);">Tekil İlave Hizmetler</h3>
-                    <p style="color: var(--text-muted);">Özel ihtiyaçlarınıza yönelik tekli paket seçenekleri.</p>
-                </div>
-                
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
-                    <div class="glass-card" style="padding: 24px; text-align: center; border-color: rgba(212, 175, 100, 0.2);">
-                        <h4 style="margin-bottom: 12px; color: var(--gold);">Motivasyon Mektubu & CV</h4>
-                        <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 12px;">€ XXX</div>
-                        <p style="font-size: 0.85rem; color: var(--text-muted);">Alman üniversiteleri standartlarında, bölümünüze ve kişisel profilinize özel olarak sıfırdan yazılan niyet mektubu ve Europass formatında özgeçmiş hazırlığı.</p>
-                    </div>
-                    <div class="glass-card" style="padding: 24px; text-align: center; border-color: rgba(212, 175, 100, 0.2);">
-                        <h4 style="margin-bottom: 12px; color: var(--gold);">Sadece Denklik (VPD)</h4>
-                        <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 12px;">€ XXX</div>
-                        <p style="font-size: 0.85rem; color: var(--text-muted);">Uni-Assist üzerinden Ön İnceleme Belgesi (VPD) sürecinizin yönetilmesi ve diplomanızın Alman not sistemine çevrilmesi işlemi.</p>
-                    </div>
-                    <div class="glass-card" style="padding: 24px; text-align: center; border-color: rgba(212, 175, 100, 0.2);">
-                        <h4 style="margin-bottom: 12px; color: var(--gold);">Sadece Vize Danışmanlığı</h4>
-                        <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 12px;">€ XXX</div>
-                        <p style="font-size: 0.85rem; color: var(--text-muted);">Kabul belgeniz hazırsa; iDATA/Konsolosluk randevusunun alınması, evrak dosyasının eksiksiz hazırlanması ve birebir vize mülakatı simülasyonu.</p>
-                    </div>
-                </div>
+            
+            <div style="text-align: center; max-width: 800px; margin: 0 auto; background: var(--surface); padding: 48px; border-radius: 24px; border: 1px solid var(--border);">
+                <i data-lucide="file-text" style="width: 48px; height: 48px; color: var(--blue-light); margin-bottom: 24px;"></i>
+                <h3 style="font-size: 1.5rem; margin-bottom: 16px;">Güncel Hizmet ve Ücret Broşürümüz</h3>
+                <p style="color: var(--text-muted); margin-bottom: 32px; line-height: 1.6;">
+                    Sunmuş olduğumuz tüm üniversite danışmanlığı paketleri, tekil hizmetler, başvuru sayıları ve hizmet kapsamlarına ait detaylı fiyatlandırma bilgilerini onaylı broşürümüzden inceleyebilirsiniz.
+                </p>
+                <a href="iletisim.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 14px 32px; box-shadow: 0 8px 24px rgba(0,119,182,0.3);">
+                    <i data-lucide="download" style="width: 20px; height: 20px; margin-right: 8px;"></i>
+                    Tüm Hizmet Paketleri ve Ücretleri İnceleyin
+                </a>
             </div>
         </div>
     </section>
 
+    <!-- ══════════════════════════════════════════
+         TEKİL VE İLAVE HİZMETLER
+         ══════════════════════════════════════════ -->
+    <section class="section-padding">
+        <div class="container">
+            <div style="text-align: center; max-width: 720px; margin: 0 auto 48px;">
+                <span class="section-tag">Esnek Çözümler</span>
+                <h2>Tekil ve İlave Hizmetler</h2>
+                <p style="margin-top: 16px;">Sadece ihtiyacınız olan adımlarda yanınızdayız.</p>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; max-width: 800px; margin: 0 auto;">
+                <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; font-weight: 500;">Tek üniversite veya program başvurusu</span>
+                <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; font-weight: 500;">Dijital vize başvuru desteği</span>
+                <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; font-weight: 500;">Dil kursu başvuru danışmanlığı</span>
+                <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; font-weight: 500;">Ausbildung danışmanlığı</span>
+                <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; font-weight: 500;">Denklik işlemleri</span>
+                <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; font-weight: 500;">Erasmus, staj ve yaz programları</span>
+                <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border-radius: 8px; font-weight: 500;">Konaklama ve ilk yerleşim</span>
+            </div>
+        </div>
+    </section>
 
     <!-- ══════════════════════════════════════════
          NEDEN START AKADEMIE?
@@ -770,21 +747,21 @@
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
                 <div class="glass-card" style="text-align: center; padding: 32px;">
                     <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--surface-hover); margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;"><i data-lucide="user" style="color: var(--text-muted); width: 40px; height: 40px;"></i></div>
-                    <h3 style="margin-bottom: 4px;">[Danışman Adı]</h3>
-                    <p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 16px;">Üniversite Kabul Uzmanı</p>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Münih Teknik Üniversitesi (TU Munich) başvuru süreçlerinde ve Alman not sistemine çeviri (VPD) işlemlerinde uzman.</p>
+<h3 style="margin-bottom: 4px;">Ayşe K.</h3>
+<p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">Üniversite Başvuru Danışmanı</p>
+<p style="font-size: 0.9rem; color: var(--text-muted);">Almanya'da lisans eğitimini tamamladı. uni-assist ve doğrudan üniversite başvurularında 5 yıllık uzmanlık.</p>
                 </div>
                 <div class="glass-card" style="text-align: center; padding: 32px;">
                     <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--surface-hover); margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;"><i data-lucide="user" style="color: var(--text-muted); width: 40px; height: 40px;"></i></div>
-                    <h3 style="margin-bottom: 4px;">[Danışman Adı]</h3>
-                    <p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 16px;">Vize ve Denklik Danışmanı</p>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Almanya Başkonsolosluğu vize mülakat simülasyonları ve bloke hesap (Sperrkonto) danışmanlığında tecrübeli.</p>
+<h3 style="margin-bottom: 4px;">Caner D.</h3>
+<p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">Erasmus & Staj Danışmanı</p>
+<p style="font-size: 0.9rem; color: var(--text-muted);">Türkiye'den Erasmus programıyla Almanya'ya gelmiş ve süreci bizzat yaşamıştır. Öğrencilerin başvuru ve adaptasyon süreçlerini yönetir.</p>
                 </div>
                 <div class="glass-card" style="text-align: center; padding: 32px;">
                     <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--surface-hover); margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;"><i data-lucide="user" style="color: var(--text-muted); width: 40px; height: 40px;"></i></div>
-                    <h3 style="margin-bottom: 4px;">[Danışman Adı]</h3>
-                    <p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 16px;">Kariyer & Eğitim Koçu</p>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Ausbildung yerleşimleri ve motivasyon mektubu tasarımlarında profesyonel destek sağlar.</p>
+<h3 style="margin-bottom: 4px;">Zeynep M.</h3>
+<p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">Denklik Danışmanı</p>
+<p style="font-size: 0.9rem; color: var(--text-muted);">ZAB ve mesleki denklik kurumlarında (Öğretmenlik, Sağlık) onlarca başarılı dosya yöneticisi. Eyalet bazlı denklik farklarına hakim.</p>
                 </div>
             </div>
         </div>
@@ -1093,7 +1070,7 @@
             
             <div class="startbot-chat" id="startbot-messages">
                 <div class="chat-msg bot" data-i18n="bot.greeting">
-                    Merhaba! 👋 Start Akademie eğitim danışmanlığı asistanıyım. Almanya'da eğitim, bloke hesap ve ders destekleri hakkında size nasıl yardımcı olabilirim?
+                    Merhaba, Start Akademie Eğitim ve Kariyer Danışmanlığına hoş geldiniz. Üniversite, dil kursu, Ausbildung, denklik, değişim programları, konaklama ve dijital vize süreçleri hakkında size nasıl yardımcı olabilirim?
                 </div>
             </div>
 
@@ -1409,15 +1386,18 @@
             }
 
             // KNOWLEDGE BASE
-            if (q.includes("fiyat") || q.includes("ucret") || q.includes("ücret") || q.includes("paket") || q.includes("price") || q.includes("preis")) {
-                if (lang === 'en') return "**Packages:**<br>- **START BASIC (1.900 €):** 3 Applications<br>- **START PLUS (2.700 €):** 5 Applications, Visa Sim<br>- **START PREMIUM (3.900 €):** 8 Applications, 2 Visa Sims, 6 Month Support.";
-                if (lang === 'de') return "**Pakete:**<br>- **START BASIC (1.900 €):** 3 Bewerbungen<br>- **START PLUS (2.700 €):** 5 Bewerbungen, Visa Sim<br>- **START PREMIUM (3.900 €):** 8 Bewerbungen, 2 Visa Sims, 6 Monate Support.";
-                return "**Üniversite Danışmanlık Paketlerimiz:**<br>- **START BASIC (1.900 €):** 3 Başvuru, Temel Strateji<br>- **START PLUS (2.700 €):** 5 Başvuru, Detaylı Strateji, Vize Simülasyonu<br>- **START PREMIUM (3.900 €):** 8 Başvuru, Kapsamlı Strateji, 2 Vize Simülasyonu, 6 Ay Almanya Destek.<br><br>Başka bir hizmetin fiyatını mı merak etmiştiniz?";
+            if (q.includes("nachhilfe") || q.includes("ders deste") || q.includes("ödev")) {
+                return "Nachhilfe ve okul ders desteği hizmetlerimiz için sizi <a href='https://www.startakademie.de' target='_blank'>www.startakademie.de</a> adresine yönlendirebilirim.";
             }
-            if (q.includes("bloke") || q.includes("sperrkonto") || q.includes("blocked")) {
-                if (lang === 'en') return "**Blocked Account (Sperrkonto):**<br>Required amount is **11.904 €** per year. We coordinate this for free.";
-                if (lang === 'de') return "**Sperrkonto:**<br>Der erforderliche Betrag ist **11.904 €** pro Jahr. Wir koordinieren das kostenlos.";
-                return "**Bloke Hesap (Sperrkonto):**<br>Almanya'da öğrenci vizesi için yıllık **11.904 €** (aylık 992 €) tutarında bloke hesap açılması zorunludur. Start Akademie olarak bloke hesap açılış işlemlerinizi ücretsiz koordine ediyoruz.";
+            if (q.includes("online kurs") || q.includes("canlı ders") || q.includes("almanca kurs") && q.includes("online")) {
+                return "Start Akademie online dil kursları için <a href='https://www.startakademie.online' target='_blank'>www.startakademie.online</a> adresini ziyaret edebilirsiniz.";
+            }
+            if (q.includes("fiyat") || q.includes("ucret") || q.includes("ücret") || q.includes("paket") || q.includes("ne kadar") || q.includes("price")) {
+                if (lang === 'en') return "**Packages:**<br>- **START BASIC (1.900 €):** 3 Applications<br>- **START PLUS (2.700 €):** 5 Applications, Visa Sim<br>- **START PREMIUM (3.900 €):** 8 Applications, 2 Visa Sims, 6 Month Support.";
+                return "**Hizmet Paketlerimiz:**<br>Güncel üniversite danışmanlığı paketlerimiz, hizmet kapsamları ve ücretlendirme detayları için lütfen web sitemizdeki 'Hizmet Paketleri ve Ücretler' broşürümüzü inceleyin veya ücretsiz bir tanışma görüşmesi talep edin.";
+            }
+            if (q.includes("bloke") || q.includes("sperrkonto") || q.includes("hesap")) {
+                return "Bloke hesap (Sperrkonto), Almanya'da eğitim alacak öğrencilerin yaşam masraflarını karşılayabileceğini kanıtlaması için gereklidir. Başvuru işlemleriniz sırasında bu sürecin adımları hakkında size rehberlik ediyoruz.";
             }
             if (q.includes("but ") || q.includes("yardim") || q.includes("ücretsiz") || q.includes("support")) {
                 if (lang === 'en') return "**BuT Support:**<br>Tutoring is completely free for families receiving state aid (Bürgergeld, etc).";
