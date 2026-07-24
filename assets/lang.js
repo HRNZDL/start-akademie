@@ -36,7 +36,7 @@ const translations = {
         "pillar3.title": "Online-Sprachkurse",
         "pillar3.tag": "Vorabanmeldungen möglich",
         "pillar3.desc": "Live-Online-Deutschkurse und niveaubezogenes Gruppentraining.",
-        "pillar3.btn": "Online-Kurs-Seite Besuchen"Visit Online Course Site"Online Kurs Sitesine Git"Dil Kursuna Kaydol",
+        "pillar3.btn": "Online Kurs Sitesine Git",
         "calc.tag": "Bloke Hesap Hesaplayıcı",
         "calc.title": "Sperrkonto Finansal Planlayıcı",
         "calc.desc": "Almanya'da eğitim vizesi alabilmeniz için kanıtlamanız gereken güncel Bloke Hesap (Sperrkonto) miktarını belirleyin. Resmi referans tutar aylık 992 €'dur.",
