@@ -960,53 +960,6 @@
         // Native smooth scrolling is handled by CSS (scroll-behavior: smooth)
 
         // ══════════════════════════════════════════
-        // INTERACTIVE CALCULATOR
-        // ══════════════════════════════════════════
-        const sliderMonths = document.getElementById('slider-months');
-        const sliderExtra = document.getElementById('slider-extra');
-        
-        const labelMonths = document.getElementById('label-months');
-        const labelExtra = document.getElementById('label-extra');
-
-        const calcTotal = document.getElementById('calc-total');
-        const valMonthly = document.getElementById('val-monthly');
-        const valTotalSperr = document.getElementById('val-total-sperr');
-        const valFees = document.getElementById('val-fees');
-
-        const barSperr = document.getElementById('bar-sperrkonto');
-        const barFee = document.getElementById('bar-fee');
-
-        function updateCalculator() {
-            const months = parseInt(sliderMonths.value);
-            const extra = parseInt(sliderExtra.value);
-
-            labelMonths.innerText = `${months} Ay`;
-            labelExtra.innerText = `${extra} €`;
-
-            const officialMonthly = 992;
-            const userMonthly = officialMonthly + extra;
-            const totalSperr = userMonthly * months;
-            const setupFee = 99; // standard setup fee
-            const finalTotal = totalSperr + setupFee;
-
-            calcTotal.innerText = `${finalTotal.toLocaleString('de-DE')} €`;
-            valMonthly.innerText = `${userMonthly.toLocaleString('de-DE')} € / Ay`;
-            valTotalSperr.innerText = `${totalSperr.toLocaleString('de-DE')} €`;
-            valFees.innerText = `${setupFee} €`;
-
-            // Update visual ratio
-            const sperrRatio = (totalSperr / finalTotal) * 100;
-            const feeRatio = (setupFee / finalTotal) * 100;
-
-            barSperr.style.width = `${sperrRatio}%`;
-            barFee.style.width = `${feeRatio}%`;
-        }
-
-        sliderMonths.addEventListener('input', updateCalculator);
-        sliderExtra.addEventListener('input', updateCalculator);
-        updateCalculator();
-
-        // ══════════════════════════════════════════
         // INTERACTIVE WIZARD (DENKLİK SİHİRBAZI)
         // ══════════════════════════════════════════
         let wizardData = {};
