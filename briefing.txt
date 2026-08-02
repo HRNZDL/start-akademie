@@ -1,0 +1,1811 @@
+<USER_REQUEST>
+madem hersey kayitli simdi senden cok ciddi bir beklentim var önce bu talepleri incele ve sonra kanali bozmadan bu talepleri yerine getir. bunlar mevlüt beyin istegi. bu talepleri yerine getir canliya almadan önce sahibine linkle gösterip onayina sunacagiz. O yüzden canliya almadan yap. Ayrica kodlarda veya kanalda bozulma olma ihtimaline karsi ve yapacagimiz simdiki islemi son kaydettigin duruma geri getirebilmeliyiz.
+
+Mevcut www.startakademie.com sitesi esas alınarak; neyin korunacağı, kaldırılacağı, değiştirileceği ve ekleneceği bölüm bölüm belirtilmiştir.
+
+---
+
+# START AKADEMIE
+
+## [www.startakademie.com](http://www.startakademie.com) Web Sitesi Yenileme ve İçerik Güncelleme Brifingi
+
+Bu çalışma, mevcut www.startakademie.com web sitesinin küçük düzeltmelerle güncellenmesi değil; mevcut tasarım ve teknik altyapının kullanılabilir kısımlarını koruyarak sitenin *Start Akademie Eğitim ve Kariyer Danışmanlığı ana sitesine dönüştürülmesi* çalışmasıdır.
+
+Mevcut sitede Nachhilfe, üniversite danışmanlığı, online dil kursları, yaz kampı, vize, bloke hesap ve üniversite tanıtımları aynı yapı içinde sunulmaktadır. Yeni sistemde hizmet alanları üç ayrı internet sitesi arasında net biçimde ayrılacaktır. ([Start Akademie][1])
+
+## 1. Üç internet sitesinin görev dağılımı
+
+### [www.startakademie.de](http://www.startakademie.de)
+
+Bu site yalnızca Almanya’da yaşayan okul öğrencilerine yönelik hizmetleri kapsayacaktır:
+
+* Nachhilfe
+* Lernförderung
+* Hausaufgabenbetreuung
+* Okul ders desteği
+* BuT kapsamında Lernförderung
+
+### [www.startakademie.com](http://www.startakademie.com)
+
+Bu site Start Akademie’nin ana *Eğitim ve Kariyer Danışmanlığı* sitesi olacaktır:
+
+* Üniversite
+* Almanya’daki dil kursları
+* Ausbildung
+* Denklik
+* Değişim ve yaz programları
+* Konaklama
+* Dijital vize başvuru desteği
+* Almanya’ya varış ve ilk yerleşim desteği
+
+### [www.startakademie.online](http://www.startakademie.online)
+
+Bu site Start Akademie’nin kendi canlı online dil kursları için kullanılacaktır:
+
+* Online Almanca kursları
+* Başlangıçta planlanan seviyeler: A1.1, A1.2, A2.1, A2.2, B1.1 ve B1.2
+* Kurslar henüz başlamadıysa “Ön talep alınıyor” veya “Grup oluşturuluyor” etiketi kullanılacaktır.
+
+## 2. Kurumsal yazım standardı
+
+Sitenin tamamında aşağıdaki bilgiler kullanılacaktır:
+
+* Kurum adı: *Start Akademie*
+* Web: *[www.startakademie.com](http://www.startakademie.com)*
+* E-posta: *[info@startakademie.com](mailto:info@startakademie.com)*
+* Kurum: *Start Akademie UG (haftungsbeschränkt)*
+* Adres: *Mainzer Straße 18, 65428 Rüsselsheim am Main*
+* Telefon / WhatsApp: *0179 7424790*
+
+Aşağıdaki yanlış yazımlar hiçbir yerde kullanılmamalıdır:
+
+* Start Akademi
+* Stadt Akademie
+* startakademi.com
+* [info@startakademie.de](mailto:info@startakademie.de)
+
+Mevcut sitede e-posta hâlâ info@startakademie.de olarak görünmektedir; bu bilgi sitenin her yerinde .com olarak değiştirilmelidir. ([Start Akademie][1])
+
+---
+
+# 3. Mevcut ana menünün değiştirilmesi
+
+Mevcut menü şu şekildedir:
+
+> Ana Sayfa | Programlar | Üniversiteler | Danışmanlık | Denklik Testi | Yaz Kampı | İletişim
+
+Bu menü tamamen kaldırılacaktır. ([Start Akademie][1])
+
+Yeni ana menü şu sırayla hazırlanacaktır:
+
+> *Ana Sayfa | Üniversite | Dil Kursları | Ausbildung | Denklik | Değişim ve Yaz Programları | Konaklama | Hakkımızda | İletişim*
+
+Ana menüye ayrıca şu başlıklar eklenmeyecektir:
+
+* Vize
+* Finansal Güvence
+* İlk Yerleşim
+* Online Dil Kursları
+* Nachhilfe
+
+Vize, ilgili eğitim hizmetlerinin içinde; ilk yerleşim ise Konaklama bölümünün içinde sunulacaktır.
+
+Online Dil Kursları ve Nachhilfe, ana sayfadaki yönlendirme kartları üzerinden kendi sitelerine gönderilecektir.
+
+---
+
+# 4. Üst bilgi alanı
+
+Masaüstü görünümünde sayfanın üst kısmında sade bir iletişim çubuğu bulunabilir:
+
+* Telefon / WhatsApp
+* info@startakademie.com
+* Türkçe / Almanca dil seçimi
+* “Ücretsiz Tanışma Görüşmesi” butonu
+
+Mevcut sitedeki Türkçe, İngilizce ve Almanca dil seçenekleri teknik olarak korunabilir; ancak başlangıçta tam ve doğru içerik yalnızca Türkçe ve Almanca hazırlanacaksa İngilizce dil seçeneği tamamlanana kadar yayımlanmamalıdır. ([Start Akademie][1])
+
+---
+
+# 5. Ücretsiz görüşme ve ücretli analiz ayrımı
+
+Sitede iki farklı hizmet açıkça ayrılacaktır.
+
+## Ücretsiz Tanışma Görüşmesi
+
+* Yaklaşık 15–20 dakika
+* Danışanın hedefinin genel olarak dinlenmesi
+* Start Akademie hizmetlerinin açıklanması
+* Hangi hizmet alanına ihtiyaç duyduğunun belirlenmesi
+* Kesin akademik değerlendirme veya ayrıntılı dosya analizi yapılmaz
+
+Ana buton metni:
+
+> *Ücretsiz Tanışma Görüşmesi Alın*
+
+## Ayrıntılı Dosya Analizi ve Yol Haritası
+
+* Belgelerin incelenmesi
+* Eğitim geçmişinin değerlendirilmesi
+* Olası başvuru yollarının araştırılması
+* Yazılı veya sözlü kişisel yol haritası
+* Ücretli danışmanlık hizmeti
+
+Bu ayrım sitede açıkça gösterilmelidir. Ziyaretçi, ücretsiz görüşmede bütün dosyasının ayrıntılı analiz edileceği beklentisine girmemelidir.
+
+---
+
+# 6. Hero alanının tamamen yeniden yazılması
+
+Mevcut hero alanında şu ifadeler bulunmaktadır:
+
+* “Almanya’da Eğitim Yolunuz Burada Başlar”
+* Nachhilfe ile üniversite danışmanlığını birleştiren açıklama
+* “Sıfır vize kaybı politikası”
+* “Resmi Kabul ve Vize Danışmanlığı”
+* “%98 Kabul Oranı”
+* “VNN Akredite Kalite”
+* “Dosyanızı güvence altına alıyoruz” benzeri iddialar ([Start Akademie][1])
+
+Bu ifadeler kaldırılacaktır.
+
+## Yeni hero başlığı
+
+> *Almanya’da Eğitim ve Kariyer Yolculuğunuzda Yanınızdayız*
+
+## Yeni alt metin
+
+> Üniversite, dil kursları, Ausbildung, denklik, değişim programları, konaklama ve Almanya’daki ilk adımlar için kişiye özel danışmanlık sunuyoruz.
+
+## Ana buton
+
+> *Ücretsiz Tanışma Görüşmesi Alın*
+
+## İkinci buton
+
+> *Size Uygun Yolu Keşfedin*
+
+## Hero alanında gösterilecek üç güven unsuru
+
+* Almanya merkezli danışmanlık
+* Kişiye özel eğitim ve kariyer yol haritası
+* Başvurudan Almanya’daki ilk adımlara kadar destek
+
+## Hero alanından kesinlikle kaldırılacak ifadeler
+
+* Sıfır vize kaybı
+* Vize garantisi
+* Kabul garantisi
+* Resmî kabul sağlıyoruz
+* Dosyanızı güvence altına alıyoruz
+* %98 kabul oranı
+* Garantili VIP
+* Doğrulanmamış akreditasyon veya üyelik iddiaları
+
+---
+
+# 7. Hero görseli ve tasarım dili
+
+Web sitesi, onaylanan *“Almanya’da Eğitim ve Kariyer” broşürüyle aynı kurumsal aileye ait görünmelidir.*
+
+## Görsel yaklaşım
+
+* Almanya’daki üniversite ve şehir atmosferi
+* Genç öğrenci
+* Eğitim, gelişim ve gelecek duygusu
+* Profesyonel ve güvenilir danışmanlık algısı
+* Broşürde kullanılan genç kadın öğrenci görsel dünyasına benzer kurumsal yüz
+* Fotoğraf ve metin arasında dengeli kompozisyon
+
+## Ana renkler
+
+* Koyu lacivert
+* Start Akademie mavisi
+* Beyaz
+* Açık gri
+
+## Hizmet vurgu renkleri
+
+* Üniversite: mavi
+* Dil Kursları: turuncu
+* Ausbildung: turkuaz veya yeşil
+* Denklik: mor
+* Değişim ve Yaz Programları: turkuaz veya pembe
+* Konaklama: pembe ya da sıcak vurgu rengi
+
+Vurgu renkleri ana kurumsal kimliği bozmamalı; yalnızca hizmetlerin birbirinden ayırt edilmesi için kullanılmalıdır.
+
+---
+
+# 8. Mevcut “Üç Eğitim Kanadı” bölümünün korunup yeniden yazılması
+
+Mevcut sitede üç kart bulunmaktadır:
+
+* Nachhilfe in Deutschland
+* Bildungsberatung für Deutschland
+* Online Sprachkurse ([Start Akademie][1])
+
+Üç kart fikri korunacak, başlık ve içerikleri sadeleştirilecektir.
+
+## Kart 1 — Nachhilfe
+
+Kısa açıklama:
+
+> Okul öğrencileri için bireysel ders, Lernförderung, ödev desteği ve akademik takip.
+
+Buton:
+
+> *Nachhilfe Sitesine Git*
+
+Bağlantı:
+
+https://www.startakademie.de
+
+Bağlantı yeni sekmede açılmalıdır.
+
+## Kart 2 — Eğitim ve Kariyer
+
+Kısa açıklama:
+
+> Üniversite, dil kursları, Ausbildung, denklik, değişim programları, konaklama ve Almanya’daki ilk adımlar.
+
+Buton:
+
+> *Hizmetlerimizi İnceleyin*
+
+Bağlantı:
+
+Aynı sayfadaki ana hizmetler alanına kaydırma.
+
+## Kart 3 — Online Dil Kursları
+
+Kısa açıklama:
+
+> Canlı online Almanca kursları ve seviye bazlı grup eğitimleri.
+
+Durum etiketi:
+
+> *Ön talep alınıyor*
+
+Buton:
+
+> *Online Kurs Sitesine Git*
+
+Bağlantı:
+
+https://www.startakademie.online
+
+Bağlantı yeni sekmede açılmalıdır.
+
+## Kullanılmayacak kart başlıkları
+
+* Nachhilfe in Deutschland
+* Bildungsberatung für Deutschland
+* Online Sprachkurse
+
+Yeni kart başlıkları yalnızca:
+
+* Nachhilfe
+* Eğitim ve Kariyer
+* Online Dil Kursları
+
+olacaktır.
+
+---
+
+# 9. Ana sayfaya altı ana hizmet kartı eklenmesi
+
+Üç yönlendirme kartından sonra .com sitesinin altı gerçek ana hizmeti gösterilecektir.
+
+## 1. Üniversite
+
+Kısa açıklama:
+
+> Lisans, yüksek lisans, Studienkolleg ve üniversite başvurularında kişiye özel yol haritası.
+
+Kısa maddeler:
+
+* Lisans
+* Yüksek lisans
+* Studienkolleg
+* Üniversite ve bölüm seçimi
+* uni-assist ve doğrudan başvurular
+
+Buton:
+
+> *Üniversite Danışmanlığını İnceleyin*
+
+## 2. Dil Kursları
+
+Kısa açıklama:
+
+> Almanya’daki üniversite dil kursları, DSH hazırlık programları ve özel dil okullarına başvuru desteği.
+
+Kısa maddeler:
+
+* Üniversiteye bağlı dil kursları
+* DSH / studienvorbereitender Deutschkurs
+* Özel dil okulları
+* Kurs seçimi ve başvuru
+
+Buton:
+
+> *Dil Kurslarını İnceleyin*
+
+Bu kart Start Akademie’nin kendi online kurslarını değil, Almanya’daki dil kurslarına başvuru danışmanlığını ifade eder.
+
+## 3. Ausbildung
+
+Kısa açıklama:
+
+> Meslek seçimi, Almanca başvuru dosyası, işletme ve okul başvuruları için danışmanlık.
+
+Kısa maddeler:
+
+* Uygunluk değerlendirmesi
+* Meslek alanı seçimi
+* Lebenslauf ve Anschreiben
+* İşletme ve okul başvuruları
+* Mülakat hazırlığı
+
+Buton:
+
+> *Ausbildung Sürecini İnceleyin*
+
+## 4. Denklik
+
+Kısa açıklama:
+
+> Okul, akademik ve mesleki diplomaların Almanya’daki değerlendirme ve tanınma süreçleri.
+
+Kısa maddeler:
+
+* Lise ve Açık Lise
+* Ön lisans
+* Meslek diploması
+* Öğretmenlik
+* Erzieher ve sosyal hizmet
+* Sağlık meslekleri
+
+Buton:
+
+> *Denklik Hizmetlerini İnceleyin*
+
+## 5. Değişim ve Yaz Programları
+
+Kısa açıklama:
+
+> Erasmus, staj ve üniversite öğrencilerine yönelik kısa süreli Almanya programları.
+
+Kısa maddeler:
+
+* Erasmus öğrenim
+* Erasmus staj
+* Almanya’da staj
+* Yaz dönemi çalışma
+
+Buton:
+
+> *Programları İnceleyin*
+
+## 6. Konaklama
+
+Kısa açıklama:
+
+> Öğrenciler için konaklama araştırması ve Almanya’ya varış sonrası ilk yerleşim desteği.
+
+Kısa maddeler:
+
+* Öğrenci konaklaması
+* Rhein-Main bölgesi
+* Ön talep
+* Varış ve ilk yerleşim
+
+Durum etiketi:
+
+> *Ön talep alınıyor*
+
+Buton:
+
+> *Konaklama Hizmetini İnceleyin*
+
+---
+
+# 10. Mevcut bloke hesap hesaplayıcısının kaldırılması
+
+Mevcut ana sayfada “Sperrkonto Finansal Planlayıcı” başlıklı büyük bir bloke hesap hesaplayıcısı bulunmaktadır. Hesaplayıcı sabit aylık ve toplam tutarlar göstermektedir. ([Start Akademie][1])
+
+Bu bölüm ana sayfadan tamamen kaldırılacaktır.
+
+## Kaldırılma nedenleri
+
+* Finansal güvence ana hizmet değildir.
+* Rakamlar değişebilir.
+* Start Akademie bloke hesap sağlayıcısı değildir.
+* Ana sayfadaki hizmet odağını dağıtmaktadır.
+* Eski rakamların sitede kalması hukuki ve güvenilirlik problemi oluşturabilir.
+
+Vize sayfasında yalnızca şu kısa madde bulunabilir:
+
+> Bloke hesap veya Verpflichtungserklärung belgeleri hakkında genel bilgilendirme.
+
+Ayrı “Finansal Güvence” sayfası veya kartı hazırlanmayacaktır.
+
+---
+
+# 11. Mevcut üniversite kartları bölümünün değiştirilmesi
+
+Mevcut sitede Heidelberg, TUM, Goethe Üniversitesi ve birçok başka üniversite kartlarla gösterilmekte; bu kartlarda yaklaşık kabul oranları ve “partner üniversitelerimiz” ifadeleri kullanılmaktadır. ([Start Akademie][1])
+
+## Kesinlikle kaldırılacaklar
+
+* “Partner üniversitelerimiz”
+* Resmî anlaşma yoksa partner algısı
+* Yaklaşık kabul yüzdeleri
+* Üniversite bazında kabul sağlayabileceğimiz algısı
+* Genel ve doğrulanması zor prestij iddiaları
+
+## Bölümün yeni başlığı
+
+> *Üniversite ve Program Seçimini Nasıl Yapıyoruz?*
+
+## Yeni kartlar
+
+### Akademik uygunluk
+
+* Lise türü
+* YKS veya üniversite geçmişi
+* Not ortalaması
+* Mevcut bölüm
+
+### Program uyumu
+
+* Hedef bölüm
+* Önceki ders içerikleri
+* Dil şartı
+* Akademik ön koşullar
+
+### Şehir ve bütçe
+
+* Yaşam maliyetleri
+* Konaklama
+* Ulaşım
+* Öğrenci hayatı
+
+### Başvuru yöntemi
+
+* uni-assist
+* VPD
+* Doğrudan üniversite başvurusu
+* Üniversite portalı
+
+Üniversite logoları kullanılacaksa bölümün adı:
+
+> *Başvuru Seçeneklerini Değerlendirdiğimiz Üniversitelerden Örnekler*
+
+olmalıdır.
+
+Altına şu açıklama yazılmalıdır:
+
+> Gösterilen üniversiteler örnek niteliğindedir. Bu gösterim Start Akademie ile resmî ortaklık, kabul veya yerleştirme garantisi ifade etmez.
+
+---
+
+# 12. “Size Uygun Yol Hangisi?” bölümü eklenmesi
+
+Ana sayfaya ziyaretçinin kendi durumunu seçebileceği yönlendirme alanı eklenecektir.
+
+## Başlık
+
+> *Size Uygun Yol Hangisi?*
+
+## Seçenekler
+
+* Lise mezunuyum
+* Açık Lise mezunuyum
+* Üniversite öğrencisiyim
+* Üniversite mezunuyum
+* Yüksek lisans yapmak istiyorum
+* Almanya’da dil kursuna gitmek istiyorum
+* Ausbildung yapmak istiyorum
+* Diplomamı denkleştirmek istiyorum
+* Erasmus yapmak istiyorum
+* Almanya’da staj yapmak istiyorum
+* Yazın Almanya’da çalışmak istiyorum
+* Konaklama arıyorum
+
+Her seçim ilgili hizmet sayfasına veya ön değerlendirme formuna yönlendirilmelidir.
+
+---
+
+# 13. Mevcut Denklik Testinin yeniden adlandırılması
+
+Mevcut araç “Hızlı Denklik Testi” ve “Almanya Üniversite Uygunluk Sihirbazı” adıyla lise türü, diploma, dil seviyesi ve YKS durumunu sorgulamaktadır. Bu araç gerçek diploma veya meslek denkliği yapmamaktadır. ([Start Akademie][1])
+
+## Yeni adı
+
+> *Üniversite Uygunluk Ön Değerlendirmesi*
+
+## Sorular
+
+* Mezun olunan lise türü
+* Mezuniyet ülkesi
+* Uluslararası diploma durumu
+* YKS durumu
+* Türkiye’de üniversiteye yerleşme durumu
+* Üniversite eğitimi varsa bölüm ve dönem
+* Mezuniyet durumu
+* Hedef: lisans / yüksek lisans / Studienkolleg
+* Almanca seviyesi
+* İngilizce seviyesi
+
+## Sonuç metni
+
+> Verdiğiniz bilgilere göre olası başvuru yollarınız gösterilmektedir. Bu sonuç kesin kabul veya denklik kararı değildir. Kesin değerlendirme için diploma, transkript ve diğer belgelerin incelenmesi gerekir.
+
+## Kullanılmayacak ifadeler
+
+* Kesin uygunsunuz
+* Doğrudan kabul alırsınız
+* Denklik sonucunuz
+* Garantili başvuru yolu
+
+---
+
+# 14. “İlk görüşmeden Almanya’daki ilk günlere kadar” süreç bölümü
+
+Ana sayfada beş aşamalı görsel süreç alanı bulunacaktır.
+
+## Başlık
+
+> *İlk Görüşmeden Almanya’daki İlk Günlerinize Kadar*
+
+## 1. Ön değerlendirme
+
+* Eğitim geçmişi
+* Dil seviyesi
+* Hedefler
+* Mevcut belgeler
+* Zaman planı
+
+## 2. Kişisel yol haritası
+
+* Uygun eğitim yolu
+* Başvuru yöntemi
+* Gerekli belgeler
+* Tahmini süreç
+* Hizmet kapsamı
+
+## 3. Başvuru ve takip
+
+* Üniversite
+* Dil kursu
+* Ausbildung
+* Denklik
+* Değişim programları
+
+## 4. Dijital vize süreci
+
+* Evrak listesi
+* Belge kontrolü
+* Dijital dosya hazırlığı
+* Yükleme desteği
+* Eksik belge bildirimlerinin takibi
+
+## 5. Almanya’daki ilk adımlar
+
+* Konaklama
+* Anmeldung
+* Sağlık sigortası
+* Banka hesabı
+* Telefon hattı
+* Üniversite veya kurs kaydı
+* Oturum işlemleri
+
+---
+
+# 15. Üniversite sayfası
+
+## Sayfa başlığı
+
+> *Almanya’da Üniversite Eğitimi*
+
+## Giriş metni
+
+> Almanya’da üniversiteye giden yol her öğrenci için farklıdır. Lise türü, YKS sonucu, Türkiye’deki üniversite eğitimi, dil seviyesi, not ortalaması ve hedef bölüm birlikte değerlendirilmelidir.
+
+## Bölümler
+
+### Lisans başvuruları
+
+* Eğitim geçmişi analizi
+* Üniversiteye giriş hakkının değerlendirilmesi
+* Bölüm araştırması
+* Başvuru belgeleri
+* uni-assist veya doğrudan başvuru
+
+### Yüksek lisans başvuruları
+
+* Lisans alanı ile program uyumu
+* Ders içerikleri ve kredi değerlendirmesi
+* Almanca veya İngilizce program araştırması
+* Akademik CV
+* Motivasyon yazısı
+* Başvuru takibi
+
+### Studienkolleg
+
+* Studienkolleg gerekliliğinin değerlendirilmesi
+* Uygun alan veya kurs türü
+* Dil şartı
+* Aufnahmeprüfung
+* Başvuru süreci
+
+### Üniversite ve bölüm seçimi
+
+* Akademik geçmiş
+* Dil seviyesi
+* Şehir
+* Bütçe
+* Kariyer hedefi
+
+### Başvuru yöntemleri
+
+* uni-assist
+* VPD
+* Doğrudan başvuru
+* Üniversite portalları
+* Ek belge talepleri
+
+### Şartlı kabul ve dil süreci
+
+* Üniversiteye bağlı dil kursu
+* DSH hazırlığı
+* Dil şartının tamamlanması
+* Kesin kayıt süreci
+
+### Dijital öğrenci vizesi başvuru desteği
+
+Ortak dijital vize içeriğine bağlantı.
+
+## Kullanılmayacak ifade
+
+* Üniversite hazırlık
+
+Bunun yerine yalnızca gerçek süreç adları kullanılmalıdır:
+
+* Studienkolleg
+* Üniversiteye bağlı dil kursu
+* DSH hazırlığı
+* Şartlı kabul
+
+---
+
+# 16. Dil Kursları sayfası
+
+## Sayfa başlığı
+
+> *Almanya’daki Dil Kurslarına Başvuru*
+
+## Giriş metni
+
+> Dil kursu seçimi yalnızca mevcut seviyeye göre değil, öğrencinin üniversite, Ausbildung veya kariyer hedefine göre yapılmalıdır.
+
+## Bölümler
+
+### Üniversiteye bağlı dil kursları
+
+* Üniversite bünyesindeki kurslar
+* Başvuru şartları
+* Kabul türleri
+* Üniversite bağlantısı
+
+### DSH ve studienvorbereitender Deutschkurs
+
+* DSH hazırlığı
+* Üniversiteye hazırlık amaçlı dil eğitimi
+* Başlangıç seviyesi
+* Kurs ve sınav bağlantısı
+
+### Özel dil okulları
+
+* Şehir ve okul araştırması
+* Seviye
+* Süre
+* Yoğunluk
+* Kayıt şartları
+
+### Kurs seçimi ve başvuru
+
+* Seviye ve hedef analizi
+* Alternatif kursların karşılaştırılması
+* Evrak kontrolü
+* Başvuru
+* Kabul veya kayıt takibi
+
+### Dil kursu vizesi başvuru desteği
+
+Ortak dijital vize içeriğine bağlantı.
+
+## Bilgi kutusu
+
+> Start Akademie’nin kendi online Almanca kursları için www.startakademie.online adresini ziyaret ediniz.
+
+---
+
+# 17. Ausbildung sayfası
+
+## Sayfa başlığı
+
+> *Almanya’da Ausbildung*
+
+## Giriş metni
+
+> Ausbildung, işletmedeki uygulamalı eğitim ile meslek okulundaki teorik eğitimin birlikte yürütüldüğü mesleki eğitim yoludur.
+
+## Bölümler
+
+### Uygunluk değerlendirmesi
+
+* Eğitim geçmişi
+* Almanca seviyesi
+* Mesleki ilgi
+* Almanya’dan veya Türkiye’den başvuru
+* Başvuru zamanlaması
+
+### Meslek alanı seçimi
+
+* İlgi ve yetenek
+* Eğitim geçmişi
+* Dil ihtiyacı
+* İş piyasası
+* Uzun vadeli kariyer hedefi
+
+### Almanca başvuru dosyası
+
+* Lebenslauf
+* Anschreiben
+* Diploma
+* Transkript
+* Sertifikalar
+* Belgelerin düzenlenmesi
+
+### İşletme ve okul başvuruları
+
+* İlan araştırması
+* Başvuru gönderimi
+* İşveren yazışmaları
+* Başvuru takibi
+
+### Mülakat hazırlığı
+
+* İşveren görüşmesi
+* Sık sorulan sorular
+* Almanca ifade
+* Mesleki motivasyon
+
+### Ausbildung vizesi başvuru desteği
+
+Ortak dijital vize içeriğine bağlantı.
+
+## Uyarı
+
+> Start Akademie Ausbildung yeri, sözleşme veya işveren kabulü garantisi vermez.
+
+---
+
+# 18. Denklik sayfası
+
+## Sayfa başlığı
+
+> *Diploma ve Mesleki Denklik Hizmetleri*
+
+## Giriş metni
+
+> Denklik süreci diplomanın türüne, mesleğe, çalışılmak istenen alana, eyalete ve yetkili kuruma göre değişebilir. Doğru kurumun belirlenmesi ve dosyanın eksiksiz hazırlanması sürecin temelidir.
+
+## Ana gruplar
+
+### Okul ve akademik diplomalar
+
+* Lise diploması
+* Açık Lise
+* Ön lisans
+* ZAB diploma değerlendirmesi
+
+### Mesleki denklik
+
+* Meslek lisesi
+* Meslek diploması
+* Kalfalık
+* Ustalık
+* IHK-FOSA ve diğer yetkili makamlar
+
+### Mesleğe özel denklik
+
+* Öğretmenlik
+* Erzieher
+* Pädagogische Fachkraft
+* Sozialarbeiter
+* Sozialpädagoge
+* Sağlık meslekleri
+
+## Ortak hizmet süreci
+
+* Ön dosya analizi
+* Yetkili makamın belirlenmesi
+* Belge listesinin hazırlanması
+* Dosyanın düzenlenmesi
+* Başvuru desteği
+* Ek belge taleplerinin takibi
+* Sonucun açıklanması
+
+## Uyarı
+
+> Start Akademie denklik kararı vermez. Nihai karar ilgili resmî makama aittir.
+
+---
+
+# 19. Değişim ve Yaz Programları sayfası
+
+## Sayfa başlığı
+
+> *Değişim ve Yaz Programları*
+
+## Erasmus öğrenim hareketliliği
+
+* Üniversite ve şehir değerlendirmesi
+* Belge kontrolü
+* Learning Agreement hazırlık desteği
+* Konaklama ve Almanya hazırlığı
+* Erasmus sonrası eğitim ve kariyer planı
+
+## Erasmus staj hareketliliği
+
+* Staj hedefinin belirlenmesi
+* Başvuru dosyası
+* CV ve motivasyon yazısı
+* Almanya’daki ilk adımlar
+
+## Almanya’da staj
+
+* Bölümle bağlantılı staj araştırması
+* Başvuru dosyası
+* CV ve motivasyon yazısı
+* İşveren başvuruları
+* Yazışma ve takip
+
+## Üniversite öğrencileri için yaz dönemi çalışma
+
+Başlık:
+
+> *Almanya’da Üniversite Öğrencileri İçin Yaz Dönemi Çalışma Programı*
+
+Açıklama:
+
+> Türkiye’de üniversite okuyan öğrencilerin resmî tatil dönemlerinde Almanya’da kısa süreli çalışma, dil pratiği ve kültürel deneyim kazanmasına yönelik hazırlanan programdır.
+
+Durum etiketi:
+
+> *Ön talep ve işveren iş birliği aşamasında*
+
+Aşağıdaki ifadeler somut işveren anlaşması olmadan kullanılmayacaktır:
+
+* Opel’de çalışma
+* İş garantili
+* Kesin yerleştirme
+* Kesin pozisyon
+* Kesin ücret
+
+## Genel uyarı
+
+> Erasmus seçimi, staj yeri veya işveren kabulü garanti edilmez.
+
+---
+
+# 20. Konaklama sayfası
+
+## Sayfa başlığı
+
+> *Öğrenci Konaklaması ve Almanya’daki İlk Adımlar*
+
+## Öğrenci konaklama projesi
+
+* Rüsselsheim veya Bischofsheim merkezli planlama
+* Rhein-Main bölgesi
+* Üniversite ve dil kurslarına ulaşım
+* Geçici veya orta süreli öğrenci konaklaması
+* Öğrenci odaları
+* Ön talep formu
+
+Durum etiketi:
+
+> *Ön talep alınıyor / Hazırlık aşamasında*
+
+Bina ve kapasite kesinleşmeden şu bilgiler yayımlanmayacaktır:
+
+* Kesin adres
+* Kesin oda sayısı
+* Kesin ücret
+* Kesin başlangıç tarihi
+* Konaklama garantisi
+
+## Bölge ve ulaşım avantajları
+
+Bir harita hazırlanabilir.
+
+Merkez:
+
+* Rüsselsheim
+* Bischofsheim
+
+Yakın şehirler:
+
+* Mainz
+* Wiesbaden
+* Frankfurt
+* Darmstadt
+
+Yakındaki üniversiteler ve yüksekokullar ikonlarla gösterilebilir.
+
+Ulaşım süreleri, yayımlanmadan önce güncel güzergâhlar üzerinden kontrol edilmeli ve “yaklaşık” olarak belirtilmelidir.
+
+## Almanya’ya Varış ve İlk Yerleşim Desteği
+
+* Havalimanı veya istasyondan ulaşım planı
+* Konaklama yerine yerleşme
+* Anmeldung
+* Wohnungsgeberbestätigung
+* Sağlık sigortası
+* Banka hesabı
+* SIM kart ve telefon hattı
+* Üniversite veya kurs kaydı
+* Ulaşım kartı
+* Ausländerbehörde
+* Oturum başvurusu
+* İlk resmî işlemler için yol haritası
+
+Karşılama veya yerinde refakat, yalnızca satın alınan hizmet kapsamında bulunuyorsa sunulacaktır.
+
+---
+
+# 21. Dijital vize başvuru desteğinin siteye yerleştirilmesi
+
+Vize bağımsız ana menü başlığı olmayacaktır.
+
+Aşağıdaki üç hizmet sayfasında görünür olacaktır:
+
+* Üniversite → Dijital Öğrenci Vizesi Başvuru Desteği
+* Dil Kursları → Dil Kursu Vizesi Başvuru Desteği
+* Ausbildung → Ausbildung Vizesi Başvuru Desteği
+
+Üç bağlantı aynı ortak bilgi sayfasına veya ortak içerik modülüne yönlendirilebilir.
+
+## Ortak açıklama
+
+> Güncel dijital başvuru sisteminde gerekli belgelerin eksiksiz, doğru ve sisteme uygun biçimde hazırlanması önemlidir. Start Akademie; belge listesinin hazırlanması, dosyanın kontrolü, belgelerin dijital sisteme uygun düzenlenmesi, yükleme desteği ve eksik belge bildirimlerinin takip edilmesi konusunda danışmanlık sağlar.
+
+## Hizmet kapsamı
+
+* Vize türüne uygun evrak listesi
+* Belgelerin içerik kontrolü
+* Form kontrolü
+* Belgelerin uygun biçimde adlandırılması ve sıralanması
+* Dijital sisteme uygun dosya hazırlığı
+* Portala yükleme desteği
+* Eksik belge taleplerinin değerlendirilmesi
+* Biyometri ve asıl belge randevusu öncesi son kontrol
+* Bloke hesap veya Verpflichtungserklärung belgeleri hakkında genel bilgilendirme
+
+## Zorunlu uyarı
+
+> Start Akademie vize kararı vermez, vize sonucunu garanti etmez ve resmî makamların yerine işlem yapmaz. Nihai karar yetkili resmî makamlara aittir.
+
+## Kaldırılacak vize ifadeleri
+
+* Vize Rehberim Paketi
+* Vize görüşmesi simülasyonu
+* Vize garantisi
+* Vize ve varış garantili VIP
+* Sıfır vize kaybı
+* Dosyanızı güvence altına alıyoruz
+* Sizin adınıza vize alıyoruz
+* Garantör buluyoruz
+
+---
+
+# 22. Mevcut üniversite paketleri bölümünün değiştirilmesi
+
+Mevcut sitede Start Basic, Start Plus ve Start Premium paketleri ile 1.900 €, 2.700 € ve 3.900 € fiyatları yer almakta; Premium paket “Vize & Varış Garantili VIP” olarak tanımlanmaktadır. ([Start Akademie][1])
+
+Bu bölüm tamamen kaldırılacak ve onaylanan son *Hizmet Paketleri ve Ücretler Broşürü* esas alınacaktır.
+
+## Yeni bölüm başlığı
+
+> *Üniversite Danışmanlığı Paketleri*
+
+## Uygulama kuralı
+
+Web sitesindeki:
+
+* Paket adları
+* Fiyatlar
+* Başvuru sayıları
+* Hizmet kapsamları
+* Hariç tutulan masraflar
+
+son onaylanan fiyat broşürüyle birebir aynı olmalıdır.
+
+Fiyatlar web sitesine ayrı ayrı elle sabitlenmek yerine, yönetim panelinden kolayca güncellenebilir alanlar olarak hazırlanmalıdır.
+
+## Buton
+
+> *Tüm Hizmet Paketleri ve Ücretleri İnceleyin*
+
+Buton, onaylanan ücret broşürünün PDF dosyasını açmalıdır.
+
+---
+
+# 23. Mevcut ek hizmetler bölümünün değiştirilmesi
+
+Mevcut sitede şu ek hizmetler bulunmaktadır:
+
+* Vize Rehberim Paketi — 1.200 €
+* Tek Başvuru Paketi — 950 €
+* Almanya’ya Varış ve İlk Adımlar — 450 €
+* Almanca Hazırlık ve Dil Planlama — 550 € ([Start Akademie][1])
+
+Bu bölüm kaldırılacaktır.
+
+## Yeni başlık
+
+> *Tekil ve İlave Hizmetler*
+
+Burada yalnızca son onaylanan fiyat broşüründeki ana tekil hizmetler gösterilecektir.
+
+Örnek gruplar:
+
+* Tek üniversite veya program başvurusu
+* Dijital vize başvuru desteği
+* Dil kursu başvuru danışmanlığı
+* Ausbildung danışmanlığı
+* Denklik işlemleri
+* Erasmus, staj ve yaz programları
+* Konaklama ve ilk yerleşim
+
+Ayrıntılı küçük hizmet kalemleri web sitesinde gösterilmeyecek; fiyat broşürüne veya kişisel teklife bırakılacaktır.
+
+---
+
+# 24. Hakkımızda sayfası
+
+## Sayfa başlığı
+
+> *Start Akademie Hakkında*
+
+## Ana metin
+
+> Start Akademie, Almanya merkezli bir eğitim ve kariyer danışmanlığı kurumudur. Danışanların eğitim geçmişlerini, dil seviyelerini, mevcut belgelerini ve uzun vadeli hedeflerini birlikte değerlendirerek kişiye özel yol haritaları oluşturur.
+
+## Vurgular
+
+* Almanya merkezli kurum
+* Rhein-Main bölgesinde yerel bilgi ve deneyim
+* Kişiye özel dosya analizi
+* Üniversite, denklik ve eğitim başvurularında uygulamalı deneyim
+* Başvurudan Almanya’daki ilk adımlara kadar destek
+* Süreci bizzat yaşamış danışmanlar
+* Şeffaf hizmet kapsamı
+* Gerçekçi yönlendirme
+
+## Kullanılmayacak iddialar
+
+* Almanya’nın en iyi danışmanlık şirketi
+* Yüzde yüz kabul
+* Yüzde yüz vize
+* Kesin sonuç
+* Resmî partner
+* Akredite kurum
+
+Bu ifadeler yalnızca belgelenebilir ve hukuken kullanılabilir olmaları hâlinde eklenebilir.
+
+---
+
+# 25. Danışman profilleri
+
+Ana sayfada kısa profil kartları; Hakkımızda sayfasında daha ayrıntılı ekip profilleri hazırlanmalıdır.
+
+Her profil şunları içermelidir:
+
+* Fotoğraf
+* Ad soyad
+* Görev
+* Uzmanlık alanı
+* Kısa özgeçmiş
+* Bildiği diller
+* İlgili hizmete bağlantı
+
+Örnek roller:
+
+* Üniversite başvuru danışmanı
+* Denklik danışmanı
+* Erasmus danışmanı
+* Ausbildung danışmanı
+* İlk yerleşim danışmanı
+
+Erasmus danışmanı için gerçek deneyim çerçevesinde şu vurgu kullanılabilir:
+
+> Türkiye’den Erasmus programıyla Almanya’ya gelmiş ve süreci kişisel olarak yaşamış danışmanımız, öğrencilerin başvuru, hazırlık ve adaptasyon süreçlerine destek verir.
+
+---
+
+# 26. Vaka örnekleri bölümü
+
+Ana sayfada veya ayrı bir “Danışan Dosyalarından Örnekler” sayfasında, kişisel bilgiler gizlenerek gerçek süreç örnekleri gösterilebilir.
+
+Örnek konular:
+
+* Açık Lise mezunu için Studienkolleg yolu
+* Türkiye’de üniversite okuyan öğrencinin Almanya’da devam planı
+* Üniversiteye bağlı dil kursu başvurusu
+* Öğretmenlik denkliği
+* Ön lisans diploma değerlendirmesi
+* Dijital vize dosyasının hazırlanması
+* Erasmus sonrası yüksek lisans planı
+
+Her vaka şu formatta sunulmalıdır:
+
+* Başlangıç durumu
+* Hedef
+* Karşılaşılan sorun
+* Belirlenen yol
+* Yapılan işlemler
+* Sonuç veya güncel aşama
+
+Süreç tamamlanmamışsa kesin başarı hikâyesi gibi gösterilmemeli; “Başvuru süreci devam ediyor” yazılmalıdır.
+
+---
+
+# 27. Hizmet durumu etiketleri
+
+Yönetim panelinden değiştirilebilir etiket sistemi hazırlanmalıdır:
+
+* Aktif hizmet
+* Başvurular açık
+* Ön talep alınıyor
+* Hazırlık aşamasında
+* Yakında
+* Kontenjan dolu
+* İşveren iş birlikleri oluşturuluyor
+
+Örnek kullanım:
+
+* Üniversite başvuruları — Aktif hizmet
+* Denklik — Aktif hizmet
+* Online Almanca kursları — Ön talep alınıyor
+* Öğrenci konaklaması — Ön talep alınıyor
+* Yaz dönemi çalışma — İşveren iş birlikleri oluşturuluyor
+
+---
+
+# 28. İki ayrı form hazırlanması
+
+Mevcut sitedeki randevu formunda üniversite, Nachhilfe, online kurs ve yaz kampı seçenekleri aynı formda yer almaktadır. ([Start Akademie][1])
+
+Bu form sistemi ikiye ayrılacaktır.
+
+## Form 1 — Kısa Tanışma Görüşmesi Formu
+
+Alanlar:
+
+* Ad soyad
+* Telefon / WhatsApp
+* E-posta
+* Bulunduğu ülke
+* Hizmet alanı
+* Tercih edilen görüşme şekli
+* Kısa mesaj
+* Datenschutz onayı
+
+Hizmet seçenekleri:
+
+* Üniversite – Lisans
+* Üniversite – Yüksek Lisans
+* Studienkolleg
+* Almanya’daki Dil Kursları
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz Dönemi Çalışma
+* Konaklama
+* İlk Yerleşim
+* Dijital Vize Desteği
+* Diğer
+
+## Form 2 — Ayrıntılı Ön Değerlendirme Formu
+
+### Kişisel bilgiler
+
+* Ad soyad
+* Doğum yılı
+* Uyruk
+* Bulunduğu ülke ve şehir
+* Telefon
+* E-posta
+
+### Eğitim bilgileri
+
+* Lise türü
+* Mezuniyet yılı
+* YKS durumu
+* Üniversite ve bölüm
+* Eğitim devam ediyor mu?
+* Mezuniyet durumu
+* Not ortalaması
+
+### Dil bilgileri
+
+* Almanca seviyesi
+* İngilizce seviyesi
+* Dil sertifikaları
+
+### Hedef
+
+* Lisans
+* Yüksek lisans
+* Studienkolleg
+* Dil kursu
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz dönemi çalışma
+* Konaklama
+
+### Dosya yükleme
+
+* Diploma
+* Transkript
+* Dil sertifikası
+* CV
+* Pasaport veya kimlik
+* Diğer belgeler
+
+### Onay
+
+* Verilerin danışmanlık amacıyla işlenmesi
+* Datenschutz
+* Bilgilerin doğru olduğuna dair onay
+
+Dosya yükleme sistemi güvenli olmalı ve yetkisiz erişime karşı korunmalıdır.
+
+---
+
+# 29. Mevcut chatbotun yeniden yapılandırılması
+
+Mevcut chatbot; vize, bloke hesap, BuT ve lise ders desteği gibi .com, .de ve diğer hizmetleri birbirine karıştırmaktadır. ([Start Akademie][1])
+
+## Yeni başlangıç mesajı
+
+> Merhaba, Start Akademie Eğitim ve Kariyer Danışmanlığına hoş geldiniz. Üniversite, dil kursu, Ausbildung, denklik, değişim programları, konaklama ve dijital vize süreçleri hakkında size nasıl yardımcı olabilirim?
+
+## Chatbotun kapsayacağı konular
+
+* Üniversite
+* Yüksek lisans
+* Studienkolleg
+* Dil kursları
+* Ausbildung
+* Denklik
+* Erasmus
+* Staj
+* Yaz dönemi çalışma
+* Konaklama
+* Dijital vize
+* İlk yerleşim
+* Görüşme talebi
+
+## Nachhilfe sorusu geldiğinde
+
+> Nachhilfe ve okul ders desteği hizmetlerimiz için sizi www.startakademie.de adresine yönlendirebilirim.
+
+## Online kurs sorusu geldiğinde
+
+> Start Akademie online dil kursları için www.startakademie.online adresini ziyaret edebilirsiniz.
+
+Chatbot kesin kabul, vize veya denklik sonucu söylememelidir.
+
+---
+
+# 30. Sık Sorulan Sorular bölümünün yeniden düzenlenmesi
+
+Mevcut SSS alanı korunacak, ancak kategorilere ayrılacaktır. ([Start Akademie][1])
+
+## Üniversite
+
+* Almanya’da üniversiteye doğrudan başlayabilir miyim?
+* Studienkolleg gerekli mi?
+* Açık Lise mezunları başvurabilir mi?
+* YKS olmadan başvuru yapılabilir mi?
+* Şartlı kabul nedir?
+* İngilizce programlara başvurabilir miyim?
+
+## Dil Kursları
+
+* Üniversite dil kursu ile özel dil okulu arasındaki fark nedir?
+* Hangi Almanca seviyesi gerekir?
+* DSH hazırlık kursu nedir?
+* Dil kursu vizesi için hangi belgeler gerekir?
+
+## Ausbildung
+
+* Ausbildung için hangi Almanca seviyesi gerekir?
+* Türkiye’den Ausbildung başvurusu yapılabilir mi?
+* Yaş sınırı var mı?
+* Start Akademie işveren veya Ausbildung yeri garantisi veriyor mu?
+
+## Denklik
+
+* Hangi kurum diploma denkliği yapar?
+* Lise ve meslek denkliği arasındaki fark nedir?
+* Öğretmenlik denkliği nasıl ilerler?
+* Denklik ne kadar sürer?
+* Ek belge talep edilirse ne yapılır?
+
+## Vize
+
+* Dijital vize başvurusunda nasıl destek veriliyor?
+* Start Akademie vize başvurusunu benim adıma mı yapıyor?
+* Bloke hesap veya garantörlük işlemini Start Akademie yapıyor mu?
+* Dijital ön inceleme vize garantisi anlamına gelir mi?
+
+## Konaklama ve İlk Yerleşim
+
+* Konaklama garantisi veriliyor mu?
+* Almanya’ya geldikten sonra hangi resmî işlemler yapılır?
+* Anmeldung için hangi belge gerekir?
+* Ausländerbehörde sürecinde destek veriliyor mu?
+
+Hızla değişebilecek rakamlar ve mevzuat bilgileri kaynak ve güncelleme tarihi olmadan sabit metin olarak kullanılmamalıdır.
+
+---
+
+# 31. Broşür indirme alanı
+
+Ana sayfada veya “Rehberler ve Broşürler” bölümünde iki onaylanmış PDF gösterilecektir:
+
+1. *Almanya’da Eğitim ve Kariyer Broşürü*
+2. *Hizmet Paketleri ve Ücretler Broşürü*
+
+Her broşür için:
+
+* Kapak görseli
+* Kısa açıklama
+* PDF görüntüle
+* PDF indir
+
+butonları bulunmalıdır.
+
+PDF dosyaları telefonda sorunsuz açılmalı ve indirilebilmelidir.
+
+Daha sonra eklenebilecek içerikler:
+
+* Üniversite başvuru rehberi
+* Denklik rehberi
+* Dijital vize kontrol listesi
+* Almanya’ya ilk geliş kontrol listesi
+* Ausbildung başvuru rehberi
+
+---
+
+# 32. İletişim sayfası
+
+## Gösterilecek bilgiler
+
+* Start Akademie UG (haftungsbeschränkt)
+* Mainzer Straße 18
+* 65428 Rüsselsheim am Main
+* Telefon / WhatsApp
+* info@startakademie.com
+* www.startakademie.com
+* Çalışma saatleri
+* Google Maps
+* İletişim formu
+* WhatsApp butonu
+* Randevu talebi butonu
+
+## QR kod
+
+Yalnızca gerçek ve test edilmiş QR kod kullanılmalıdır.
+
+QR kod şu adrese gitmelidir:
+
+https://www.startakademie.com
+
+QR kodun her sayfada kullanılmasına gerek yoktur.
+
+---
+
+# 33. Footer’ın tamamen yeniden düzenlenmesi
+
+Mevcut footer; Nachhilfe, üniversite danışmanlığı, online kurslar, yaz kampları, .de e-posta adresi ve bazı üyelik ifadelerini aynı yerde göstermektedir. ([Start Akademie][1])
+
+Yeni footer şu şekilde hazırlanacaktır:
+
+## Sütun 1 — Start Akademie
+
+> Almanya’da eğitim ve kariyer hedefleriniz için kişiye özel danışmanlık.
+
+## Sütun 2 — Hizmetler
+
+* Üniversite
+* Dil Kursları
+* Ausbildung
+* Denklik
+* Değişim ve Yaz Programları
+* Konaklama
+
+## Sütun 3 — Diğer Sitelerimiz
+
+* Nachhilfe — www.startakademie.de
+* Online Dil Kursları — www.startakademie.online
+
+## Sütun 4 — Bilgilendirme
+
+* Dijital Vize Süreci
+* Üniversite Uygunluk Ön Değerlendirmesi
+* Sık Sorulan Sorular
+* Broşürler
+* Hizmet Paketleri ve Ücretler
+
+## Sütun 5 — Kurumsal
+
+* Hakkımızda
+* Ekibimiz
+* İletişim
+* Impressum
+* Datenschutz
+* AGB / Hizmet Şartları
+
+## Sütun 6 — İletişim
+
+* Adres
+* Telefon / WhatsApp
+* info@startakademie.com
+* Çalışma saatleri
+* Instagram
+
+## Footer alt satırı
+
+* Impressum
+* Datenschutz
+* Cookie-Einstellungen
+* Kullanım Şartları
+* © 2026 Start Akademie UG
+
+Doğrulanmamış üyelik, lisans veya akreditasyon ifadeleri kaldırılmalıdır.
+
+---
+
+# 34. Ana sayfanın nihai sıralaması
+
+Ana sayfa aşağıdaki sırada kurulacaktır:
+
+1. Üst iletişim çubuğu
+2. Yeni ana menü
+3. Hero alanı
+4. Nachhilfe / Eğitim ve Kariyer / Online Dil Kursları yönlendirme kartları
+5. Altı ana hizmet kartı
+6. Size Uygun Yol Hangisi?
+7. İlk Görüşmeden Almanya’daki İlk Günlerinize Kadar
+8. Üniversite ve Program Seçimini Nasıl Yapıyoruz?
+9. Üniversite Danışmanlığı Paketleri
+10. Tekil ve İlave Hizmetler
+11. Neden Start Akademie?
+12. Danışman profilleri
+13. Gerçek vaka örnekleri
+14. Üniversite Uygunluk Ön Değerlendirmesi
+15. Konaklama ve yeni programlar için ön talep alanı
+16. Sık Sorulan Sorular
+17. Broşürler ve Rehberler
+18. Ücretsiz Tanışma Görüşmesi alanı
+19. Footer
+
+---
+
+# 35. “Neden Start Akademie?” bölümü
+
+## Başlık
+
+> *Neden Start Akademie?*
+
+## İçerik
+
+* Almanya merkezli danışmanlık
+* Kişiye özel değerlendirme
+* Üniversite, Ausbildung ve denklik süreçlerinde uygulamalı deneyim
+* Güncel başvuru sistemlerine uygun dosya hazırlığı
+* Başvurudan Almanya’daki ilk adımlara kadar destek
+* Şeffaf hizmet kapsamı
+* Gerçekçi yönlendirme
+* Süreci yaşamış danışmanlarla destek
+
+Doğrulanamayan sayı, başarı yüzdesi veya “en iyi” iddiası kullanılmamalıdır.
+
+---
+
+# 36. Ana çağrı butonları
+
+Sitede tutarlı bir buton sistemi kullanılacaktır.
+
+## Ana CTA
+
+> *Ücretsiz Tanışma Görüşmesi Alın*
+
+## İkinci CTA
+
+> *Ön Değerlendirme Formunu Doldurun*
+
+## Diğer CTA’lar
+
+* Hizmeti İnceleyin
+* Size Uygun Yolu Keşfedin
+* WhatsApp’tan Bize Ulaşın
+* Broşürü İndirin
+* Ücretleri İnceleyin
+* Ön Talep Oluşturun
+
+Aynı sayfada çok sayıda farklı CTA metni kullanılmamalıdır.
+
+---
+
+# 37. Eski URL’lerin korunması ve 301 yönlendirmeleri
+
+Mevcut site yayından kaldırılmadan önce bütün mevcut URL’ler ve bağlantılar listelenmelidir.
+
+Adı değişen veya kaldırılan sayfalar en yakın yeni sayfaya *301 yönlendirmesiyle* bağlanmalıdır.
+
+Örnek:
+
+* Eski Programlar → yeni hizmetler bölümü
+* Eski Üniversiteler → Üniversite sayfası
+* Eski Danışmanlık → ana hizmetler veya Üniversite sayfası
+* Eski Denklik Testi → Üniversite Uygunluk Ön Değerlendirmesi
+* Eski Yaz Kampı → Değişim ve Yaz Programları veya kaldırılmış bilgi sayfası
+
+Kırık link, 404 sayfası veya Google’da boş sonuç oluşturulmamalıdır.
+
+Özel bir 404 sayfası da hazırlanmalıdır:
+
+> Aradığınız sayfa taşınmış veya güncellenmiş olabilir.
+
+Butonlar:
+
+* Ana Sayfaya Dön
+* Hizmetleri İncele
+* Bizimle İletişime Geç
+
+---
+
+# 38. SEO gereklilikleri
+
+Her sayfa için ayrı:
+
+* SEO başlığı
+* Meta açıklaması
+* H1 başlığı
+* URL yapısı
+* Open Graph görseli
+* Sosyal medya paylaşım başlığı
+* Görsel alt metinleri
+
+hazırlanmalıdır.
+
+## Örnek sayfa başlıkları
+
+* Almanya’da Üniversite Danışmanlığı | Start Akademie
+* Almanya Dil Kursu Başvurusu | Start Akademie
+* Almanya’da Ausbildung Danışmanlığı
+* Almanya Diploma ve Mesleki Denklik
+* Erasmus ve Yaz Programları Almanya
+* Almanya Öğrenci Konaklaması
+* Dijital Öğrenci Vizesi Başvuru Desteği
+* Almanya’ya Varış ve İlk Yerleşim Desteği
+
+Anahtar kelimeler doğal metin içinde kullanılmalı; yapay anahtar kelime tekrarından kaçınılmalıdır.
+
+---
+
+# 39. Mobil tasarım gereklilikleri
+
+Mobil kullanım birincil öncelik olacaktır.
+
+* Menü rahat açılmalı
+* Kartlar tek sütuna geçmeli
+* Yazılar küçülmemeli
+* Butonlar parmakla kolay kullanılmalı
+* WhatsApp butonu sabit olabilir
+* Telefon ve e-posta tıklanabilir olmalı
+* Form alanları büyük ve kolay doldurulur olmalı
+* Dosya yükleme telefondan çalışmalı
+* PDF’ler mobil tarayıcıda açılmalı
+* Metinler üst üste binmemeli
+* Görseller sayfayı yavaşlatmamalı
+* Yatay taşma olmamalı
+
+---
+
+# 40. Teknik altyapı
+
+* Kolay yönetilebilir CMS
+* Yönetim panelinden içerik değiştirme
+* Yönetim panelinden fiyat güncelleme
+* Yönetim panelinden hizmet durum etiketi değiştirme
+* Çok dilli altyapı
+* Güvenli form ve dosya yükleme
+* Spam koruması
+* SSL
+* Otomatik yedekleme
+* Görsel optimizasyonu
+* Önbellekleme
+* Cookie consent
+* DSGVO uyumu
+* Impressum
+* Datenschutz
+* Google Search Console
+* Analiz sistemi veya DSGVO uyumlu alternatif
+* WhatsApp entegrasyonu
+* PDF indirme altyapısı
+* SEO alanları
+* XML sitemap
+* Robots.txt kontrolü
+* 301 yönlendirmeleri
+* Güvenlik güncellemeleri
+
+---
+
+# 41. Yayına geçmeden önce zorunlu testler
+
+Site doğrudan canlıya alınmayacak; önce test alanında Start Akademie onayına sunulacaktır.
+
+## Görsel testler
+
+* Masaüstü
+* Tablet
+* iPhone
+* Android
+* Farklı ekran boyutları
+
+## Tarayıcı testleri
+
+* Chrome
+* Safari
+* Firefox
+* Edge
+* Mobil Safari
+* Mobil Chrome
+
+## İşlev testleri
+
+* Bütün menüler
+* Bütün butonlar
+* WhatsApp bağlantıları
+* Telefon bağlantıları
+* E-posta bağlantıları
+* Formlar
+* Form bildirimleri
+* Dosya yükleme
+* Dil seçimi
+* PDF görüntüleme
+* PDF indirme
+* Chatbot
+* QR kod
+* Harita
+* 301 yönlendirmeleri
+* 404 sayfası
+
+## İçerik testleri
+
+* Türkçe karakterler
+* Metin taşması
+* Başlıkların kesilmesi
+* Eski e-posta adresleri
+* Eski fiyatlar
+* Eski garanti ifadeleri
+* Yanlış domainler
+* Nachhilfe ve online kurs içeriklerinin doğru sitelere yönlendirilmesi
+
+---
+
+# 42. Kesinlikle kaldırılacak eski içeriklerin toplu listesi
+
+* Programlar menüsü
+* Üniversiteler menüsü
+* Danışmanlık menüsü
+* Denklik Testi adı
+* Yaz Kampı ana menüsü
+* Sıfır vize kaybı politikası
+* Resmî kabul sağlıyoruz
+* %98 kabul oranı
+* Vize garantisi
+* Kabul garantisi
+* Vize ve Varış Garantili VIP
+* Vize görüşmesi simülasyonu
+* Vize Rehberim Paketi
+* Bloke hesap hesaplayıcısının ana sayfadaki büyük bölümü
+* Üniversite kabul yüzdeleri
+* Partner üniversitelerimiz ifadesi
+* Start Basic / Plus / Premium eski içerikleri
+* Eski ek hizmet fiyatları
+* Online İngilizce kursu iddiası, aktif değilse
+* Yaz Dil Kampı 2026
+* .com sitesi içinde ayrıntılı Nachhilfe içeriği
+* .com sitesi içinde ayrıntılı online kurs içeriği
+* info@startakademie.de
+* Doğrulanmamış VNN, lisans veya akreditasyon ifadeleri
+* “Üniversite hazırlık” gibi belirsiz genel ifadeler
+
+---
+
+# 43. Korunabilecek mevcut unsurlar
+
+* Start Akademie logosu
+* Mavi-beyaz kurumsal kimlik
+* Mevcut modern geçiş ve animasyon yaklaşımının sadeleştirilmiş hâli
+* Üç ana yönlendirme kartı fikri
+* SSS altyapısı
+* İletişim formu altyapısı
+* Chatbot altyapısı
+* Üniversite uygunluk aracı altyapısı
+* Dil seçimi altyapısı
+* Impressum ve Datenschutz sayfaları
+* Mobil menü altyapısı
+* Mevcut adres ve telefon bilgileri, doğrulanarak
+
+---
+
+# 44. Tasarımcıdan teslim alınacak dosya ve erişimler
+
+Çalışma tamamlandığında Start Akademie’ye şu erişimler teslim edilmelidir:
+
+* Yönetim paneli erişimi
+* Hosting erişimi
+* Domain ve DNS bilgileri
+* Tema veya proje kaynak dosyaları
+* Kullanılan lisansların listesi
+* Form bildirim adresleri
+* Yedekleme sistemi erişimi
+* Analytics erişimi
+* Search Console erişimi
+* Eklenti listesi
+* Güncelleme ve bakım bilgisi
+* Tasarımda kullanılan görsel ve ikonların lisans bilgileri
+
+Yalnız tasarımcının kontrolünde kalan, Start Akademie’nin erişemediği bir sistem oluşturulmamalıdır.
+
+---
+
+# 45. Nihai proje tanımı
+
+> www.startakademie.com, Start Akademie’nin Almanya’da Eğitim ve Kariyer Danışmanlığı ana sitesi olarak yeniden yapılandırılacaktır. Mevcut sitenin logo, kurumsal renk, üçlü yönlendirme fikri, form, SSS, chatbot ve uygunluk testi gibi kullanılabilir altyapıları korunabilir; ancak hizmet mimarisi, metinler, menü, paketler, üniversite alanı, vize anlatımı, iletişim formu ve footer tamamen güncellenecektir.
+>
+> Nachhilfe hizmetleri www.startakademie.de, Start Akademie’nin kendi online dil kursları ise www.startakademie.online adresine yönlendirilecektir.
+>
+> .com sitesinin altı ana hizmeti Üniversite, Dil Kursları, Ausbildung, Denklik, Değişim ve Yaz Programları ve Konaklama olacaktır. Dijital vize desteği Üniversite, Dil Kursları ve Ausbildung sayfalarının içinde; Almanya’ya Varış ve İlk Yerleşim Desteği ise Konaklama sayfasının içinde sunulacaktır.
+>
+> Sitede kabul, vize, denklik, işveren, staj veya konaklama garantisi çağrıştıran hiçbir ifade kullanılmayacaktır. Hazır olmayan hizmetler “Ön talep alınıyor” veya “Hazırlık aşamasında” etiketiyle gösterilecektir.
+>
+> Web sitesi, onaylanan “Almanya’da Eğitim ve Kariyer” ve “Hizmet Paketleri ve Ücretler” broşürleriyle aynı kurumsal kimlikte olacak; mobil kullanım, DSGVO uyumu, kolay içerik yönetimi, SEO, güvenli form sistemi ve teknik performans öncelikli hazırlanacaktır.
+
+[1]: https://www.startakademie.com/ "Start Akademie | Elite-Bildungsportal & Immersives Erlebnis" 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-07-16T09:56:39+02:00.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from Gemini 3.1 Pro (High) to Claude Opus 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>
+
+--------------------------
+

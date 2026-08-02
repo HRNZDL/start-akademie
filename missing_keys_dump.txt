@@ -1,0 +1,207 @@
+=== index.html ===
+Key: hero.continue
+HTML: <span data-i18n="hero.continue" style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: #66
+--------------------------------------------------
+Key: pillar1.desc
+HTML: <p data-i18n="pillar1.desc" style="color: var(--text-muted); line-height: 1.6; margin-bottom: 24px;">Okul öğrencileri için bireysel ders, Lernförderun
+--------------------------------------------------
+Key: pillar2.desc
+HTML: <p data-i18n="pillar2.desc" style="color: var(--text-muted); line-height: 1.6; margin-bottom: 24px;">Üniversite, dil kursları, Ausbildung, denklik, de
+--------------------------------------------------
+Key: pillar3.desc
+HTML: <p data-i18n="pillar3.desc" style="color: var(--text-muted); line-height: 1.6; margin-bottom: 24px;">Canlı online Almanca kursları ve seviye bazlı gru
+--------------------------------------------------
+Key: path.tag
+HTML: <span class="section-tag" data-i18n="path.tag">Hızlı Yönlendirme</span>
+--------------------------------------------------
+Key: path.title
+HTML: <h2 data-i18n="path.title">Size Uygun Yol Hangisi?</h2>
+--------------------------------------------------
+Key: path.desc
+HTML: <p data-i18n="path.desc" style="margin-top: 16px; font-size: 1.05rem;">Mevcut eğitim durumunuzu veya hedefinizi seçerek size en uygun hizmetlerimize h
+--------------------------------------------------
+Key: faq.tag
+HTML: <span class="section-tag" data-i18n="faq.tag">Start SSS</span>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutzerklärung</a>
+--------------------------------------------------
+Key: footer.use_terms
+HTML: <a data-i18n="footer.use_terms" href="impressum.html">Kullanım Koşulları</a>
+--------------------------------------------------
+Key: univ.modal.title
+HTML: <h2 data-i18n="univ.modal.title">Tüm Partner Üniversitelerimiz</h2>
+--------------------------------------------------
+Key: univ.tag.heidelberg
+HTML: <span data-i18n="univ.tag.heidelberg">📍 HEIDELBERG</span>
+--------------------------------------------------
+Key: univ.rate.heidelberg
+HTML: <span data-i18n="univ.rate.heidelberg">Kabul: ~%15</span>
+--------------------------------------------------
+Key: univ.title.heidelberg
+HTML: <h3 data-i18n="univ.title.heidelberg">Heidelberg Üniversitesi</h3>
+--------------------------------------------------
+Key: univ.desc.heidelberg
+HTML: <p data-i18n="univ.desc.heidelberg" style="font-size: 0.92rem;">1386 kuruluş yılıyla Almanya'nın en eski ve en prestijli üniversitesi. Tıp, eczacılık 
+--------------------------------------------------
+Key: univ.tag.munich
+HTML: <span data-i18n="univ.tag.munich">📍 MÜNİH</span>
+--------------------------------------------------
+Key: univ.rate.munich
+HTML: <span data-i18n="univ.rate.munich">Kabul: ~%8</span>
+--------------------------------------------------
+Key: univ.title.munich
+HTML: <h3 data-i18n="univ.title.munich">Münih Teknik Üniversitesi (TUM)</h3>
+--------------------------------------------------
+Key: univ.desc.munich
+HTML: <p data-i18n="univ.desc.munich" style="font-size: 0.92rem;">Avrupa'nın teknoloji üssü. Mühendislik, bilgisayar bilimi ve yapay zekada dünyanın en iyi 
+--------------------------------------------------
+Key: univ.tag.frankfurt
+HTML: <span data-i18n="univ.tag.frankfurt">📍 FRANKFURT</span>
+--------------------------------------------------
+Key: univ.rate.frankfurt
+HTML: <span data-i18n="univ.rate.frankfurt">Kabul: ~%20</span>
+--------------------------------------------------
+Key: univ.title.frankfurt
+HTML: <h3 data-i18n="univ.title.frankfurt">Goethe Üniversitesi</h3>
+--------------------------------------------------
+Key: univ.desc.frankfurt
+HTML: <p data-i18n="univ.desc.frankfurt" style="font-size: 0.92rem;">Frankfurt'un merkezinde ekonomi, finans, sosyal bilimler ve beşeri bilimlerde öncü küre
+--------------------------------------------------
+Key: univ7.acc
+HTML: <span data-i18n="univ7.acc">Kabul: ~%12</span>
+--------------------------------------------------
+Key: univ1.acc
+HTML: <span data-i18n="univ1.acc">Kabul: ~%14</span>
+--------------------------------------------------
+Key: univ2.title
+HTML: <h3 data-i18n="univ2.title">LMU Münih</h3>
+--------------------------------------------------
+Key: univ3.acc
+HTML: <span data-i18n="univ3.acc">Kabul: ~%18</span>
+--------------------------------------------------
+Key: univ3.title
+HTML: <h3 data-i18n="univ3.title">Berlin Teknik Üniversitesi</h3>
+--------------------------------------------------
+Key: univ3.desc
+HTML: <p data-i18n="univ3.desc" style="font-size: 0.92rem;">Girişimcilik ve inovasyonun başkentinde, mühendislik ve sürdürülebilirlik konularında lider bir 
+--------------------------------------------------
+Key: univ2.acc
+HTML: <span data-i18n="univ2.acc">Kabul: ~%16</span>
+--------------------------------------------------
+Key: univ4.title
+HTML: <h3 data-i18n="univ4.title">Karlsruhe Teknoloji Enstitüsü (KIT)</h3>
+--------------------------------------------------
+Key: univ4.desc
+HTML: <p data-i18n="univ4.desc" style="font-size: 0.92rem;">Almanya'nın en büyük araştırma kurumlarından biri. Bilişim ve mühendislik bilimlerinde küresel b
+--------------------------------------------------
+Key: univ5.acc
+HTML: <span data-i18n="univ5.acc">Kabul: ~%20</span>
+--------------------------------------------------
+Key: univ5.title
+HTML: <h3 data-i18n="univ5.title">Freie Universität Berlin</h3>
+--------------------------------------------------
+Key: univ5.desc
+HTML: <p data-i18n="univ5.desc" style="font-size: 0.92rem;">"Özgür Üniversite", siyaset bilimi, uluslararası ilişkiler ve sosyal bilimlerde Almanya'nın en s
+--------------------------------------------------
+Key: univ6.acc
+HTML: <span data-i18n="univ6.acc">Kabul: ~%15</span>
+--------------------------------------------------
+Key: univ6.title
+HTML: <h3 data-i18n="univ6.title">Freiburg Üniversitesi</h3>
+--------------------------------------------------
+Key: univ6.desc
+HTML: <p data-i18n="univ6.desc" style="font-size: 0.92rem;">1457 kuruluş yılıyla eşsiz bir tarihi miras. Çevre bilimleri, tıp ve hukuk alanlarında Avrupa'nı
+--------------------------------------------------
+Key: univ7.acc
+HTML: <span data-i18n="univ7.acc">Kabul: ~%12</span>
+--------------------------------------------------
+Key: univ7.title
+HTML: <h3 data-i18n="univ7.title">Tübingen Üniversitesi</h3>
+--------------------------------------------------
+Key: univ7.desc
+HTML: <p data-i18n="univ7.desc" style="font-size: 0.92rem;">Nobel ödüllü bilim insanlarının yetiştiği, yapay zeka, nörobilim ve teoloji alanlarında Avrupa'n
+--------------------------------------------------
+Key: univ3.acc
+HTML: <span data-i18n="univ3.acc">Kabul: ~%18</span>
+--------------------------------------------------
+Key: univ8.title
+HTML: <h3 data-i18n="univ8.title">Bonn Üniversitesi</h3>
+--------------------------------------------------
+Key: univ8.desc
+HTML: <p data-i18n="univ8.desc" style="font-size: 0.92rem;">Matematik ve ekonomide dünya çapında otorite. Görkemli ana binasıyla Almanya'nın en prestijli eğ
+--------------------------------------------------
+Key: univ9.acc
+HTML: <span data-i18n="univ9.acc">Kabul: ~%17</span>
+--------------------------------------------------
+Key: univ9.title
+HTML: <h3 data-i18n="univ9.title">Göttingen Üniversitesi</h3>
+--------------------------------------------------
+Key: univ9.desc
+HTML: <p data-i18n="univ9.desc" style="font-size: 0.92rem;">Tarih boyunca 40'tan fazla Nobel ödüllü isme ev sahipliği yapmış, fen bilimleri ve fizikte efsan
+--------------------------------------------------
+Key: univ2.acc
+HTML: <span data-i18n="univ2.acc">Kabul: ~%16</span>
+--------------------------------------------------
+Key: univ10.title
+HTML: <h3 data-i18n="univ10.title">Stuttgart Üniversitesi</h3>
+--------------------------------------------------
+Key: univ10.desc
+HTML: <p data-i18n="univ10.desc" style="font-size: 0.92rem;">Almanya'nın sanayi ve teknoloji kalbinde yer alan, otomotiv ve uzay mühendisliği alanlarında ön
+--------------------------------------------------
+=== uni.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+=== dil.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+=== ausbildung.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+=== denklik.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+=== degisim.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+=== konaklama.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+=== iletisim.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+=== hakkimizda.html ===
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------
+Key: footer.datenschutz
+HTML: <a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+--------------------------------------------------

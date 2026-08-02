@@ -1,0 +1,280 @@
+0. div: 'Start' | <div style="font-family: var(--font-serif); font-style: italic; font-size: 2.2rem; color: var(--text
+1. em: 'Akademie' | <em style="color: var(--gold);">Akademie</em>
+2. div: 'Portal wird geladen...' | <div style="font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.25em; text-transfor
+3. div: 'Language Selector \n\n Theme Toggle' | <div style="display: flex; align-items: center; gap: 16px;">
+<!-- Language Selector -->
+<div style="
+4. div: '1. Scroll-Driven Image Sequence (Canvas) \n\n 2. Interactive S' | <div class="portal-sticky">
+<!-- 1. Scroll-Driven Image Sequence (Canvas) -->
+<div class="video-cont
+5. div: 'Welcome Slide \n\n Academy Bridging Slide' | <div class="portal-slides-container container">
+<!-- Welcome Slide -->
+<div class="portal-slide" id=
+6. div: 'Start Akademie UG' | <div class="hero-badge">
+<span class="pulse-dot"></span> Start Akademie UG
+                    </div
+7. div: 'Pillar 1: Nachhilfe \n\n Pillar 2: Eğitim ve Kariyer \n\n Pillar' | <div class="bento-grid">
+<!-- Pillar 1: Nachhilfe -->
+<div class="bento-card glass-card">
+<div>
+<div
+8. a: 'Lise mezunuyum' | <a class="chip-btn" href="uni.html">Lise mezunuyum</a>
+9. a: 'Açık Lise mezunuyum' | <a class="chip-btn" href="uni.html">Açık Lise mezunuyum</a>
+10. a: 'Üniversite öğrencisiyim' | <a class="chip-btn" href="uni.html">Üniversite öğrencisiyim</a>
+11. a: 'Üniversite mezunuyum' | <a class="chip-btn" href="uni.html">Üniversite mezunuyum</a>
+12. a: 'Yüksek lisans yapmak istiyorum' | <a class="chip-btn" href="uni.html">Yüksek lisans yapmak istiyorum</a>
+13. a: 'Almanya’da dil kursuna gitmek istiyorum' | <a class="chip-btn" href="dil.html">Almanya’da dil kursuna gitmek istiyorum</a>
+14. a: 'Ausbildung yapmak istiyorum' | <a class="chip-btn" href="ausbildung.html">Ausbildung yapmak istiyorum</a>
+15. a: 'Diplomamı denkleştirmek istiyorum' | <a class="chip-btn" href="denklik.html">Diplomamı denkleştirmek istiyorum</a>
+16. a: 'Erasmus yapmak istiyorum' | <a class="chip-btn" href="degisim.html">Erasmus yapmak istiyorum</a>
+17. a: 'Almanya’da staj yapmak istiyorum' | <a class="chip-btn" href="degisim.html">Almanya’da staj yapmak istiyorum</a>
+18. a: 'Yazın Almanya’da çalışmak istiyorum' | <a class="chip-btn" href="degisim.html">Yazın Almanya’da çalışmak istiyorum</a>
+19. a: 'Konaklama arıyorum' | <a class="chip-btn" href="konaklama.html">Konaklama arıyorum</a>
+20. div: '1. Üniversite \n\n 2. Dil Kursları \n\n 3. Ausbildung \n\n 4. Denk' | <div class="bento-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32p
+21. p: 'Almanya’daki üniversite dil kursları, DSH hazırlık programla' | <p style="color: var(--text-muted); margin-bottom: 16px;">Almanya’daki üniversite dil kursları, DSH 
+22. h3: 'Ausbildung' | <h3>Ausbildung</h3>
+23. p: 'Okul, akademik ve mesleki diplomaların Almanya’daki değerlen' | <p style="color: var(--text-muted); margin-bottom: 16px;">Okul, akademik ve mesleki diplomaların Alm
+24. li: 'Almanya’da staj' | <li style="margin-bottom: 8px; display: flex; align-items: center; gap: 8px;"><i data-lucide="check-
+25. span: 'Ön talep alınıyor' | <span style="background: rgba(255, 171, 0, 0.1); color: #ffab00; padding: 4px 10px; border-radius: 1
+26. p: 'Öğrenciler için konaklama araştırması ve Almanya’ya varış so' | <p style="color: var(--text-muted); margin-bottom: 16px; margin-top: 16px;">Öğrenciler için konaklam
+27. span: 'Stratejik Planlama' | <span class="section-tag">Stratejik Planlama</span>
+28. h2: 'Üniversite ve Program Seçimini Nasıl Yapıyoruz?' | <h2>Üniversite ve Program Seçimini Nasıl Yapıyoruz?</h2>
+29. p: 'Başvuru stratejinizi, lise/lisans alanınıza ve kariyer hedef' | <p style="max-width: 480px; font-size: 0.95rem;">Başvuru stratejinizi, lise/lisans alanınıza ve kari
+30. div: '1. Akademik Uygunluk \n\n 2. Program Uyumu \n\n 3. Şehir ve Bütç' | <div class="univ-slider" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,
+31. span: '1. Aşama' | <span style="background: rgba(43, 112, 250, 0.1); color: #2b70fa; padding: 4px 12px; border-radius: 
+32. h3: 'Akademik Uygunluk' | <h3 style="font-size: 1.25rem;">Akademik Uygunluk</h3>
+33. li: 'Lise türü' | <li>Lise türü</li>
+34. li: 'YKS veya üniversite geçmişi' | <li>YKS veya üniversite geçmişi</li>
+35. li: 'Not ortalaması' | <li>Not ortalaması</li>
+36. li: 'Mevcut bölüm' | <li>Mevcut bölüm</li>
+37. span: '2. Aşama' | <span style="background: rgba(30, 209, 161, 0.1); color: #1ed1a1; padding: 4px 12px; border-radius: 
+38. h3: 'Program Uyumu' | <h3 style="font-size: 1.25rem;">Program Uyumu</h3>
+39. li: 'Hedef bölüm' | <li>Hedef bölüm</li>
+40. li: 'Önceki ders içerikleri' | <li>Önceki ders içerikleri</li>
+41. li: 'Dil şartı' | <li>Dil şartı</li>
+42. li: 'Akademik ön koşullar' | <li>Akademik ön koşullar</li>
+43. span: '3. Aşama' | <span style="background: rgba(255, 171, 0, 0.1); color: #ffab00; padding: 4px 12px; border-radius: 1
+44. h3: 'Şehir ve Bütçe' | <h3 style="font-size: 1.25rem;">Şehir ve Bütçe</h3>
+45. li: 'Yaşam maliyetleri' | <li>Yaşam maliyetleri</li>
+46. li: 'Konaklama' | <li>Konaklama</li>
+47. li: 'Ulaşım' | <li>Ulaşım</li>
+48. li: 'Öğrenci hayatı' | <li>Öğrenci hayatı</li>
+49. span: '4. Aşama' | <span style="background: rgba(147, 51, 234, 0.1); color: #9333ea; padding: 4px 12px; border-radius: 
+50. h3: 'Başvuru Yöntemi' | <h3 style="font-size: 1.25rem;">Başvuru Yöntemi</h3>
+51. li: 'uni-assist' | <li>uni-assist</li>
+52. li: 'VPD' | <li>VPD</li>
+53. li: 'Doğrudan üniversite başvurusu' | <li>Doğrudan üniversite başvurusu</li>
+54. li: 'Üniversite portalı' | <li>Üniversite portalı</li>
+55. p: 'Sitemizde kullanılan üniversite logoları vb. görseller örnek' | <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">
+<i data-lucide="info" style="wi
+56. div: '3 Main Packages' | <div class="container">
+<div style="text-align: center; max-width: 720px; margin: 0 auto 64px;">
+<sp
+57. div: 'Package 1 \n\n Package 2 \n\n Package 3' | <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; m
+58. div: 'Paket 1' | <div style="font-size: 0.72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercas
+59. h3: 'Üniversite Başvuru Paketi' | <h3 style="font-size: 1.05rem; margin: 0;">Üniversite Başvuru Paketi</h3>
+60. li: 'Akademik uygunluk değerlendirmesi' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+61. li: 'Üniversite ve program araştırması' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+62. li: 'En fazla 3 başvuru' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+63. li: 'Belge kontrolü' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+64. li: 'CV ve motivasyon yazısı incelemesi' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+65. li: "uni-assist / VPD'den doğrudan başvuru desteği" | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+66. a: 'Bilgi Al' | <a class="btn btn-primary" href="iletisim.html" style="margin-top: 16px; text-align: center;">Bilgi 
+67. div: 'Popüler' | <div style="position: absolute; top: 16px; right: 16px; background: var(--blue); color: #fff; font-s
+68. div: 'Paket 2' | <div style="font-size: 0.72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercas
+69. h3: 'Başvuru + Dijital Vize Paketi' | <h3 style="font-size: 1.05rem; margin: 0;">Başvuru + Dijital Vize Paketi</h3>
+70. li: 'Üniversite Başvuru Paketi kapsamı' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+71. li: 'En fazla 5 başvuru' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+72. li: 'Dijital vize evrak listesi' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+73. li: 'Belge kontrolü ve düzeni' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+74. li: 'Sisteme yükleme desteği' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+75. li: 'Randevu öncesi son kontrol' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+76. a: 'Bilgi Al' | <a class="btn btn-primary" href="iletisim.html" style="margin-top: 16px; text-align: center; backgro
+77. div: 'Paket 3' | <div style="font-size: 0.72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercas
+78. h3: 'Tam Süreç Paketi' | <h3 style="font-size: 1.05rem; margin: 0;">Tam Süreç Paketi</h3>
+79. li: 'Başvuru + dijital vize kapsamı' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+80. li: 'En fazla 7 başvuru' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+81. li: 'Dil ve sınav yol haritası' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+82. li: 'Konaklama araştırma desteği' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+83. li: "Almanya'ya geliş hazırlığı" | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+84. li: 'İlk yerleşim sürecine destek' | <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-m
+85. a: 'Bilgi Al' | <a class="btn btn-primary" href="iletisim.html" style="margin-top: 16px; text-align: center;">Bilgi 
+86. p: '* Kesin hizmet kapsamı, öğrencinin dosyasına göre talep beli' | <p style="text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: -32px; margi
+87. div: "Other services \n\n What's included / not included" | <div class="container">
+<div style="text-align: center; max-width: 720px; margin: 0 auto 48px;">
+<sp
+88. span: 'Esnek Çözümler' | <span class="section-tag">Esnek Çözümler</span>
+89. h2: 'Tekil ve İlave Hizmetler' | <h2>Tekil ve İlave Hizmetler</h2>
+90. p: 'Sadece ihtiyacınız olan adımlarda yanınızdayız. Yalnızca iht' | <p style="margin-top: 16px;">Sadece ihtiyacınız olan adımlarda yanınızdayız. Yalnızca ihtiyaç duyduğ
+91. h4: 'Tek Üniversite veya Program Başvurusu' | <h4 style="margin: 0; font-size: 0.95rem;">Tek Üniversite veya Program Başvurusu</h4>
+92. li: 'Başvuru şartlarının kontrolü' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+93. li: 'Belgelerin incelenmesi' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+94. li: 'Üniversite portalı işlemleri' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+95. li: 'Başvurunun gönderilmesi' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+96. h4: 'Dijital Vize Başvuru Desteği' | <h4 style="margin: 0; font-size: 0.95rem;">Dijital Vize Başvuru Desteği</h4>
+97. li: 'Kişiye özel evrak listesi' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+98. li: 'Form incelemesi' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+99. li: 'Dijital yükleme desteği' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+100. li: 'Son doğrulama kontrolü' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+101. h4: 'Dil Kursu Başvuru Danışmanlığı' | <h4 style="margin: 0; font-size: 0.95rem;">Dil Kursu Başvuru Danışmanlığı</h4>
+102. span: "'dan itibaren" | <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+103. li: 'Seviye ve hedef değerlendirmesi' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+104. li: 'Uygun kurs araştırması' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+105. li: 'Başvuru desteği' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+106. li: 'Kayıt sürecinin takibi' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+107. h4: 'Ausbildung Başvuru Danışmanlığı' | <h4 style="margin: 0; font-size: 0.95rem;">Ausbildung Başvuru Danışmanlığı</h4>
+108. span: "'dan itibaren" | <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+109. li: 'Uygunluk analizi' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+110. li: 'CV ve başvuru dosyası' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+111. li: 'İşletme ve okul araştırması' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+112. li: 'Mülakat hazırlığı' | <li style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 6px; align-items: flex-
+113. h3: 'Diğer Hizmetler ve Özel Alanlar' | <h3 style="text-align: center; margin-bottom: 32px; font-size: 1.5rem;">Diğer Hizmetler ve Özel Alan
+114. h5: 'Lise ve Akademik Diploma İşlemleri' | <h5 style="margin: 0 0 4px; font-size: 0.9rem;">Lise ve Akademik Diploma İşlemleri</h5>
+115. span: "'dan itibaren" | <span style="font-size: 0.65rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+116. p: 'Diploma ve transkript denklik, ZAB süreçleri' | <p style="font-size: 0.78rem; color: var(--text-muted); margin: 0;">Diploma ve transkript denklik, Z
+117. h5: 'Mesleki Denklik İşlemleri' | <h5 style="margin: 0 0 4px; font-size: 0.9rem;">Mesleki Denklik İşlemleri</h5>
+118. span: "'dan itibaren" | <span style="font-size: 0.65rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+119. p: 'Meslek lisesi, kalfalık / ustalık belgeleri' | <p style="font-size: 0.78rem; color: var(--text-muted); margin: 0;">Meslek lisesi, kalfalık / ustalı
+120. h5: 'Mesleğe Özel Denklik İşlemleri' | <h5 style="margin: 0 0 4px; font-size: 0.9rem;">Mesleğe Özel Denklik İşlemleri</h5>
+121. span: "'dan itibaren" | <span style="font-size: 0.65rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+122. p: 'Öğretmenlik, sağlık, sosyal hizmet vb.' | <p style="font-size: 0.78rem; color: var(--text-muted); margin: 0;">Öğretmenlik, sağlık, sosyal hizm
+123. h5: 'Erasmus Danışmanlığı' | <h5 style="margin: 0 0 4px; font-size: 0.9rem;">Erasmus Danışmanlığı</h5>
+124. span: "'dan itibaren" | <span style="font-size: 0.65rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+125. p: 'Erasmus öğrenim ve staj başvuruları' | <p style="font-size: 0.78rem; color: var(--text-muted); margin: 0;">Erasmus öğrenim ve staj başvurul
+126. h5: 'Staj ve Yaz Dönemi Çalışma' | <h5 style="margin: 0 0 4px; font-size: 0.9rem;">Staj ve Yaz Dönemi Çalışma</h5>
+127. span: "'dan itibaren" | <span style="font-size: 0.65rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+128. p: "Almanya'da staj ve yaz programı desteği" | <p style="font-size: 0.78rem; color: var(--text-muted); margin: 0;">Almanya'da staj ve yaz programı 
+129. h5: 'Konaklama Araştırma Desteği' | <h5 style="margin: 0 0 4px; font-size: 0.9rem;">Konaklama Araştırma Desteği</h5>
+130. span: "'dan itibaren" | <span style="font-size: 0.65rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+131. p: 'Yurt, WG veya özel kira araştırması' | <p style="font-size: 0.78rem; color: var(--text-muted); margin: 0;">Yurt, WG veya özel kira araştırm
+132. h5: "Almanya'ya Varış ve İlk Yerleşim" | <h5 style="margin: 0 0 4px; font-size: 0.9rem;">Almanya'ya Varış ve İlk Yerleşim</h5>
+133. span: "'dan itibaren" | <span style="font-size: 0.65rem; color: var(--text-muted); font-weight: 400;">'dan itibaren</span>
+134. p: 'Anmeldung, banka hesabı, sigorta aktivasyonu' | <p style="font-size: 0.78rem; color: var(--text-muted); margin: 0;">Anmeldung, banka hesabı, sigorta
+135. h4: 'Ücretlere Dahil Olanlar' | <h4 style="margin: 0 0 16px; display: flex; align-items: center; gap: 10px;"><i data-lucide="check-c
+136. li: 'Belirtilen hizmetler için Start Akademie danışmanlık hizmetl' | <li>Belirtilen hizmetler için Start Akademie danışmanlık hizmetleri</li>
+137. h4: 'Ücretlere Dahil Olmayanlar' | <h4 style="margin: 0 0 16px; display: flex; align-items: center; gap: 10px;"><i data-lucide="x-circl
+138. li: 'Üniversite ve uni-assist başvuru ücretleri' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+139. li: 'Tercüme, noter ve apostil masrafları' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+140. li: 'Vize harcı' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+141. li: 'Bloke hesap için yatırılacak tutar' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+142. li: 'Sağlık sigortası' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+143. li: 'Dil kursu ücretleri' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+144. li: 'Uçuş ve konaklama giderleri' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+145. li: 'Resmi makamların talep ettiği ücretler' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+146. li: 'Diğer üçüncü taraf giderleri' | <li style="display: flex; gap: 8px;"><i data-lucide="minus" style="width: 14px; height: 14px; color:
+147. p: 'Start Akademie; üniversite kabulü, vize sonucu, denklik kara' | <p style="text-align: center; font-size: 0.82rem; color: var(--text-muted); margin-top: 20px; max-wi
+148. span: 'Esnek Çözümler' | <span class="section-tag">Esnek Çözümler</span>
+149. h2: 'Tekil ve İlave Hizmetler' | <h2>Tekil ve İlave Hizmetler</h2>
+150. p: 'Sadece ihtiyacınız olan adımlarda yanınızdayız.' | <p style="margin-top: 16px;">Sadece ihtiyacınız olan adımlarda yanınızdayız.</p>
+151. span: 'Tek üniversite veya program başvurusu' | <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border
+152. span: 'Dijital vize başvuru desteği' | <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border
+153. span: 'Dil kursu başvuru danışmanlığı' | <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border
+154. span: 'Ausbildung danışmanlığı' | <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border
+155. span: 'Denklik işlemleri' | <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border
+156. span: 'Erasmus, staj ve yaz programları' | <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border
+157. span: 'Konaklama ve ilk yerleşim' | <span style="background: var(--surface); border: 1px solid var(--border); padding: 12px 24px; border
+158. span: 'Farkımız' | <span class="section-tag">Farkımız</span>
+159. h2: 'Neden Start Akademie?' | <h2>Neden Start Akademie?</h2>
+160. p: 'Almanya merkezli operasyonumuz ve sıfır risk politikamızla e' | <p style="margin-top: 16px; font-size: 1.05rem;">Almanya merkezli operasyonumuz ve sıfır risk politi
+161. h3: 'Almanya Merkezli Güven' | <h3>Almanya Merkezli Güven</h3>
+162. p: "Frankfurt'taki merkezimiz sayesinde bürokratik engelleri yer" | <p style="margin-top: 16px; font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">Frankfu
+163. h3: 'Birebir ve Kesintisiz Takip' | <h3>Birebir ve Kesintisiz Takip</h3>
+164. p: 'Hazır paket programlar yerine tamamen sizin profilinize özel' | <p style="margin-top: 16px; font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">Hazır p
+165. h3: 'Uzman Ekip, Somut Sonuç' | <h3>Uzman Ekip, Somut Sonuç</h3>
+166. p: 'Alanında uzman danışmanlarımız sayesinde kabul alma ve vize ' | <p style="margin-top: 16px; font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">Alanınd
+167. span: 'Uzman Kadromuz' | <span class="section-tag">Uzman Kadromuz</span>
+168. h2: 'Eğitim Koçlarımız ve Danışmanlarımız' | <h2>Eğitim Koçlarımız ve Danışmanlarımız<span style="background: var(--gold); color: black; padding:
+169. span: 'Hazırlık aşamasında' | <span style="background: var(--gold); color: black; padding: 2px 8px; border-radius: 4px; font-size:
+170. p: "Sürecinizi yönetecek Almanya ve Türkiye'deki deneyimli ekibi" | <p style="max-width: 480px; font-size: 0.95rem;">Sürecinizi yönetecek Almanya ve Türkiye'deki deneyi
+171. h3: 'Ayşe K.' | <h3 style="margin-bottom: 4px;">Ayşe K.</h3>
+172. p: 'Üniversite Başvuru Danışmanı' | <p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 12px; font-
+173. p: "Almanya'da lisans eğitimini tamamladı. uni-assist ve doğruda" | <p style="font-size: 0.9rem; color: var(--text-muted);">Almanya'da lisans eğitimini tamamladı. uni-a
+174. h3: 'Caner D.' | <h3 style="margin-bottom: 4px;">Caner D.</h3>
+175. p: 'Erasmus & Staj Danışmanı' | <p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 12px; font-
+176. p: "Türkiye'den Erasmus programıyla Almanya'ya gelmiş ve süreci " | <p style="font-size: 0.9rem; color: var(--text-muted);">Türkiye'den Erasmus programıyla Almanya'ya g
+177. h3: 'Zeynep M.' | <h3 style="margin-bottom: 4px;">Zeynep M.</h3>
+178. p: 'Denklik Danışmanı' | <p style="font-size: 0.85rem; color: var(--blue-light); font-weight: 600; margin-bottom: 12px; font-
+179. p: 'ZAB ve mesleki denklik kurumlarında (Öğretmenlik, Sağlık) on' | <p style="font-size: 0.9rem; color: var(--text-muted);">ZAB ve mesleki denklik kurumlarında (Öğretme
+180. span: 'Örnek Başarılar' | <span class="section-tag">Örnek Başarılar</span>
+181. h2: 'Vaka Örnekleri (Case Studies)' | <h2>Vaka Örnekleri (Case Studies)<span style="background: var(--gold); color: black; padding: 2px 8p
+182. span: 'Hazırlık aşamasında' | <span style="background: var(--gold); color: black; padding: 2px 8px; border-radius: 4px; font-size:
+183. p: 'Farklı akademik geçmişlerden gelen öğrencilerimizin kabul hi' | <p style="margin-top: 16px; font-size: 1.05rem;">Farklı akademik geçmişlerden gelen öğrencilerimizin
+184. h4: 'Düşük NC Ortalaması ile Mühendislik' | <h4 style="margin-bottom: 12px;">Düşük NC Ortalaması ile Mühendislik</h4>
+185. p: 'YKS puanı ortalamanın altında olan bir öğrencimizin, Studien' | <p style="font-size: 0.95rem; color: var(--text-muted);">YKS puanı ortalamanın altında olan bir öğre
+186. h4: 'IB Diploması ile Doğrudan Tıp' | <h4 style="margin-bottom: 12px;">IB Diploması ile Doğrudan Tıp</h4>
+187. p: 'B2 Almancası ve IB diploması olan adayımızın, doğru eyalet v' | <p style="font-size: 0.95rem; color: var(--text-muted);">B2 Almancası ve IB diploması olan adayımızı
+188. h4: 'Sıfır Almanca ile Şartlı Kabul' | <h4 style="margin-bottom: 12px;">Sıfır Almanca ile Şartlı Kabul</h4>
+189. p: 'Dil sertifikası bulunmayan öğrencimiz için yoğunlaştırılmış ' | <p style="font-size: 0.95rem; color: var(--text-muted);">Dil sertifikası bulunmayan öğrencimiz için 
+190. h2: 'Broşürler ve Yol Haritaları' | <h2>Broşürler ve Yol Haritaları</h2>
+191. p: "Üniversite eğitiminden Ausbildung'a kadar Almanya'daki tüm e" | <p style="margin-top: 16px; margin-bottom: 40px; font-size: 1.05rem; max-width: 600px;">Üniversite e
+192. a: 'Üniversite Başvuru Rehberi (PDF)' | <a class="btn btn-primary" href="#" style="display: flex; align-items: center; gap: 8px;">
+<i data-l
+193. a: 'Ausbildung Rehberi (PDF)' | <a class="btn btn-outline" href="#" style="display: flex; align-items: center; gap: 8px;">
+<i data-l
+194. p: '* Dosyalar güncellenmektedir. Yakında aktif olacaktır.' | <p style="margin-top: 16px; font-size: 0.85rem; color: var(--text-muted);">* Dosyalar güncellenmekte
+195. div: 'Step 1 \n\n Step 2 \n\n Step 3 \n\n Step 4 \n\n Result' | <div class="glass-card wizard-layout">
+<div style="text-align: center; margin-bottom: 40px;">
+<span 
+196. div: 'Değerlendiriliyor...' | <div id="result-title" style="font-family: var(--font-serif); font-style: italic; font-size: 2.2rem;
+197. h3: "Almanya'da Eğitim" | <h3 style="font-size: 1.3rem; margin-top: 32px; margin-bottom: 16px; color: var(--blue-light);">Alma
+198. h3: 'Vize ve Denklik' | <h3 style="font-size: 1.3rem; margin-top: 48px; margin-bottom: 16px; color: var(--blue-light);">Vize
+199. span: "Öğrenciler Almanya'da çalışabilir mi?" | <span>Öğrenciler Almanya'da çalışabilir mi?</span>
+200. div: 'Evet, resmi kurallar çerçevesinde yılda 140 tam gün veya 280' | <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.
+201. span: 'Bloke hesap (Sperrkonto) zorunlu mu?' | <span>Bloke hesap (Sperrkonto) zorunlu mu?</span>
+202. div: "Eğer Almanya'da garantörünüz yoksa (Verpflichtungserklärung)" | <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.
+203. h3: 'Start Akademie Hizmetleri' | <h3 style="font-size: 1.3rem; margin-top: 48px; margin-bottom: 16px; color: var(--blue-light);">Star
+204. span: 'Neden Türkiye yerine Almanya merkezli bir danışmanlık seçmel' | <span>Neden Türkiye yerine Almanya merkezli bir danışmanlık seçmeliyim?</span>
+205. div: "Almanya'da bulunmamız, evrak ve denklik işlemlerini kurumlar" | <div class="faq-ans" style="display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.
+206. p: 'info@startakademie.com' | <p style="font-size: 0.9rem; margin-top: 4px;">info@startakademie.com</p>
+207. h3: 'Kişiselleştirilmiş Randevu Alın' | <h3 style="font-family: var(--font-serif); font-style: italic; margin-bottom: 8px;">Kişiselleştirilm
+208. p: 'Lütfen bilgilerinizi eksiksiz doldurun. Eğitim danışmanlarım' | <p style="font-size: 0.88rem; margin-bottom: 24px;">Lütfen bilgilerinizi eksiksiz doldurun. Eğitim d
+209. label: 'Adınız Soyadınız' | <label>Adınız Soyadınız</label>
+210. label: 'Telefon / WhatsApp' | <label>Telefon / WhatsApp</label>
+211. label: 'E-Posta Adresiniz' | <label>E-Posta Adresiniz</label>
+212. label: 'Hizmet Alanı' | <label>Hizmet Alanı</label>
+213. label: 'Görüşme Tarihi' | <label>Görüşme Tarihi</label>
+214. div: 'Pzt' | <div class="picker-cell active">Pzt</div>
+215. div: 'Sal' | <div class="picker-cell">Sal</div>
+216. div: 'Çar' | <div class="picker-cell">Çar</div>
+217. div: 'Per' | <div class="picker-cell">Per</div>
+218. button: 'Görüşme Talebi Gönder' | <button class="btn btn-primary" style="margin-top: 12px; width: 100%;">Görüşme Talebi Gönder <i data
+219. h4: 'Start Agent' | <h4 style="font-weight: 600; font-family: var(--font-sans); display: flex; align-items: center; gap:
+220. div: 'Dosya ✓' | <div id="file-indicator" style="display:none; position:absolute; top:-22px; left:10px; background:va
+221. div: 'Col 1: Brand \n\n Col 2: Services \n\n Col 3: Other sites \n\n Col' | <div class="footer-grid">
+<!-- Col 1: Brand -->
+<div>
+<div class="footer-logo">
+<img alt="Start Akad
+222. div: 'VNN Üyesi Kurum' | <div class="vnn-stamp">
+<i data-lucide="shield-check" style="width: 16px; height: 16px;"></i> VNN Üy
+223. a: 'Şartlı Kabul' | <a href="uni.html">Şartlı Kabul</a>
+224. a: 'Studienkolleg' | <a href="uni.html">Studienkolleg</a>
+225. a: 'NC (Numerus Clausus) Sistemi' | <a href="uni.html">NC (Numerus Clausus) Sistemi</a>
+226. h4: 'Dil & Lise' | <h4>Dil &amp; Lise</h4>
+227. a: 'Online Almanca Kursu' | <a href="https://www.startakademie.online/" target="_blank">Online Almanca Kursu</a>
+228. a: 'Nachhilfe (Okul Destek)' | <a href="https://www.startakademie.de/" target="_blank">Nachhilfe (Okul Destek)</a>
+229. h4: 'Ausbildung & Kariyer' | <h4>Ausbildung &amp; Kariyer</h4>
+230. a: 'Denklik Süreçleri' | <a href="denklik.html">Denklik Süreçleri</a>
+231. a: 'Erasmus ve Staj' | <a href="degisim.html">Erasmus ve Staj</a>
+232. a: 'Konaklama ve Yerleşim' | <a href="konaklama.html">Konaklama ve Yerleşim</a>
+233. a: 'Ön Değerlendirme Formu' | <a href="iletisim.html">Ön Değerlendirme Formu</a>
+234. a: 'info@startakademie.com' | <a href="mailto:info@startakademie.com">info@startakademie.com</a>
+235. a: 'Instagram: @startakademie' | <a href="#">Instagram: @startakademie</a>
+236. a: 'AGB' | <a href="#">AGB</a>
+237. div: '1. RWTH Aachen \n\n 2. LMU Munich \n\n 3. TU Berlin \n\n 4. KIT \n\n' | <div class="univ-grid">
+<div class="glass-card univ-card">
+<div class="univ-image-holder">
+<img alt=
+238. span: '📍 AACHEN' | <span>📍 AACHEN</span>
+239. h3: 'RWTH Aachen' | <h3>RWTH Aachen</h3>
+240. p: "Avrupa'nın önde gelen teknik üniversitelerinden biri. Makine" | <p style="font-size: 0.92rem;">Avrupa'nın önde gelen teknik üniversitelerinden biri. Makine ve otomo
+241. span: '📍 MÜNİH' | <span>📍 MÜNİH</span>
+242. p: "Almanya'nın en köklü ve başarılı üniversitelerinden. Beşeri " | <p style="font-size: 0.92rem;">Almanya'nın en köklü ve başarılı üniversitelerinden. Beşeri bilimler,
+243. span: '📍 BERLİN' | <span>📍 BERLİN</span>
+244. span: '📍 KARLSRUHE' | <span>📍 KARLSRUHE</span>
+245. span: '📍 BERLİN' | <span>📍 BERLİN</span>
+246. span: '📍 FREİBURG' | <span>📍 FREİBURG</span>
+247. span: '📍 TÜBİNGEN' | <span>📍 TÜBİNGEN</span>
+248. span: '📍 BONN' | <span>📍 BONN</span>
+249. span: '📍 GÖTTİNGEN' | <span>📍 GÖTTİNGEN</span>
+250. span: '📍 STUTTGART' | <span>📍 STUTTGART</span>
