@@ -1,30 +1,25 @@
 <!DOCTYPE html>
+
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diploma ve Mesleki Denklik – Almanya | Start Akademie</title>
-    <meta name="description" content="Türk diplomalarının Almanya'da tanınması, Anabin ve ZAB değerlendirme süreçleri hakkında uzman danışmanlık.">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-    <!-- Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-
-    <!-- Scripts -->
-    <script src="assets/lang.js?v=21"></script>
-    <script src="assets/theme.js"></script>
-
-    <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-
-    <style>body { margin: 0; padding: 0; width: 100%; }</style>
-    <link rel="stylesheet" href="assets/style.css?v=36">
-
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Diploma ve Mesleki Denklik – Almanya | Start Akademie</title>
+<meta content="Türk diplomalarının Almanya'da tanınması, Anabin ve ZAB değerlendirme süreçleri hakkında uzman danışmanlık." name="description"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&amp;family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<!-- Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<!-- Scripts -->
+<script src="assets/lang.js?v=21"></script>
+<script src="assets/theme.js"></script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<style>body { margin: 0; padding: 0; width: 100%; }</style>
+<link href="assets/style.css?v=36" rel="stylesheet"/>
+<style>
       /* ── Subpage Hero Banner ── */
       .page-hero {
         background: linear-gradient(135deg, var(--navy) 0%, #0a1628 60%, #0d1b2a 100%);
@@ -196,265 +191,240 @@
     </style>
 </head>
 <body>
-
-    <!-- Ambient glows -->
-    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -1;">
-        <div class="glow-orb glow-1"></div>
-        <div class="glow-orb glow-2"></div>
-    </div>
-
-    <!-- Navigation Header -->
-    <header id="main-header">
-        <div class="container nav-container">
-            <a href="index.html" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
-                <img src="assets/logo-full-white.png" alt="Start Akademie Logo" class="nav-brand-img nav-logo-dark" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;">
-                <img src="assets/logo-full-dark.png" alt="Start Akademie Logo" class="nav-brand-img nav-logo-light" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;">
-            </a>
-            <div class="nav-menu">
-                <a href="index.html" class="nav-link" data-i18n="nav.home">Ana Sayfa</a>
-                <a href="uni.html" class="nav-link " data-i18n="nav.university">Üniversite</a>
-                <a href="dil.html" class="nav-link " data-i18n="nav.languages">Dil Kursları</a>
-                <a href="ausbildung.html" class="nav-link " data-i18n="nav.ausbildung">Ausbildung</a>
-                <a href="denklik.html" class="nav-link active" data-i18n="nav.recognition">Denklik</a>
-                <a href="degisim.html" class="nav-link " data-i18n="nav.exchange">Değişim &amp; Yaz</a>
-                <a href="konaklama.html" class="nav-link " data-i18n="nav.accommodation">Konaklama</a>
-                <a href="hakkimizda.html" class="nav-link " data-i18n="nav.about">Hakkımızda</a>
-                <a href="iletisim.html" class="nav-link " data-i18n="nav.contact">İletişim</a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 16px;">
-                <!-- Language Selector -->
-                <div style="display: flex; gap: 8px; margin-right: 12px; font-size: 0.8rem; font-weight: 600;">
-                    <span class="lang-btn" data-lang="tr" onclick="changeLanguage('tr')" style="cursor: pointer; color: var(--text-muted);">TR</span>
-                    <span class="lang-btn" data-lang="en" onclick="changeLanguage('en')" style="cursor: pointer; color: var(--text-muted);">EN</span>
-                    <span class="lang-btn" data-lang="de" onclick="changeLanguage('de')" style="cursor: pointer; color: var(--text-muted);">DE</span>
-                </div>
-                <!-- Theme Toggle -->
-                <button onclick="toggleTheme()" aria-label="Tema Değiştir" style="background: none; border: none; color: var(--text); cursor: pointer; display: flex; align-items: center; margin-right: 8px;">
-                    <i id="theme-icon" data-lucide="sun"></i>
-                </button>
-                <a href="iletisim.html" class="btn btn-primary btn-header-consult" style="padding: 10px 20px; font-size: 0.8rem;">
-                    <span data-i18n="nav.meeting">Ön Görüşme</span> <i data-lucide="calendar"></i>
-                </a>
-                <button class="mobile-btn" id="mobile-toggle" aria-label="Menü">
-                    <i data-lucide="menu"></i>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <!-- Mobile Menu Drawer -->
-    <div class="mobile-drawer" id="mobile-menu-drawer">
-        <div style="display: flex; gap: 16px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); justify-content: center; font-size: 0.9rem; font-weight: 600;">
-            <span class="lang-btn" onclick="changeLanguage('tr')" style="cursor:pointer; color: var(--gold);">TR</span>
-            <span style="color: rgba(255,255,255,0.2);">|</span>
-            <span class="lang-btn" onclick="changeLanguage('en')" style="cursor:pointer; color: var(--text-muted);">EN</span>
-            <span style="color: rgba(255,255,255,0.2);">|</span>
-            <span class="lang-btn" onclick="changeLanguage('de')" style="cursor:pointer; color: var(--text-muted);">DE</span>
-        </div>
-        <a href="index.html" class="nav-link" data-i18n="nav.home">Ana Sayfa</a>
-        <a href="uni.html" class="nav-link" data-i18n="nav.university">Üniversite</a>
-        <a href="dil.html" class="nav-link" data-i18n="nav.languages">Dil Kursları</a>
-        <a href="ausbildung.html" class="nav-link" data-i18n="nav.ausbildung">Ausbildung</a>
-        <a href="denklik.html" class="nav-link" data-i18n="nav.recognition">Denklik</a>
-        <a href="degisim.html" class="nav-link" data-i18n="nav.exchange">Değişim &amp; Yaz Programları</a>
-        <a href="konaklama.html" class="nav-link" data-i18n="nav.accommodation">Konaklama</a>
-        <a href="hakkimizda.html" class="nav-link" data-i18n="nav.about">Hakkımızda</a>
-        <a href="iletisim.html" class="nav-link" data-i18n="nav.contact">İletişim</a>
-        <a href="iletisim.html" class="btn btn-primary" style="margin-top: 20px; width: 100%;" data-i18n="nav.meeting">Ön Görüşme</a>
-    </div>
-
-    <!-- Hero -->
-    <section class="page-hero">
-        <div class="container">
-            <div class="badge-prep">📜 Diploma Denkliği</div>
-            <h1>Diploma ve Mesleki <em>Denklik</em></h1>
-            <p class="hero-sub">Türkiye'den getirdiğiniz diplomanın Almanya'da tanınması için Anabin, ZAB ve KMK değerlendirme süreçlerinde adım adım destek.</p>
-            <div class="badge-prep" style="background: rgba(255,165,0,0.12); border-color: orange; color: orange;">⏳ Ön talep alınıyor</div>
-        </div>
-    </section>
-
-    <!-- Genel -->
+<!-- Ambient glows -->
+<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -1;">
+<div class="glow-orb glow-1"></div>
+<div class="glow-orb glow-2"></div>
+</div>
+<!-- Navigation Header -->
+<header id="main-header">
+<div class="container nav-container">
+<a class="brand-logo" href="index.html" style="display: flex; align-items: center; text-decoration: none;">
+<img alt="Start Akademie Logo" class="nav-brand-img nav-logo-dark" src="assets/logo-full-white.png" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;"/>
+<img alt="Start Akademie Logo" class="nav-brand-img nav-logo-light" src="assets/logo-full-dark.png" style="height: 52px; width: auto; margin-top: 4px; transition: all 0.4s ease;"/>
+</a>
+<div class="nav-menu">
+<a class="nav-link" data-i18n="nav.home" href="index.html">Ana Sayfa</a>
+<a class="nav-link" data-i18n="nav.university" href="uni.html">Üniversite</a>
+<a class="nav-link" data-i18n="nav.languages" href="dil.html">Dil Kursları</a>
+<a class="nav-link" data-i18n="nav.ausbildung" href="ausbildung.html">Ausbildung</a>
+<a class="nav-link active" data-i18n="nav.recognition" href="denklik.html">Denklik</a>
+<a class="nav-link" data-i18n="nav.exchange" href="degisim.html">Değişim &amp; Yaz</a>
+<a class="nav-link" data-i18n="nav.accommodation" href="konaklama.html">Konaklama</a>
+<a class="nav-link" data-i18n="nav.about" href="hakkimizda.html">Hakkımızda</a>
+<a class="nav-link" data-i18n="nav.contact" href="iletisim.html">İletişim</a>
+</div>
+<div style="display: flex; align-items: center; gap: 16px;">
+<!-- Language Selector -->
+<div style="display: flex; gap: 8px; margin-right: 12px; font-size: 0.8rem; font-weight: 600;">
+<span class="lang-btn" data-lang="tr" onclick="changeLanguage('tr')" style="cursor: pointer; color: var(--text-muted);">TR</span>
+<span class="lang-btn" data-lang="en" onclick="changeLanguage('en')" style="cursor: pointer; color: var(--text-muted);">EN</span>
+<span class="lang-btn" data-lang="de" onclick="changeLanguage('de')" style="cursor: pointer; color: var(--text-muted);">DE</span>
+</div>
+<!-- Theme Toggle -->
+<button aria-label="Tema Değiştir" onclick="toggleTheme()" style="background: none; border: none; color: var(--text); cursor: pointer; display: flex; align-items: center; margin-right: 8px;">
+<i data-lucide="sun" id="theme-icon"></i>
+</button>
+<a class="btn btn-primary btn-header-consult" href="iletisim.html" style="padding: 10px 20px; font-size: 0.8rem;">
+<span data-i18n="nav.meeting">Ön Görüşme</span> <i data-lucide="calendar"></i>
+</a>
+<button aria-label="Menü" class="mobile-btn" id="mobile-toggle">
+<i data-lucide="menu"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- Mobile Menu Drawer -->
+<div class="mobile-drawer" id="mobile-menu-drawer">
+<div style="display: flex; gap: 16px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); justify-content: center; font-size: 0.9rem; font-weight: 600;">
+<span class="lang-btn" onclick="changeLanguage('tr')" style="cursor:pointer; color: var(--gold);">TR</span>
+<span style="color: rgba(255,255,255,0.2);">|</span>
+<span class="lang-btn" onclick="changeLanguage('en')" style="cursor:pointer; color: var(--text-muted);">EN</span>
+<span style="color: rgba(255,255,255,0.2);">|</span>
+<span class="lang-btn" onclick="changeLanguage('de')" style="cursor:pointer; color: var(--text-muted);">DE</span>
+</div>
+<a class="nav-link" data-i18n="nav.home" href="index.html">Ana Sayfa</a>
+<a class="nav-link" data-i18n="nav.university" href="uni.html">Üniversite</a>
+<a class="nav-link" data-i18n="nav.languages" href="dil.html">Dil Kursları</a>
+<a class="nav-link" data-i18n="nav.ausbildung" href="ausbildung.html">Ausbildung</a>
+<a class="nav-link" data-i18n="nav.recognition" href="denklik.html">Denklik</a>
+<a class="nav-link" data-i18n="nav.exchange" href="degisim.html">Değişim &amp; Yaz Programları</a>
+<a class="nav-link" data-i18n="nav.accommodation" href="konaklama.html">Konaklama</a>
+<a class="nav-link" data-i18n="nav.about" href="hakkimizda.html">Hakkımızda</a>
+<a class="nav-link" data-i18n="nav.contact" href="iletisim.html">İletişim</a>
+<a class="btn btn-primary" data-i18n="nav.meeting" href="iletisim.html" style="margin-top: 20px; width: 100%;">Ön Görüşme</a>
+</div>
+<!-- Hero -->
+<section class="page-hero">
+<div class="container">
+<div class="badge-prep"><span data-i18n="denklik.fast2.1">📜 Diploma Denkliği</span></div>
+<h1><span data-i18n="denklik.fast2.2">Diploma ve Mesleki</span><em><span data-i18n="denklik.fast2.3">Denklik</span></em></h1>
+<p class="hero-sub"><span data-i18n="denklik.fast2.4">Türkiye'den getirdiğiniz diplomanın Almanya'da tanınması için Anabin, ZAB ve KMK değerlendirme süreçlerinde adım adım destek.</span></p>
+<div class="badge-prep" style="background: rgba(255,165,0,0.12); border-color: orange; color: orange;"><span data-i18n="denklik.fast2.5">⏳ Ön talep alınıyor</span></div>
+</div>
+</section>
+<!-- Overview -->
     <section class="content-section">
         <div class="container">
-            <h2>Denklik Neden <em>Önemli?</em></h2>
-            <p class="lead-text">Almanya'da bir meslekte çalışmak veya yüksek lisans programına devam etmek için yabancı diplomanın tanınması (Anerkennung) gerekebilir. Doğru süreç seçilmezse onlarca ay kaybedebilirsiniz.</p>
-            <div class="feat-grid">
-                <div class="feat-card">
-                    <div class="icon-wrap"><i data-lucide="database" style="width:22px;height:22px;"></i></div>
-                    <h3>Anabin Veritabanı</h3>
-                    <p>Alman akademik değerlendirme kurumu HRK'nın veritabanı; Türk üniversitelerinin Almanya'daki statüsünü gösterir.</p>
+            <div style="text-align: center; margin-bottom: 56px;">
+                <span class="badge-prep" style="background: rgba(43, 112, 250, 0.1); color: var(--blue); border-color: var(--blue);">Profesyonel Destek</span>
+                <h2 style="margin-top: 16px;">Diploma ve Mesleki Tanınma Süreçlerinde <em>Doğru Yol Haritası</em></h2>
+            </div>
+
+            <div class="feat-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto; gap: 32px;">
+                
+                <!-- 01 -->
+                <div class="feat-card glass-card" style="padding: 32px; display: flex; flex-direction: column; gap: 24px;">
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <div class="step-num" style="background: var(--blue); color: #fff; width: 56px; height: 56px; font-size: 1.4rem;">01</div>
+                        <div class="icon-wrap" style="width: 48px; height: 48px; margin: 0; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%); color: var(--navy);"><i data-lucide="graduation-cap" style="width: 24px; height: 24px;"></i></div>
+                        <h3 style="font-size: 1.4rem; margin: 0; color: var(--text);">OKUL VE AKADEMİK DİPLOMALAR</h3>
+                    </div>
+                    <ul class="step-list" style="padding-left: 76px;">
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Lise diploması</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Açık lise işlemleri</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Ön lisans değerlendirmesi</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">ZAB süreçleri</span></li>
+                    </ul>
                 </div>
-                <div class="feat-card">
-                    <div class="icon-wrap"><i data-lucide="file-check" style="width:22px;height:22px;"></i></div>
-                    <h3>ZAB Değerlendirmesi</h3>
-                    <p>Zentralstelle für ausländisches Bildungswesen — akademik diplomalar için resmi denklik belgesi veren kurum.</p>
+
+                <!-- 02 -->
+                <div class="feat-card glass-card" style="padding: 32px; display: flex; flex-direction: column; gap: 24px;">
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <div class="step-num" style="background: var(--blue); color: #fff; width: 56px; height: 56px; font-size: 1.4rem;">02</div>
+                        <div class="icon-wrap" style="width: 48px; height: 48px; margin: 0; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%); color: var(--navy);"><i data-lucide="briefcase" style="width: 24px; height: 24px;"></i></div>
+                        <h3 style="font-size: 1.4rem; margin: 0; color: var(--text);">MESLEKİ DENKLİK</h3>
+                    </div>
+                    <ul class="step-list" style="padding-left: 76px;">
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Meslek lisesi diplomaları</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Meslek diplomaları</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Kalfalık ve ustalık belgeleri</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">İlgili kurum başvuruları</span></li>
+                    </ul>
                 </div>
-                <div class="feat-card">
-                    <div class="icon-wrap"><i data-lucide="briefcase" style="width:22px;height:22px;"></i></div>
-                    <h3>Mesleki Denklik</h3>
-                    <p>Regulated meslekler (doktor, hemşire, mimar vb.) için eyalet makamlarına ayrı başvuru gerekir.</p>
-                </div>
-                <div class="feat-card">
-                    <div class="icon-wrap"><i data-lucide="book-open" style="width:22px;height:22px;"></i></div>
-                    <h3>Statement of Comparability</h3>
-                    <p>KMK/ZAB tarafından verilen Almanca üniversite derecenizi karşılaştıran resmi belge.</p>
+
+                <!-- 03 -->
+                <div class="feat-card glass-card" style="padding: 32px; display: flex; flex-direction: column; gap: 24px;">
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <div class="step-num" style="background: var(--blue); color: #fff; width: 56px; height: 56px; font-size: 1.4rem;">03</div>
+                        <div class="icon-wrap" style="width: 48px; height: 48px; margin: 0; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%); color: var(--navy);"><i data-lucide="users" style="width: 24px; height: 24px;"></i></div>
+                        <h3 style="font-size: 1.4rem; margin: 0; color: var(--text);">MESLEĞE ÖZEL BAŞVURULAR</h3>
+                    </div>
+                    <ul class="step-list" style="padding-left: 76px;">
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Öğretmenlik</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Erzieher / Pädagogische Fachkraft</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Sosyal hizmet ve sosyal pedagoji</span></li>
+                        <li style="padding: 8px 0; border: none; gap: 12px; align-items: center;"><div style="width:6px;height:6px;border-radius:50%;background:var(--gold);"></div><span style="color: var(--text-muted); font-size: 1.05rem;">Sağlık meslekleri</span></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Süreç -->
-    <section class="content-section alt">
-        <div class="container" style="max-width: 800px;">
-            <h2>Değerlendirme <em>Süreci</em></h2>
-            <ul class="step-list">
-                <li>
-                    <div class="step-num">1</div>
-                    <div class="step-content">
-                        <h4>Belge Analizi</h4>
-                        <p>Diplomanız, transkriptleriniz ve diğer akademik belgeleriniz incelenir; hangi denklik yolunun uygun olduğu belirlenir.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="step-num">2</div>
-                    <div class="step-content">
-                        <h4>Anabin Kontrolü</h4>
-                        <p>Mezun olduğunuz üniversitenin Almanya'daki tanınırlık durumu araştırılır.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="step-num">3</div>
-                    <div class="step-content">
-                        <h4>Başvuru Hazırlığı</h4>
-                        <p>ZAB, eyalet makamı veya ilgili üniversiteye iletilecek evraklar eksiksiz hazırlanır.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="step-num">4</div>
-                    <div class="step-content">
-                        <h4>Tercüme ve Apostil</h4>
-                        <p>Yemin etmiş tercüman belgesi ve apostil işlemleri için yönlendirme yapılır.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="step-num">5</div>
-                    <div class="step-content">
-                        <h4>Takip & Sonuç</h4>
-                        <p>Başvuru sonrası süreç yakından takip edilir; eksik belge talepleri anında karşılanır.</p>
-                    </div>
-                </li>
-            </ul>
+            
+            <div style="max-width: 800px; margin: 40px auto 0; padding: 24px 32px; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border); border-radius: 16px; display: flex; align-items: center; gap: 24px;">
+                <i data-lucide="info" style="color: var(--gold); width: 40px; height: 40px; flex-shrink: 0;"></i>
+                <p style="margin: 0; font-size: 1.05rem; color: var(--text); line-height: 1.6;">
+                    Denklik süreçleri, mesleğe ve eyalete göre değişebilir. Başvuru yapılacak doğru kurumun belirlenmesi, belgelerin hazırlanması ve sürecin takip edilmesi bu alandaki en önemli adımlardır.
+                </p>
+            </div>
         </div>
     </section>
 
     <!-- CTA -->
-    <section style="padding: 60px 0;">
-        <div class="container">
-            <div class="cta-banner">
-                <h2>Diplomanın Almanya'daki Değerini Öğren</h2>
-                <p>Ücretsiz bir ön değerlendirme ile denklik sürecinizi nasıl planlayacağınızı konuşalım.</p>
-                <a href="iletisim.html" class="btn btn-primary" style="font-size:1rem; padding:14px 32px; background:#fff; color: var(--navy);">Ön Talep Bırak →</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ══ FOOTER ══ -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <!-- Col 1: Brand -->
-                <div>
-                    <div class="footer-logo">
-                        <img src="assets/logo-full-white.png" alt="Start Akademie Logo" style="height: 56px; width: auto;">
-                    </div>
-                    <p style="font-size: 0.9rem; margin-bottom: 24px;" data-i18n="footer.desc">
+<section style="padding: 60px 0;">
+<div class="container">
+<div class="cta-banner">
+<h2><span data-i18n="denklik.fast2.29">Diplomanın Almanya'daki Değerini Öğren</span></h2>
+<p><span data-i18n="denklik.fast2.30">Ücretsiz bir ön değerlendirme ile denklik sürecinizi nasıl planlayacağınızı konuşalım.</span></p>
+<a class="btn btn-primary" href="iletisim.html" style="font-size:1rem; padding:14px 32px; background:#fff; color: var(--navy);"><span data-i18n="denklik.fast2.31">Ön Talep Bırak →</span></a>
+</div>
+</div>
+</section>
+<!-- ══ FOOTER ══ -->
+<footer>
+<div class="container">
+<div class="footer-grid">
+<!-- Col 1: Brand -->
+<div>
+<div class="footer-logo">
+<img alt="Start Akademie Logo" src="assets/logo-full-white.png" style="height: 56px; width: auto;"/>
+</div>
+<p data-i18n="footer.desc" style="font-size: 0.9rem; margin-bottom: 24px;">
                         Almanya'da eğitim ve kariyer hedefleriniz için kişiye özel danışmanlık.
                     </p>
-                    
-                </div>
-
-                <!-- Col 2: Services -->
-                <div class="footer-links">
-                    <h4 data-i18n="footer.services">Hizmetler</h4>
-                    <ul>
-                        <li><a href="uni.html" data-i18n="nav.university">Üniversite</a></li>
-                        <li><a href="dil.html" data-i18n="nav.languages">Dil Kursları</a></li>
-                        <li><a href="ausbildung.html" data-i18n="nav.ausbildung">Ausbildung</a></li>
-                        <li><a href="denklik.html" data-i18n="nav.recognition">Denklik</a></li>
-                        <li><a href="degisim.html" data-i18n="nav.exchange">Değişim &amp; Yaz Programları</a></li>
-                        <li><a href="konaklama.html" data-i18n="nav.accommodation">Konaklama</a></li>
-                    </ul>
-                </div>
-
-                <!-- Col 3: Other sites -->
-                <div class="footer-links">
-                    <h4>Diğer Sitelerimiz</h4>
-                    <ul>
-                        <li><a href="https://www.startakademie.de" target="_blank" rel="noopener">Okul Destegi - startakademie.de</a></li>
-                        <li><a href="https://www.startakademie.online" target="_blank" rel="noopener">Online Dil Kursları – startakademie.online</a></li>
-                    </ul>
-                </div>
-
-                <!-- Col 4: Info -->
-                <div class="footer-links">
-                    <h4>Bilgilendirme</h4>
-                    <ul>
-                        <li><a href="index.html#sss">Sık Sorulan Sorular</a></li>
-                        <li><a href="index.html#packages">Hizmet Paketleri</a></li>
-                        <li><a href="uni.html">Üniversite Uygunluk Değerlendirmesi</a></li>
-                    </ul>
-                </div>
-
-                <!-- Col 5: Corporate -->
-                <div class="footer-links">
-                    <h4 data-i18n="footer.corporate">Kurumsal</h4>
-                    <ul>
-                        <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
-                        <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
-                        <li><a href="impressum.html" data-i18n="footer.l1">Impressum</a></li>
-                        <li><a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></li>
-                    </ul>
-                </div>
-
-                <!-- Col 6: Contact -->
-                <div class="footer-links">
-                    <h4>İletişim</h4>
-                    <ul>
-                        <li><a href="https://maps.google.com/?q=Mainzer+Straße+18,+65428+Rüsselsheim" target="_blank" rel="noopener">📍 Mainzer Straße 18, 65428 Rüsselsheim am Main</a></li>
-                        <li><a href="tel:+491797424790">📞 +49 179 742 47 90</a></li>
-                        <li><a href="mailto:info@startakademie.com">✉️ info@startakademie.com</a></li>
-                        <li><a href="https://www.instagram.com/startakademie" target="_blank" rel="noopener">📸 @startakademie</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <span data-i18n="footer.copyright">&copy; 2026 Start Akademie UG (haftungsbeschränkt). Tüm Hakları Saklıdır.</span>
-                <div style="display: flex; gap: 24px;">
-                    <a href="impressum.html" data-i18n="footer.l1">Impressum</a>
-                    <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a>
-                    <a href="impressum.html">Kullanım Koşulları</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- StartBot -->
-    <div id="startbot-bubble" style="position:fixed;bottom:24px;right:24px;z-index:9999;">
-        <button id="startbot-btn" aria-label="StartBot"
-            style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--navy));border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 4px 20px rgba(0,80,158,0.4);">
-            <i data-lucide="bot" style="width:20px;height:20px;"></i>
-        </button>
-        <div id="startbot-win" style="position:absolute;bottom:60px;right:0;width:280px;height:380px;background:var(--surface);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;display:none;flex-direction:column;box-shadow:0 8px 32px rgba(0,0,0,0.25);">
-            <div style="background:linear-gradient(135deg,var(--blue),var(--navy));padding:14px 16px;display:flex;align-items:center;justify-content:space-between;">
-                <span style="font-size:0.85rem;font-weight:700;color:#fff;">StartBot 🤖</span>
-                <button id="startbot-close" style="background:none;border:none;color:#fff;cursor:pointer;padding:2px;display:flex;"><i data-lucide="x" style="width:16px;height:16px;"></i></button>
-            </div>
-            <iframe src="https://www.chatbase.co/chatbot-iframe/wT-KoF8pnpTAbdMcMaorj" style="flex:1;border:none;width:100%;"></iframe>
-        </div>
-    </div>
-
-    <script>
+</div>
+<!-- Col 2: Services -->
+<div class="footer-links">
+<h4 data-i18n="footer.services">Hizmetler</h4>
+<ul>
+<li><a data-i18n="nav.university" href="uni.html">Üniversite</a></li>
+<li><a data-i18n="nav.languages" href="dil.html">Dil Kursları</a></li>
+<li><a data-i18n="nav.ausbildung" href="ausbildung.html">Ausbildung</a></li>
+<li><a data-i18n="nav.recognition" href="denklik.html">Denklik</a></li>
+<li><a data-i18n="nav.exchange" href="degisim.html">Değişim &amp; Yaz Programları</a></li>
+<li><a data-i18n="nav.accommodation" href="konaklama.html">Konaklama</a></li>
+</ul>
+</div>
+<!-- Col 3: Other sites -->
+<div class="footer-links">
+<h4><span data-i18n="denklik.fast2.32">Diğer Sitelerimiz</span></h4>
+<ul>
+<li><a href="https://www.startakademie.de" rel="noopener" target="_blank"><span data-i18n="denklik.fast2.33">Okul Destegi - startakademie.de</span></a></li>
+<li><a href="https://www.startakademie.online" rel="noopener" target="_blank"><span data-i18n="denklik.fast2.34">Online Dil Kursları – startakademie.online</span></a></li>
+</ul>
+</div>
+<!-- Col 4: Info -->
+<div class="footer-links">
+<h4><span data-i18n="denklik.fast2.35">Bilgilendirme</span></h4>
+<ul>
+<li><a href="index.html#sss"><span data-i18n="denklik.fast2.36">Sık Sorulan Sorular</span></a></li>
+<li><a href="index.html#packages"><span data-i18n="denklik.fast2.37">Hizmet Paketleri</span></a></li>
+<li><a href="uni.html"><span data-i18n="denklik.fast2.38">Üniversite Uygunluk Değerlendirmesi</span></a></li>
+</ul>
+</div>
+<!-- Col 5: Corporate -->
+<div class="footer-links">
+<h4 data-i18n="footer.corporate">Kurumsal</h4>
+<ul>
+<li><a data-i18n="nav.about" href="hakkimizda.html">Hakkımızda</a></li>
+<li><a data-i18n="nav.contact" href="iletisim.html">İletişim</a></li>
+<li><a data-i18n="footer.l1" href="impressum.html">Impressum</a></li>
+<li><a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a></li>
+</ul>
+</div>
+<!-- Col 6: Contact -->
+<div class="footer-links">
+<h4><span data-i18n="denklik.fast2.39">İletişim</span></h4>
+<ul>
+<li><a href="https://maps.google.com/?q=Mainzer+Straße+18,+65428+Rüsselsheim" rel="noopener" target="_blank"><span data-i18n="denklik.fast2.40">📍 Mainzer Straße 18, 65428 Rüsselsheim am Main</span></a></li>
+<li><a href="tel:+491797424790">📞 +49 179 742 47 90</a></li>
+<li><a href="mailto:info@startakademie.com"><span data-i18n="denklik.fast2.41">✉️ info@startakademie.com</span></a></li>
+<li><a href="https://www.instagram.com/startakademie" rel="noopener" target="_blank"><span data-i18n="denklik.fast2.42">📸 @startakademie</span></a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span data-i18n="footer.copyright">© 2026 Start Akademie UG (haftungsbeschränkt). Tüm Hakları Saklıdır.</span>
+<div style="display: flex; gap: 24px;">
+<a data-i18n="footer.l1" href="impressum.html">Impressum</a>
+<a data-i18n="footer.datenschutz" href="datenschutz.html">Datenschutz</a>
+<a href="impressum.html"><span data-i18n="denklik.fast2.43">Kullanım Koşulları</span></a>
+</div>
+</div>
+</div>
+</footer>
+<!-- StartBot -->
+<div id="startbot-bubble" style="position:fixed;bottom:24px;right:24px;z-index:9999;">
+<button aria-label="StartBot" id="startbot-btn" style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--navy));border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 4px 20px rgba(0,80,158,0.4);">
+<i data-lucide="bot" style="width:20px;height:20px;"></i>
+</button>
+<div id="startbot-win" style="position:absolute;bottom:60px;right:0;width:280px;height:380px;background:var(--surface);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;display:none;flex-direction:column;box-shadow:0 8px 32px rgba(0,0,0,0.25);">
+<div style="background:linear-gradient(135deg,var(--blue),var(--navy));padding:14px 16px;display:flex;align-items:center;justify-content:space-between;">
+<span style="font-size:0.85rem;font-weight:700;color:#fff;"><span data-i18n="denklik.fast2.44">StartBot 🤖</span></span>
+<button id="startbot-close" style="background:none;border:none;color:#fff;cursor:pointer;padding:2px;display:flex;"><i data-lucide="x" style="width:16px;height:16px;"></i></button>
+</div>
+<iframe src="https://www.chatbase.co/chatbot-iframe/wT-KoF8pnpTAbdMcMaorj" style="flex:1;border:none;width:100%;"></iframe>
+</div>
+</div>
+<script>
         lucide.createIcons();
 
         // Header scroll
